@@ -1,0 +1,12 @@
+<map id="tvm::relay::MatchNode" name="tvm::relay::MatchNode">
+<area shape="rect" id="node2" href="$classtvm_1_1RelayExprNode.html" title="Base node of all non&#45;primitive expressions. " alt="" coords="155,1865,431,2001"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseExprNode.html" title="Base type of all the expressions. " alt="" coords="287,1575,563,1725"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="286,668,533,1185"/>
+<area shape="rect" id="node5" href="$classtvm_1_1Span.html" title="{tvm::Span\n||+ Span()\l+ Merge()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="651,866,856,987"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="664,307,843,619"/>
+<area shape="rect" id="node8" href="$classtvm_1_1Type.html" title="Managed reference to TypeNode. " alt="" coords="5,1334,211,1426"/>
+<area shape="rect" id="node10" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="880,881,1085,973"/>
+<area shape="rect" id="node11" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::relay::Clause \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l+ CalcCapacityImpl()\l+ CalcCapacityImpl()\l+ CalcCapacityImpl()\l+ AgregateImpl()\l+ AgregateImpl()\l+ AgregateImpl()\l+ Agregate()\l}" alt="" coords="1035,1209,1205,1551"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="660,5,847,244"/>
+<area shape="rect" id="node9" href="$classtvm_1_1RelayExpr.html" title="Managed reference to RelayExprNode. " alt="" coords="880,1749,1085,1841"/>
+</map>

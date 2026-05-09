@@ -1,0 +1,12 @@
+<map id="tvm::script::printer::AssertDocNode" name="tvm::script::printer::AssertDocNode">
+<area shape="rect" id="node2" href="$classtvm_1_1script_1_1printer_1_1StmtDocNode.html" title="The base class of statement doc. " alt="" coords="408,1792,684,1899"/>
+<area shape="rect" id="node3" href="$classtvm_1_1script_1_1printer_1_1DocNode.html" title="The base class of all Doc. " alt="" coords="231,1487,507,1608"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,668,252,1185"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::ObjectPath \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l+ CalcCapacityImpl()\l+ CalcCapacityImpl()\l+ CalcCapacityImpl()\l+ AgregateImpl()\l+ AgregateImpl()\l+ AgregateImpl()\l+ Agregate()\l}" alt="" coords="369,756,531,1097"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="525,307,703,619"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1Optional.html" title="{tvm::runtime::Optional\l\&lt; tvm::runtime::String \&gt;\n|+ _type_is_nullable\l|+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ operator=()\l+ operator=()\land 15 more...\l}" alt="" coords="477,1217,660,1455"/>
+<area shape="rect" id="node10" href="$classtvm_1_1script_1_1printer_1_1Doc.html" title="Reference type of DocNode. " alt="" coords="606,866,827,987"/>
+<area shape="rect" id="node11" href="$classtvm_1_1runtime_1_1Optional.html" title="{tvm::runtime::Optional\l\&lt; tvm::script::printer\l::ExprDoc \&gt;\n|+ _type_is_nullable\l|+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ operator=()\l+ operator=()\land 15 more...\l}" alt="" coords="778,1209,949,1463"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="521,5,707,244"/>
+<area shape="rect" id="node9" href="$classtvm_1_1script_1_1printer_1_1ExprDoc.html" title="Reference type of ExprDocNode. " alt="" coords="607,1632,829,1768"/>
+</map>

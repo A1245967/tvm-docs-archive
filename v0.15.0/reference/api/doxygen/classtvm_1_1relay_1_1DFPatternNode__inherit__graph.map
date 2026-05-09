@@ -1,0 +1,19 @@
+<map id="tvm::relay::DFPatternNode" name="tvm::relay::DFPatternNode">
+<area shape="rect" id="node3" href="$classtvm_1_1relay_1_1AltPatternNode.html" title="Pattern for Alternate Expressions. " alt="" coords="5,718,284,839"/>
+<area shape="rect" id="node4" href="$classtvm_1_1relay_1_1AttrPatternNode.html" title="Pattern for Attributes. " alt="" coords="308,718,587,839"/>
+<area shape="rect" id="node5" href="$classtvm_1_1relay_1_1CallPatternNode.html" title="CallPattern container. " alt="" coords="611,718,889,839"/>
+<area shape="rect" id="node6" href="$classtvm_1_1relay_1_1ConstantPatternNode.html" title="Container for Constant. " alt="" coords="913,733,1192,825"/>
+<area shape="rect" id="node7" href="$classtvm_1_1relay_1_1DataTypePatternNode.html" title="Pattern for Types. " alt="" coords="1216,718,1495,839"/>
+<area shape="rect" id="node8" href="$classtvm_1_1relay_1_1DominatorPatternNode.html" title="Dominated Graph Pattern Pattern for fuzzy subgraphs where all outputs of the parent are used finally ..." alt="" coords="1519,711,1797,847"/>
+<area shape="rect" id="node9" href="$classtvm_1_1relay_1_1ExprPatternNode.html" title="Pattern for Relay Expression. " alt="" coords="1821,725,2100,832"/>
+<area shape="rect" id="node10" href="$classtvm_1_1relay_1_1FunctionPatternNode.html" title="Relay Function container. " alt="" coords="2124,718,2403,839"/>
+<area shape="rect" id="node11" href="$classtvm_1_1relay_1_1IfPatternNode.html" title="{tvm::relay::IfPatternNode\n|+ cond\l+ true_branch\l+ false_branch\l+ _type_key\l|+ VisitAttrs()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="2427,711,2705,847"/>
+<area shape="rect" id="node12" href="$classtvm_1_1relay_1_1LetPatternNode.html" title="A binding of a sub&#45;network. " alt="" coords="2729,711,3008,847"/>
+<area shape="rect" id="node13" href="$classtvm_1_1relay_1_1ShapePatternNode.html" title="Pattern for Shapes. " alt="" coords="3032,718,3311,839"/>
+<area shape="rect" id="node14" href="$classtvm_1_1relay_1_1TupleGetItemPatternNode.html" title="{tvm::relay::TupleGetItem\lPatternNode\n|+ tuple\l+ index\l+ _type_key\l|+ VisitAttrs()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="3335,711,3613,847"/>
+<area shape="rect" id="node15" href="$classtvm_1_1relay_1_1TuplePatternNode.html" title="Tuple container. " alt="" coords="3637,725,3916,832"/>
+<area shape="rect" id="node16" href="$classtvm_1_1relay_1_1TypePatternNode.html" title="Pattern for Types. " alt="" coords="3940,718,4219,839"/>
+<area shape="rect" id="node17" href="$classtvm_1_1relay_1_1VarPatternNode.html" title="Container for Var. " alt="" coords="4243,718,4521,839"/>
+<area shape="rect" id="node18" href="$classtvm_1_1relay_1_1WildcardPatternNode.html" title="Wildcard Pattern. " alt="" coords="4545,725,4824,832"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="2291,5,2537,537"/>
+</map>

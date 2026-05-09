@@ -1,0 +1,7 @@
+<map id="tvm::runtime::metadata::MetadataBaseNode" name="tvm::runtime::metadata::MetadataBaseNode">
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1metadata_1_1ConstantInfoMetadataNode.html" title="{tvm::runtime::metadata\l::ConstantInfoMetadataNode\n|+ _type_key\l# data_\l|+ ConstantInfoMetadataNode()\l+ get_c_struct_name()\l+ name_hint()\l+ byte_offset()\l+ data()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="5,791,284,971"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1metadata_1_1MetadataArrayNode.html" title="Container for arrays in the metadata. " alt="" coords="308,791,584,971"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1metadata_1_1MetadataNode.html" title="{tvm::runtime::metadata\l::MetadataNode\n|+ _type_key\l|+ MetadataNode()\l+ get_c_struct_name()\l+ version()\l+ num_inputs()\l+ inputs()\l+ num_outputs()\l+ outputs()\l+ num_workspace_pools()\l+ workspace_pools()\l+ mod_name()\l+ data()\l+ constant_pools()\l+ num_constant_pools()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="608,740,887,1023"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1metadata_1_1TensorInfoNode.html" title="{tvm::runtime::metadata\l::TensorInfoNode\n|+ _type_key\l|+ TensorInfoNode()\l+ get_c_struct_name()\l+ name()\l+ num_shape()\l+ shape()\l+ dtype()\l+ data()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="911,784,1189,979"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="473,5,720,537"/>
+</map>

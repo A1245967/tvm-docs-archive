@@ -1,0 +1,17 @@
+<map id="include/tvm/te/schedule_pass.h" name="include/tvm/te/schedule_pass.h">
+<area shape="rect" id="node2" href="$driver__api_8h.html" title="Compiler driver APIs to drive the compilation. " alt="" coords="5,95,147,136"/>
+<area shape="rect" id="node3" href="$cuda_2dense_8h.html" title="CUDA schedule for dense operation. " alt="" coords="988,273,1151,315"/>
+<area shape="rect" id="node5" href="$cuda_2injective_8h.html" title="CUDA schedule for injective operations. " alt="" coords="223,95,385,136"/>
+<area shape="rect" id="node7" href="$cuda_2pooling_8h.html" title="CUDA schedule for pooling operations. " alt="" coords="409,95,572,136"/>
+<area shape="rect" id="node9" href="$cuda_2reduction_8h.html" title="CUDA schedule for reduction operations. " alt="" coords="596,95,759,136"/>
+<area shape="rect" id="node11" href="$cuda_2softmax_8h.html" title="include/tvm/topi/cuda\l/softmax.h" alt="" coords="783,95,945,136"/>
+<area shape="rect" id="node13" href="$generic_2default_8h.html" title="Generic default schedule. " alt="" coords="970,95,1150,136"/>
+<area shape="rect" id="node14" href="$generic_2extern_8h.html" title="Schedule for extern followed by injective ops. " alt="" coords="1098,184,1278,225"/>
+<area shape="rect" id="node15" href="$generic_2injective_8h.html" title="Generic schedule for injective operations. " alt="" coords="1226,95,1406,136"/>
+<area shape="rect" id="node16" href="$x86_2default_8h.html" title="default x86 schedule " alt="" coords="1430,95,1586,136"/>
+<area shape="rect" id="node4" href="$rocm_2dense_8h.html" title="rocm schedule for dense operation " alt="" coords="1045,363,1211,404"/>
+<area shape="rect" id="node6" href="$rocm_2injective_8h.html" title="rocm schedule for injective operations " alt="" coords="221,184,387,225"/>
+<area shape="rect" id="node8" href="$rocm_2pooling_8h.html" title="rocm schedule for pooling operations " alt="" coords="411,184,576,225"/>
+<area shape="rect" id="node10" href="$rocm_2reduction_8h.html" title="rocm schedule for reduction operations " alt="" coords="600,184,765,225"/>
+<area shape="rect" id="node12" href="$rocm_2softmax_8h.html" title="include/tvm/topi/rocm\l/softmax.h" alt="" coords="789,184,955,225"/>
+</map>
