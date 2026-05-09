@@ -1,0 +1,144 @@
+<map id="include/tvm/ir/module.h" name="include/tvm/ir/module.h">
+<area shape="rect" id="node2" href="$driver__api_8h.html" title="Compiler driver APIs to drive the compilation. " alt="" coords="54,884,195,925"/>
+<area shape="rect" id="node3" href="$diagnostic_8h.html" title="A new diagnostic interface for TVM error reporting. " alt="" coords="2225,87,2419,114"/>
+<area shape="rect" id="node5" href="$ir_2transform_8h.html" title="include/tvm/ir/transform.h" alt="" coords="1958,177,2150,203"/>
+<area shape="rect" id="node6" href="$parser_8h.html" title="include/tvm/relay/parser.h" alt="" coords="329,266,523,293"/>
+<area shape="rect" id="node10" href="$target_8h.html" title="Compilation target object. " alt="" coords="3440,348,3583,389"/>
+<area shape="rect" id="node24" href="$builder_8h.html" title="include/tvm/meta_schedule\l/builder.h" alt="" coords="6935,527,7138,568"/>
+<area shape="rect" id="node27" href="$tune__context_8h.html" title="include/tvm/meta_schedule\l/tune_context.h" alt="" coords="8125,616,8327,657"/>
+<area shape="rect" id="node28" href="$database_8h.html" title="include/tvm/meta_schedule\l/database.h" alt="" coords="7734,437,7937,479"/>
+<area shape="rect" id="node30" href="$extracted__task_8h.html" title="include/tvm/meta_schedule\l/extracted_task.h" alt="" coords="4185,437,4387,479"/>
+<area shape="rect" id="node31" href="$profiler_8h.html" title="include/tvm/meta_schedule\l/profiler.h" alt="" coords="4411,437,4614,479"/>
+<area shape="rect" id="node32" href="$space__generator_8h.html" title="include/tvm/meta_schedule\l/space_generator.h" alt="" coords="7037,437,7239,479"/>
+<area shape="rect" id="node33" href="$interpreter_8h.html" title="An interpreter for Relay. " alt="" coords="2582,623,2803,650"/>
+<area shape="rect" id="node36" href="$codegen_8h.html" title="Translates IRModule to runtime::Module. " alt="" coords="4639,437,4781,479"/>
+<area shape="rect" id="node59" href="$relay_2expr_8h.html" title="Relay expression language. " alt="" coords="1626,534,1807,561"/>
+<area shape="rect" id="node62" href="$relay_2analysis_8h.html" title="The set of Relay analysis passes written in C++. " alt="" coords="1300,713,1507,739"/>
+<area shape="rect" id="node70" href="$relay_2feature_8h.html" title="Detect features used in Expr/Module. " alt="" coords="313,623,512,650"/>
+<area shape="rect" id="node74" href="$tir_2analysis_8h.html" title="Analysis utilities and passes for TIR. " alt="" coords="3974,445,4161,471"/>
+<area shape="rect" id="node91" href="$type__relation_8h.html" title="Type relation and function for type inference(checking). " alt="" coords="3445,169,3591,211"/>
+<area shape="rect" id="node126" href="$global__var__supply_8h.html" title="GlobalVarSupply that can be used to generate unique. " alt="" coords="47,80,203,121"/>
+<area shape="rect" id="node127" href="$arg__info_8h.html" title="include/tvm/meta_schedule\l/arg_info.h" alt="" coords="8169,259,8371,300"/>
+<area shape="rect" id="node132" href="$error_8h.html" title="include/tvm/relay/error.h" alt="" coords="1879,623,2061,650"/>
+<area shape="rect" id="node133" href="$ir__docsifier_8h.html" title="include/tvm/script\l/printer/ir_docsifier.h" alt="" coords="7638,80,7795,121"/>
+<area shape="rect" id="node134" href="$block__scope_8h.html" title="Definition of two pillar data structure for TensorIR scheduling: StmtSRef, BlockScope. " alt="" coords="7820,80,7976,121"/>
+<area shape="rect" id="node136" href="$state_8h.html" title="This file defines ScheduleState, the core data structure of TensorIR scheduling. " alt="" coords="7367,169,7546,211"/>
+<area shape="rect" id="node4" href="$iter__affine__map_8h.html" title="Iterator quasi&#45;affine mapping patterns. " alt="" coords="2243,169,2401,211"/>
+<area shape="rect" id="node7" href="$relay_2transform_8h.html" title="Relay specific transformation passes. " alt="" coords="2114,802,2330,829"/>
+<area shape="rect" id="node9" href="$target__kind_8h.html" title="Target kind registry. " alt="" coords="2583,259,2725,300"/>
+<area shape="rect" id="node55" href="$virtual__device_8h.html" title="A compile time representation for where data is to be stored at runtime, and how to compile code to c..." alt="" coords="1813,437,1956,479"/>
+<area shape="rect" id="node90" href="$tir_2transform_8h.html" title="TIR specific transformation passes. " alt="" coords="2582,445,2779,471"/>
+<area shape="rect" id="node8" href="$relay_2qnn_2transform_8h.html" title="include/tvm/relay/qnn\l/transform.h" alt="" coords="2140,884,2304,925"/>
+<area shape="rect" id="node11" href="$search__task_8h.html" title="Meta information and hardware parameters for a search task. " alt="" coords="2513,973,2715,1015"/>
+<area shape="rect" id="node18" href="$memory__pools_8h.html" title="The object definition for relay.build argument type of memory pools. " alt="" coords="3278,437,3449,479"/>
+<area shape="rect" id="node19" href="$tir_2usmp_2utils_8h.html" title="Utilities for Unified Static Memory Planner. " alt="" coords="3195,527,3353,568"/>
+<area shape="rect" id="node34" href="$relay_2op__attr__types_8h.html" title="The Expr and related elements in DataFlow construction. " alt="" coords="3459,705,3615,747"/>
+<area shape="rect" id="node35" href="$op__strategy_8h.html" title="The Relay operator Strategy and related data structure. " alt="" coords="2740,795,2896,836"/>
+<area shape="rect" id="node37" href="$generic__func_8h.html" title="Generic function that can be specialzied on a per target basis. " alt="" coords="5932,616,6075,657"/>
+<area shape="rect" id="node54" href="$tag_8h.html" title="Target tag registry. " alt="" coords="2905,437,3048,479"/>
+<area shape="rect" id="node12" href="$measure_8h.html" title="Distributed measurement infrastructure to measure the runtime costs of tensor programs. These functions are responsible for building the tvm module, uploading it to remote devices, recording the running time costs, and checking the correctness of the output. " alt="" coords="2513,1063,2715,1104"/>
+<area shape="rect" id="node17" href="$search__policy_8h.html" title="The base class of search policies, including the abstract definition of search policy and other suppo..." alt="" coords="2161,1152,2363,1193"/>
+<area shape="rect" id="node13" href="$auto__schedule_8h.html" title="The user interface of the auto scheduler. " alt="" coords="2230,1241,2433,1283"/>
+<area shape="rect" id="node14" href="$auto__scheduler_2cost__model_8h.html" title="Cost models that estimate the performance of programs. " alt="" coords="2891,1152,3094,1193"/>
+<area shape="rect" id="node15" href="$auto__scheduler_2feature_8h.html" title="Feature extraction for the cost model. We extract one feature vector per BufferStoreNode statement in..." alt="" coords="2665,1152,2867,1193"/>
+<area shape="rect" id="node16" href="$measure__record_8h.html" title="Json serialization format for dumping and loading measurement records. " alt="" coords="2438,1152,2641,1193"/>
+<area shape="rect" id="node20" href="$greedy_8h.html" title="This header file contains helper methods used in greedy algorithms for planning memory for USMP..." alt="" coords="3625,616,3782,657"/>
+<area shape="rect" id="node21" href="$algorithms_8h.html" title="The memory planning algorithm for USMP. " alt="" coords="3110,616,3267,657"/>
+<area shape="rect" id="node22" href="$tir_2usmp_2analysis_8h.html" title="The analysis passes for TIR&#45;based Unified Static Memory Planner. " alt="" coords="3291,616,3449,657"/>
+<area shape="rect" id="node23" href="$tir_2usmp_2transform_8h.html" title="The transform passes for TIR&#45;based Unified Static Memory Planner. " alt="" coords="2929,616,3086,657"/>
+<area shape="rect" id="node25" href="$measure__callback_8h.html" title="include/tvm/meta_schedule\l/measure_callback.h" alt="" coords="8441,705,8643,747"/>
+<area shape="rect" id="node26" href="$task__scheduler_8h.html" title="include/tvm/meta_schedule\l/task_scheduler.h" alt="" coords="8483,795,8686,836"/>
+<area shape="rect" id="node29" href="$search__strategy_8h.html" title="include/tvm/meta_schedule\l/search_strategy.h" alt="" coords="8150,527,8353,568"/>
+<area shape="rect" id="node38" href="$cuda_2dense_8h.html" title="CUDA schedule for dense operation. " alt="" coords="5555,1063,5718,1104"/>
+<area shape="rect" id="node39" href="$rocm_2dense_8h.html" title="rocm schedule for dense operation " alt="" coords="5226,1152,5391,1193"/>
+<area shape="rect" id="node40" href="$cuda_2injective_8h.html" title="CUDA schedule for injective operations. " alt="" coords="7487,884,7650,925"/>
+<area shape="rect" id="node41" href="$rocm_2injective_8h.html" title="rocm schedule for injective operations " alt="" coords="7533,973,7698,1015"/>
+<area shape="rect" id="node42" href="$cuda_2pooling_8h.html" title="CUDA schedule for pooling operations. " alt="" coords="6187,884,6350,925"/>
+<area shape="rect" id="node43" href="$rocm_2pooling_8h.html" title="rocm schedule for pooling operations " alt="" coords="6186,973,6351,1015"/>
+<area shape="rect" id="node44" href="$cuda_2reduction_8h.html" title="CUDA schedule for reduction operations. " alt="" coords="6425,884,6587,925"/>
+<area shape="rect" id="node45" href="$rocm_2reduction_8h.html" title="rocm schedule for reduction operations " alt="" coords="6423,973,6589,1015"/>
+<area shape="rect" id="node46" href="$cuda_2softmax_8h.html" title="include/tvm/topi/cuda\l/softmax.h" alt="" coords="7250,884,7413,925"/>
+<area shape="rect" id="node47" href="$rocm_2softmax_8h.html" title="include/tvm/topi/rocm\l/softmax.h" alt="" coords="7319,973,7485,1015"/>
+<area shape="rect" id="node48" href="$generic_2default_8h.html" title="Generic default schedule. " alt="" coords="5831,884,6011,925"/>
+<area shape="rect" id="node49" href="$generic_2extern_8h.html" title="Schedule for extern followed by injective ops. " alt="" coords="5091,973,5271,1015"/>
+<area shape="rect" id="node50" href="$generic_2injective_8h.html" title="Generic schedule for injective operations. " alt="" coords="5091,884,5271,925"/>
+<area shape="rect" id="node51" href="$x86_2bnn_8h.html" title="x86 schedule for binary operations " alt="" coords="7855,884,8011,925"/>
+<area shape="rect" id="node52" href="$x86_2default_8h.html" title="default x86 schedule " alt="" coords="5347,884,5503,925"/>
+<area shape="rect" id="node53" href="$x86_2injective_8h.html" title="x86 schedule for injective ops " alt="" coords="7675,884,7831,925"/>
+<area shape="rect" id="node56" href="$device__copy_8h.html" title="Attribute for the device copy operator. " alt="" coords="1381,527,1551,568"/>
+<area shape="rect" id="node57" href="$relay_2attrs_2memory_8h.html" title="Attributes for memory operators. " alt="" coords="537,616,707,657"/>
+<area shape="rect" id="node58" href="$on__device_8h.html" title="Attribute for the &quot;on_device&quot; annotation (ie operator). " alt="" coords="1186,527,1357,568"/>
+<area shape="rect" id="node73" href="$compilation__config_8h.html" title="A helper class to collect all the targets in canonical form necessary for compilation. " alt="" coords="2430,705,2593,747"/>
+<area shape="rect" id="node60" href="$si__builder_8h.html" title="build a source info during rewriting expressions. " alt="" coords="1231,802,1421,829"/>
+<area shape="rect" id="node61" href="$relay_2adt_8h.html" title="Algebraic data types for Relay. " alt="" coords="1630,623,1803,650"/>
+<area shape="rect" id="node63" href="$relay_2expr__functor_8h.html" title="A more powerful visitor which enables defining arbitrary function signatures with type based dispatch..." alt="" coords="1603,705,1772,747"/>
+<area shape="rect" id="node64" href="$pattern__functor_8h.html" title="A more powerful visitor on ADT patterns that enables defining arbitrary function signatures with type..." alt="" coords="1799,705,1986,747"/>
+<area shape="rect" id="node65" href="$algorithm_8h.html" title="include/tvm/relay/attrs\l/algorithm.h" alt="" coords="1054,616,1225,657"/>
+<area shape="rect" id="node66" href="$relay_2attrs_2transform_8h.html" title="Transform operators. " alt="" coords="2014,705,2185,747"/>
+<area shape="rect" id="node67" href="$dataflow__pattern_8h.html" title="A pattern language for matching dataflow properties. " alt="" coords="731,616,929,657"/>
+<area shape="rect" id="node71" href="$relay_2function_8h.html" title="Relay Function. " alt="" coords="1401,623,1606,650"/>
+<area shape="rect" id="node72" href="$relay_2op_8h.html" title="Primitive operators(builtin intrinsics). " alt="" coords="2137,623,2305,650"/>
+<area shape="rect" id="node68" href="$dataflow__matcher_8h.html" title="A pattern matcher for matching dataflow properties. " alt="" coords="331,795,529,836"/>
+<area shape="rect" id="node69" href="$dataflow__pattern__functor_8h.html" title="A set of passes for operating on pattern graphs. " alt="" coords="263,705,461,747"/>
+<area shape="rect" id="node75" href="$constant__utils_8h.html" title="Utility functions for handling constants in TVM expressions. " alt="" coords="3571,795,3740,836"/>
+<area shape="rect" id="node76" href="$broadcast_8h.html" title="Broadcast op constructions. " alt="" coords="3321,981,3529,1007"/>
+<area shape="rect" id="node78" href="$reduction_8h.html" title="Reduction op constructors. " alt="" coords="3433,1159,3638,1186"/>
+<area shape="rect" id="node81" href="$topi_2nn_8h.html" title="NN op constructions. " alt="" coords="3819,1249,3979,1275"/>
+<area shape="rect" id="node82" href="$reorg_8h.html" title="Reorg op constructions. " alt="" coords="3162,1241,3333,1283"/>
+<area shape="rect" id="node84" href="$topi_2transform_8h.html" title="Transform op constructors. " alt="" coords="3654,1070,3862,1097"/>
+<area shape="rect" id="node85" href="$detail_2broadcast_8h.html" title="Detail broadcast. " alt="" coords="3321,884,3491,925"/>
+<area shape="rect" id="node86" href="$strided__slice_8h.html" title="Utility functions for strided_slice op. " alt="" coords="3664,973,3833,1015"/>
+<area shape="rect" id="node87" href="$einsum_8h.html" title="Einstein summation op. " alt="" coords="4266,891,4458,918"/>
+<area shape="rect" id="node88" href="$nn_2bnn_8h.html" title="Binary op constructions. " alt="" coords="3719,884,3867,925"/>
+<area shape="rect" id="node89" href="$flatten_8h.html" title="Softmax op constructions. " alt="" coords="3891,884,4039,925"/>
+<area shape="rect" id="node77" href="$elemwise_8h.html" title="Elementwise op constructions. " alt="" coords="3220,1070,3427,1097"/>
+<area shape="rect" id="node83" href="$bias__add_8h.html" title="bias_add op constructions " alt="" coords="3713,1152,3861,1193"/>
+<area shape="rect" id="node79" href="$nn_2pooling_8h.html" title="Pooling op constructions. " alt="" coords="3825,1331,3973,1372"/>
+<area shape="rect" id="node80" href="$nn_2softmax_8h.html" title="Softmax op constructions. " alt="" coords="3628,1241,3776,1283"/>
+<area shape="rect" id="node92" href="$ir_2op_8h.html" title="Primitive operators(builtin intrinsics) and registry for them. " alt="" coords="3194,266,3338,293"/>
+<area shape="rect" id="node122" href="$type__functor_8h.html" title="A way to defined arbitrary function signature with dispatch on types. " alt="" coords="3875,259,4020,300"/>
+<area shape="rect" id="node123" href="$executor_8h.html" title="Object representation of Executor configuration and registry. " alt="" coords="3413,266,3623,293"/>
+<area shape="rect" id="node124" href="$relay_2type_8h.html" title="Relay typed AST nodes. " alt="" coords="2275,445,2457,471"/>
+<area shape="rect" id="node125" href="$runtime_8h.html" title="Object representation of Runtime configuration and registry. " alt="" coords="3647,266,3850,293"/>
+<area shape="rect" id="node93" href="$builtin_8h.html" title="TIR builtin intrinsics. " alt="" coords="4119,534,4293,561"/>
+<area shape="rect" id="node97" href="$tir_2op_8h.html" title="Common operators defined for Expr. " alt="" coords="4846,355,4995,382"/>
+<area shape="rect" id="node94" href="$detail_2extern_8h.html" title="Helpers for using external functions. " alt="" coords="5040,795,5209,836"/>
+<area shape="rect" id="node95" href="$cublas_8h.html" title="External function interface to cuBLAS libraries. " alt="" coords="5629,884,5807,925"/>
+<area shape="rect" id="node96" href="$rocblas_8h.html" title="include/tvm/topi/contrib\l/rocblas.h" alt="" coords="4837,884,5015,925"/>
+<area shape="rect" id="node98" href="$int__solver_8h.html" title="integer constraints data structures and solvers " alt="" coords="4958,437,5113,479"/>
+<area shape="rect" id="node99" href="$tir_2ir_8h.html" title="include/tvm/script\l/ir_builder/tir/ir.h" alt="" coords="5137,437,5275,479"/>
+<area shape="rect" id="node100" href="$tensor_8h.html" title="Dataflow tensor object. " alt="" coords="3574,445,3747,471"/>
+<area shape="rect" id="node102" href="$operation_8h.html" title="Operation node can generate one or multiple Tensors. " alt="" coords="5522,713,5717,739"/>
+<area shape="rect" id="node105" href="$pad__utils_8h.html" title="Padding helpers. " alt="" coords="8289,795,8459,836"/>
+<area shape="rect" id="node121" href="$data__layout_8h.html" title="Layout expression to describe the data organization of a tensor. And BijectiveLayout to mapping two d..." alt="" coords="4225,616,4376,657"/>
+<area shape="rect" id="node101" href="$autodiff_8h.html" title="Automatic differentiation of tensor expressions. " alt="" coords="3912,534,4095,561"/>
+<area shape="rect" id="node115" href="$te_2schedule_8h.html" title="Define a schedule. " alt="" coords="3857,623,4048,650"/>
+<area shape="rect" id="node120" href="$tensor__intrin_8h.html" title="Tensor intrinsic operations. " alt="" coords="3727,527,3888,568"/>
+<area shape="rect" id="node103" href="$array__utils_8h.html" title="Utility functions for handling arrays. " alt="" coords="5843,795,6012,836"/>
+<area shape="rect" id="node104" href="$fuse_8h.html" title="Fuse operation. " alt="" coords="6291,795,6460,836"/>
+<area shape="rect" id="node106" href="$ravel__unravel_8h.html" title="Index ravel and unraval operations. " alt="" coords="4093,795,4263,836"/>
+<area shape="rect" id="node107" href="$tensor__utils_8h.html" title="Utility functions for handling tensor. " alt="" coords="4389,795,4559,836"/>
+<area shape="rect" id="node108" href="$nn_2dense_8h.html" title="Dense op constructions. " alt="" coords="6664,973,6812,1015"/>
+<area shape="rect" id="node109" href="$dilate_8h.html" title="Dilate op constructions. " alt="" coords="6861,795,7009,836"/>
+<area shape="rect" id="node110" href="$group__norm_8h.html" title="group normalization op constructions " alt="" coords="7033,795,7181,836"/>
+<area shape="rect" id="node111" href="$instance__norm_8h.html" title="instance normalization op constructions " alt="" coords="6967,884,7115,925"/>
+<area shape="rect" id="node112" href="$layer__norm_8h.html" title="layer normalization op constructions " alt="" coords="6587,795,6735,836"/>
+<area shape="rect" id="node113" href="$local__response__norm_8h.html" title="local response normalization op constructions " alt="" coords="7206,795,7382,836"/>
+<area shape="rect" id="node114" href="$mapping_8h.html" title="Mapping op constructions. " alt="" coords="7407,795,7555,836"/>
+<area shape="rect" id="node116" href="$compute__dag_8h.html" title="The auto&#45;scheduler&#39;s computational graph and related program analyses. " alt="" coords="2790,884,2993,925"/>
+<area shape="rect" id="node117" href="$transform__step_8h.html" title="Transformation steps. These steps are used to manipulate LoopState. They are similar to the schedule ..." alt="" coords="3741,705,3943,747"/>
+<area shape="rect" id="node119" href="$schedule__pass_8h.html" title="Collection of Schedule pass functions. " alt="" coords="5437,795,5615,836"/>
+<area shape="rect" id="node118" href="$loop__state_8h.html" title="The definition of the &quot;state&quot; in the search. " alt="" coords="2921,795,3123,836"/>
+<area shape="rect" id="node128" href="$meta__schedule_2cost__model_8h.html" title="include/tvm/meta_schedule\l/cost_model.h" alt="" coords="8339,437,8542,479"/>
+<area shape="rect" id="node129" href="$measure__candidate_8h.html" title="include/tvm/meta_schedule\l/measure_candidate.h" alt="" coords="8099,348,8302,389"/>
+<area shape="rect" id="node131" href="$runner_8h.html" title="include/tvm/meta_schedule\l/runner.h" alt="" coords="8503,348,8706,389"/>
+<area shape="rect" id="node130" href="$feature__extractor_8h.html" title="include/tvm/meta_schedule\l/feature_extractor.h" alt="" coords="7961,437,8163,479"/>
+<area shape="rect" id="node135" href="$block__dependence__info_8h.html" title="Define BlockDependenceInfoNode that uses the BlockScope and StmtSRef objects to store the block level..." alt="" coords="7775,169,7931,211"/>
+<area shape="rect" id="node143" href="$tir_2utils_8h.html" title="include/tvm/tir/utils.h" alt="" coords="7955,177,8116,203"/>
+<area shape="rect" id="node137" href="$tir_2schedule_2schedule_8h.html" title="include/tvm/tir/schedule\l/schedule.h" alt="" coords="7367,259,7546,300"/>
+<area shape="rect" id="node138" href="$mutator_8h.html" title="include/tvm/meta_schedule\l/mutator.h" alt="" coords="6697,348,6899,389"/>
+<area shape="rect" id="node139" href="$postproc_8h.html" title="include/tvm/meta_schedule\l/postproc.h" alt="" coords="6923,348,7126,389"/>
+<area shape="rect" id="node140" href="$thread__bind_8h.html" title="include/tvm/meta_schedule\l/schedule/cuda/thread_bind.h" alt="" coords="7477,348,7689,389"/>
+<area shape="rect" id="node141" href="$winograd_8h.html" title="include/tvm/meta_schedule\l/schedule/generic/winograd.h" alt="" coords="7763,348,7975,389"/>
+<area shape="rect" id="node142" href="$schedule__rule_8h.html" title="include/tvm/meta_schedule\l/schedule_rule.h" alt="" coords="7150,348,7353,389"/>
+</map>

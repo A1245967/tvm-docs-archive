@@ -1,0 +1,11 @@
+<map id="tvm::tir::usmp::AllocatedPoolInfoNode" name="tvm::tir::usmp::AllocatedPoolInfoNode">
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,1536,252,2053"/>
+<area shape="rect" id="node3" href="$classtvm_1_1Integer.html" title="Container of constant int that adds more constructors. " alt="" coords="369,1683,493,1907"/>
+<area shape="rect" id="node4" href="$classtvm_1_1IntImm.html" title="Managed reference class to IntImmNode. " alt="" coords="307,1337,513,1473"/>
+<area shape="rect" id="node5" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="315,1047,521,1183"/>
+<area shape="rect" id="node6" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="317,668,522,760"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="471,307,650,619"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1Optional.html" title="{tvm::runtime::Optional\l\&lt; tvm::Integer \&gt;\n|+ _type_is_nullable\l|+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ operator=()\l+ operator=()\land 15 more...\l}" alt="" coords="475,784,646,1023"/>
+<area shape="rect" id="node10" href="$classtvm_1_1PoolInfo.html" title="Base class for WorkspacePoolInfo and ConstantPoolInfo. " alt="" coords="587,1207,793,1313"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="467,5,654,244"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="tvm::script::ir_builder::IRBuilderFrame" name="tvm::script::ir_builder::IRBuilderFrame">
+<area shape="rect" id="node3" href="$classtvm_1_1script_1_1ir__builder_1_1ir_1_1IRModuleFrame.html" title="Managed reference to IRModuleFrameNode. " alt="" coords="1383,615,1571,737"/>
+<area shape="rect" id="node4" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1TIRFrame.html" title="Managed reference to TIRFrameNode. " alt="" coords="1595,608,1783,744"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="1493,5,1671,332"/>
+<area shape="rect" id="node5" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1AllocateConstFrame.html" title="Managed reference to AllocateConstFrameNode. " alt="" coords="5,792,193,913"/>
+<area shape="rect" id="node6" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1AllocateFrame.html" title="Managed reference to AllocateFrameNode. " alt="" coords="217,792,405,913"/>
+<area shape="rect" id="node7" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1AssertFrame.html" title="Managed reference to AssertFrameNode. " alt="" coords="429,792,617,913"/>
+<area shape="rect" id="node8" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1AttrFrame.html" title="Managed reference to AttrFrameNode. " alt="" coords="641,792,829,913"/>
+<area shape="rect" id="node9" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1BlockFrame.html" title="Managed reference to BlockFrameNode. " alt="" coords="853,792,1041,913"/>
+<area shape="rect" id="node10" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1BlockInitFrame.html" title="Managed reference to BlockInitFrameNode. " alt="" coords="1065,792,1253,913"/>
+<area shape="rect" id="node11" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1DeclBufferFrame.html" title="{tvm::script::ir_builder\l::tir::DeclBufferFrame\n||+ TVM_DEFINE_MUTABLE\l_NOTNULLABLE_OBJECT\l_REF_METHODS()\l}" alt="" coords="1277,792,1465,913"/>
+<area shape="rect" id="node12" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1ElseFrame.html" title="Managed reference to ElseFrameNode. " alt="" coords="1489,792,1677,913"/>
+<area shape="rect" id="node13" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1ForFrame.html" title="Managed reference to ForFrameNode. " alt="" coords="1701,792,1889,913"/>
+<area shape="rect" id="node14" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1IfFrame.html" title="Managed reference to IfFrameNode. " alt="" coords="1913,792,2101,913"/>
+<area shape="rect" id="node15" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1LaunchThreadFrame.html" title="Managed reference to LaunchThreadFrameNode. " alt="" coords="2125,792,2313,913"/>
+<area shape="rect" id="node16" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1LetFrame.html" title="Managed reference to LetFrameNode. " alt="" coords="2337,792,2525,913"/>
+<area shape="rect" id="node17" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1PrimFuncFrame.html" title="Managed reference to PrimFuncFrameNode. " alt="" coords="2549,792,2737,913"/>
+<area shape="rect" id="node18" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1RealizeFrame.html" title="Managed reference to RealizeFrameNode. " alt="" coords="2761,792,2949,913"/>
+<area shape="rect" id="node19" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1ThenFrame.html" title="Managed reference to ThenFrameNode. " alt="" coords="2973,792,3161,913"/>
+<area shape="rect" id="node20" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1WhileFrame.html" title="Managed reference to WhileFrameNode. " alt="" coords="3185,792,3373,913"/>
+</map>

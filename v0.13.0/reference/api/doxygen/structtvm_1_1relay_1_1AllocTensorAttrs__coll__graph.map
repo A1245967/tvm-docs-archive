@@ -1,0 +1,12 @@
+<map id="tvm::relay::AllocTensorAttrs" name="tvm::relay::AllocTensorAttrs">
+<area shape="rect" id="node2" href="$classtvm_1_1AttrsNode.html" title="{tvm::AttrsNode\&lt; AllocTensor\lAttrs \&gt;\n||+ VisitAttrs()\l+ VisitNonDefaultAttrs()\l+ InitByPackedArgs()\l+ SEqualReduce()\l+ SHashReduce()\l+ ListFieldInfo()\l}" alt="" coords="116,1979,328,2144"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseAttrsNode.html" title="Base class of all attribute class. " alt="" coords="49,1575,325,1813"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,668,252,1185"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::PrimExpr \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l+ CalcCapacityImpl()\l+ CalcCapacityImpl()\l+ CalcCapacityImpl()\l+ AgregateImpl()\l+ AgregateImpl()\l+ AgregateImpl()\l+ Agregate()\l}" alt="" coords="303,1209,464,1551"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="310,307,489,619"/>
+<area shape="rect" id="node11" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="421,881,626,973"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="306,5,493,244"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1DataType.html" title="Runtime primitive data type. " alt="" coords="650,1876,829,2247"/>
+<area shape="rect" id="node9" href="$classtvm_1_1relay_1_1Constant.html" title="{tvm::relay::Constant\n||+ Constant()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l+ TVM_DEFINE_OBJECT_REF\l_COW_METHOD()\l}" alt="" coords="421,1993,626,2129"/>
+<area shape="rect" id="node10" href="$classtvm_1_1RelayExpr.html" title="Managed reference to RelayExprNode. " alt="" coords="421,1648,626,1740"/>
+</map>

@@ -1,0 +1,77 @@
+<map id="tvm::BaseExprNode" name="tvm::BaseExprNode">
+<area shape="rect" id="node3" href="$classtvm_1_1PrimExprNode.html" title="Base node of all primitive expressions. " alt="" coords="5452,813,5728,949"/>
+<area shape="rect" id="node58" href="$classtvm_1_1RelayExprNode.html" title="Base node of all non&#45;primitive expressions. " alt="" coords="13015,799,13291,964"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="9247,5,9493,537"/>
+<area shape="rect" id="node4" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title="{tvm::tir::BinaryOpNode\l\&lt; AddNode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="5,1063,284,1214"/>
+<area shape="rect" id="node6" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title="{tvm::tir::BinaryOpNode\l\&lt; DivNode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="308,1063,587,1214"/>
+<area shape="rect" id="node8" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title="{tvm::tir::BinaryOpNode\l\&lt; FloorDivNode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="611,1063,889,1214"/>
+<area shape="rect" id="node10" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title="{tvm::tir::BinaryOpNode\l\&lt; FloorModNode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="913,1063,1192,1214"/>
+<area shape="rect" id="node12" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title="{tvm::tir::BinaryOpNode\l\&lt; MaxNode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="1216,1063,1495,1214"/>
+<area shape="rect" id="node14" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title="{tvm::tir::BinaryOpNode\l\&lt; MinNode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="1519,1063,1797,1214"/>
+<area shape="rect" id="node16" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title="{tvm::tir::BinaryOpNode\l\&lt; ModNode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="1821,1063,2100,1214"/>
+<area shape="rect" id="node18" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title="{tvm::tir::BinaryOpNode\l\&lt; MulNode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="2124,1063,2403,1214"/>
+<area shape="rect" id="node20" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title="{tvm::tir::BinaryOpNode\l\&lt; SubNode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="2427,1063,2705,1214"/>
+<area shape="rect" id="node22" href="$classtvm_1_1tir_1_1CmpOpNode.html" title="{tvm::tir::CmpOpNode\l\&lt; EQNode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="2729,1063,3008,1214"/>
+<area shape="rect" id="node24" href="$classtvm_1_1tir_1_1CmpOpNode.html" title="{tvm::tir::CmpOpNode\l\&lt; GENode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="3032,1063,3311,1214"/>
+<area shape="rect" id="node26" href="$classtvm_1_1tir_1_1CmpOpNode.html" title="{tvm::tir::CmpOpNode\l\&lt; GTNode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="3335,1063,3613,1214"/>
+<area shape="rect" id="node28" href="$classtvm_1_1tir_1_1CmpOpNode.html" title="{tvm::tir::CmpOpNode\l\&lt; LENode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="3637,1063,3916,1214"/>
+<area shape="rect" id="node30" href="$classtvm_1_1tir_1_1CmpOpNode.html" title="{tvm::tir::CmpOpNode\l\&lt; LTNode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="3940,1063,4219,1214"/>
+<area shape="rect" id="node32" href="$classtvm_1_1tir_1_1CmpOpNode.html" title="{tvm::tir::CmpOpNode\l\&lt; NENode \&gt;\n|+ a\l+ b\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="4243,1063,4521,1214"/>
+<area shape="rect" id="node34" href="$classtvm_1_1arith_1_1IterMapExprNode.html" title="Base class of all iter map expressions. " alt="" coords="4545,1085,4821,1192"/>
+<area shape="rect" id="node37" href="$classtvm_1_1FloatImmNode.html" title="Constant floating point literals in the program. " alt="" coords="4845,1071,5124,1207"/>
+<area shape="rect" id="node38" href="$classtvm_1_1IntImmNode.html" title="Constant integer literals in the program. " alt="" coords="5148,1071,5427,1207"/>
+<area shape="rect" id="node39" href="$classtvm_1_1tir_1_1AndNode.html" title="a &amp;&amp; b " alt="" coords="5451,1063,5729,1214"/>
+<area shape="rect" id="node40" href="$classtvm_1_1tir_1_1AnyNode.html" title="Any shape. " alt="" coords="5753,1063,6032,1214"/>
+<area shape="rect" id="node41" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title="Base template to implement binary ops. " alt="" coords="6056,1071,6335,1207"/>
+<area shape="rect" id="node42" href="$classtvm_1_1tir_1_1BroadcastNode.html" title="Create a vector where all the elements are value. " alt="" coords="6359,1063,6637,1214"/>
+<area shape="rect" id="node43" href="$classtvm_1_1tir_1_1BufferLoadNode.html" title="Load value from the high dimension buffer. " alt="" coords="6661,1063,6940,1214"/>
+<area shape="rect" id="node44" href="$classtvm_1_1tir_1_1CallNode.html" title="Call node. " alt="" coords="6964,1063,7243,1214"/>
+<area shape="rect" id="node45" href="$classtvm_1_1tir_1_1CastNode.html" title="Cast value from one data type to another. " alt="" coords="7267,1071,7545,1207"/>
+<area shape="rect" id="node46" href="$classtvm_1_1tir_1_1CmpOpNode.html" title="Base template to implement comparison ops. " alt="" coords="7569,1071,7848,1207"/>
+<area shape="rect" id="node47" href="$classtvm_1_1tir_1_1LetNode.html" title="Let binding. Bind var to value then evaluate body. " alt="" coords="7872,1056,8151,1221"/>
+<area shape="rect" id="node48" href="$classtvm_1_1tir_1_1NotNode.html" title="!a " alt="" coords="8175,1071,8453,1207"/>
+<area shape="rect" id="node49" href="$classtvm_1_1tir_1_1OrNode.html" title="a || b " alt="" coords="8477,1063,8756,1214"/>
+<area shape="rect" id="node50" href="$classtvm_1_1tir_1_1ProducerLoadNode.html" title="Load value from the result produced by the producer. " alt="" coords="8780,1063,9059,1214"/>
+<area shape="rect" id="node51" href="$classtvm_1_1tir_1_1RampNode.html" title="Construct a vector with lanes elements where its i&#45;th element equals base + i * stride. This is useful to construct a index for a continuous vector load. " alt="" coords="9083,1056,9361,1221"/>
+<area shape="rect" id="node52" href="$classtvm_1_1tir_1_1ReduceNode.html" title="Reduction operator. " alt="" coords="9385,1034,9664,1243"/>
+<area shape="rect" id="node53" href="$classtvm_1_1tir_1_1SelectNode.html" title="return true_value if condition is true, otherwise return false_value. " alt="" coords="9688,1056,9967,1221"/>
+<area shape="rect" id="node54" href="$classtvm_1_1tir_1_1ShuffleNode.html" title="Shuffle instruction. vec = concat(vectors) result = (vec[indices[0]], vec[indices[1]] ..." alt="" coords="9991,1063,10269,1214"/>
+<area shape="rect" id="node55" href="$classtvm_1_1tir_1_1StringImmNode.html" title="String constants, only used in asserts. " alt="" coords="10293,1071,10572,1207"/>
+<area shape="rect" id="node56" href="$classtvm_1_1tir_1_1VarNode.html" title="A variable node in the IR. " alt="" coords="10596,1056,10872,1221"/>
+<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1AddNode.html" title="a + b " alt="" coords="76,1387,213,1464"/>
+<area shape="rect" id="node7" href="$classtvm_1_1tir_1_1DivNode.html" title="a / b in the C semnatics. " alt="" coords="380,1387,515,1464"/>
+<area shape="rect" id="node9" href="$classtvm_1_1tir_1_1FloorDivNode.html" title="Floor division, floor(a/b) " alt="" coords="667,1387,833,1464"/>
+<area shape="rect" id="node11" href="$classtvm_1_1tir_1_1FloorModNode.html" title="The remainder of the floordiv. " alt="" coords="967,1387,1138,1464"/>
+<area shape="rect" id="node13" href="$classtvm_1_1tir_1_1MaxNode.html" title="max(a, b) " alt="" coords="1286,1387,1425,1464"/>
+<area shape="rect" id="node15" href="$classtvm_1_1tir_1_1MinNode.html" title="min(a, b) " alt="" coords="1591,1387,1725,1464"/>
+<area shape="rect" id="node17" href="$classtvm_1_1tir_1_1ModNode.html" title="a % b in the C semnatics. " alt="" coords="1891,1387,2030,1464"/>
+<area shape="rect" id="node19" href="$classtvm_1_1tir_1_1MulNode.html" title="a * b " alt="" coords="2196,1387,2331,1464"/>
+<area shape="rect" id="node21" href="$classtvm_1_1tir_1_1SubNode.html" title="a &#45; b " alt="" coords="2498,1387,2634,1464"/>
+<area shape="rect" id="node23" href="$classtvm_1_1tir_1_1EQNode.html" title="a == b " alt="" coords="2803,1387,2934,1464"/>
+<area shape="rect" id="node25" href="$classtvm_1_1tir_1_1GENode.html" title="a &gt;= b " alt="" coords="3106,1387,3237,1464"/>
+<area shape="rect" id="node27" href="$classtvm_1_1tir_1_1GTNode.html" title="a &gt; b " alt="" coords="3409,1387,3539,1464"/>
+<area shape="rect" id="node29" href="$structtvm_1_1tir_1_1LENode.html" title="a &lt;= b " alt="" coords="3713,1387,3840,1464"/>
+<area shape="rect" id="node31" href="$classtvm_1_1tir_1_1LTNode.html" title="a &lt; b " alt="" coords="4016,1387,4143,1464"/>
+<area shape="rect" id="node33" href="$classtvm_1_1tir_1_1NENode.html" title="a != b " alt="" coords="4317,1387,4447,1464"/>
+<area shape="rect" id="node35" href="$classtvm_1_1arith_1_1IterSplitExprNode.html" title="Split of an iterator. " alt="" coords="4508,1335,4787,1515"/>
+<area shape="rect" id="node36" href="$classtvm_1_1arith_1_1IterSumExprNode.html" title="Fuse multiple iterators by summing them with scaling. " alt="" coords="4811,1350,5089,1501"/>
+<area shape="rect" id="node57" href="$classtvm_1_1tir_1_1SizeVarNode.html" title="A variable node represent a tensor index size, whose value must be non&#45;negative. " alt="" coords="10593,1387,10872,1464"/>
+<area shape="rect" id="node59" href="$classtvm_1_1BaseFuncNode.html" title="Base node of all functions. " alt="" coords="10897,1063,11173,1214"/>
+<area shape="rect" id="node62" href="$classtvm_1_1ConstructorNode.html" title="ADT constructor. Constructors compare by pointer equality. " alt="" coords="11197,1041,11476,1236"/>
+<area shape="rect" id="node63" href="$classtvm_1_1GlobalVarNode.html" title="Global variable that lives in the top&#45;level module. " alt="" coords="11500,1071,11779,1207"/>
+<area shape="rect" id="node64" href="$classtvm_1_1OpNode.html" title="Primitive Op(builtin intrinsics) " alt="" coords="11803,1012,12081,1265"/>
+<area shape="rect" id="node65" href="$classtvm_1_1relay_1_1CallNode.html" title="Call container. " alt="" coords="12105,1034,12384,1243"/>
+<area shape="rect" id="node66" href="$classtvm_1_1relay_1_1ConstantNode.html" title="Constant tensor type. " alt="" coords="12408,1056,12687,1221"/>
+<area shape="rect" id="node67" href="$classtvm_1_1relay_1_1IfNode.html" title="container of If " alt="" coords="12711,1056,12989,1221"/>
+<area shape="rect" id="node68" href="$classtvm_1_1relay_1_1LetNode.html" title="A binding of a sub&#45;network. " alt="" coords="13013,1041,13292,1236"/>
+<area shape="rect" id="node69" href="$classtvm_1_1relay_1_1MatchNode.html" title="Match container node. " alt="" coords="13316,1056,13595,1221"/>
+<area shape="rect" id="node70" href="$classtvm_1_1relay_1_1RefCreateNode.html" title="{tvm::relay::RefCreateNode\n|+ value\l+ _type_key\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="13619,1071,13897,1207"/>
+<area shape="rect" id="node71" href="$classtvm_1_1relay_1_1RefReadNode.html" title="{tvm::relay::RefReadNode\n|+ ref\l+ _type_key\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="13921,1071,14200,1207"/>
+<area shape="rect" id="node72" href="$classtvm_1_1relay_1_1RefWriteNode.html" title="{tvm::relay::RefWriteNode\n|+ ref\l+ value\l+ _type_key\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="14224,1063,14503,1214"/>
+<area shape="rect" id="node73" href="$classtvm_1_1relay_1_1TempExprNode.html" title="Base class of the temporary expression. " alt="" coords="14527,1049,14803,1229"/>
+<area shape="rect" id="node74" href="$classtvm_1_1relay_1_1TupleGetItemNode.html" title="{tvm::relay::TupleGetItemNode\n|+ tuple\l+ index\l+ _type_key\l|+ VisitAttrs()\l+ SEqualReduce()\l+ SHashReduce()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="14827,1063,15105,1214"/>
+<area shape="rect" id="node75" href="$classtvm_1_1relay_1_1TupleNode.html" title="Tuple container. " alt="" coords="15129,1071,15408,1207"/>
+<area shape="rect" id="node76" href="$classtvm_1_1relay_1_1VarNode.html" title="Container for Var. " alt="" coords="15432,1056,15711,1221"/>
+<area shape="rect" id="node60" href="$classtvm_1_1relay_1_1FunctionNode.html" title="Relay Function container. " alt="" coords="10896,1328,11175,1523"/>
+<area shape="rect" id="node61" href="$classtvm_1_1tir_1_1PrimFuncNode.html" title="Primitive functions that contains TIR statements. " alt="" coords="11199,1313,11477,1537"/>
+</map>

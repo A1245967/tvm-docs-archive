@@ -1,0 +1,10 @@
+<map id="tvm::script::ir_builder::tir::WhileFrameNode" name="tvm::script::ir_builder::tir::WhileFrameNode">
+<area shape="rect" id="node2" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1TIRFrameNode.html" title="A base frame that represents the TIR fame with body of statements. " alt="" coords="191,1292,467,1399"/>
+<area shape="rect" id="node3" href="$classtvm_1_1script_1_1ir__builder_1_1IRBuilderFrameNode.html" title="{tvm::script::ir_builder\l::IRBuilderFrameNode\n|+ callbacks\l+ _type_key\l|+ VisitAttrs()\l+ TVM_DECLARE_BASE_OBJECT_INFO()\l+ ~IRBuilderFrameNode()\l+ EnterWithScope()\l+ ExitWithScope()\l+ AddCallback()\l}" alt="" coords="5,954,281,1134"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="20,307,267,824"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::tir::Stmt \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l+ CalcCapacityImpl()\l+ CalcCapacityImpl()\l+ CalcCapacityImpl()\l+ AgregateImpl()\l+ AgregateImpl()\l+ AgregateImpl()\l+ Agregate()\l}" alt="" coords="305,873,467,1215"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="445,409,623,721"/>
+<area shape="rect" id="node9" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="491,998,697,1090"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="441,5,627,244"/>
+<area shape="rect" id="node8" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="491,1277,697,1413"/>
+</map>

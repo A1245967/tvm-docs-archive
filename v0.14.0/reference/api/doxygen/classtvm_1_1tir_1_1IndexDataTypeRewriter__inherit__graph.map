@@ -1,0 +1,9 @@
+<map id="tvm::tir::IndexDataTypeRewriter" name="tvm::tir::IndexDataTypeRewriter">
+<area shape="rect" id="node8" href="$classtvm_1_1tir_1_1IndexDataTypeNormalizer.html" title="Normalize the data types of buffer shapes and indices to the same data type. " alt="" coords="79,1145,329,1281"/>
+<area shape="rect" id="node2" href="$classtvm_1_1tir_1_1DataTypeLegalizer.html" title="Legalize the data types of expressions to make sure they are consistent with other parts of the progr..." alt="" coords="104,557,304,796"/>
+<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1StmtExprMutator.html" title="Mutator that recursively mutates stmts and exprs on them. " alt="" coords="110,432,298,509"/>
+<area shape="rect" id="node4" href="$classtvm_1_1tir_1_1StmtMutator.html" title="StmtMutator that mutates the statements. " alt="" coords="18,145,198,384"/>
+<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1StmtFunctor.html" title="{tvm::tir::StmtFunctor\l\&lt; Stmt(const Stmt &amp;)\&gt;\n||}" alt="" coords="5,5,179,97"/>
+<area shape="rect" id="node6" href="$classtvm_1_1tir_1_1ExprMutator.html" title="ExprMutator that mutates expressions. " alt="" coords="231,153,388,377"/>
+<area shape="rect" id="node7" href="$classtvm_1_1tir_1_1ExprFunctor.html" title="{tvm::tir::ExprFunctor\l\&lt; PrimExpr(const PrimExpr &amp;)\&gt;\n||}" alt="" coords="203,5,432,97"/>
+</map>
