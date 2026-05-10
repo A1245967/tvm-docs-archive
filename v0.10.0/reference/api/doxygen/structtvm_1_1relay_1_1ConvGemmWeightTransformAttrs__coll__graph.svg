@@ -16,8 +16,8 @@
 <text text-anchor="start" x="29" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tvm::relay::ConvGemmWeight</text>
 <text text-anchor="middle" x="103.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TransformAttrs</text>
 <polyline fill="none" stroke="#000000" points="21,-49.5 186,-49.5 "/>
-<text text-anchor="start" x="29" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ tile_N</text>
-<text text-anchor="start" x="29" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ tile_K</text>
+<text text-anchor="start" x="29" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ tile_rows</text>
+<text text-anchor="start" x="29" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ tile_cols</text>
 <polyline fill="none" stroke="#000000" points="21,-19.5 186,-19.5 "/>
 <text text-anchor="start" x="29" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ TVM_DECLARE_ATTRS()</text>
 </g>

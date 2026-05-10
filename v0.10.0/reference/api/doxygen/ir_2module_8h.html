@@ -65,6 +65,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">module.h File Reference</div>  </div>
@@ -76,8 +77,8 @@ $(function() {
 <div class="textblock"><code>#include &lt;<a class="el" href="ir_2adt_8h_source.html">tvm/ir/adt.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="ir_2expr_8h_source.html">tvm/ir/expr.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="ir_2function_8h_source.html">tvm/ir/function.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="source__map_8h_source.html">tvm/ir/source_map.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="ir_2type_8h_source.html">tvm/ir/type.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="source__map_8h_source.html">tvm/parser/source_map.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="array_8h_source.html">tvm/runtime/container/array.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="map_8h_source.html">tvm/runtime/container/map.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="string_8h_source.html">tvm/runtime/container/string.h</a>&gt;</code><br />
@@ -89,13 +90,12 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for module.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ir_2module_8h__incl.svg" width="5462" height="1380"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ir_2module_8h__incl.svg" width="4878" height="1142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ir_2module_8h__dep__incl.svg" width="7256" height="1378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ir_2module_8h__dep__incl.svg" width="3659" height="842"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -119,6 +119,15 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespacetvm_1_1attr"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic attribute names that can be attached to any function. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a60c4359254ce7ac364bb97a8bfc13803"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm.html#a60c4359254ce7ac364bb97a8bfc13803">tvm::PrettyPrint</a> (const ObjectRef &amp;node)</td></tr>
+<tr class="memdesc:a60c4359254ce7ac364bb97a8bfc13803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pretty print a node for debug purposes.  <a href="namespacetvm.html#a60c4359254ce7ac364bb97a8bfc13803">More...</a><br /></td></tr>
+<tr class="separator:a60c4359254ce7ac364bb97a8bfc13803"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0e4314dd85303aa5e10d452e4c9db54"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm.html#ad0e4314dd85303aa5e10d452e4c9db54">tvm::AsText</a> (const ObjectRef &amp;node, bool show_meta_data=true, runtime::TypedPackedFunc&lt; String(ObjectRef)&gt; annotate=nullptr)</td></tr>
+<tr class="memdesc:ad0e4314dd85303aa5e10d452e4c9db54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render the node as a string in the text format.  <a href="namespacetvm.html#ad0e4314dd85303aa5e10d452e4c9db54">More...</a><br /></td></tr>
+<tr class="separator:ad0e4314dd85303aa5e10d452e4c9db54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a5a2d23031351ba22f800d41a0e06d562"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1attr.html#a5a2d23031351ba22f800d41a0e06d562">tvm::attr::kModuleName</a> = &quot;mod_name&quot;</td></tr>
@@ -141,9 +150,6 @@ Variables</h2></td></tr>
 <tr class="memitem:a8604338aa4e9293d10d427a00a2c9f13"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1attr.html#a8604338aa4e9293d10d427a00a2c9f13">tvm::attr::kExternalMods</a> = &quot;external_mods&quot;</td></tr>
 <tr class="memdesc:a8604338aa4e9293d10d427a00a2c9f13"><td class="mdescLeft">&#160;</td><td class="mdescRight">All the runtime::Modules accumulated during compilation by external codegen. These modules must be either directly linked or captured in the final compilation artifact.  <a href="namespacetvm_1_1attr.html#a8604338aa4e9293d10d427a00a2c9f13">More...</a><br /></td></tr>
 <tr class="separator:a8604338aa4e9293d10d427a00a2c9f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae652055bd020f8aa1cc32436e155603"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1attr.html#aae652055bd020f8aa1cc32436e155603">tvm::attr::kSystemLibPrefix</a> = &quot;system_lib_prefix&quot;</td></tr>
-<tr class="memdesc:aae652055bd020f8aa1cc32436e155603"><td class="mdescLeft">&#160;</td><td class="mdescRight">A prefix for generating C symbols system lib creation.  <a href="namespacetvm_1_1attr.html#aae652055bd020f8aa1cc32436e155603">More...</a><br /></td></tr>
-<tr class="separator:aae652055bd020f8aa1cc32436e155603"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38f40a3fc908b9359c4ca46bdd18811f"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1attr.html#a38f40a3fc908b9359c4ca46bdd18811f">tvm::attr::kConstNameToConstant</a> = &quot;const_name_to_constant&quot;</td></tr>
 <tr class="memdesc:a38f40a3fc908b9359c4ca46bdd18811f"><td class="mdescLeft">&#160;</td><td class="mdescRight">All the named runtime::NDArrays accumulated during compilation by external codegen. Generally the associated <a class="el" href="classtvm_1_1runtime_1_1Module.html" title="Module container of TVM. ">runtime::Module</a> will indicate it requires bindings for these names, and during module initialization these bindings will be recovered from a ConstLoaderModule. See also kConstantsArray above, which is the analog for PrimFuncs.  <a href="namespacetvm_1_1attr.html#a38f40a3fc908b9359c4ca46bdd18811f">More...</a><br /></td></tr>
 <tr class="separator:a38f40a3fc908b9359c4ca46bdd18811f"><td class="memSeparator" colspan="2">&#160;</td></tr>

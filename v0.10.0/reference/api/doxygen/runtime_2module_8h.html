@@ -65,7 +65,6 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -89,13 +88,12 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for module.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="runtime_2module_8h__incl.svg" width="3228" height="738"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="runtime_2module_8h__incl.svg" width="2992" height="723"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="runtime_2module_8h__dep__incl.svg" width="11866" height="2375"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="runtime_2module_8h__dep__incl.svg" width="6574" height="782"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -121,20 +119,11 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespacetvm_1_1runtime_1_1symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">namespace for constant symbols <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a6edb2235f96c34eaf0119834d293ca54"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1runtime.html#a6edb2235f96c34eaf0119834d293ca54">tvm::runtime::ModulePropertyMask</a> : int { <a class="el" href="namespacetvm_1_1runtime.html#a6edb2235f96c34eaf0119834d293ca54abb73d116e7bde220e81a19e98cc62103">tvm::runtime::kBinarySerializable</a> = 0b001, 
-<a class="el" href="namespacetvm_1_1runtime.html#a6edb2235f96c34eaf0119834d293ca54a6aa052b038d11007d0df028d29fcda2e">tvm::runtime::kRunnable</a> = 0b010, 
-<a class="el" href="namespacetvm_1_1runtime.html#a6edb2235f96c34eaf0119834d293ca54aeac3ca683f62d5793245a4a4a378015c">tvm::runtime::kDSOExportable</a> = 0b100
- }<tr class="memdesc:a6edb2235f96c34eaf0119834d293ca54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Property of runtime module We classify the property of runtime module into the following categories.  <a href="namespacetvm_1_1runtime.html#a6edb2235f96c34eaf0119834d293ca54">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:a6edb2235f96c34eaf0119834d293ca54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae6d933eb1e7414afa9a9a62d22cd2522"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1runtime.html#ae6d933eb1e7414afa9a9a62d22cd2522">tvm::runtime::RuntimeEnabled</a> (const String &amp;target)</td></tr>
-<tr class="memdesc:ae6d933eb1e7414afa9a9a62d22cd2522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if runtime module is enabled for target.  <a href="namespacetvm_1_1runtime.html#ae6d933eb1e7414afa9a9a62d22cd2522">More...</a><br /></td></tr>
-<tr class="separator:ae6d933eb1e7414afa9a9a62d22cd2522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbea0c23882ae01431ac7fe6506b32a7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1runtime.html#abbea0c23882ae01431ac7fe6506b32a7">tvm::runtime::RuntimeEnabled</a> (const std::string &amp;target)</td></tr>
+<tr class="memdesc:abbea0c23882ae01431ac7fe6506b32a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if runtime module is enabled for target.  <a href="namespacetvm_1_1runtime.html#abbea0c23882ae01431ac7fe6506b32a7">More...</a><br /></td></tr>
+<tr class="separator:abbea0c23882ae01431ac7fe6506b32a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac75e2cf6722f7bb4a9dab69e45054d8f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1runtime.html#ac75e2cf6722f7bb4a9dab69e45054d8f">tvm::runtime::operator&lt;&lt;</a> (std::ostream &amp;out, const Module &amp;module)</td></tr>
 <tr class="separator:ac75e2cf6722f7bb4a9dab69e45054d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -149,6 +138,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a316b327224938ffb2a73a9c4432d1da9"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1runtime_1_1symbol.html#a316b327224938ffb2a73a9c4432d1da9">tvm::runtime::symbol::tvm_dev_mblob</a> = &quot;__tvm_dev_mblob&quot;</td></tr>
 <tr class="memdesc:a316b327224938ffb2a73a9c4432d1da9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global variable to store device module blob.  <a href="namespacetvm_1_1runtime_1_1symbol.html#a316b327224938ffb2a73a9c4432d1da9">More...</a><br /></td></tr>
 <tr class="separator:a316b327224938ffb2a73a9c4432d1da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba35391edf7c3a25628bf99ed42cdca1"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1runtime_1_1symbol.html#aba35391edf7c3a25628bf99ed42cdca1">tvm::runtime::symbol::tvm_dev_mblob_nbytes</a> = &quot;__tvm_dev_mblob_nbytes&quot;</td></tr>
+<tr class="memdesc:aba35391edf7c3a25628bf99ed42cdca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bytes of device module blob.  <a href="namespacetvm_1_1runtime_1_1symbol.html#aba35391edf7c3a25628bf99ed42cdca1">More...</a><br /></td></tr>
+<tr class="separator:aba35391edf7c3a25628bf99ed42cdca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaad9cf8f51a55b2ec5b19854d692bd21"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1runtime_1_1symbol.html#aaad9cf8f51a55b2ec5b19854d692bd21">tvm::runtime::symbol::tvm_set_device</a> = &quot;__tvm_set_device&quot;</td></tr>
 <tr class="memdesc:aaad9cf8f51a55b2ec5b19854d692bd21"><td class="mdescLeft">&#160;</td><td class="mdescRight">global function to set device  <a href="namespacetvm_1_1runtime_1_1symbol.html#aaad9cf8f51a55b2ec5b19854d692bd21">More...</a><br /></td></tr>
 <tr class="separator:aaad9cf8f51a55b2ec5b19854d692bd21"><td class="memSeparator" colspan="2">&#160;</td></tr>

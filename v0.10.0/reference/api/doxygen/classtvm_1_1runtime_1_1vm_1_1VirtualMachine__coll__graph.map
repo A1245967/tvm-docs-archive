@@ -1,8 +1,8 @@
 <map id="tvm::runtime::vm::VirtualMachine" name="tvm::runtime::vm::VirtualMachine">
-<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1ModuleNode.html" title="Base container of module. " alt="" coords="31,673,227,927"/>
-<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,5,252,523"/>
-<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::vm::Executable \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="251,681,497,919"/>
-<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="522,644,701,956"/>
-<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="518,145,705,383"/>
-<area shape="rect" id="node7" href="$structtvm_1_1runtime_1_1vm_1_1Instruction.html" title="A single virtual machine instruction. " alt="" coords="725,585,938,1015"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1ModuleNode.html" title="Base container of module. " alt="" coords="5,651,284,949"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="21,5,268,523"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::vm::Executable \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="308,681,555,919"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="579,651,758,949"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="575,145,762,383"/>
+<area shape="rect" id="node7" href="$structtvm_1_1runtime_1_1vm_1_1Instruction.html" title="A single virtual machine instruction. " alt="" coords="782,585,995,1015"/>
 </map>

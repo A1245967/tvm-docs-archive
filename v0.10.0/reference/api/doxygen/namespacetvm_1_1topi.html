@@ -64,7 +64,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -88,11 +87,6 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacetvm_1_1topi_1_1vision"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi_1_1vision.html">vision</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacetvm_1_1topi_1_1x86"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi_1_1x86.html">x86</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtvm_1_1topi_1_1EinsumEquation.html">EinsumEquation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -383,9 +377,36 @@ Functions</h2></td></tr>
 <tr class="separator:af8a8c193bb338d941f66c6e56279bf38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab53285a6a4ca190fef26f6341981c8dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#ab53285a6a4ca190fef26f6341981c8dd">less_equal</a> (const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;A, const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;B, std::string name=&quot;T_&quot; &quot;less_equal&quot;, std::string tag=<a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a>)</td></tr>
 <tr class="separator:ab53285a6a4ca190fef26f6341981c8dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4cd6ffdbf7dbd4183640921fef5b99e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#ab4cd6ffdbf7dbd4183640921fef5b99e">InferEinsumShape</a> (const std::string &amp;subscripts, const std::vector&lt; <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&gt; &amp;operands)</td></tr>
-<tr class="memdesc:ab4cd6ffdbf7dbd4183640921fef5b99e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the shape of the output.  <a href="#ab4cd6ffdbf7dbd4183640921fef5b99e">More...</a><br /></td></tr>
-<tr class="separator:ab4cd6ffdbf7dbd4183640921fef5b99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60145589d4a0c7ef9d85c5f222ac28dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#a60145589d4a0c7ef9d85c5f222ac28dc">GetStride</a> (const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; <a class="el" href="namespacetvm_1_1topi.html#af30c02f3a3f37c7963b3af60fb9c72a1">shape</a>)</td></tr>
+<tr class="memdesc:a60145589d4a0c7ef9d85c5f222ac28dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the stride of the given shape.  <a href="#a60145589d4a0c7ef9d85c5f222ac28dc">More...</a><br /></td></tr>
+<tr class="separator:a60145589d4a0c7ef9d85c5f222ac28dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97c798d0a0ec20a95d351618b83d5121"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#a97c798d0a0ec20a95d351618b83d5121">Pad</a> (const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; <a class="el" href="namespacetvm_1_1topi.html#af30c02f3a3f37c7963b3af60fb9c72a1">shape</a>, int odim)</td></tr>
+<tr class="memdesc:a97c798d0a0ec20a95d351618b83d5121"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pad the shape with 1.  <a href="#a97c798d0a0ec20a95d351618b83d5121">More...</a><br /></td></tr>
+<tr class="separator:a97c798d0a0ec20a95d351618b83d5121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a9498e3d8d11a6f68faa9c43f055646"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#a9a9498e3d8d11a6f68faa9c43f055646">ParseOperandSubscripts</a> (const char *subscripts, int length, int ndim, int iop, char *op_labels, char *label_counts, int *min_label, int *max_label)</td></tr>
+<tr class="memdesc:a9a9498e3d8d11a6f68faa9c43f055646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse the subscripts for one operand into an output of 'ndim' labels.  <a href="#a9a9498e3d8d11a6f68faa9c43f055646">More...</a><br /></td></tr>
+<tr class="separator:a9a9498e3d8d11a6f68faa9c43f055646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe14535e9bb9aad78dd4e9c6bb3529bb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#abe14535e9bb9aad78dd4e9c6bb3529bb">ParseOutputSubscripts</a> (const char *subscripts, int length, int ndim_broadcast, const char *label_counts, char *out_labels)</td></tr>
+<tr class="memdesc:abe14535e9bb9aad78dd4e9c6bb3529bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse the subscripts for the output into an output that includes 'ndim_broadcast' unlabeled dimensions.  <a href="#abe14535e9bb9aad78dd4e9c6bb3529bb">More...</a><br /></td></tr>
+<tr class="separator:abe14535e9bb9aad78dd4e9c6bb3529bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a830eee18b651d35c1b5fc972f611fcec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#a830eee18b651d35c1b5fc972f611fcec">GetCombinedDimsView</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;op, int iop, char *labels, <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; *newshape, <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; *newstride)</td></tr>
+<tr class="memdesc:a830eee18b651d35c1b5fc972f611fcec"><td class="mdescLeft">&#160;</td><td class="mdescRight">If any dimensions are combined, create a view that combines them. Shows in newshape and newstride.  <a href="#a830eee18b651d35c1b5fc972f611fcec">More...</a><br /></td></tr>
+<tr class="separator:a830eee18b651d35c1b5fc972f611fcec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd222ea897da02e20c660fe435f06b84"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#abd222ea897da02e20c660fe435f06b84">CountSubstring</a> (const std::string &amp;str, const std::string &amp;<a class="el" href="namespacetvm.html#a89da021f5e3e2e911acfd96f973e5bc3">sub</a>)</td></tr>
+<tr class="memdesc:abd222ea897da02e20c660fe435f06b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count SubString.  <a href="#abd222ea897da02e20c660fe435f06b84">More...</a><br /></td></tr>
+<tr class="separator:abd222ea897da02e20c660fe435f06b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af01f6cc6b977801126083f0faffe252b"><td class="memItemLeft" align="right" valign="top">std::bitset&lt; 128 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#af01f6cc6b977801126083f0faffe252b">Str2Set</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:af01f6cc6b977801126083f0faffe252b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfer string to.  <a href="#af01f6cc6b977801126083f0faffe252b">More...</a><br /></td></tr>
+<tr class="separator:af01f6cc6b977801126083f0faffe252b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a164125ca6dd5c4b677f72e63ce6b3c21"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#a164125ca6dd5c4b677f72e63ce6b3c21">Split</a> (const std::string &amp;str, const std::string &amp;<a class="el" href="namespacetvm.html#a89da021f5e3e2e911acfd96f973e5bc3">sub</a>)</td></tr>
+<tr class="memdesc:a164125ca6dd5c4b677f72e63ce6b3c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split str according to substring.  <a href="#a164125ca6dd5c4b677f72e63ce6b3c21">More...</a><br /></td></tr>
+<tr class="separator:a164125ca6dd5c4b677f72e63ce6b3c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb771a1ebb231df6e61e22ce933ba40d"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#afb771a1ebb231df6e61e22ce933ba40d">ParseEinsumInput</a> (std::string subscripts, const std::vector&lt; <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&gt; &amp;operands)</td></tr>
+<tr class="memdesc:afb771a1ebb231df6e61e22ce933ba40d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse the input subscripts into a vector of strings.  <a href="#afb771a1ebb231df6e61e22ce933ba40d">More...</a><br /></td></tr>
+<tr class="separator:afb771a1ebb231df6e61e22ce933ba40d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc85c139664cb45e0f83fe0acdbf67d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#abc85c139664cb45e0f83fe0acdbf67d0">NumpyEinsumShape</a> (const std::string subscripts, const std::vector&lt; <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&gt; &amp;operands)</td></tr>
+<tr class="memdesc:abc85c139664cb45e0f83fe0acdbf67d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the shape of the output.  <a href="#abc85c139664cb45e0f83fe0acdbf67d0">More...</a><br /></td></tr>
+<tr class="separator:abc85c139664cb45e0f83fe0acdbf67d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af32230999c38eb624e8ea21ee6877eef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#af32230999c38eb624e8ea21ee6877eef">einsum</a> (const std::string &amp;subscripts_str, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &gt; inputs, std::string name=&quot;T_einsum&quot;, std::string tag=<a class="el" href="namespacetvm_1_1topi.html#a6b33f2b888123f3ccd7191feeaedb93b">kEinsum</a>)</td></tr>
 <tr class="memdesc:af32230999c38eb624e8ea21ee6877eef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates the Einstein summation convention on the operands.  <a href="#af32230999c38eb624e8ea21ee6877eef">More...</a><br /></td></tr>
 <tr class="separator:af32230999c38eb624e8ea21ee6877eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -491,6 +512,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aeed8d820017900935cc70877f7e327c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#aeed8d820017900935cc70877f7e327c2">fast_exp</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;x, std::string name=&quot;T_fast_exp&quot;, std::string tag=<a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a>)</td></tr>
 <tr class="memdesc:aeed8d820017900935cc70877f7e327c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast exponential function implementation.  <a href="#aeed8d820017900935cc70877f7e327c2">More...</a><br /></td></tr>
 <tr class="separator:aeed8d820017900935cc70877f7e327c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afca75634a931062fde8ff09a049cdab1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#afca75634a931062fde8ff09a049cdab1">fast_erf_float_expr</a> (<a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> arg, int bits)</td></tr>
+<tr class="memdesc:afca75634a931062fde8ff09a049cdab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast_erf_float expression from Eigen <a href="https://github.com/eigenteam/eigen-git-mirror/blob/master/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h#L290">https://github.com/eigenteam/eigen-git-mirror/blob/master/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h#L290</a>.  <a href="#afca75634a931062fde8ff09a049cdab1">More...</a><br /></td></tr>
+<tr class="separator:afca75634a931062fde8ff09a049cdab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a188f69f0e65e2efb4914e458db50b3d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#a188f69f0e65e2efb4914e458db50b3d8">fast_erf_float32</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;data, std::string name, std::string tag)</td></tr>
 <tr class="memdesc:a188f69f0e65e2efb4914e458db50b3d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast_erf_float expression from Eigen.  <a href="#a188f69f0e65e2efb4914e458db50b3d8">More...</a><br /></td></tr>
 <tr class="separator:a188f69f0e65e2efb4914e458db50b3d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -596,9 +620,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a4bc269a40cbdbac3b8b764950820dc8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#a4bc269a40cbdbac3b8b764950820dc8c">prod</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;data, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;axis, bool keepdims=false, bool atleast1d=false)</td></tr>
 <tr class="memdesc:a4bc269a40cbdbac3b8b764950820dc8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates product operation over given axis.  <a href="#a4bc269a40cbdbac3b8b764950820dc8c">More...</a><br /></td></tr>
 <tr class="separator:a4bc269a40cbdbac3b8b764950820dc8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12a94f9c1103f5e05fb9819e7176bf4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacetvm_1_1topi.html#a05ddefea973989205ef8cb14fcfe6ffe">FCommReduce</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#a12a94f9c1103f5e05fb9819e7176bf4c">MakeTupleSumReducer</a> ()</td></tr>
-<tr class="memdesc:a12a94f9c1103f5e05fb9819e7176bf4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create communitive reducer summing over tuples.  <a href="#a12a94f9c1103f5e05fb9819e7176bf4c">More...</a><br /></td></tr>
-<tr class="separator:a12a94f9c1103f5e05fb9819e7176bf4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5dcb2721aae4c9b84552b85db6e6cae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#ad5dcb2721aae4c9b84552b85db6e6cae">is_broadcast</a> (std::string tag)</td></tr>
 <tr class="separator:ad5dcb2721aae4c9b84552b85db6e6cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5975401def8848aaa49ae83729263919"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#a5975401def8848aaa49ae83729263919">is_injective</a> (std::string tag)</td></tr>
@@ -640,7 +661,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ac445e8a7906b15d79e70bb4102aef2e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">strided_slice of a tensor with dynamic begin/end/stride  <a href="#ac445e8a7906b15d79e70bb4102aef2e8">More...</a><br /></td></tr>
 <tr class="separator:ac445e8a7906b15d79e70bb4102aef2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff75b2e533b654909ca1bd9485ef4e6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#aff75b2e533b654909ca1bd9485ef4e6b">StridedSliceOutputShape</a> (const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; &amp;ishape, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;begin, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;end, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;strides, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;axes, const std::string &amp;slice_mode)</td></tr>
-<tr class="memdesc:aff75b2e533b654909ca1bd9485ef4e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the output shape of strided_slice, the entry point for Relay type relation.  <a href="#aff75b2e533b654909ca1bd9485ef4e6b">More...</a><br /></td></tr>
+<tr class="memdesc:aff75b2e533b654909ca1bd9485ef4e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcluate the output shape of strided_slice, the entry point for Relay type relation.  <a href="#aff75b2e533b654909ca1bd9485ef4e6b">More...</a><br /></td></tr>
 <tr class="separator:aff75b2e533b654909ca1bd9485ef4e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd9415b24624edac4edec4802d275062"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#acd9415b24624edac4edec4802d275062">strided_slice_with_axes</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;x, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;begin, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;end, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;strides, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;axes, std::string slice_mode=&quot;end&quot;, std::string name=&quot;T_strided_slice_with_axes&quot;, std::string tag=<a class="el" href="namespacetvm_1_1topi.html#a29e22aa45900dad3b6f9f705bb1dc688">kInjective</a>)</td></tr>
 <tr class="memdesc:acd9415b24624edac4edec4802d275062"><td class="mdescLeft">&#160;</td><td class="mdescRight">strided_slice of a tensor  <a href="#acd9415b24624edac4edec4802d275062">More...</a><br /></td></tr>
@@ -692,9 +713,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a453f9f5a35a9852a086ce0228ee22164"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#a453f9f5a35a9852a086ce0228ee22164">meshgrid</a> (const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &gt; &amp;inputs, const std::string &amp;indexing, std::string name=&quot;T_meshgrid&quot;, std::string tag=<a class="el" href="namespacetvm_1_1topi.html#a29e22aa45900dad3b6f9f705bb1dc688">kInjective</a>)</td></tr>
 <tr class="memdesc:a453f9f5a35a9852a086ce0228ee22164"><td class="mdescLeft">&#160;</td><td class="mdescRight">Produce grids by expanding input over dimensions defined by other inputs.  <a href="#a453f9f5a35a9852a086ce0228ee22164">More...</a><br /></td></tr>
 <tr class="separator:a453f9f5a35a9852a086ce0228ee22164"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a4108863737f5022a539a45d8ad59f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#a9a4108863737f5022a539a45d8ad59f0">layout_transform</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;src, const std::string &amp;src_layout, const std::string &amp;dst_layout, const std::string schedule_rule=&quot;None&quot;, const std::string name=&quot;T_layout_trans&quot;, const std::string tag=<a class="el" href="namespacetvm_1_1topi.html#a29e22aa45900dad3b6f9f705bb1dc688">kInjective</a>)</td></tr>
-<tr class="memdesc:a9a4108863737f5022a539a45d8ad59f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform the layout according to <code>src_layout</code> and <code>dst_layout</code>.  <a href="#a9a4108863737f5022a539a45d8ad59f0">More...</a><br /></td></tr>
-<tr class="separator:a9a4108863737f5022a539a45d8ad59f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a41a08eee70607889b738946ed97873"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#a8a41a08eee70607889b738946ed97873">layout_transform</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;src, const std::string &amp;src_layout, const std::string &amp;dst_layout, const std::string name=&quot;T_layout_trans&quot;, const std::string tag=<a class="el" href="namespacetvm_1_1topi.html#a29e22aa45900dad3b6f9f705bb1dc688">kInjective</a>)</td></tr>
+<tr class="memdesc:a8a41a08eee70607889b738946ed97873"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform the layout according to <code>src_layout</code> and <code>dst_layout</code>.  <a href="#a8a41a08eee70607889b738946ed97873">More...</a><br /></td></tr>
+<tr class="separator:a8a41a08eee70607889b738946ed97873"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fec3a88d419cd018cf1041cf3d99204"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi.html#a6fec3a88d419cd018cf1041cf3d99204">parse_auto_scheduler_layout</a> (const <a class="el" href="classtvm_1_1runtime_1_1String.html">String</a> &amp;layout, <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; *<a class="el" href="namespacetvm_1_1topi.html#af30c02f3a3f37c7963b3af60fb9c72a1">shape</a>, std::vector&lt; std::string &gt; *axes)</td></tr>
 <tr class="memdesc:a6fec3a88d419cd018cf1041cf3d99204"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for auto_scheduler_layout_transform.  <a href="#a6fec3a88d419cd018cf1041cf3d99204">More...</a><br /></td></tr>
 <tr class="separator:a6fec3a88d419cd018cf1041cf3d99204"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -949,44 +970,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa7d7e1d5966e6de6b29c902458a421e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7d7e1d5966e6de6b29c902458a421e8">&#9670;&nbsp;</a></span>add() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::add </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa69b8a2ea18f7043b576bd18faf41fd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa69b8a2ea18f7043b576bd18faf41fd4">&#9670;&nbsp;</a></span>add() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa69b8a2ea18f7043b576bd18faf41fd4">&#9670;&nbsp;</a></span>add() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1017,6 +1002,42 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7d7e1d5966e6de6b29c902458a421e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7d7e1d5966e6de6b29c902458a421e8">&#9670;&nbsp;</a></span>add() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::add </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2109,56 +2130,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a17dd74dbbb1e3f36965ac5e96d7505b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17dd74dbbb1e3f36965ac5e96d7505b8">&#9670;&nbsp;</a></span>bitwise_or() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::bitwise_or </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;bitwise_or&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a1f8b86bb189fcf569046b51265074dba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f8b86bb189fcf569046b51265074dba">&#9670;&nbsp;</a></span>bitwise_or() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f8b86bb189fcf569046b51265074dba">&#9670;&nbsp;</a></span>bitwise_or() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2189,6 +2162,54 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17dd74dbbb1e3f36965ac5e96d7505b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17dd74dbbb1e3f36965ac5e96d7505b8">&#9670;&nbsp;</a></span>bitwise_or() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::bitwise_or </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;bitwise_or&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2301,8 +2322,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a58363a09c12cf6372814a5b5f2ebb010"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58363a09c12cf6372814a5b5f2ebb010">&#9670;&nbsp;</a></span>bitwise_xor() <span class="overload">[2/4]</span></h2>
+<a id="ab2162aa07f9ffde1e507c3784337afcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2162aa07f9ffde1e507c3784337afcc">&#9670;&nbsp;</a></span>bitwise_xor() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2311,28 +2332,16 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::bitwise_xor </td>
+          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::bitwise_xor </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;bitwise_xor&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2397,8 +2406,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab2162aa07f9ffde1e507c3784337afcc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2162aa07f9ffde1e507c3784337afcc">&#9670;&nbsp;</a></span>bitwise_xor() <span class="overload">[4/4]</span></h2>
+<a id="a58363a09c12cf6372814a5b5f2ebb010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58363a09c12cf6372814a5b5f2ebb010">&#9670;&nbsp;</a></span>bitwise_xor() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2407,16 +2416,28 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::bitwise_xor </td>
+          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::bitwise_xor </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;bitwise_xor&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3152,6 +3173,52 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="abd222ea897da02e20c660fe435f06b84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd222ea897da02e20c660fe435f06b84">&#9670;&nbsp;</a></span>CountSubstring()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvm::topi::CountSubstring </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>sub</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Count SubString. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>the object string </td></tr>
+    <tr><td class="paramname">sub</td><td>the pattern string</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>number of substring </dd></dl>
+
+</div>
+</div>
 <a id="a786c950302117f8bdbbcab523f7b83bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a786c950302117f8bdbbcab523f7b83bb">&#9670;&nbsp;</a></span>depthwise_conv2d_nchw()</h2>
 
@@ -3786,6 +3853,9 @@ Variables</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> tvm::topi::einsum </td>
@@ -3817,6 +3887,11 @@ Variables</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Evaluates the Einstein summation convention on the operands. </p>
@@ -3886,44 +3961,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aad662b8455d6393f5bbf54a03c5b5df4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad662b8455d6393f5bbf54a03c5b5df4">&#9670;&nbsp;</a></span>equal() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::equal </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a23301af4bee39c516369b20089f93da7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23301af4bee39c516369b20089f93da7">&#9670;&nbsp;</a></span>equal() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a23301af4bee39c516369b20089f93da7">&#9670;&nbsp;</a></span>equal() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3954,6 +3993,42 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad662b8455d6393f5bbf54a03c5b5df4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad662b8455d6393f5bbf54a03c5b5df4">&#9670;&nbsp;</a></span>equal() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::equal </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -4358,6 +4433,51 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="afca75634a931062fde8ff09a049cdab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afca75634a931062fde8ff09a049cdab1">&#9670;&nbsp;</a></span>fast_erf_float_expr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> tvm::topi::fast_erf_float_expr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a>&#160;</td>
+          <td class="paramname"><em>arg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bits</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fast_erf_float expression from Eigen <a href="https://github.com/eigenteam/eigen-git-mirror/blob/master/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h#L290">https://github.com/eigenteam/eigen-git-mirror/blob/master/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h#L290</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>The input expression. </td></tr>
+    <tr><td class="paramname">bits</td><td>The number of bits in the type. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="aeed8d820017900935cc70877f7e327c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeed8d820017900935cc70877f7e327c2">&#9670;&nbsp;</a></span>fast_exp()</h2>
 
@@ -4604,44 +4724,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a6a04e135b576e7b4a17047168535c594"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a04e135b576e7b4a17047168535c594">&#9670;&nbsp;</a></span>floor_divide() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::floor_divide </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac972318d35093be225a3336843110626"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac972318d35093be225a3336843110626">&#9670;&nbsp;</a></span>floor_divide() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac972318d35093be225a3336843110626">&#9670;&nbsp;</a></span>floor_divide() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4672,6 +4756,42 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a04e135b576e7b4a17047168535c594"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a04e135b576e7b4a17047168535c594">&#9670;&nbsp;</a></span>floor_divide() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::floor_divide </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -5225,6 +5345,73 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a830eee18b651d35c1b5fc972f611fcec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a830eee18b651d35c1b5fc972f611fcec">&#9670;&nbsp;</a></span>GetCombinedDimsView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tvm::topi::GetCombinedDimsView </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>op</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>labels</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; *&#160;</td>
+          <td class="paramname"><em>newshape</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; *&#160;</td>
+          <td class="paramname"><em>newstride</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If any dimensions are combined, create a view that combines them. Shows in newshape and newstride. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>the operand tensor. </td></tr>
+    <tr><td class="paramname">iop</td><td>the index of the operand. </td></tr>
+    <tr><td class="paramname">labels</td><td>the op_labels fot the operand. Like [97, 98, -2] for "aba". </td></tr>
+    <tr><td class="paramname">newshape</td><td>The combined shape. </td></tr>
+    <tr><td class="paramname">newstride</td><td>The combined stride.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>For example: "aba -&gt; ab", shape = [2,3,2] stride = [6,2,1] op_labels = [97, 98, -2], newshape = [2,3], newstride = [7,2] </p>
+
+</div>
+</div>
 <a id="aa45cdc15f72e867eff29c74b2dffd185"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa45cdc15f72e867eff29c74b2dffd185">&#9670;&nbsp;</a></span>GetRealAxis()</h2>
 
@@ -5267,12 +5454,12 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A sorted array of valid dimension indices, with no duplicates. If the input axis is None, the result will be an axis including all dimensions. If any input element is negative, it will be treated as an offset from the last dimension (same as python indexing rules). </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A non-empty sorted array of valid dimension indices, with no duplicates. If the input axis is empty, the result will be an axis including all dimensions. If any input element is negative, it will be treated as an offset from the last dimension (same as python indexing rules). </dd></dl>
 
 </div>
 </div>
-<a id="acf30a8cba376ecf711ba3a4e69060aa1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf30a8cba376ecf711ba3a4e69060aa1">&#9670;&nbsp;</a></span>greater() <span class="overload">[1/4]</span></h2>
+<a id="a60145589d4a0c7ef9d85c5f222ac28dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60145589d4a0c7ef9d85c5f222ac28dc">&#9670;&nbsp;</a></span>GetStride()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5281,21 +5468,11 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::greater </td>
+          <td class="memname"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt;<a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a>&gt; tvm::topi::GetStride </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&#160;</td>
+          <td class="paramname"><em>shape</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -5305,10 +5482,19 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Compute the stride of the given shape. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shape</td><td>for the operation.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the stride of the shape. </dd></dl>
+
 </div>
 </div>
 <a id="a9ee3f9e5b7bbb47ef61c2f8a1246ecfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ee3f9e5b7bbb47ef61c2f8a1246ecfa">&#9670;&nbsp;</a></span>greater() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ee3f9e5b7bbb47ef61c2f8a1246ecfa">&#9670;&nbsp;</a></span>greater() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5355,8 +5541,44 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac4567ae14cdbf86db365e66f9de5d43a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4567ae14cdbf86db365e66f9de5d43a">&#9670;&nbsp;</a></span>greater() <span class="overload">[3/4]</span></h2>
+<a id="acf30a8cba376ecf711ba3a4e69060aa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf30a8cba376ecf711ba3a4e69060aa1">&#9670;&nbsp;</a></span>greater() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::greater </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0f3830047f4c7386efafe415aefd19f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0f3830047f4c7386efafe415aefd19f">&#9670;&nbsp;</a></span>greater() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5367,13 +5589,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::greater </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
           <td class="paramname"><em>B</em>, </td>
         </tr>
         <tr>
@@ -5403,8 +5625,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab0f3830047f4c7386efafe415aefd19f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0f3830047f4c7386efafe415aefd19f">&#9670;&nbsp;</a></span>greater() <span class="overload">[4/4]</span></h2>
+<a id="ac4567ae14cdbf86db365e66f9de5d43a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4567ae14cdbf86db365e66f9de5d43a">&#9670;&nbsp;</a></span>greater() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5415,13 +5637,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::greater </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
           <td class="paramname"><em>B</em>, </td>
         </tr>
         <tr>
@@ -5487,8 +5709,56 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a0e5d182474d3db1873fb6690743cf489"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e5d182474d3db1873fb6690743cf489">&#9670;&nbsp;</a></span>greater_equal() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::greater_equal </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;greater_equal&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1bb9dc6d401013bedf5a2af6f991a60d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bb9dc6d401013bedf5a2af6f991a60d">&#9670;&nbsp;</a></span>greater_equal() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bb9dc6d401013bedf5a2af6f991a60d">&#9670;&nbsp;</a></span>greater_equal() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5536,7 +5806,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="acd195e44eb6705f2772c902f290bfdcc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd195e44eb6705f2772c902f290bfdcc">&#9670;&nbsp;</a></span>greater_equal() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acd195e44eb6705f2772c902f290bfdcc">&#9670;&nbsp;</a></span>greater_equal() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5567,54 +5837,6 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0e5d182474d3db1873fb6690743cf489"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e5d182474d3db1873fb6690743cf489">&#9670;&nbsp;</a></span>greater_equal() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::greater_equal </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;greater_equal&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -5769,44 +5991,6 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A Tensor whose op member is the identity operation </dd></dl>
-
-</div>
-</div>
-<a id="ab4cd6ffdbf7dbd4183640921fef5b99e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4cd6ffdbf7dbd4183640921fef5b99e">&#9670;&nbsp;</a></span>InferEinsumShape()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt;<a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a>&gt; tvm::topi::InferEinsumShape </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>subscripts</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>operands</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute the shape of the output. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">subscripts</td><td>input subscripts. </td></tr>
-    <tr><td class="paramname">operands</td><td>operand tensors.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the shape of the output. </dd></dl>
 
 </div>
 </div>
@@ -5988,8 +6172,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9a4108863737f5022a539a45d8ad59f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a4108863737f5022a539a45d8ad59f0">&#9670;&nbsp;</a></span>layout_transform()</h2>
+<a id="a8a41a08eee70607889b738946ed97873"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a41a08eee70607889b738946ed97873">&#9670;&nbsp;</a></span>layout_transform()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6014,12 +6198,6 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>dst_layout</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string&#160;</td>
-          <td class="paramname"><em>schedule_rule</em> = <code>&quot;None&quot;</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -6054,7 +6232,6 @@ Variables</h2></td></tr>
     <tr><td class="paramname">dst_layout</td><td>the destination layout. </td></tr>
     <tr><td class="paramname">name</td><td>output tensor name. </td></tr>
     <tr><td class="paramname">tag</td><td>output tensor tag. </td></tr>
-    <tr><td class="paramname">schedule_rule</td><td>name of specialized schedule rule to use. </td></tr>
   </table>
   </dd>
 </dl>
@@ -6122,8 +6299,44 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a46057526edd4bbd0a291edf7f0c863b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46057526edd4bbd0a291edf7f0c863b4">&#9670;&nbsp;</a></span>left_shift() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::left_shift </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3e83ff0bafdc8bc4d92683c67fd3bbef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e83ff0bafdc8bc4d92683c67fd3bbef">&#9670;&nbsp;</a></span>left_shift() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e83ff0bafdc8bc4d92683c67fd3bbef">&#9670;&nbsp;</a></span>left_shift() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6154,42 +6367,6 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a46057526edd4bbd0a291edf7f0c863b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46057526edd4bbd0a291edf7f0c863b4">&#9670;&nbsp;</a></span>left_shift() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::left_shift </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -6302,44 +6479,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a28aa974fb51f2e262413811cab7f969e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28aa974fb51f2e262413811cab7f969e">&#9670;&nbsp;</a></span>less() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::less </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a8d3484eeb628a20b22b7908c31e59ad6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d3484eeb628a20b22b7908c31e59ad6">&#9670;&nbsp;</a></span>less() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d3484eeb628a20b22b7908c31e59ad6">&#9670;&nbsp;</a></span>less() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6370,6 +6511,42 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28aa974fb51f2e262413811cab7f969e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28aa974fb51f2e262413811cab7f969e">&#9670;&nbsp;</a></span>less() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::less </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -7574,33 +7751,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a12a94f9c1103f5e05fb9819e7176bf4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12a94f9c1103f5e05fb9819e7176bf4c">&#9670;&nbsp;</a></span>MakeTupleSumReducer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespacetvm_1_1topi.html#a05ddefea973989205ef8cb14fcfe6ffe">FCommReduce</a> tvm::topi::MakeTupleSumReducer </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Create communitive reducer summing over tuples. </p>
-
-</div>
-</div>
 <a id="adae7dcb7e951109ba72192202d182994"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adae7dcb7e951109ba72192202d182994">&#9670;&nbsp;</a></span>matmul()</h2>
 
@@ -8651,8 +8801,56 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aaaae1631632863cf63e39eccdcc546fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaae1631632863cf63e39eccdcc546fe">&#9670;&nbsp;</a></span>multiply() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::multiply </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;multiply&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5a5d59f85892da838847bced0990cb38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a5d59f85892da838847bced0990cb38">&#9670;&nbsp;</a></span>multiply() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a5d59f85892da838847bced0990cb38">&#9670;&nbsp;</a></span>multiply() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8688,7 +8886,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a513a52077bacc5cb7170aab7031c0465"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a513a52077bacc5cb7170aab7031c0465">&#9670;&nbsp;</a></span>multiply() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a513a52077bacc5cb7170aab7031c0465">&#9670;&nbsp;</a></span>multiply() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8719,54 +8917,6 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaaae1631632863cf63e39eccdcc546fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaaae1631632863cf63e39eccdcc546fe">&#9670;&nbsp;</a></span>multiply() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::multiply </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;multiply&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -9073,8 +9223,56 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a3428ced7efeeafb68adc69efbb077ce2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3428ced7efeeafb68adc69efbb077ce2">&#9670;&nbsp;</a></span>not_equal() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::not_equal </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;not_equal&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a23bd66c06c282d7eea39108d503f95a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23bd66c06c282d7eea39108d503f95a8">&#9670;&nbsp;</a></span>not_equal() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a23bd66c06c282d7eea39108d503f95a8">&#9670;&nbsp;</a></span>not_equal() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9110,7 +9308,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a947dbec698a5329b6fcb68d5822d08dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a947dbec698a5329b6fcb68d5822d08dc">&#9670;&nbsp;</a></span>not_equal() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a947dbec698a5329b6fcb68d5822d08dc">&#9670;&nbsp;</a></span>not_equal() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9157,8 +9355,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3428ced7efeeafb68adc69efbb077ce2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3428ced7efeeafb68adc69efbb077ce2">&#9670;&nbsp;</a></span>not_equal() <span class="overload">[4/4]</span></h2>
+<a id="abc85c139664cb45e0f83fe0acdbf67d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc85c139664cb45e0f83fe0acdbf67d0">&#9670;&nbsp;</a></span>NumpyEinsumShape()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9167,28 +9365,16 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::not_equal </td>
+          <td class="memname"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt;<a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a>&gt; tvm::topi::NumpyEinsumShape </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>subscripts</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;not_equal&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>operands</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -9202,6 +9388,16 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Compute the shape of the output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">subscripts</td><td>input subscripts. </td></tr>
+    <tr><td class="paramname">operands</td><td>operand tensors.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the shape of the output. </dd></dl>
 
 </div>
 </div>
@@ -9336,44 +9532,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0ea6dd9cf8eab4cb5e36a2e93ad7a3d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ea6dd9cf8eab4cb5e36a2e93ad7a3d0">&#9670;&nbsp;</a></span>operator &() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::operator&amp; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a987309f73498bdd293ad22782646bd8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a987309f73498bdd293ad22782646bd8c">&#9670;&nbsp;</a></span>operator &() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a987309f73498bdd293ad22782646bd8c">&#9670;&nbsp;</a></span>operator &() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9408,8 +9568,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa74d23e430a74219f60c7df1dcdd52ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa74d23e430a74219f60c7df1dcdd52ef">&#9670;&nbsp;</a></span>operator &&() <span class="overload">[1/3]</span></h2>
+<a id="a0ea6dd9cf8eab4cb5e36a2e93ad7a3d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ea6dd9cf8eab4cb5e36a2e93ad7a3d0">&#9670;&nbsp;</a></span>operator &() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9418,7 +9578,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::operator&amp;&amp; </td>
+          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::operator&amp; </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
@@ -9445,7 +9605,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="adf6412ce526876d0b6fd743dba8ba40e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf6412ce526876d0b6fd743dba8ba40e">&#9670;&nbsp;</a></span>operator &&() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adf6412ce526876d0b6fd743dba8ba40e">&#9670;&nbsp;</a></span>operator &&() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9481,7 +9641,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa836ff50a0222fbfa248bd46402651b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa836ff50a0222fbfa248bd46402651b8">&#9670;&nbsp;</a></span>operator &&() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa836ff50a0222fbfa248bd46402651b8">&#9670;&nbsp;</a></span>operator &&() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9516,8 +9676,44 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="afec7d1aad609844a128fafe362403f32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afec7d1aad609844a128fafe362403f32">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/3]</span></h2>
+<a id="aa74d23e430a74219f60c7df1dcdd52ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa74d23e430a74219f60c7df1dcdd52ef">&#9670;&nbsp;</a></span>operator &&() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::operator&amp;&amp; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>B</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1722245e3247b0ba8da3501436211be3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1722245e3247b0ba8da3501436211be3">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9534,7 +9730,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
           <td class="paramname"><em>B</em>&#160;</td>
         </tr>
         <tr>
@@ -9588,8 +9784,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1722245e3247b0ba8da3501436211be3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1722245e3247b0ba8da3501436211be3">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/3]</span></h2>
+<a id="afec7d1aad609844a128fafe362403f32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afec7d1aad609844a128fafe362403f32">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9606,7 +9802,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
           <td class="paramname"><em>B</em>&#160;</td>
         </tr>
         <tr>
@@ -9732,8 +9928,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9e415111322a3b0e9bf9a36f1d466a96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e415111322a3b0e9bf9a36f1d466a96">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/3]</span></h2>
+<a id="a94b5dec91cfb4ef5ccb8fae27238f69f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94b5dec91cfb4ef5ccb8fae27238f69f">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9744,13 +9940,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::operator- </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
           <td class="paramname"><em>B</em>&#160;</td>
         </tr>
         <tr>
@@ -9804,8 +10000,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a94b5dec91cfb4ef5ccb8fae27238f69f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94b5dec91cfb4ef5ccb8fae27238f69f">&#9670;&nbsp;</a></span>operator-() <span class="overload">[3/3]</span></h2>
+<a id="a9e415111322a3b0e9bf9a36f1d466a96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e415111322a3b0e9bf9a36f1d466a96">&#9670;&nbsp;</a></span>operator-() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9816,43 +10012,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::operator- </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a13eb3768682ba9bc6cec7022849ed021"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13eb3768682ba9bc6cec7022849ed021">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
@@ -9877,7 +10037,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a87de2cbd695e8dac8882e0b4276807f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87de2cbd695e8dac8882e0b4276807f6">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a87de2cbd695e8dac8882e0b4276807f6">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9913,7 +10073,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a996def5f7d018b91d83148e25910366b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a996def5f7d018b91d83148e25910366b">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a996def5f7d018b91d83148e25910366b">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9948,8 +10108,44 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8feb934fc60a783af0509f7a3811c27d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8feb934fc60a783af0509f7a3811c27d">&#9670;&nbsp;</a></span>operator>>() <span class="overload">[1/3]</span></h2>
+<a id="a13eb3768682ba9bc6cec7022849ed021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13eb3768682ba9bc6cec7022849ed021">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>B</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27d3173a662930df8ab27f3f75ebfa4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27d3173a662930df8ab27f3f75ebfa4c">&#9670;&nbsp;</a></span>operator>>() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9960,7 +10156,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::operator&gt;&gt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
@@ -10020,8 +10216,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a27d3173a662930df8ab27f3f75ebfa4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27d3173a662930df8ab27f3f75ebfa4c">&#9670;&nbsp;</a></span>operator>>() <span class="overload">[3/3]</span></h2>
+<a id="a8feb934fc60a783af0509f7a3811c27d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8feb934fc60a783af0509f7a3811c27d">&#9670;&nbsp;</a></span>operator>>() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10032,7 +10228,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::operator&gt;&gt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
@@ -10272,44 +10468,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2c5c3be4c5bc745dec9d3d9fa340a69e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c5c3be4c5bc745dec9d3d9fa340a69e">&#9670;&nbsp;</a></span>operator||() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::operator|| </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ae5a2628177fa9009024a6f540c41b799"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5a2628177fa9009024a6f540c41b799">&#9670;&nbsp;</a></span>operator||() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5a2628177fa9009024a6f540c41b799">&#9670;&nbsp;</a></span>operator||() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10345,7 +10505,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aed48bd10491c0ba13a63b3ebb1bbd8fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed48bd10491c0ba13a63b3ebb1bbd8fb">&#9670;&nbsp;</a></span>operator||() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aed48bd10491c0ba13a63b3ebb1bbd8fb">&#9670;&nbsp;</a></span>operator||() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10377,6 +10537,88 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c5c3be4c5bc745dec9d3d9fa340a69e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c5c3be4c5bc745dec9d3d9fa340a69e">&#9670;&nbsp;</a></span>operator||() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::operator|| </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>B</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97c798d0a0ec20a95d351618b83d5121"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97c798d0a0ec20a95d351618b83d5121">&#9670;&nbsp;</a></span>Pad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt;<a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a>&gt; tvm::topi::Pad </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&#160;</td>
+          <td class="paramname"><em>shape</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>odim</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pad the shape with 1. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shape</td><td>the input shape to be padded </td></tr>
+    <tr><td class="paramname">odim</td><td>the padding size of the objective shape.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the padded shape. </dd></dl>
 
 </div>
 </div>
@@ -10520,8 +10762,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8a09a91aeddabe41fb8c70e281203b39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a09a91aeddabe41fb8c70e281203b39">&#9670;&nbsp;</a></span>power() <span class="overload">[1/4]</span></h2>
+<a id="afb771a1ebb231df6e61e22ce933ba40d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb771a1ebb231df6e61e22ce933ba40d">&#9670;&nbsp;</a></span>ParseEinsumInput()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10530,28 +10772,16 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::power </td>
+          <td class="memname">std::tuple&lt;std::string, std::string&gt; tvm::topi::ParseEinsumInput </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;power&quot;</code>, </td>
+          <td class="paramname"><em>subscripts</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>operands</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -10565,11 +10795,176 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Parse the input subscripts into a vector of strings. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">subscripts</td><td>input subscripts. </td></tr>
+    <tr><td class="paramname">operands</td><td>operand tensors.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector of strings, vector[0] represents the input part, vector[1] represents the output. if no output, the vector[1] is NULL. "ab, bc -&gt; ac" =&gt; ["ab,bc", "ac"] </dd></dl>
+
+</div>
+</div>
+<a id="a9a9498e3d8d11a6f68faa9c43f055646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a9498e3d8d11a6f68faa9c43f055646">&#9670;&nbsp;</a></span>ParseOperandSubscripts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvm::topi::ParseOperandSubscripts </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>subscripts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ndim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>op_labels</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>label_counts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>min_label</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>max_label</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parse the subscripts for one operand into an output of 'ndim' labels. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">subscripts</td><td>the subscripts for to be parsed. </td></tr>
+    <tr><td class="paramname">length</td><td>subscripts[0: length] represents the current operand. </td></tr>
+    <tr><td class="paramname">ndim</td><td>the ndim of current operand. </td></tr>
+    <tr><td class="paramname">iop</td><td>the index of the operand. </td></tr>
+    <tr><td class="paramname">op_labels</td><td>the parsing result. For Example: subscripts="abbcbc", ndim=6 -&gt; op_labels=[97, 98, -1, 99, -3, -2]. subscripts="ab...bc", ndim=6 -&gt; op_labels=[97, 98, 0, 0, -3, 99]. </td></tr>
+    <tr><td class="paramname">label_counts</td><td>Count the number the label appears. </td></tr>
+    <tr><td class="paramname">min_label</td><td>Save the minimal label according to ASCII. </td></tr>
+    <tr><td class="paramname">max_label</td><td>Save the maximal label according to ASCII.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0. </dd></dl>
+
+</div>
+</div>
+<a id="abe14535e9bb9aad78dd4e9c6bb3529bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe14535e9bb9aad78dd4e9c6bb3529bb">&#9670;&nbsp;</a></span>ParseOutputSubscripts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tvm::topi::ParseOutputSubscripts </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>subscripts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ndim_broadcast</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>label_counts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>out_labels</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parse the subscripts for the output into an output that includes 'ndim_broadcast' unlabeled dimensions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">subscripts</td><td>the subscripts for to be parsed. </td></tr>
+    <tr><td class="paramname">length</td><td>subscripts[0: length] represents the output operand. </td></tr>
+    <tr><td class="paramname">ndim_broadcast</td><td>the broadcast dimension number. </td></tr>
+    <tr><td class="paramname">label_counts</td><td>Count the number the label appears. </td></tr>
+    <tr><td class="paramname">out_labels</td><td>similar to the op_labels in ParseOperandSubscripts, for each dimension, the ASCII code of the corresponding label. zero for the broadcasting dim.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the total number of output dimensions or -1 if there is an error. </dd></dl>
 
 </div>
 </div>
 <a id="a4ddd094f2b04a75ae9b1c438e0923d32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ddd094f2b04a75ae9b1c438e0923d32">&#9670;&nbsp;</a></span>power() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ddd094f2b04a75ae9b1c438e0923d32">&#9670;&nbsp;</a></span>power() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10616,8 +11011,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae23dc3372703de7e9d91b76c49b81ae0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae23dc3372703de7e9d91b76c49b81ae0">&#9670;&nbsp;</a></span>power() <span class="overload">[3/4]</span></h2>
+<a id="a8a09a91aeddabe41fb8c70e281203b39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a09a91aeddabe41fb8c70e281203b39">&#9670;&nbsp;</a></span>power() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10626,16 +11021,28 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::power </td>
+          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::power </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
+          <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;power&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -10653,7 +11060,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a448052f388219ee7aa016566bcdaa51c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a448052f388219ee7aa016566bcdaa51c">&#9670;&nbsp;</a></span>power() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a448052f388219ee7aa016566bcdaa51c">&#9670;&nbsp;</a></span>power() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10684,6 +11091,42 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae23dc3372703de7e9d91b76c49b81ae0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae23dc3372703de7e9d91b76c49b81ae0">&#9670;&nbsp;</a></span>power() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::power </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -11200,8 +11643,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a4eaac2e77d097d643e0fce3db96e00d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4eaac2e77d097d643e0fce3db96e00d0">&#9670;&nbsp;</a></span>right_shift() <span class="overload">[1/4]</span></h2>
+<a id="af4cded16f3e678f05304edf00566571e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4cded16f3e678f05304edf00566571e">&#9670;&nbsp;</a></span>right_shift() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11218,7 +11661,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
           <td class="paramname"><em>B</em>, </td>
         </tr>
         <tr>
@@ -11231,7 +11674,7 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
+          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -11248,8 +11691,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a8d155306c648c5925352eca1d7b17a60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d155306c648c5925352eca1d7b17a60">&#9670;&nbsp;</a></span>right_shift() <span class="overload">[2/4]</span></h2>
+<a id="a4eaac2e77d097d643e0fce3db96e00d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eaac2e77d097d643e0fce3db96e00d0">&#9670;&nbsp;</a></span>right_shift() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11260,13 +11703,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::right_shift </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
           <td class="paramname"><em>B</em>, </td>
         </tr>
         <tr>
@@ -11332,8 +11775,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="af4cded16f3e678f05304edf00566571e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4cded16f3e678f05304edf00566571e">&#9670;&nbsp;</a></span>right_shift() <span class="overload">[4/4]</span></h2>
+<a id="a8d155306c648c5925352eca1d7b17a60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d155306c648c5925352eca1d7b17a60">&#9670;&nbsp;</a></span>right_shift() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11344,7 +11787,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::right_shift </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
@@ -11363,7 +11806,7 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
+          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -12017,6 +12460,52 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a164125ca6dd5c4b677f72e63ce6b3c21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a164125ca6dd5c4b677f72e63ce6b3c21">&#9670;&nbsp;</a></span>Split()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; <a class="el" href="classtvm_1_1te_1_1Split.html">tvm::topi::Split</a> </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>sub</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Split str according to substring. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>input string. </td></tr>
+    <tr><td class="paramname">sub</td><td>the split pattern string.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector contains the splited substring. </dd></dl>
+
+</div>
+</div>
 <a id="af4e59b01a5842baf6b47ad3f83731f53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af4e59b01a5842baf6b47ad3f83731f53">&#9670;&nbsp;</a></span>split()</h2>
 
@@ -12320,6 +12809,41 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="af01f6cc6b977801126083f0faffe252b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af01f6cc6b977801126083f0faffe252b">&#9670;&nbsp;</a></span>Str2Set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::bitset&lt; 128 &gt; tvm::topi::Str2Set </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Transfer string to. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>input string.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bitset. </dd></dl>
+
+</div>
+</div>
 <a id="a208e90d4a8db8cf2c7d77b4460f7df70"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a208e90d4a8db8cf2c7d77b4460f7df70">&#9670;&nbsp;</a></span>strided_slice()</h2>
 
@@ -12547,7 +13071,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Calculate the output shape of strided_slice, the entry point for Relay type relation. </p>
+<p>Calcluate the output shape of strided_slice, the entry point for Relay type relation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ishape</td><td>The input tensor shape </td></tr>
@@ -12563,8 +13087,104 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a461a374321614b257311660b8bc45d0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a461a374321614b257311660b8bc45d0d">&#9670;&nbsp;</a></span>subtract() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::subtract </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;subtract&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1447c5af8653fa4fcbe69ee287a0a8fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1447c5af8653fa4fcbe69ee287a0a8fa">&#9670;&nbsp;</a></span>subtract() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::subtract </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;subtract&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3030be37f9db43ef90a5b2cc0997acd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3030be37f9db43ef90a5b2cc0997acd6">&#9670;&nbsp;</a></span>subtract() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3030be37f9db43ef90a5b2cc0997acd6">&#9670;&nbsp;</a></span>subtract() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12600,7 +13220,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a8867a72d238dbab5ccbe006b7ddd41ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8867a72d238dbab5ccbe006b7ddd41ed">&#9670;&nbsp;</a></span>subtract() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8867a72d238dbab5ccbe006b7ddd41ed">&#9670;&nbsp;</a></span>subtract() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12631,102 +13251,6 @@ template&lt;typename T &gt; </div>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1447c5af8653fa4fcbe69ee287a0a8fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1447c5af8653fa4fcbe69ee287a0a8fa">&#9670;&nbsp;</a></span>subtract() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::subtract </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;subtract&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a461a374321614b257311660b8bc45d0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a461a374321614b257311660b8bc45d0d">&#9670;&nbsp;</a></span>subtract() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::subtract </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;subtract&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -12869,6 +13393,7 @@ template&lt;typename T &gt; </div>
     <tr><td class="paramname">batch_dims</td><td>The number of batch dimensions. </td></tr>
     <tr><td class="paramname">mode</td><td>The mode of the operation. </td></tr>
     <tr><td class="paramname">name</td><td>The name of the operation. </td></tr>
+    <tr><td class="paramname">mode</td><td>The mode of to handle out of bound indices. </td></tr>
     <tr><td class="paramname">tag</td><td>The tag to mark the operation.</td></tr>
   </table>
   </dd>
@@ -13345,8 +13870,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ad0ec6441ffe89cd7dddded0f4cefe9c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0ec6441ffe89cd7dddded0f4cefe9c6">&#9670;&nbsp;</a></span>trunc_divide() <span class="overload">[1/4]</span></h2>
+<a id="a83bffb14911638b2d17fde2561357ab8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83bffb14911638b2d17fde2561357ab8">&#9670;&nbsp;</a></span>trunc_divide() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13355,28 +13880,16 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::trunc_divide </td>
+          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::trunc_divide </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;trunc_divide&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -13441,8 +13954,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a83bffb14911638b2d17fde2561357ab8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83bffb14911638b2d17fde2561357ab8">&#9670;&nbsp;</a></span>trunc_divide() <span class="overload">[3/4]</span></h2>
+<a id="ad0ec6441ffe89cd7dddded0f4cefe9c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0ec6441ffe89cd7dddded0f4cefe9c6">&#9670;&nbsp;</a></span>trunc_divide() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13451,16 +13964,28 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::trunc_divide </td>
+          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::trunc_divide </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;trunc_divide&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -13525,92 +14050,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a69c65a01037ee4f8c785ddaf3f640dbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69c65a01037ee4f8c785ddaf3f640dbd">&#9670;&nbsp;</a></span>trunc_mod() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::trunc_mod </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;trunc_mod&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4a8355449c45b08c2fa990364ac6390f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a8355449c45b08c2fa990364ac6390f">&#9670;&nbsp;</a></span>trunc_mod() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::trunc_mod </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a734246ab9ebf9e3e05f4cc333207c9fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a734246ab9ebf9e3e05f4cc333207c9fa">&#9670;&nbsp;</a></span>trunc_mod() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a734246ab9ebf9e3e05f4cc333207c9fa">&#9670;&nbsp;</a></span>trunc_mod() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13658,7 +14099,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a39441ae0b7b4003c05efb1ce8bafdd83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39441ae0b7b4003c05efb1ce8bafdd83">&#9670;&nbsp;</a></span>trunc_mod() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a39441ae0b7b4003c05efb1ce8bafdd83">&#9670;&nbsp;</a></span>trunc_mod() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13676,6 +14117,90 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;T_&quot;&#160;&quot;trunc_mod&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a0250c4095f19ae8a22ed85bc4ce5a40d">kElementWise</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a8355449c45b08c2fa990364ac6390f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a8355449c45b08c2fa990364ac6390f">&#9670;&nbsp;</a></span>trunc_mod() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> tvm::topi::trunc_mod </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69c65a01037ee4f8c785ddaf3f640dbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c65a01037ee4f8c785ddaf3f640dbd">&#9670;&nbsp;</a></span>trunc_mod() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> tvm::topi::trunc_mod </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">tvm::te::Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtvm_1_1PrimExpr.html">tvm::PrimExpr</a> &amp;&#160;</td>
           <td class="paramname"><em>B</em>, </td>
         </tr>
         <tr>

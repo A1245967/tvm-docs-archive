@@ -101,14 +101,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a6a553de73860c1a295d6ee566a3916b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi_1_1nn.html#a6a553de73860c1a295d6ee566a3916b4">flatten</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;x, std::string name=&quot;tensor&quot;, std::string tag=<a class="el" href="namespacetvm_1_1topi.html#a29e22aa45900dad3b6f9f705bb1dc688">kInjective</a>)</td></tr>
 <tr class="memdesc:a6a553de73860c1a295d6ee566a3916b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flattens the input tensor into a 2-D tensor by collapsing higher dimensions. This requires the input tensor to have constant sized dimensions.  <a href="#a6a553de73860c1a295d6ee566a3916b4">More...</a><br /></td></tr>
 <tr class="separator:a6a553de73860c1a295d6ee566a3916b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4dd10de091a0e2473c7bcb582ecb7a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi_1_1nn.html#ac4dd10de091a0e2473c7bcb582ecb7a3">group_norm</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;data, const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;gamma, const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;beta, int num_groups, int channel_axis, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;axes, double epsilon, std::string name=&quot;T_group_norm&quot;, std::string tag=<a class="el" href="namespacetvm_1_1topi.html#a29e22aa45900dad3b6f9f705bb1dc688">kInjective</a>)</td></tr>
-<tr class="separator:ac4dd10de091a0e2473c7bcb582ecb7a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c783a35f56dbddbea0b69e2976e87c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi_1_1nn.html#a5c783a35f56dbddbea0b69e2976e87c4">instance_norm</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;data, const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;gamma, const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;beta, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;axis, double epsilon, std::string name=&quot;T_instance_norm&quot;, std::string tag=<a class="el" href="namespacetvm_1_1topi.html#a29e22aa45900dad3b6f9f705bb1dc688">kInjective</a>)</td></tr>
-<tr class="memdesc:a5c783a35f56dbddbea0b69e2976e87c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instance normalization.  <a href="#a5c783a35f56dbddbea0b69e2976e87c4">More...</a><br /></td></tr>
-<tr class="separator:a5c783a35f56dbddbea0b69e2976e87c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accc17ec14bd2ccc2c0e8055165ba69bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi_1_1nn.html#accc17ec14bd2ccc2c0e8055165ba69bd">layer_norm</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;data, const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;gamma, const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;beta, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;axis, double epsilon, std::string name=&quot;T_layer_norm&quot;, std::string tag=<a class="el" href="namespacetvm_1_1topi.html#a29e22aa45900dad3b6f9f705bb1dc688">kInjective</a>)</td></tr>
-<tr class="memdesc:accc17ec14bd2ccc2c0e8055165ba69bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer normalization.  <a href="#accc17ec14bd2ccc2c0e8055165ba69bd">More...</a><br /></td></tr>
-<tr class="separator:accc17ec14bd2ccc2c0e8055165ba69bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3d8de9144f915a5dd27dcb70c0abdd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi_1_1nn.html#ac3d8de9144f915a5dd27dcb70c0abdd4">lrn</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;data, int size, int axis=1, float alpha=0.0001, float beta=0.75, float bias=2, std::string name=&quot;tensor&quot;, std::string tag=<a class="el" href="namespacetvm_1_1topi.html#a13aaf23f0ab77f1ed4a7d4b7816bf210">kBroadcast</a>)</td></tr>
 <tr class="memdesc:ac3d8de9144f915a5dd27dcb70c0abdd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local response normalization inference operator.  <a href="#ac3d8de9144f915a5dd27dcb70c0abdd4">More...</a><br /></td></tr>
 <tr class="separator:ac3d8de9144f915a5dd27dcb70c0abdd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,7 +113,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a2806be7f95eec10be2b3555a9094cee2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi_1_1nn.html#a2806be7f95eec10be2b3555a9094cee2">pool_grad_impl</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;out_grad, const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;x, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; &amp;kernel_size, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; &amp;stride_size, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; &amp;padding_size, <a class="el" href="namespacetvm_1_1topi_1_1nn.html#a3ffa0974d8cdcd5b8ca7afb3cfbaf53c">PoolType</a> pool_type, bool ceil_mode, const size_t height_axis, const size_t width_axis, bool count_include_pad)</td></tr>
 <tr class="separator:a2806be7f95eec10be2b3555a9094cee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab03974ee6b2d02a4619de1a4d0b42891"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi_1_1nn.html#ab03974ee6b2d02a4619de1a4d0b42891">find_depth_height_width</a> (const std::string &amp;layout, int *depth_axis, int *height_axis, int *width_axis)</td></tr>
-<tr class="memdesc:ab03974ee6b2d02a4619de1a4d0b42891"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find index of Depth, Height or Width dimension in a layout string.  <a href="#ab03974ee6b2d02a4619de1a4d0b42891">More...</a><br /></td></tr>
 <tr class="separator:ab03974ee6b2d02a4619de1a4d0b42891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec3b2a3e902d0d9c1f89d04ee8b3bcac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi_1_1nn.html#aec3b2a3e902d0d9c1f89d04ee8b3bcac">find_height_width</a> (const std::string &amp;layout, int *height_axis, int *width_axis)</td></tr>
 <tr class="separator:aec3b2a3e902d0d9c1f89d04ee8b3bcac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,9 +152,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ae5bacf7e4d7aa499e4c8420d39d7ad7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi_1_1nn.html#ae5bacf7e4d7aa499e4c8420d39d7ad7e">pool3d</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;x, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; &amp;kernel_size, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; &amp;stride_size, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; &amp;dilation_size, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; &amp;padding_size, <a class="el" href="namespacetvm_1_1topi_1_1nn.html#a3ffa0974d8cdcd5b8ca7afb3cfbaf53c">PoolType</a> pool_type, bool ceil_mode, const std::string &amp;layout=&quot;NCDHW&quot;, bool count_include_pad=true)</td></tr>
 <tr class="memdesc:ae5bacf7e4d7aa499e4c8420d39d7ad7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform pooling on depth, height and width dimension of data. It decides the depth, height and width dimension according to the layout string, in which 'D', 'W' and 'H' means depth, width and height respectively. Depth, Width and height dimension cannot be split. For example, NCDHW, NCDHW16c, etc. are valid for pool, while NCDHW16d, NCDHW16w or NCDHW16h are not. See <em>layout</em> for more information of the layout string convention.  <a href="#ae5bacf7e4d7aa499e4c8420d39d7ad7e">More...</a><br /></td></tr>
 <tr class="separator:ae5bacf7e4d7aa499e4c8420d39d7ad7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9b1107714dfc8b66f41579710ac3bba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi_1_1nn.html#ae9b1107714dfc8b66f41579710ac3bba">rms_norm</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;data, const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;weight, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;axis, double epsilon, std::string name=&quot;T_rms_norm&quot;, std::string tag=<a class="el" href="namespacetvm_1_1topi.html#a29e22aa45900dad3b6f9f705bb1dc688">kInjective</a>)</td></tr>
-<tr class="memdesc:ae9b1107714dfc8b66f41579710ac3bba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Root mean square normalization.  <a href="#ae9b1107714dfc8b66f41579710ac3bba">More...</a><br /></td></tr>
-<tr class="separator:ae9b1107714dfc8b66f41579710ac3bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2cb22c64412c3eacb351c12b883333b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1topi_1_1nn.html#aa2cb22c64412c3eacb351c12b883333b">softmax</a> (const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;x, int axis=-1, std::string name=&quot;tensor&quot;, std::string tag=&quot;softmax_output&quot;)</td></tr>
 <tr class="memdesc:aa2cb22c64412c3eacb351c12b883333b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Softmax activation.  <a href="#aa2cb22c64412c3eacb351c12b883333b">More...</a><br /></td></tr>
 <tr class="separator:aa2cb22c64412c3eacb351c12b883333b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -832,18 +820,6 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Find index of Depth, Height or Width dimension in a layout string. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">layout</td><td>The layout string </td></tr>
-    <tr><td class="paramname">depth_axis</td><td>set as the index of depth ('D') if not nullptr. </td></tr>
-    <tr><td class="paramname">height_axis</td><td>set as the index of height ('H') if not nullptr. </td></tr>
-    <tr><td class="paramname">width_axis</td><td>set as the index of width ('W') if not nullptr.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>true if the layout is valid (i.e., no tiling on D, H or W dimensions, no duplicates and if the requested dimensions are found), otherwise false. </dd></dl>
-
 </div>
 </div>
 <a id="aec3b2a3e902d0d9c1f89d04ee8b3bcac"></a>
@@ -1027,246 +1003,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The output tensor in same layout with height and width dimension size of 1. e.g., for NCHW, the output shape will be [batch, channel, 1, 1] </dd></dl>
-
-</div>
-</div>
-<a id="ac4dd10de091a0e2473c7bcb582ecb7a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4dd10de091a0e2473c7bcb582ecb7a3">&#9670;&nbsp;</a></span>group_norm()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> tvm::topi::nn::group_norm </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>gamma</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>beta</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num_groups</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>channel_axis</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>axes</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>epsilon</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em> = <code>&quot;T_group_norm&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a29e22aa45900dad3b6f9f705bb1dc688">kInjective</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5c783a35f56dbddbea0b69e2976e87c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c783a35f56dbddbea0b69e2976e87c4">&#9670;&nbsp;</a></span>instance_norm()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> tvm::topi::nn::instance_norm </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>gamma</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>beta</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>axis</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>epsilon</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em> = <code>&quot;T_instance_norm&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a29e22aa45900dad3b6f9f705bb1dc688">kInjective</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Instance normalization. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">data</td><td>N-D tensor with shape [d_0, d_1, ..., d_{N-1}] </td></tr>
-    <tr><td class="paramname">gamma</td><td>K-D tensor with shape [r_0, r_1, ..., r_{K-1}] where K == len(axis) and d_{axis_k} == r_k </td></tr>
-    <tr><td class="paramname">beta</td><td>Optional, K-D tensor with shape [r_0, r_1, ..., r_{K-1}] where d_{axis_k} == r_k </td></tr>
-    <tr><td class="paramname">axis</td><td>The axis to normalize over (the axis along which mean and variance are computed). </td></tr>
-    <tr><td class="paramname">epsilon</td><td>The epsilon value to avoid division by zero. </td></tr>
-    <tr><td class="paramname">name</td><td>The name of the operation. </td></tr>
-    <tr><td class="paramname">tag</td><td>The tag to mark the operation. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The normalized tensor, with the same shape as data. </dd></dl>
-
-</div>
-</div>
-<a id="accc17ec14bd2ccc2c0e8055165ba69bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accc17ec14bd2ccc2c0e8055165ba69bd">&#9670;&nbsp;</a></span>layer_norm()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> tvm::topi::nn::layer_norm </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>gamma</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>beta</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>axis</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>epsilon</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em> = <code>&quot;T_layer_norm&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a29e22aa45900dad3b6f9f705bb1dc688">kInjective</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Layer normalization. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">data</td><td>N-D tensor with shape [d_0, d_1, ..., d_{N-1}] </td></tr>
-    <tr><td class="paramname">gamma</td><td>K-D tensor with shape [r_0, r_1, ..., r_{K-1}] where K == len(axis) and d_{axis_k} == r_k </td></tr>
-    <tr><td class="paramname">beta</td><td>Optional, K-D tensor with shape [r_0, r_1, ..., r_{K-1}] where d_{axis_k} == r_k </td></tr>
-    <tr><td class="paramname">axis</td><td>The axis to normalize over. </td></tr>
-    <tr><td class="paramname">epsilon</td><td>The epsilon value to avoid division by zero. </td></tr>
-    <tr><td class="paramname">name</td><td>The name of the operation. </td></tr>
-    <tr><td class="paramname">tag</td><td>The tag to mark the operation. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The normalized tensor, with the same shape as data. </dd></dl>
 
 </div>
 </div>
@@ -1967,80 +1703,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The output tensor in same layout order </dd></dl>
-
-</div>
-</div>
-<a id="ae9b1107714dfc8b66f41579710ac3bba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9b1107714dfc8b66f41579710ac3bba">&#9670;&nbsp;</a></span>rms_norm()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> tvm::topi::nn::rms_norm </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1te_1_1Tensor.html">Tensor</a> &amp;&#160;</td>
-          <td class="paramname"><em>weight</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1Integer.html">Integer</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>axis</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>epsilon</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em> = <code>&quot;T_rms_norm&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>tag</em> = <code><a class="el" href="namespacetvm_1_1topi.html#a29e22aa45900dad3b6f9f705bb1dc688">kInjective</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Root mean square normalization. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">data</td><td>N-D tensor with shape [d_0, d_1, ..., d_{N-1}] </td></tr>
-    <tr><td class="paramname">weight</td><td>K-D tensor with shape [r_0, r_1, ..., r_{K-1}] where K == len(axis) and d_{axis_k} == r_k </td></tr>
-    <tr><td class="paramname">axis</td><td>The axis to normalize over. </td></tr>
-    <tr><td class="paramname">epsilon</td><td>The epsilon value to avoid division by zero. </td></tr>
-    <tr><td class="paramname">name</td><td>The name of the operation. </td></tr>
-    <tr><td class="paramname">tag</td><td>The tag to mark the operation. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The normalized tensor, with the same shape as data. </dd></dl>
 
 </div>
 </div>

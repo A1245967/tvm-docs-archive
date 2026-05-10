@@ -82,13 +82,12 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for device_api.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="device__api_8h__incl.svg" width="3126" height="723"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="device__api_8h__incl.svg" width="2974" height="708"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="device__api_8h__dep__incl.svg" width="891" height="231"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="device__api_8h__dep__incl.svg" width="1023" height="231"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -126,8 +125,7 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespacetvm_1_1runtime.html#a46fef1ca0ccc05473e9bb0a8c6b66619ad7ca96c2095b4670de00ee1d0ca79201">tvm::runtime::kGcnArch</a> = 10, 
 <a class="el" href="namespacetvm_1_1runtime.html#a46fef1ca0ccc05473e9bb0a8c6b66619a69fe0643750b0c49e8b8aefb1cada337">tvm::runtime::kApiVersion</a> = 11, 
 <br />
-&#160;&#160;<a class="el" href="namespacetvm_1_1runtime.html#a46fef1ca0ccc05473e9bb0a8c6b66619a100cda550bad77fbaf993566c022bdf9">tvm::runtime::kDriverVersion</a> = 12, 
-<a class="el" href="namespacetvm_1_1runtime.html#a46fef1ca0ccc05473e9bb0a8c6b66619afebd0fa20dbcf8f5fe6b31f7bdfb7496">tvm::runtime::kL2CacheSizeBytes</a> = 13
+&#160;&#160;<a class="el" href="namespacetvm_1_1runtime.html#a46fef1ca0ccc05473e9bb0a8c6b66619a100cda550bad77fbaf993566c022bdf9">tvm::runtime::kDriverVersion</a> = 12
 <br />
  }<tr class="memdesc:a46fef1ca0ccc05473e9bb0a8c6b66619"><td class="mdescLeft">&#160;</td><td class="mdescRight">the query type into GetAttr  <a href="namespacetvm_1_1runtime.html#a46fef1ca0ccc05473e9bb0a8c6b66619">More...</a><br /></td></tr>
 </td></tr>
@@ -135,6 +133,9 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a9109e4efe269213052ed6a94853c0c00"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1runtime.html#a9109e4efe269213052ed6a94853c0c00">tvm::runtime::DeviceName</a> (int type)</td></tr>
+<tr class="memdesc:a9109e4efe269213052ed6a94853c0c00"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of Device API factory.  <a href="namespacetvm_1_1runtime.html#a9109e4efe269213052ed6a94853c0c00">More...</a><br /></td></tr>
+<tr class="separator:a9109e4efe269213052ed6a94853c0c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5f13cd8047078f88d142fe53337ba6f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1runtime.html#aa5f13cd8047078f88d142fe53337ba6f">tvm::runtime::IsRPCSessionDevice</a> (Device dev)</td></tr>
 <tr class="memdesc:aa5f13cd8047078f88d142fe53337ba6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if a Device is owned by an RPC session.  <a href="namespacetvm_1_1runtime.html#aa5f13cd8047078f88d142fe53337ba6f">More...</a><br /></td></tr>
 <tr class="separator:aa5f13cd8047078f88d142fe53337ba6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,8 +145,8 @@ Functions</h2></td></tr>
 <tr class="memitem:af32398517b6b915361c5716f8e32c16f"><td class="memItemLeft" align="right" valign="top">Device&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1runtime.html#af32398517b6b915361c5716f8e32c16f">tvm::runtime::RemoveRPCSessionMask</a> (Device dev)</td></tr>
 <tr class="memdesc:af32398517b6b915361c5716f8e32c16f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the RPC session mask from a Device. RPC clients typically do this when encoding a Device for transmission to an RPC remote. On the wire, RPCdevice are expected to be valid on the server without interpretation.  <a href="namespacetvm_1_1runtime.html#af32398517b6b915361c5716f8e32c16f">More...</a><br /></td></tr>
 <tr class="separator:af32398517b6b915361c5716f8e32c16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9e8684776f3f98b6a5a13c9c343904f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1runtime.html#ac9e8684776f3f98b6a5a13c9c343904f">tvm::runtime::operator&lt;&lt;</a> (std::ostream &amp;os, DLDevice dev)</td></tr>
-<tr class="separator:ac9e8684776f3f98b6a5a13c9c343904f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06b70cf1ffccb2b7737d26cccb4103d8"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1runtime.html#a06b70cf1ffccb2b7737d26cccb4103d8">tvm::runtime::operator&lt;&lt;</a> (std::ostream &amp;os, DLDevice dev)</td></tr>
+<tr class="separator:a06b70cf1ffccb2b7737d26cccb4103d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa93f6c733bf54ca19d642a5ae2ec94be"><td class="memItemLeft" align="right" valign="top">Device&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1runtime.html#aa93f6c733bf54ca19d642a5ae2ec94be">tvm::runtime::AddRPCSessionMask</a> (Device dev, int session_table_index)</td></tr>
 <tr class="memdesc:aa93f6c733bf54ca19d642a5ae2ec94be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a RPC session mask to a Device. RPC clients typically do this when decoding a Device received from a RPC remote.  <a href="namespacetvm_1_1runtime.html#aa93f6c733bf54ca19d642a5ae2ec94be">More...</a><br /></td></tr>
 <tr class="separator:aa93f6c733bf54ca19d642a5ae2ec94be"><td class="memSeparator" colspan="2">&#160;</td></tr>

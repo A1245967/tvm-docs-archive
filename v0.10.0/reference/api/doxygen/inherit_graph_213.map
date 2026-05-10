@@ -1,10 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classtvm_1_1tir_1_1ExprFunctor.html" title="tvm::tir::ExprFunctor\l\&lt; PrimExpr(const PrimExpr &amp;)\&gt;" alt="" coords="5,5,235,47"/>
-<area shape="rect" id="node2" href="$classtvm_1_1tir_1_1ExprMutator.html" title="ExprMutator that mutates expressions. " alt="" coords="283,17,441,43"/>
-<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1StmtExprMutator.html" title="Mutator that recursively mutates stmts and exprs on them. " alt="" coords="489,46,677,73"/>
-<area shape="rect" id="node4" href="$classtvm_1_1tir_1_1DataTypeLegalizer.html" title="Legalize the data types of expressions to make sure they are consistent with other parts of the progr..." alt="" coords="725,46,925,73"/>
-<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1IndexDataTypeRewriter.html" title="Data type rewriter for buffer indices. " alt="" coords="973,46,1205,73"/>
-<area shape="rect" id="node6" href="$classtvm_1_1tir_1_1IndexDataTypeNormalizer.html" title="Normalize the data types of buffer shapes and indices to the same data type. " alt="" coords="1253,46,1503,73"/>
-<area shape="rect" id="node7" href="$classtvm_1_1tir_1_1StmtFunctor.html" title="tvm::tir::StmtFunctor\l\&lt; Stmt(const Stmt &amp;)\&gt;" alt="" coords="33,71,207,112"/>
-<area shape="rect" id="node8" href="$classtvm_1_1tir_1_1StmtMutator.html" title="StmtMutator that mutates the statements. " alt="" coords="283,71,441,98"/>
+<area shape="rect" id="node1" href="$classtvm_1_1tir_1_1ExprFunctor.html" title="tvm::tir::ExprFunctor\l\&lt; void(const PrimExpr &amp;)\&gt;" alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node2" href="$classtvm_1_1tir_1_1ExprVisitor.html" title="ExprVisitor. " alt="" coords="253,17,402,43"/>
+<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1StmtExprVisitor.html" title="Visitor that recursively visit stmts and exprs on them. " alt="" coords="451,46,631,73"/>
+<area shape="rect" id="node4" href="$classtvm_1_1tir_1_1StmtFunctor.html" title="tvm::tir::StmtFunctor\l\&lt; void(const Stmt &amp;)\&gt;" alt="" coords="19,71,190,112"/>
+<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1StmtVisitor.html" title="StmtVisitor. " alt="" coords="252,71,403,98"/>
 </map>

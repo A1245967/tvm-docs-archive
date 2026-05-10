@@ -1,9 +1,9 @@
 <map id="tvm::relay::MaxPool1DAttrs" name="tvm::relay::MaxPool1DAttrs">
-<area shape="rect" id="node2" href="$classtvm_1_1AttrsNode.html" title="{tvm::AttrsNode\&lt; MaxPool1\lDAttrs \&gt;\n||+ VisitAttrs()\l+ VisitNonDefaultAttrs()\l+ InitByPackedArgs()\l+ SEqualReduce()\l+ SHashReduce()\l+ ListFieldInfo()\l}" alt="" coords="44,1035,243,1200"/>
-<area shape="rect" id="node3" href="$classtvm_1_1BaseAttrsNode.html" title="Base class of all attribute class. " alt="" coords="5,622,281,861"/>
+<area shape="rect" id="node2" href="$classtvm_1_1AttrsNode.html" title="{tvm::AttrsNode\&lt; MaxPool1\lDAttrs \&gt;\n||+ VisitAttrs()\l+ VisitNonDefaultAttrs()\l+ InitByPackedArgs()\l+ SEqualReduce()\l+ SHashReduce()\l+ ListFieldInfo()\l}" alt="" coords="44,976,243,1141"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseAttrsNode.html" title="Base class of all attribute class. " alt="" coords="5,615,281,853"/>
 <area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="20,5,267,523"/>
-<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::PrimExpr \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l+ CalcCapacityImpl()\l+ CalcCapacityImpl()\l+ CalcCapacityImpl()\l+ AgregateImpl()\l+ AgregateImpl()\l+ AgregateImpl()\l+ Agregate()\l}" alt="" coords="267,947,428,1288"/>
-<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="415,585,594,897"/>
-<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1String.html" title="Reference to string objects. " alt="" coords="452,991,611,1244"/>
-<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="411,145,598,383"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::PrimExpr \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l}" alt="" coords="267,939,417,1178"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="409,585,587,883"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1String.html" title="Reference to string objects. " alt="" coords="441,932,597,1185"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="405,145,591,383"/>
 </map>

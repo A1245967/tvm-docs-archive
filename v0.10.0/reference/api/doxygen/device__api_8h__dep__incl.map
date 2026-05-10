@@ -1,9 +1,10 @@
 <map id="include/tvm/runtime/device_api.h" name="include/tvm/runtime/device_api.h">
-<area shape="rect" id="node2" href="$profiling_8h.html" title="Runtime profiling including timers. " alt="" coords="39,95,193,136"/>
-<area shape="rect" id="node4" href="$greedy_8h.html" title="This header file contains helper methods used in greedy algorithms for planning memory for USMP..." alt="" coords="184,184,341,225"/>
-<area shape="rect" id="node5" href="$tir_2usmp_2utils_8h.html" title="Utilities for Unified Static Memory Planner. " alt="" coords="365,95,523,136"/>
-<area shape="rect" id="node3" href="$papi_8h.html" title="include/tvm/runtime\l/contrib/papi.h" alt="" coords="5,184,160,225"/>
-<area shape="rect" id="node6" href="$algorithms_8h.html" title="The memory planning algorithm for USMP. " alt="" coords="365,184,523,225"/>
-<area shape="rect" id="node7" href="$tir_2usmp_2analysis_8h.html" title="The analysis passes for TIR&#45;based Unified Static Memory Planner. " alt="" coords="547,184,704,225"/>
-<area shape="rect" id="node8" href="$tir_2usmp_2transform_8h.html" title="The transform passes for TIR&#45;based Unified Static Memory Planner. " alt="" coords="728,184,885,225"/>
+<area shape="rect" id="node2" href="$conv2d_8h.html" title="include/tvm/runtime\l/hexagon/ops/conv2d.h" alt="" coords="5,95,177,136"/>
+<area shape="rect" id="node3" href="$profiling_8h.html" title="Runtime profiling including timers. " alt="" coords="202,95,357,136"/>
+<area shape="rect" id="node5" href="$greedy_8h.html" title="This header file contains helper methods used in greedy algorithms for planning memory for USMP..." alt="" coords="315,184,473,225"/>
+<area shape="rect" id="node6" href="$tir_2usmp_2utils_8h.html" title="Utilities for Unified Static Memory Planner. " alt="" coords="497,95,654,136"/>
+<area shape="rect" id="node4" href="$papi_8h.html" title="include/tvm/runtime\l/contrib/papi.h" alt="" coords="137,184,291,225"/>
+<area shape="rect" id="node7" href="$algorithms_8h.html" title="The memory planning algorithm for USMP. " alt="" coords="497,184,654,225"/>
+<area shape="rect" id="node8" href="$tir_2usmp_2analysis_8h.html" title="The analysis passes for TIR&#45;based Unified Static Memory Planner. " alt="" coords="678,184,835,225"/>
+<area shape="rect" id="node9" href="$tir_2usmp_2transform_8h.html" title="The transform passes for TIR&#45;based Unified Static Memory Planner. " alt="" coords="859,184,1017,225"/>
 </map>

@@ -1,21 +1,22 @@
 <map id="tvm::tir::Stmt" name="tvm::tir::Stmt">
-<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1Allocate.html" title="Managed reference to AllocateNode. " alt="" coords="5,542,211,678"/>
-<area shape="rect" id="node4" href="$classtvm_1_1tir_1_1AllocateConst.html" title="Managed reference to AllocateConstNode. " alt="" coords="235,542,440,678"/>
-<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1AssertStmt.html" title="Managed reference to AssertStmtNode. " alt="" coords="464,542,669,678"/>
-<area shape="rect" id="node6" href="$classtvm_1_1tir_1_1AttrStmt.html" title="Managed reference to AttrStmtNode. " alt="" coords="693,542,899,678"/>
-<area shape="rect" id="node7" href="$classtvm_1_1tir_1_1Block.html" title="Managed reference to BlockNode. " alt="" coords="923,542,1128,678"/>
-<area shape="rect" id="node8" href="$classtvm_1_1tir_1_1BlockRealize.html" title="Managed reference to BlockRealizeNode. " alt="" coords="1152,542,1357,678"/>
-<area shape="rect" id="node9" href="$classtvm_1_1tir_1_1BufferRealize.html" title="Managed reference to BufferRealizeNode. " alt="" coords="1381,542,1603,678"/>
-<area shape="rect" id="node10" href="$classtvm_1_1tir_1_1BufferStore.html" title="Managed reference to BufferStoreNode. " alt="" coords="1627,542,1832,678"/>
-<area shape="rect" id="node11" href="$classtvm_1_1tir_1_1DeclBuffer.html" title="Managed reference to DeclBufferNode. " alt="" coords="1856,542,2061,678"/>
-<area shape="rect" id="node12" href="$classtvm_1_1tir_1_1Evaluate.html" title="Managed reference to EvaluateNode. " alt="" coords="2085,535,2291,685"/>
-<area shape="rect" id="node13" href="$classtvm_1_1tir_1_1For.html" title="Managed reference to ForNode. " alt="" coords="2315,542,2520,678"/>
-<area shape="rect" id="node14" href="$classtvm_1_1tir_1_1IfThenElse.html" title="Managed reference to IfThenElseNode. " alt="" coords="2544,542,2749,678"/>
-<area shape="rect" id="node15" href="$classtvm_1_1tir_1_1LetStmt.html" title="Managed reference to LetStmtNode. " alt="" coords="2773,542,2979,678"/>
-<area shape="rect" id="node16" href="$classtvm_1_1tir_1_1Prefetch.html" title="Managed reference to PrefetchNode. " alt="" coords="3003,542,3224,678"/>
-<area shape="rect" id="node17" href="$classtvm_1_1tir_1_1ProducerRealize.html" title="Managed reference to ProducerRealizeNode. " alt="" coords="3248,542,3453,678"/>
-<area shape="rect" id="node18" href="$classtvm_1_1tir_1_1ProducerStore.html" title="Managed reference to ProducerStoreNode. " alt="" coords="3477,542,3683,678"/>
-<area shape="rect" id="node19" href="$classtvm_1_1tir_1_1SeqStmt.html" title="Sequence statement. " alt="" coords="3707,520,3912,700"/>
-<area shape="rect" id="node20" href="$classtvm_1_1tir_1_1While.html" title="Managed reference to WhileNode. " alt="" coords="3936,542,4141,678"/>
-<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="1984,5,2163,332"/>
+<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1Allocate.html" title="Managed reference to AllocateNode. " alt="" coords="5,513,211,649"/>
+<area shape="rect" id="node4" href="$classtvm_1_1tir_1_1AllocateConst.html" title="Managed reference to AllocateConstNode. " alt="" coords="235,527,440,634"/>
+<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1AssertStmt.html" title="Managed reference to AssertStmtNode. " alt="" coords="464,527,669,634"/>
+<area shape="rect" id="node6" href="$classtvm_1_1tir_1_1AttrStmt.html" title="Managed reference to AttrStmtNode. " alt="" coords="693,527,899,634"/>
+<area shape="rect" id="node7" href="$classtvm_1_1tir_1_1Block.html" title="Managed reference to BlockNode. " alt="" coords="923,513,1128,649"/>
+<area shape="rect" id="node8" href="$classtvm_1_1tir_1_1BlockRealize.html" title="Managed reference to BlockRealizeNode. " alt="" coords="1152,513,1357,649"/>
+<area shape="rect" id="node9" href="$classtvm_1_1tir_1_1BufferRealize.html" title="Managed reference to BufferRealizeNode. " alt="" coords="1381,513,1603,649"/>
+<area shape="rect" id="node10" href="$classtvm_1_1tir_1_1BufferStore.html" title="Managed reference to BufferStoreNode. " alt="" coords="1627,513,1832,649"/>
+<area shape="rect" id="node11" href="$classtvm_1_1tir_1_1DeclBuffer.html" title="Managed reference to DeclBufferNode. " alt="" coords="1856,513,2061,649"/>
+<area shape="rect" id="node12" href="$classtvm_1_1tir_1_1Evaluate.html" title="Managed reference to EvaluateNode. " alt="" coords="2085,520,2291,641"/>
+<area shape="rect" id="node13" href="$classtvm_1_1tir_1_1For.html" title="Managed reference to ForNode. " alt="" coords="2315,513,2520,649"/>
+<area shape="rect" id="node14" href="$classtvm_1_1tir_1_1IfThenElse.html" title="Managed reference to IfThenElseNode. " alt="" coords="2544,527,2749,634"/>
+<area shape="rect" id="node15" href="$classtvm_1_1tir_1_1LetStmt.html" title="Managed reference to LetStmtNode. " alt="" coords="2773,527,2979,634"/>
+<area shape="rect" id="node16" href="$classtvm_1_1tir_1_1Prefetch.html" title="Managed reference to PrefetchNode. " alt="" coords="3003,527,3224,634"/>
+<area shape="rect" id="node17" href="$classtvm_1_1tir_1_1ProducerRealize.html" title="Managed reference to ProducerRealizeNode. " alt="" coords="3248,527,3453,634"/>
+<area shape="rect" id="node18" href="$classtvm_1_1tir_1_1ProducerStore.html" title="Managed reference to ProducerStoreNode. " alt="" coords="3477,527,3683,634"/>
+<area shape="rect" id="node19" href="$classtvm_1_1tir_1_1SeqStmt.html" title="Sequence statement. " alt="" coords="3707,505,3912,656"/>
+<area shape="rect" id="node20" href="$classtvm_1_1tir_1_1Store.html" title="Managed reference to StoreNode. " alt="" coords="3936,527,4141,634"/>
+<area shape="rect" id="node21" href="$classtvm_1_1tir_1_1While.html" title="Managed reference to WhileNode. " alt="" coords="4165,527,4371,634"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="2099,5,2277,317"/>
 </map>

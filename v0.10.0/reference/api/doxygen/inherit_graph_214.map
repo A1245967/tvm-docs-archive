@@ -1,8 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classtvm_1_1tir_1_1ExprFunctor.html" title="tvm::tir::ExprFunctor\l\&lt; void(const PrimExpr &amp;)\&gt;" alt="" coords="5,5,204,47"/>
-<area shape="rect" id="node2" href="$classtvm_1_1tir_1_1ExprVisitor.html" title="ExprVisitor. " alt="" coords="253,15,402,42"/>
-<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1StmtExprVisitor.html" title="Visitor that recursively visit stmts and exprs on them. " alt="" coords="453,17,633,43"/>
-<area shape="rect" id="node4" href="$classtvm_1_1tir_1_1StmtFunctor.html" title="tvm::tir::StmtFunctor\l\&lt; void(const Stmt &amp;)\&gt;" alt="" coords="19,71,190,112"/>
-<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1StmtVisitor.html" title="StmtVisitor. " alt="" coords="252,71,403,98"/>
-<area shape="rect" id="node6" href="$classtvm_1_1tir_1_1SRefTreeCreator.html" title="tvm::tir::SRefTreeCreator" alt="" coords="451,71,636,98"/>
+<area shape="rect" id="node1" href="$classtvm_1_1tir_1_1usmp_1_1algo_1_1GreedyBase.html" title="This is the base class for Greedy Algorithms where the sorting is specialized in the extended classes..." alt="" coords="5,5,156,47"/>
 </map>

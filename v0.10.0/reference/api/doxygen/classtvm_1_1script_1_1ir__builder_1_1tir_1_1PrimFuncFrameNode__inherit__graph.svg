@@ -18,9 +18,9 @@
 <polyline fill="none" stroke="#000000" points="0,-148.5 209,-148.5 "/>
 <text text-anchor="start" x="8" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ name</text>
 <text text-anchor="start" x="8" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ args</text>
-<text text-anchor="start" x="8" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ is_private</text>
-<text text-anchor="start" x="8" y="-103.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ ret_type</text>
-<text text-anchor="start" x="8" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ buffer_map</text>
+<text text-anchor="start" x="8" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ ret_type</text>
+<text text-anchor="start" x="8" y="-103.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ buffer_map</text>
+<text text-anchor="start" x="8" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ preflattened_buffer_map</text>
 <text text-anchor="start" x="8" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ attrs</text>
 <text text-anchor="start" x="8" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ env_threads</text>
 <text text-anchor="start" x="8" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ root_alloc_buffers</text>

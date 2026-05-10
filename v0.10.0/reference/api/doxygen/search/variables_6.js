@@ -18,6 +18,7 @@ var searchData=
   ['f_5fget_5fall_5ftuning_5frecords',['f_get_all_tuning_records',['../classtvm_1_1meta__schedule_1_1PyDatabaseNode.html#aafdd0874be052072521b2aa8a6c56d5f',1,'tvm::meta_schedule::PyDatabaseNode']]],
   ['f_5fget_5ftop_5fk',['f_get_top_k',['../classtvm_1_1meta__schedule_1_1PyDatabaseNode.html#a52fb1116090619e95fb6b28352308eed',1,'tvm::meta_schedule::PyDatabaseNode']]],
   ['f_5fhas_5fworkload',['f_has_workload',['../classtvm_1_1meta__schedule_1_1PyDatabaseNode.html#add146bf1e2006f72ed1534b2004bcb06',1,'tvm::meta_schedule::PyDatabaseNode']]],
+  ['f_5finitialize_5ftask',['f_initialize_task',['../classtvm_1_1meta__schedule_1_1PyTaskSchedulerNode.html#a15dcbf2ff4c0fc6e57cf15ef02783c75',1,'tvm::meta_schedule::PyTaskSchedulerNode']]],
   ['f_5finitialize_5fwith_5ftune_5fcontext',['f_initialize_with_tune_context',['../classtvm_1_1meta__schedule_1_1PyMutatorNode.html#a2b9b6129b0660c684b07c2f505021f2f',1,'tvm::meta_schedule::PyMutatorNode::f_initialize_with_tune_context()'],['../classtvm_1_1meta__schedule_1_1PyPostprocNode.html#a745d8654ab1a9cde5d24d4a9c40a68f2',1,'tvm::meta_schedule::PyPostprocNode::f_initialize_with_tune_context()'],['../classtvm_1_1meta__schedule_1_1PyScheduleRuleNode.html#a18486ea5d8d3e9c35adc22f1a265fe5a',1,'tvm::meta_schedule::PyScheduleRuleNode::f_initialize_with_tune_context()'],['../classtvm_1_1meta__schedule_1_1PySearchStrategyNode.html#a32818326baaa42c2de89704fcec48915',1,'tvm::meta_schedule::PySearchStrategyNode::f_initialize_with_tune_context()'],['../classtvm_1_1meta__schedule_1_1PySpaceGeneratorNode.html#af2421d226166513cb9eb661aa54b8c83',1,'tvm::meta_schedule::PySpaceGeneratorNode::f_initialize_with_tune_context()']]],
   ['f_5fjoin_5frunning_5ftask',['f_join_running_task',['../classtvm_1_1meta__schedule_1_1PyTaskSchedulerNode.html#a2bb8c133c1767c2d5f242a55e49284f4',1,'tvm::meta_schedule::PyTaskSchedulerNode']]],
   ['f_5fload',['f_load',['../classtvm_1_1meta__schedule_1_1PyCostModelNode.html#a40cfb1f290b3ec9ae34ad9aca149d196',1,'tvm::meta_schedule::PyCostModelNode']]],
@@ -34,6 +35,7 @@ var searchData=
   ['f_5frun',['f_run',['../classtvm_1_1meta__schedule_1_1PyRunnerNode.html#ad94d974edde3cb36605d8ed03347c5fc',1,'tvm::meta_schedule::PyRunnerNode']]],
   ['f_5fsave',['f_save',['../classtvm_1_1meta__schedule_1_1PyCostModelNode.html#ac7da436f6c5c78c49bb845eefa100001',1,'tvm::meta_schedule::PyCostModelNode']]],
   ['f_5fsize',['f_size',['../classtvm_1_1meta__schedule_1_1PyDatabaseNode.html#ac7ae1a05fe5c7858f5860133a82bc7b7',1,'tvm::meta_schedule::PyDatabaseNode']]],
+  ['f_5ftouch_5ftask',['f_touch_task',['../classtvm_1_1meta__schedule_1_1PyTaskSchedulerNode.html#a6b709153e2a05a299b0ca6b331417585',1,'tvm::meta_schedule::PyTaskSchedulerNode']]],
   ['f_5ftune',['f_tune',['../classtvm_1_1meta__schedule_1_1PyTaskSchedulerNode.html#a694cbc462be8527c8aa1195739535cc9',1,'tvm::meta_schedule::PyTaskSchedulerNode']]],
   ['f_5fupdate',['f_update',['../classtvm_1_1meta__schedule_1_1PyCostModelNode.html#afa89f5fa17018f7d8421225b1bbe35df',1,'tvm::meta_schedule::PyCostModelNode']]],
   ['factor',['factor',['../classtvm_1_1auto__scheduler_1_1StorageAlignStepNode.html#a6eb2b971d981f54c385065d78d6a1681',1,'tvm::auto_scheduler::StorageAlignStepNode::factor()'],['../classtvm_1_1te_1_1SplitNode.html#a60369ff01e34008f1b3215d7f215b972',1,'tvm::te::SplitNode::factor()']]],
@@ -54,8 +56,6 @@ var searchData=
   ['filename',['filename',['../classtvm_1_1auto__scheduler_1_1BuildResultNode.html#a413830d32b8f10d3a0a85ac1f719569f',1,'tvm::auto_scheduler::BuildResultNode::filename()'],['../classtvm_1_1auto__scheduler_1_1RecordToFileNode.html#a5debadfa20ad8ff19965d074253978de',1,'tvm::auto_scheduler::RecordToFileNode::filename()'],['../classtvm_1_1auto__scheduler_1_1RecordReaderNode.html#af976bdc5730038a84c7dde509f9e09e0',1,'tvm::auto_scheduler::RecordReaderNode::filename()'],['../classtvm_1_1auto__scheduler_1_1PreloadMeasuredStatesNode.html#abdcef8d2b2e1c93e933913579e420b8a',1,'tvm::auto_scheduler::PreloadMeasuredStatesNode::filename()']]],
   ['final_5findices',['final_indices',['../classtvm_1_1tir_1_1IndexMapNode.html#a52bb8aee6c03dd37f68c3a2daded6196',1,'tvm::tir::IndexMapNode']]],
   ['flatten_5fdata',['flatten_data',['../structTVMOpParam.html#a3c6194fcb1b8472a878c7520cfa608b5',1,'TVMOpParam']]],
-  ['float_5fdtype',['float_dtype',['../classtvm_1_1PrinterConfigNode.html#ac448fdfedc5307fdd0fd7c63601398c6',1,'tvm::PrinterConfigNode']]],
-  ['flop',['flop',['../classtvm_1_1meta__schedule_1_1TaskRecordNode.html#a1d6ed911965fa491d48236bd7b11acee',1,'tvm::meta_schedule::TaskRecordNode']]],
   ['flop_5fct',['flop_ct',['../classtvm_1_1auto__scheduler_1_1ComputeDAGNode.html#a17eac4bdf78fc87e94fbebd2d4a24916',1,'tvm::auto_scheduler::ComputeDAGNode']]],
   ['force_5fsuppress',['force_suppress',['../structtvm_1_1relay_1_1NonMaximumSuppressionAttrs.html#afe99a1c828b06460ea747ce859a44bdd',1,'tvm::relay::NonMaximumSuppressionAttrs']]],
   ['forward_5ftransformation',['forward_transformation',['../classtvm_1_1te_1_1TransformNode.html#a2480d6a3523a2b84f4482697b9cc7d91',1,'tvm::te::TransformNode']]],
@@ -74,7 +74,7 @@ var searchData=
   ['func_5fname',['func_name',['../structTVMOpParam.html#abd9df291c3f6a23f4352a1bc2b6a7293',1,'TVMOpParam']]],
   ['funcs',['funcs',['../structTVMFuncRegistry.html#a25badb00e205aaa5c317bd61a4b88d96',1,'TVMFuncRegistry']]],
   ['function',['function',['../classtvm_1_1relay_1_1DFPatternCallbackNode.html#a878e6e49af2466c49ffd9fcfe7f609fa',1,'tvm::relay::DFPatternCallbackNode']]],
-  ['functions',['functions',['../classtvm_1_1IRModuleNode.html#a88423026ad43fa60158bc9a647704d93',1,'tvm::IRModuleNode::functions()'],['../classtvm_1_1runtime_1_1vm_1_1Executable.html#af7d75150b6a98a7766a552d7e7e34a11',1,'tvm::runtime::vm::Executable::functions()'],['../classtvm_1_1script_1_1ir__builder_1_1ir_1_1IRModuleFrameNode.html#a43be7337e3bd2be7c2d2f4d3110346bb',1,'tvm::script::ir_builder::ir::IRModuleFrameNode::functions()']]],
+  ['functions',['functions',['../classtvm_1_1IRModuleNode.html#a88423026ad43fa60158bc9a647704d93',1,'tvm::IRModuleNode::functions()'],['../classtvm_1_1runtime_1_1vm_1_1Executable.html#af7d75150b6a98a7766a552d7e7e34a11',1,'tvm::runtime::vm::Executable::functions()'],['../classtvm_1_1script_1_1ir__builder_1_1ir_1_1IRModuleFrameNode.html#ab674c827b4d4d83c255a4f06d1669e54',1,'tvm::script::ir_builder::ir::IRModuleFrameNode::functions()']]],
   ['fused',['fused',['../classtvm_1_1te_1_1FuseNode.html#ad5abaac8d77c9c88ec374ae91d68cb88',1,'tvm::te::FuseNode']]],
   ['fused_5fids',['fused_ids',['../classtvm_1_1auto__scheduler_1_1FuseStepNode.html#a19c1a7b47f59a4f004a2dd9f354835eb',1,'tvm::auto_scheduler::FuseStepNode']]]
 ];

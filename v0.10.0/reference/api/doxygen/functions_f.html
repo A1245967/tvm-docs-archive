@@ -61,9 +61,6 @@ $(function() {
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_f"></a>- f -</h3><ul>
-<li>F()
-: <a class="el" href="structtvm_1_1runtime_1_1TVMArgsSetterApply.html#a77729fcdf7b931f39ed9f2771bfded75">tvm::runtime::TVMArgsSetterApply&lt; i, T &gt;</a>
-</li>
 <li>f_apply
 : <a class="el" href="classtvm_1_1meta__schedule_1_1PyMeasureCallbackNode.html#ab2ff04fe15c2b6cbc67659a42d6013f1">tvm::meta_schedule::PyMeasureCallbackNode</a>
 , <a class="el" href="classtvm_1_1meta__schedule_1_1PyMutatorNode.html#a70b3d67fe3074d54d13c7b1dc43e186e">tvm::meta_schedule::PyMutatorNode</a>
@@ -130,6 +127,9 @@ $(function() {
 <li>f_has_workload
 : <a class="el" href="classtvm_1_1meta__schedule_1_1PyDatabaseNode.html#add146bf1e2006f72ed1534b2004bcb06">tvm::meta_schedule::PyDatabaseNode</a>
 </li>
+<li>f_initialize_task
+: <a class="el" href="classtvm_1_1meta__schedule_1_1PyTaskSchedulerNode.html#a15dcbf2ff4c0fc6e57cf15ef02783c75">tvm::meta_schedule::PyTaskSchedulerNode</a>
+</li>
 <li>f_initialize_with_tune_context
 : <a class="el" href="classtvm_1_1meta__schedule_1_1PyMutatorNode.html#a2b9b6129b0660c684b07c2f505021f2f">tvm::meta_schedule::PyMutatorNode</a>
 , <a class="el" href="classtvm_1_1meta__schedule_1_1PyPostprocNode.html#a745d8654ab1a9cde5d24d4a9c40a68f2">tvm::meta_schedule::PyPostprocNode</a>
@@ -181,6 +181,9 @@ $(function() {
 </li>
 <li>f_size
 : <a class="el" href="classtvm_1_1meta__schedule_1_1PyDatabaseNode.html#ac7ae1a05fe5c7858f5860133a82bc7b7">tvm::meta_schedule::PyDatabaseNode</a>
+</li>
+<li>f_touch_task
+: <a class="el" href="classtvm_1_1meta__schedule_1_1PyTaskSchedulerNode.html#a6b709153e2a05a299b0ca6b331417585">tvm::meta_schedule::PyTaskSchedulerNode</a>
 </li>
 <li>f_tune
 : <a class="el" href="classtvm_1_1meta__schedule_1_1PyTaskSchedulerNode.html#a694cbc462be8527c8aa1195739535cc9">tvm::meta_schedule::PyTaskSchedulerNode</a>
@@ -363,6 +366,9 @@ $(function() {
 <li>FinishPacket()
 : <a class="el" href="classtvm_1_1runtime_1_1micro__rpc_1_1Framer.html#a57f562abcde6b689ef046a06b325d80f">tvm::runtime::micro_rpc::Framer</a>
 </li>
+<li>FInitializeTask
+: <a class="el" href="classtvm_1_1meta__schedule_1_1PyTaskSchedulerNode.html#a3d58d2439816fbdefb912164ecfca06c">tvm::meta_schedule::PyTaskSchedulerNode</a>
+</li>
 <li>FInitializeWithTuneContext
 : <a class="el" href="classtvm_1_1meta__schedule_1_1Mutator.html#aef9bdcd9ecc168cccb807de472d29630">tvm::meta_schedule::Mutator</a>
 , <a class="el" href="classtvm_1_1meta__schedule_1_1Postproc.html#a54da13f2c14d0df15478e61386cf1a3a">tvm::meta_schedule::Postproc</a>
@@ -392,10 +398,7 @@ $(function() {
 </li>
 <li>Float()
 : <a class="el" href="classtvm_1_1runtime_1_1DataType.html#a237a714a6a16e14aa01fa4ac52426551">tvm::runtime::DataType</a>
-, <a class="el" href="classtvm_1_1script_1_1printer_1_1LiteralDoc.html#a1a90c18a43f22d5c2eefe5be0c48b91b">tvm::script::printer::LiteralDoc</a>
-</li>
-<li>float_dtype
-: <a class="el" href="classtvm_1_1PrinterConfigNode.html#ac448fdfedc5307fdd0fd7c63601398c6">tvm::PrinterConfigNode</a>
+, <a class="el" href="classtvm_1_1script_1_1printer_1_1LiteralDoc.html#aad7a2c38982b0a9d5f874eaf3e4676ba">tvm::script::printer::LiteralDoc</a>
 </li>
 <li>FloatImm()
 : <a class="el" href="classtvm_1_1FloatImm.html#a8af3190ff842b60c10cd6942093daf09">tvm::FloatImm</a>
@@ -405,9 +408,6 @@ $(function() {
 </li>
 <li>FloorMod()
 : <a class="el" href="classtvm_1_1tir_1_1FloorMod.html#af427653aae590a9b582c4de9efa9c6b0">tvm::tir::FloorMod</a>
-</li>
-<li>flop
-: <a class="el" href="classtvm_1_1meta__schedule_1_1TaskRecordNode.html#a1d6ed911965fa491d48236bd7b11acee">tvm::meta_schedule::TaskRecordNode</a>
 </li>
 <li>flop_ct
 : <a class="el" href="classtvm_1_1auto__scheduler_1_1ComputeDAGNode.html#a17eac4bdf78fc87e94fbebd2d4a24916">tvm::auto_scheduler::ComputeDAGNode</a>
@@ -483,7 +483,7 @@ $(function() {
 </li>
 <li>FPreTuning
 : <a class="el" href="classtvm_1_1meta__schedule_1_1PySearchStrategyNode.html#a6d6e3bf9fad98eaf491eed75331f9e37">tvm::meta_schedule::PySearchStrategyNode</a>
-, <a class="el" href="classtvm_1_1meta__schedule_1_1SearchStrategy.html#abf749b4e042484be87304acf2e0c831f">tvm::meta_schedule::SearchStrategy</a>
+, <a class="el" href="classtvm_1_1meta__schedule_1_1SearchStrategy.html#a89aa6cd39112558486cc7be14bee7aff">tvm::meta_schedule::SearchStrategy</a>
 </li>
 <li>FQueryIRModule
 : <a class="el" href="classtvm_1_1meta__schedule_1_1PyDatabaseNode.html#a713ae7e8634c0aedc366dffda2c899df">tvm::meta_schedule::PyDatabaseNode</a>
@@ -512,7 +512,7 @@ $(function() {
 </li>
 <li>Free
 : <a class="el" href="structMemoryManagerInterface.html#af3f3f69ae8896ce0632a59cbe7632c91">MemoryManagerInterface</a>
-, <a class="el" href="classtvm_1_1runtime_1_1memory_1_1Allocator.html#a0532e931a439c2f7a2a281c42ab54473">tvm::runtime::memory::Allocator</a>
+, <a class="el" href="classtvm_1_1runtime_1_1vm_1_1Allocator.html#a76aebceaf7cd00639d193ebc6ce51eb3">tvm::runtime::vm::Allocator</a>
 </li>
 <li>free_vars
 : <a class="el" href="structtvm_1_1runtime_1_1vm_1_1Instruction.html#a720b762553a301b526d66042afcd5ca3">tvm::runtime::vm::Instruction</a>
@@ -552,8 +552,7 @@ $(function() {
 , <a class="el" href="structtvm_1_1runtime_1_1PackedFuncValueConverter_3_01PrimExpr_01_4.html#aa071662c3084d7ad3322351cb44c3dbf">tvm::runtime::PackedFuncValueConverter&lt; PrimExpr &gt;</a>
 , <a class="el" href="structtvm_1_1runtime_1_1PackedFuncValueConverter_3_01tvm_1_1Bool_01_4.html#a8afe0a2b788c12dcebec930db368f8cc">tvm::runtime::PackedFuncValueConverter&lt; tvm::Bool &gt;</a>
 , <a class="el" href="structtvm_1_1runtime_1_1PackedFuncValueConverter_3_01tvm_1_1Integer_01_4.html#a863930925e7354b87d35fde2ac310124">tvm::runtime::PackedFuncValueConverter&lt; tvm::Integer &gt;</a>
-, <a class="el" href="structtvm_1_1runtime_1_1PackedFuncValueConverter_3_01Variant_3_01VariantTypes_8_8_8_01_4_01_4.html#a0fa91c116c34515cf5449fe97c61ab91">tvm::runtime::PackedFuncValueConverter&lt; Variant&lt; VariantTypes... &gt; &gt;</a>
-, <a class="el" href="structtvm_1_1runtime_1_1PackedFuncValueConverter_3_1_1tvm_1_1runtime_1_1String_01_4.html#a9ac48d52f86dc3718590acc119e88741">tvm::runtime::PackedFuncValueConverter&lt;::tvm::runtime::String &gt;</a>
+, <a class="el" href="structtvm_1_1runtime_1_1PackedFuncValueConverter_3_1_1tvm_1_1runtime_1_1String_01_4.html#a1d57124f26aeed2583d3ae24226d89c7">tvm::runtime::PackedFuncValueConverter&lt;::tvm::runtime::String &gt;</a>
 </li>
 <li>from
 : <a class="el" href="structtvm_1_1runtime_1_1vm_1_1Instruction.html#a50da0d506e9a2bffeaf75c702cf2cc33">tvm::runtime::vm::Instruction</a>
@@ -601,9 +600,6 @@ $(function() {
 : <a class="el" href="classtvm_1_1runtime_1_1ShapeTupleObj_1_1FromStd.html#a0d2b951bd11a350c88a61c5c7947f9eb">tvm::runtime::ShapeTupleObj::FromStd</a>
 , <a class="el" href="classtvm_1_1runtime_1_1StringObj_1_1FromStd.html#ae16447bf3dfb1874dc8e04633ba820b4">tvm::runtime::StringObj::FromStd</a>
 </li>
-<li>FromString()
-: <a class="el" href="structtvm_1_1topi_1_1EinsumEquation.html#a06211769352aefd721102ff3c6afd292">tvm::topi::EinsumEquation</a>
-</li>
 <li>FromText()
 : <a class="el" href="classtvm_1_1IRModule.html#a22d13733921fac7b623defb760903628">tvm::IRModule</a>
 </li>
@@ -630,16 +626,16 @@ $(function() {
 <li>FSize
 : <a class="el" href="classtvm_1_1meta__schedule_1_1PyDatabaseNode.html#a34efc3d18473d179b13332abe5c63324">tvm::meta_schedule::PyDatabaseNode</a>
 </li>
+<li>FTouchTask
+: <a class="el" href="classtvm_1_1meta__schedule_1_1PyTaskSchedulerNode.html#a9dd3a3b6b6c57743f67de1774178d746">tvm::meta_schedule::PyTaskSchedulerNode</a>
+</li>
 <li>FTune
-: <a class="el" href="classtvm_1_1meta__schedule_1_1PyTaskSchedulerNode.html#aa6f4e078c5ad39bce2fa09fb308eca30">tvm::meta_schedule::PyTaskSchedulerNode</a>
+: <a class="el" href="classtvm_1_1meta__schedule_1_1PyTaskSchedulerNode.html#a65dc2d1b7329f376fda68b99c077c251">tvm::meta_schedule::PyTaskSchedulerNode</a>
 </li>
 <li>FType
-: <a class="el" href="classtvm_1_1relay_1_1DFPatternPrinter.html#ae4fc01c748852d54ad7a5c7f4307a9b4">tvm::relay::DFPatternPrinter</a>
-, <a class="el" href="classtvm_1_1ReprLegacyPrinter.html#a335493fde819a84bcae40888604e66f2">tvm::ReprLegacyPrinter</a>
-, <a class="el" href="classtvm_1_1ReprPrinter.html#aee843a9a8b4885f5797843bed6467415">tvm::ReprPrinter</a>
+: <a class="el" href="classtvm_1_1ReprPrinter.html#aee843a9a8b4885f5797843bed6467415">tvm::ReprPrinter</a>
 , <a class="el" href="classtvm_1_1script_1_1ir__builder_1_1details_1_1Namer.html#a6d99df0b1482a3905c2fb00dcec37234">tvm::script::ir_builder::details::Namer</a>
-, <a class="el" href="classtvm_1_1script_1_1printer_1_1IRDocsifier.html#a9cc512daa8deeb2970fd792cefc220fc">tvm::script::printer::IRDocsifier</a>
-, <a class="el" href="classtvm_1_1TVMScriptPrinter.html#ab2a101e190f9ef724a5d5b6403db6f56">tvm::TVMScriptPrinter</a>
+, <a class="el" href="classtvm_1_1script_1_1printer_1_1IRDocsifier.html#a28fb3ee300e6f3ae41c5185798bef2b2">tvm::script::printer::IRDocsifier</a>
 </li>
 <li>FullRegion()
 : <a class="el" href="classtvm_1_1tir_1_1BufferRegion.html#a0c9f939c7652464107aeb7e0c613ee99">tvm::tir::BufferRegion</a>
@@ -671,9 +667,6 @@ $(function() {
 : <a class="el" href="classtvm_1_1relay_1_1FunctionNode.html#adc05117403fb5b43ac4d04b8ec120467">tvm::relay::FunctionNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1PrimFuncNode.html#a9dded2551dafa98bac07ad6ba17602c9">tvm::tir::PrimFuncNode</a>
 </li>
-<li>func_working_on()
-: <a class="el" href="classtvm_1_1tir_1_1ScheduleNode.html#a3dea516aeb2a65f323c5798e9940cbc6">tvm::tir::ScheduleNode</a>
-</li>
 <li>funcs
 : <a class="el" href="structTVMFuncRegistry.html#a25badb00e205aaa5c317bd61a4b88d96">TVMFuncRegistry</a>
 </li>
@@ -692,7 +685,7 @@ $(function() {
 <li>functions
 : <a class="el" href="classtvm_1_1IRModuleNode.html#a88423026ad43fa60158bc9a647704d93">tvm::IRModuleNode</a>
 , <a class="el" href="classtvm_1_1runtime_1_1vm_1_1Executable.html#af7d75150b6a98a7766a552d7e7e34a11">tvm::runtime::vm::Executable</a>
-, <a class="el" href="classtvm_1_1script_1_1ir__builder_1_1ir_1_1IRModuleFrameNode.html#a43be7337e3bd2be7c2d2f4d3110346bb">tvm::script::ir_builder::ir::IRModuleFrameNode</a>
+, <a class="el" href="classtvm_1_1script_1_1ir__builder_1_1ir_1_1IRModuleFrameNode.html#ab674c827b4d4d83c255a4f06d1669e54">tvm::script::ir_builder::ir::IRModuleFrameNode</a>
 </li>
 <li>FuncType()
 : <a class="el" href="classtvm_1_1FuncType.html#a91900b77ec8debd6e1b479a438eadbdd">tvm::FuncType</a>

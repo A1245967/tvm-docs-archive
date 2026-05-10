@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['rand_5fstate',['rand_state',['../classtvm_1_1meta__schedule_1_1TuneContextNode.html#a3032995b1e84a6396b42ba74f573b6b3',1,'tvm::meta_schedule::TuneContextNode']]],
+  ['rand_5fstate',['rand_state',['../classtvm_1_1meta__schedule_1_1TuneContextNode.html#abd83e6598eeb8d3b4b899907e9cf506c',1,'tvm::meta_schedule::TuneContextNode']]],
   ['random_5fnumber_5ffunc',['random_number_func',['../classtvm_1_1auto__scheduler_1_1RandomModelNode.html#a983ca23a9dad4db927c2c5787bcbb34e',1,'tvm::auto_scheduler::RandomModelNode']]],
   ['range',['range',['../classtvm_1_1auto__scheduler_1_1IteratorNode.html#a2751c3164971b3154ffc506e3aebaf91',1,'tvm::auto_scheduler::IteratorNode']]],
   ['ranges',['ranges',['../classtvm_1_1arith_1_1IntConstraintsNode.html#ab23d4d806766c88b0df69dbfb5ebd63c',1,'tvm::arith::IntConstraintsNode']]],
@@ -20,7 +20,7 @@ var searchData=
   ['reduce_5finit',['reduce_init',['../classtvm_1_1te_1_1TensorIntrinNode.html#a63b22c1a14e6ce3bdc2900019600efee',1,'tvm::te::TensorIntrinNode']]],
   ['reduce_5fscope',['reduce_scope',['../namespacetvm_1_1tir_1_1attr.html#a50fc9633b9cfbcefa2393dbb2ece1846',1,'tvm::tir::attr']]],
   ['reduce_5fupdate',['reduce_update',['../classtvm_1_1te_1_1TensorIntrinNode.html#a8d4a891a69aec271eca1c57b16030755',1,'tvm::te::TensorIntrinNode']]],
-  ['reduction',['reduction',['../structtvm_1_1relay_1_1NLLLossAttrs.html#a45d62f7da0c849f0737a3d73ac4ba975',1,'tvm::relay::NLLLossAttrs::reduction()'],['../structtvm_1_1relay_1_1ScatterElementsAttrs.html#a7117d5569f809ba9b9496bc41ba94119',1,'tvm::relay::ScatterElementsAttrs::reduction()']]],
+  ['reduction',['reduction',['../structtvm_1_1relay_1_1NLLLossAttrs.html#a45d62f7da0c849f0737a3d73ac4ba975',1,'tvm::relay::NLLLossAttrs']]],
   ['ref',['ref',['../classtvm_1_1relay_1_1RefReadNode.html#ae61d2b27d1102f26f2300aad1ae168a7',1,'tvm::relay::RefReadNode::ref()'],['../classtvm_1_1relay_1_1RefWriteNode.html#a5db6e4ad0056f5d15ffc69f6b7bdd68a',1,'tvm::relay::RefWriteNode::ref()']]],
   ['ref_5fcounter_5f',['ref_counter_',['../classtvm_1_1runtime_1_1Object.html#a0d492efee331e2239a093f4b2017c10f',1,'tvm::runtime::Object']]],
   ['region',['region',['../classtvm_1_1tir_1_1BufferRegionNode.html#ae5713a8e3be26e0814ae53b573d8efd2',1,'tvm::tir::BufferRegionNode']]],
@@ -30,12 +30,10 @@ var searchData=
   ['register_5ffile_5fsize',['register_file_size',['../structtvm_1_1runtime_1_1vm_1_1VMFunction.html#a5b910095e5c2826cf57793afb4f2078a',1,'tvm::runtime::vm::VMFunction']]],
   ['registry',['registry',['../structTVMMutableFuncRegistry.html#acc1fcd6554c627c1bf3b3c00e1120e9b',1,'TVMMutableFuncRegistry::registry()'],['../structTVMModule.html#a6db21005b9e983207b341e65af4c4ab7',1,'TVMModule::registry()']]],
   ['relations',['relations',['../classtvm_1_1arith_1_1IntConstraintsNode.html#a078c29fba655311710227460312e78b5',1,'tvm::arith::IntConstraintsNode::relations()'],['../classtvm_1_1te_1_1StageNode.html#ad1c0f8dc1f0f406a2abcd05fdad8fad5',1,'tvm::te::StageNode::relations()']]],
-  ['remaining_5ftasks_5f',['remaining_tasks_',['../classtvm_1_1meta__schedule_1_1TaskSchedulerNode.html#a11935a9326ac14e4e0c41fbb38c9fccf',1,'tvm::meta_schedule::TaskSchedulerNode']]],
   ['renderer',['renderer',['../classtvm_1_1DiagnosticRendererNode.html#a8cb2c50460583e5eeee486cf044adfbe',1,'tvm::DiagnosticRendererNode::renderer()'],['../classtvm_1_1DiagnosticContextNode.html#aea5532b73702d459a53ee0c358607284',1,'tvm::DiagnosticContextNode::renderer()']]],
   ['repeat',['repeat',['../classtvm_1_1auto__scheduler_1_1ProgramRunnerNode.html#a8d5523fcffda00fccd916fbebb4be00a',1,'tvm::auto_scheduler::ProgramRunnerNode']]],
   ['repeats',['repeats',['../structtvm_1_1relay_1_1RepeatAttrs.html#ade3005a90c1ff77a1f583c4a7ba898e0',1,'tvm::relay::RepeatAttrs']]],
   ['reps',['reps',['../structtvm_1_1relay_1_1TileAttrs.html#acac0351f86c23beb264227981424022e',1,'tvm::relay::TileAttrs']]],
-  ['require_5fblock_5fvar_5fbound_5fpredicate',['require_block_var_bound_predicate',['../namespacetvm_1_1tir_1_1attr.html#af1b654a57098d16dd2d08efaa949ffe3',1,'tvm::tir::attr']]],
   ['require_5ftype',['require_type',['../classtvm_1_1relay_1_1DFPatternCallbackNode.html#acf0cbf5a96eb4c9000b770b7adbd9d32',1,'tvm::relay::DFPatternCallbackNode']]],
   ['required',['required',['../classtvm_1_1transform_1_1PassInfoNode.html#abc4fdfbc0e6db41ae6296d7b2816b534',1,'tvm::transform::PassInfoNode']]],
   ['required_5fpass',['required_pass',['../classtvm_1_1transform_1_1PassContextNode.html#a029074685b6cfcc0431098697f2bc927',1,'tvm::transform::PassContextNode']]],
@@ -60,13 +58,13 @@ var searchData=
   ['rolling_5fbuffer',['rolling_buffer',['../classtvm_1_1te_1_1StageNode.html#a8a709edc806b64c606a12c703fab22e4',1,'tvm::te::StageNode']]],
   ['rolling_5fbuffer_5fscope',['rolling_buffer_scope',['../namespacetvm_1_1tir_1_1attr.html#a5d0392acd85eb3cd406315d3c02eadd8',1,'tvm::tir::attr']]],
   ['root_5falloc_5fbuffers',['root_alloc_buffers',['../classtvm_1_1script_1_1ir__builder_1_1tir_1_1PrimFuncFrameNode.html#a3f9592997636143b3ad1114d8f9070cc',1,'tvm::script::ir_builder::tir::PrimFuncFrameNode']]],
+  ['root_5fnode',['root_node',['../classtvm_1_1script_1_1printer_1_1RootNodeContainerNode.html#a58dc207ccffb6d4aa721a0b5809839ab',1,'tvm::script::printer::RootNodeContainerNode']]],
   ['rounding',['rounding',['../structtvm_1_1relay_1_1qnn_1_1RequantizeAttrs.html#ae786b4706ed872d99ad26d6c42467f87',1,'tvm::relay::qnn::RequantizeAttrs']]],
   ['rounding_5fmethod',['rounding_method',['../structtvm_1_1relay_1_1Resize1DAttrs.html#a1133dc610787d50cc164dc9ed6319f0c',1,'tvm::relay::Resize1DAttrs::rounding_method()'],['../structtvm_1_1relay_1_1Resize2DAttrs.html#a08b8f79180e71137f2990c7123580d7a',1,'tvm::relay::Resize2DAttrs::rounding_method()'],['../structtvm_1_1relay_1_1Resize3DAttrs.html#a6e15ec45b5788ebaf2101e14e7a366fb',1,'tvm::relay::Resize3DAttrs::rounding_method()']]],
   ['rpn_5fmin_5fsize',['rpn_min_size',['../structtvm_1_1relay_1_1ProposalAttrs.html#abee4a0809679e2a5a4f00e07e9650b5e',1,'tvm::relay::ProposalAttrs']]],
   ['rpn_5fpost_5fnms_5ftop_5fn',['rpn_post_nms_top_n',['../structtvm_1_1relay_1_1ProposalAttrs.html#afbd367be5eda478b817075e70cc6edbc',1,'tvm::relay::ProposalAttrs']]],
   ['rpn_5fpre_5fnms_5ftop_5fn',['rpn_pre_nms_top_n',['../structtvm_1_1relay_1_1ProposalAttrs.html#a87c3a6d7d2e0225ebbab9353bc60af25',1,'tvm::relay::ProposalAttrs']]],
-  ['run_5ferror_5fcount',['run_error_count',['../classtvm_1_1meta__schedule_1_1TaskRecordNode.html#a1482e1c157ec7e4d5e472125a692721a',1,'tvm::meta_schedule::TaskRecordNode']]],
   ['run_5fsecs',['run_secs',['../classtvm_1_1meta__schedule_1_1TuningRecordNode.html#a00aeeedbe4d1d6008224d98c62739581',1,'tvm::meta_schedule::TuningRecordNode::run_secs()'],['../classtvm_1_1meta__schedule_1_1RunnerResultNode.html#a23d5a15c8d72c17c59ec4e7f2d3fabf3',1,'tvm::meta_schedule::RunnerResultNode::run_secs()']]],
-  ['runner',['runner',['../classtvm_1_1auto__scheduler_1_1TuningOptionsNode.html#a355d86b2c38f0827ae1b158753d1daa2',1,'tvm::auto_scheduler::TuningOptionsNode::runner()'],['../classtvm_1_1auto__scheduler_1_1ProgramMeasurerNode.html#a0f7a4a84637fd0309b52f61b65bee158',1,'tvm::auto_scheduler::ProgramMeasurerNode::runner()']]],
-  ['runner_5ffutures',['runner_futures',['../classtvm_1_1meta__schedule_1_1TaskRecordNode.html#ad60e5f61144b13d33841c2364e2c611b',1,'tvm::meta_schedule::TaskRecordNode']]]
+  ['runner',['runner',['../classtvm_1_1auto__scheduler_1_1TuningOptionsNode.html#a355d86b2c38f0827ae1b158753d1daa2',1,'tvm::auto_scheduler::TuningOptionsNode::runner()'],['../classtvm_1_1auto__scheduler_1_1ProgramMeasurerNode.html#a0f7a4a84637fd0309b52f61b65bee158',1,'tvm::auto_scheduler::ProgramMeasurerNode::runner()'],['../classtvm_1_1meta__schedule_1_1TaskSchedulerNode.html#a13c74317fb8dccd7fbdb728336b09501',1,'tvm::meta_schedule::TaskSchedulerNode::runner()']]],
+  ['runner_5ffutures',['runner_futures',['../classtvm_1_1meta__schedule_1_1TuneContextNode.html#a8b7bfb296b89ad8645fcf89bf645092a',1,'tvm::meta_schedule::TuneContextNode']]]
 ];

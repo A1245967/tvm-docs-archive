@@ -1,9 +1,9 @@
 <map id="tvm::relay::AttrPatternNode" name="tvm::relay::AttrPatternNode">
-<area shape="rect" id="node2" href="$classtvm_1_1relay_1_1DFPatternNode.html" title="Base type of all dataflow patterns. " alt="" coords="5,1553,281,1630"/>
-<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,668,252,1185"/>
-<area shape="rect" id="node4" href="$classtvm_1_1relay_1_1DFPattern.html" title="Managed reference to dataflow patterns. " alt="" coords="255,1209,461,1477"/>
-<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="310,307,489,619"/>
-<area shape="rect" id="node8" href="$classtvm_1_1Attrs.html" title="Managed reference to BaseAttrsNode. " alt="" coords="421,881,626,973"/>
+<area shape="rect" id="node2" href="$classtvm_1_1relay_1_1DFPatternNode.html" title="Base type of all dataflow patterns. " alt="" coords="5,1538,281,1615"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,653,252,1171"/>
+<area shape="rect" id="node4" href="$classtvm_1_1relay_1_1DFPattern.html" title="Managed reference to dataflow patterns. " alt="" coords="255,1195,461,1463"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="310,307,489,604"/>
+<area shape="rect" id="node8" href="$classtvm_1_1Attrs.html" title="Managed reference to BaseAttrsNode. " alt="" coords="421,866,626,958"/>
 <area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="306,5,493,244"/>
-<area shape="rect" id="node7" href="$classtvm_1_1DictAttrs.html" title="Managed reference to DictAttrsNode. " alt="" coords="421,1501,626,1681"/>
+<area shape="rect" id="node7" href="$classtvm_1_1DictAttrs.html" title="Managed reference to DictAttrsNode. " alt="" coords="421,1487,626,1667"/>
 </map>

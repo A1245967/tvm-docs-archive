@@ -17,6 +17,5 @@ var searchData=
   ['workspacememorypoolsnode',['WorkspaceMemoryPoolsNode',['../structtvm_1_1WorkspaceMemoryPoolsNode.html',1,'tvm']]],
   ['workspacepoolinfo',['WorkspacePoolInfo',['../classtvm_1_1WorkspacePoolInfo.html',1,'tvm']]],
   ['workspacepoolinfonode',['WorkspacePoolInfoNode',['../structtvm_1_1WorkspacePoolInfoNode.html',1,'tvm']]],
-  ['wrappedpythonobject',['WrappedPythonObject',['../classtvm_1_1runtime_1_1WrappedPythonObject.html',1,'tvm::runtime']]],
   ['writestream',['WriteStream',['../classtvm_1_1runtime_1_1micro__rpc_1_1WriteStream.html',1,'tvm::runtime::micro_rpc']]]
 ];

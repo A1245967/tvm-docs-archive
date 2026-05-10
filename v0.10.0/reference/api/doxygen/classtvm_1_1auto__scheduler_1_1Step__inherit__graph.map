@@ -1,17 +1,17 @@
 <map id="tvm::auto_scheduler::Step" name="tvm::auto_scheduler::Step">
-<area shape="rect" id="node3" href="$classtvm_1_1auto__scheduler_1_1AnnotationStep.html" title="Managed reference to AnnotationStepNode. " alt="" coords="5,549,211,685"/>
-<area shape="rect" id="node4" href="$classtvm_1_1auto__scheduler_1_1CacheReadStep.html" title="Managed reference to CacheReadStepNode. " alt="" coords="235,549,440,685"/>
-<area shape="rect" id="node5" href="$classtvm_1_1auto__scheduler_1_1CacheWriteStep.html" title="Managed reference to CacheWriteStepNode. " alt="" coords="464,549,669,685"/>
-<area shape="rect" id="node6" href="$classtvm_1_1auto__scheduler_1_1ComputeAtStep.html" title="Managed reference to ComputeAtStepNode. " alt="" coords="693,549,899,685"/>
-<area shape="rect" id="node7" href="$classtvm_1_1auto__scheduler_1_1ComputeInlineStep.html" title="Managed reference to ComputeInlineStepNode. " alt="" coords="923,549,1128,685"/>
-<area shape="rect" id="node8" href="$classtvm_1_1auto__scheduler_1_1ComputeRootStep.html" title="Managed reference to ComputeRootStepNode. " alt="" coords="1152,549,1357,685"/>
-<area shape="rect" id="node9" href="$classtvm_1_1auto__scheduler_1_1FollowFusedSplitStep.html" title="Managed reference to FollowFusedSplitStepNode. " alt="" coords="1381,549,1587,685"/>
-<area shape="rect" id="node10" href="$classtvm_1_1auto__scheduler_1_1FollowSplitStep.html" title="Managed reference to FollowSplitStepNode. " alt="" coords="1611,549,1816,685"/>
-<area shape="rect" id="node11" href="$classtvm_1_1auto__scheduler_1_1FuseStep.html" title="Managed reference to FuseStepNode. " alt="" coords="1840,549,2045,685"/>
-<area shape="rect" id="node12" href="$classtvm_1_1auto__scheduler_1_1PragmaStep.html" title="Managed reference to PragmaStepNode. " alt="" coords="2069,549,2275,685"/>
-<area shape="rect" id="node13" href="$classtvm_1_1auto__scheduler_1_1ReorderStep.html" title="Managed reference to ReorderStepNode. " alt="" coords="2299,549,2504,685"/>
-<area shape="rect" id="node14" href="$classtvm_1_1auto__scheduler_1_1RfactorStep.html" title="Managed reference to RfactorStepNode. " alt="" coords="2528,549,2733,685"/>
-<area shape="rect" id="node15" href="$classtvm_1_1auto__scheduler_1_1SplitStep.html" title="Managed reference to SplitStepNode. " alt="" coords="2757,549,2963,685"/>
-<area shape="rect" id="node16" href="$classtvm_1_1auto__scheduler_1_1StorageAlignStep.html" title="Managed reference to StorageAlignStepNode. " alt="" coords="2987,549,3192,685"/>
-<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="1509,5,1688,332"/>
+<area shape="rect" id="node3" href="$classtvm_1_1auto__scheduler_1_1AnnotationStep.html" title="Managed reference to AnnotationStepNode. " alt="" coords="5,535,211,671"/>
+<area shape="rect" id="node4" href="$classtvm_1_1auto__scheduler_1_1CacheReadStep.html" title="Managed reference to CacheReadStepNode. " alt="" coords="235,535,440,671"/>
+<area shape="rect" id="node5" href="$classtvm_1_1auto__scheduler_1_1CacheWriteStep.html" title="Managed reference to CacheWriteStepNode. " alt="" coords="464,535,669,671"/>
+<area shape="rect" id="node6" href="$classtvm_1_1auto__scheduler_1_1ComputeAtStep.html" title="Managed reference to ComputeAtStepNode. " alt="" coords="693,535,899,671"/>
+<area shape="rect" id="node7" href="$classtvm_1_1auto__scheduler_1_1ComputeInlineStep.html" title="Managed reference to ComputeInlineStepNode. " alt="" coords="923,535,1128,671"/>
+<area shape="rect" id="node8" href="$classtvm_1_1auto__scheduler_1_1ComputeRootStep.html" title="Managed reference to ComputeRootStepNode. " alt="" coords="1152,535,1357,671"/>
+<area shape="rect" id="node9" href="$classtvm_1_1auto__scheduler_1_1FollowFusedSplitStep.html" title="Managed reference to FollowFusedSplitStepNode. " alt="" coords="1381,535,1587,671"/>
+<area shape="rect" id="node10" href="$classtvm_1_1auto__scheduler_1_1FollowSplitStep.html" title="Managed reference to FollowSplitStepNode. " alt="" coords="1611,535,1816,671"/>
+<area shape="rect" id="node11" href="$classtvm_1_1auto__scheduler_1_1FuseStep.html" title="Managed reference to FuseStepNode. " alt="" coords="1840,535,2045,671"/>
+<area shape="rect" id="node12" href="$classtvm_1_1auto__scheduler_1_1PragmaStep.html" title="Managed reference to PragmaStepNode. " alt="" coords="2069,535,2275,671"/>
+<area shape="rect" id="node13" href="$classtvm_1_1auto__scheduler_1_1ReorderStep.html" title="Managed reference to ReorderStepNode. " alt="" coords="2299,535,2504,671"/>
+<area shape="rect" id="node14" href="$classtvm_1_1auto__scheduler_1_1RfactorStep.html" title="Managed reference to RfactorStepNode. " alt="" coords="2528,535,2733,671"/>
+<area shape="rect" id="node15" href="$classtvm_1_1auto__scheduler_1_1SplitStep.html" title="Managed reference to SplitStepNode. " alt="" coords="2757,535,2963,671"/>
+<area shape="rect" id="node16" href="$classtvm_1_1auto__scheduler_1_1StorageAlignStep.html" title="Managed reference to StorageAlignStepNode. " alt="" coords="2987,535,3192,671"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="1509,5,1688,317"/>
 </map>

@@ -1,7 +1,4 @@
 <map id="tvm::tir::StmtMutator" name="tvm::tir::StmtMutator">
-<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1StmtExprMutator.html" title="Mutator that recursively mutates stmts and exprs on them. " alt="" coords="36,432,224,509"/>
-<area shape="rect" id="node2" href="$classtvm_1_1tir_1_1StmtFunctor.html" title="{tvm::tir::StmtFunctor\l\&lt; Stmt(const Stmt &amp;)\&gt;\n||}" alt="" coords="43,5,217,97"/>
-<area shape="rect" id="node4" href="$classtvm_1_1tir_1_1DataTypeLegalizer.html" title="Legalize the data types of expressions to make sure they are consistent with other parts of the progr..." alt="" coords="30,557,230,796"/>
-<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1IndexDataTypeRewriter.html" title="Data type rewriter for buffer indices. " alt="" coords="14,844,246,1097"/>
-<area shape="rect" id="node6" href="$classtvm_1_1tir_1_1IndexDataTypeNormalizer.html" title="Normalize the data types of buffer shapes and indices to the same data type. " alt="" coords="5,1145,255,1281"/>
+<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1StmtExprMutator.html" title="Mutator that recursively mutates stmts and exprs on them. " alt="" coords="5,432,193,509"/>
+<area shape="rect" id="node2" href="$classtvm_1_1tir_1_1StmtFunctor.html" title="{tvm::tir::StmtFunctor\l\&lt; Stmt(const Stmt &amp;)\&gt;\n||}" alt="" coords="13,5,186,97"/>
 </map>

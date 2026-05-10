@@ -1,17 +1,15 @@
 <map id="include/tvm/tir/schedule/state.h" name="include/tvm/tir/schedule/state.h">
-<area shape="rect" id="node2" href="$tir_2schedule_2schedule_8h.html" title="include/tvm/tir/schedule\l/schedule.h" alt="" coords="685,95,864,136"/>
-<area shape="rect" id="node3" href="$meta__schedule_2cost__model_8h.html" title="include/tvm/meta_schedule\l/cost_model.h" alt="" coords="1165,273,1368,315"/>
-<area shape="rect" id="node4" href="$search__strategy_8h.html" title="include/tvm/meta_schedule\l/search_strategy.h" alt="" coords="749,363,952,404"/>
-<area shape="rect" id="node8" href="$database_8h.html" title="include/tvm/meta_schedule\l/database.h" alt="" coords="560,273,763,315"/>
-<area shape="rect" id="node9" href="$measure__candidate_8h.html" title="include/tvm/meta_schedule\l/measure_candidate.h" alt="" coords="837,184,1040,225"/>
-<area shape="rect" id="node11" href="$mutator_8h.html" title="include/tvm/meta_schedule\l/mutator.h" alt="" coords="459,184,661,225"/>
-<area shape="rect" id="node12" href="$space__generator_8h.html" title="include/tvm/meta_schedule\l/space_generator.h" alt="" coords="333,273,536,315"/>
-<area shape="rect" id="node13" href="$postproc_8h.html" title="include/tvm/meta_schedule\l/postproc.h" alt="" coords="5,184,208,225"/>
-<area shape="rect" id="node14" href="$thread__bind_8h.html" title="include/tvm/meta_schedule\l/schedule/cuda/thread_bind.h" alt="" coords="1065,184,1277,225"/>
-<area shape="rect" id="node15" href="$winograd_8h.html" title="include/tvm/meta_schedule\l/schedule/generic/winograd.h" alt="" coords="1301,184,1513,225"/>
-<area shape="rect" id="node16" href="$schedule__rule_8h.html" title="include/tvm/meta_schedule\l/schedule_rule.h" alt="" coords="232,184,435,225"/>
-<area shape="rect" id="node6" href="$task__scheduler_8h.html" title="include/tvm/meta_schedule\l/task_scheduler.h" alt="" coords="888,631,1091,672"/>
-<area shape="rect" id="node5" href="$measure__callback_8h.html" title="include/tvm/meta_schedule\l/measure_callback.h" alt="" coords="888,541,1091,583"/>
-<area shape="rect" id="node7" href="$tune__context_8h.html" title="include/tvm/meta_schedule\l/tune_context.h" alt="" coords="749,452,952,493"/>
-<area shape="rect" id="node10" href="$feature__extractor_8h.html" title="include/tvm/meta_schedule\l/feature_extractor.h" alt="" coords="888,273,1091,315"/>
+<area shape="rect" id="node2" href="$tir_2schedule_2schedule_8h.html" title="include/tvm/tir/schedule\l/schedule.h" alt="" coords="736,95,915,136"/>
+<area shape="rect" id="node3" href="$meta__schedule_2cost__model_8h.html" title="include/tvm/meta_schedule\l/cost_model.h" alt="" coords="232,273,435,315"/>
+<area shape="rect" id="node4" href="$search__strategy_8h.html" title="include/tvm/meta_schedule\l/search_strategy.h" alt="" coords="509,363,712,404"/>
+<area shape="rect" id="node8" href="$database_8h.html" title="include/tvm/meta_schedule\l/database.h" alt="" coords="5,273,208,315"/>
+<area shape="rect" id="node9" href="$measure__candidate_8h.html" title="include/tvm/meta_schedule\l/measure_candidate.h" alt="" coords="509,184,712,225"/>
+<area shape="rect" id="node11" href="$mutator_8h.html" title="include/tvm/meta_schedule\l/mutator.h" alt="" coords="736,363,939,404"/>
+<area shape="rect" id="node12" href="$postproc_8h.html" title="include/tvm/meta_schedule\l/postproc.h" alt="" coords="963,363,1165,404"/>
+<area shape="rect" id="node13" href="$schedule__rule_8h.html" title="include/tvm/meta_schedule\l/schedule_rule.h" alt="" coords="939,184,1141,225"/>
+<area shape="rect" id="node14" href="$space__generator_8h.html" title="include/tvm/meta_schedule\l/space_generator.h" alt="" coords="1165,184,1368,225"/>
+<area shape="rect" id="node6" href="$task__scheduler_8h.html" title="include/tvm/meta_schedule\l/task_scheduler.h" alt="" coords="345,631,548,672"/>
+<area shape="rect" id="node5" href="$measure__callback_8h.html" title="include/tvm/meta_schedule\l/measure_callback.h" alt="" coords="440,541,643,583"/>
+<area shape="rect" id="node7" href="$tune__context_8h.html" title="include/tvm/meta_schedule\l/tune_context.h" alt="" coords="736,452,939,493"/>
+<area shape="rect" id="node10" href="$feature__extractor_8h.html" title="include/tvm/meta_schedule\l/feature_extractor.h" alt="" coords="509,273,712,315"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="tvm::relay::SplitAttrs" name="tvm::relay::SplitAttrs">
-<area shape="rect" id="node2" href="$classtvm_1_1AttrsNode.html" title="{tvm::AttrsNode\&lt; SplitAttrs \&gt;\n||+ VisitAttrs()\l+ VisitNonDefaultAttrs()\l+ InitByPackedArgs()\l+ SEqualReduce()\l+ SHashReduce()\l+ ListFieldInfo()\l}" alt="" coords="62,954,273,1105"/>
+<area shape="rect" id="node2" href="$classtvm_1_1AttrsNode.html" title="{tvm::AttrsNode\&lt; SplitAttrs \&gt;\n||+ VisitAttrs()\l+ VisitNonDefaultAttrs()\l+ InitByPackedArgs()\l+ SEqualReduce()\l+ SHashReduce()\l+ ListFieldInfo()\l}" alt="" coords="62,947,273,1097"/>
 <area shape="rect" id="node3" href="$classtvm_1_1BaseAttrsNode.html" title="Base class of all attribute class. " alt="" coords="5,572,281,811"/>
 <area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="20,5,267,523"/>
-<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="306,873,485,1185"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="306,873,485,1171"/>
 <area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="306,572,493,811"/>
 </map>

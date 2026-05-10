@@ -68,19 +68,23 @@ $(function() {
 : <a class="el" href="classtvm_1_1runtime_1_1Optional.html#af508231fa2e1ac23bc7c1ef8e75f471f">tvm::runtime::Optional&lt; T &gt;</a>
 , <a class="el" href="classtvm_1_1runtime_1_1TVMArgValue.html#a2cf7efec615ddde3c278e85f8c283faf">tvm::runtime::TVMArgValue</a>
 , <a class="el" href="classtvm_1_1runtime_1_1TVMRetValue.html#a080afe25d8225839bccb0ada3272c60c">tvm::runtime::TVMRetValue</a>
+, <a class="el" href="classtvm_1_1TracedOptional.html#aec2e88762a4aa33a0950419f1450ec49">tvm::TracedOptional&lt; T &gt;</a>
 </li>
 <li>value_or()
 : <a class="el" href="classtvm_1_1runtime_1_1Optional.html#a15be72990266fc89e03fdf08bae0f331">tvm::runtime::Optional&lt; T &gt;</a>
 </li>
 <li>Var()
-: <a class="el" href="classtvm_1_1relay_1_1Var.html#a45372a62057ee9332a391e29845505ff">tvm::relay::Var</a>
+: <a class="el" href="classtvm_1_1relay_1_1Var.html#a06ef8ae1d07a5b8a3c25ca7775d17762">tvm::relay::Var</a>
 , <a class="el" href="classtvm_1_1tir_1_1Var.html#a21ba7568a83bfc2a5896f9e0ff181129">tvm::tir::Var</a>
 </li>
-<li>Variant()
-: <a class="el" href="classtvm_1_1runtime_1_1Variant.html#a260befe44d25be3a2b197c0073add1cf">tvm::runtime::Variant&lt; V &gt;</a>
+<li>VarDefFrame()
+: <a class="el" href="classtvm_1_1script_1_1printer_1_1VarDefFrame.html#a8094608662f9111d64ca3eca3b11673a">tvm::script::printer::VarDefFrame</a>
 </li>
 <li>VarPattern()
 : <a class="el" href="classtvm_1_1relay_1_1VarPattern.html#a2319d6842d099992581ce8f867c9bc29">tvm::relay::VarPattern</a>
+</li>
+<li>VarTable()
+: <a class="el" href="classtvm_1_1script_1_1printer_1_1VarTable.html#ad3a52ccbb5fa62847005dad9b4783d52">tvm::script::printer::VarTable</a>
 </li>
 <li>Vector()
 : <a class="el" href="classtvm_1_1arith_1_1IntSet.html#a29b6f1e60f4b328fcfabc514e0c10f17">tvm::arith::IntSet</a>
@@ -95,9 +99,6 @@ $(function() {
 <li>VerifyGPUCode()
 : <a class="el" href="classtvm_1_1meta__schedule_1_1Postproc.html#a7106b1742068c45966d6be5f4b8394aa">tvm::meta_schedule::Postproc</a>
 </li>
-<li>VerifyVTCMLimit()
-: <a class="el" href="classtvm_1_1meta__schedule_1_1Postproc.html#ad4412f0dd6a58a6c608562077f7fc39f">tvm::meta_schedule::Postproc</a>
-</li>
 <li>version()
 : <a class="el" href="classtvm_1_1runtime_1_1metadata_1_1MetadataNode.html#a894ca3986db9874b364ea83982e54f21">tvm::runtime::metadata::MetadataNode</a>
 </li>
@@ -105,7 +106,7 @@ $(function() {
 : <a class="el" href="classtvm_1_1RelayExprNode.html#ac4e639dd9f33f304800851364f471eb1">tvm::RelayExprNode</a>
 </li>
 <li>VirtualDevice()
-: <a class="el" href="classtvm_1_1VirtualDevice.html#a03e58702dfa668daec15ffd172385571">tvm::VirtualDevice</a>
+: <a class="el" href="classtvm_1_1VirtualDevice.html#a3fc9e14cd829c1f44b3b2da4f6c1b47f">tvm::VirtualDevice</a>
 </li>
 <li>VirtualMachine()
 : <a class="el" href="classtvm_1_1runtime_1_1vm_1_1VirtualMachine.html#a6edbbbb71000617f644232de37d53338">tvm::runtime::vm::VirtualMachine</a>
@@ -184,8 +185,6 @@ $(function() {
 , <a class="el" href="classtvm_1_1meta__schedule_1_1RunnerInputNode.html#a708c9c21e079e5da12f26e421384b236">tvm::meta_schedule::RunnerInputNode</a>
 , <a class="el" href="classtvm_1_1meta__schedule_1_1RunnerResultNode.html#a7737b83d8563fb73ad5c6113fe4a1fdc">tvm::meta_schedule::RunnerResultNode</a>
 , <a class="el" href="classtvm_1_1meta__schedule_1_1ScheduleRuleNode.html#af377d2e7ab3831852a038313912ec500">tvm::meta_schedule::ScheduleRuleNode</a>
-, <a class="el" href="classtvm_1_1meta__schedule_1_1SpaceGeneratorNode.html#a4919b592368fd3736ce6d45fc3191000">tvm::meta_schedule::SpaceGeneratorNode</a>
-, <a class="el" href="classtvm_1_1meta__schedule_1_1TaskRecordNode.html#a6b7b8eac800cccf5253b59f01fff019b">tvm::meta_schedule::TaskRecordNode</a>
 , <a class="el" href="classtvm_1_1meta__schedule_1_1TaskSchedulerNode.html#a3f96b9206c57a0a96352b4b306ac05e8">tvm::meta_schedule::TaskSchedulerNode</a>
 , <a class="el" href="classtvm_1_1meta__schedule_1_1TensorInfoNode.html#ab54cd62d85a051b78c9605ac0d2d3cb7">tvm::meta_schedule::TensorInfoNode</a>
 , <a class="el" href="classtvm_1_1meta__schedule_1_1TuneContextNode.html#a0feacb165880521b85b82f6b4e6f4a8f">tvm::meta_schedule::TuneContextNode</a>
@@ -193,11 +192,12 @@ $(function() {
 , <a class="el" href="classtvm_1_1meta__schedule_1_1WorkloadNode.html#ab533ae06bb310ffbd8acb954e253b7db">tvm::meta_schedule::WorkloadNode</a>
 , <a class="el" href="classtvm_1_1NameSupplyNode.html#a443d98b3100318a80c9c9ecce8f8f79d">tvm::NameSupplyNode</a>
 , <a class="el" href="classtvm_1_1OpNode.html#a9a5aacb190b2c4ead60b2810bd9053f4">tvm::OpNode</a>
+, <a class="el" href="classtvm_1_1parser_1_1SourceMapNode.html#a3f08bf3a0af49335c3bc9e88ad8ff737">tvm::parser::SourceMapNode</a>
+, <a class="el" href="classtvm_1_1parser_1_1SourceNode.html#a7d479c039f29590525694d2e1338755e">tvm::parser::SourceNode</a>
 , <a class="el" href="classtvm_1_1PointerTypeNode.html#a4a940fe740d0a1f019e4e94c30d4d916">tvm::PointerTypeNode</a>
 , <a class="el" href="structtvm_1_1PoolInfoNode.html#ac5b782ed9aa601b042c4a7f10628d25a">tvm::PoolInfoNode</a>
 , <a class="el" href="structtvm_1_1PoolInfoPropertiesNode.html#afc0e40e65ecbad4db971d7e1752c404c">tvm::PoolInfoPropertiesNode</a>
 , <a class="el" href="classtvm_1_1PrimTypeNode.html#a63ea742d617f0c34f2cb00ae162fd192">tvm::PrimTypeNode</a>
-, <a class="el" href="classtvm_1_1PrinterConfigNode.html#af560db7326ce64454f992c9828f4fce8">tvm::PrinterConfigNode</a>
 , <a class="el" href="classtvm_1_1RangeNode.html#a4922785883bc78fdcdaa8169c85e63c9">tvm::RangeNode</a>
 , <a class="el" href="classtvm_1_1ReflectionVTable.html#aefdf9ca469872fb4563f5766f21a3b1b">tvm::ReflectionVTable</a>
 , <a class="el" href="classtvm_1_1relay_1_1AltPatternNode.html#a5809e714902884904b47e81004c30110">tvm::relay::AltPatternNode</a>
@@ -282,18 +282,19 @@ $(function() {
 , <a class="el" href="classtvm_1_1script_1_1printer_1_1LambdaDocNode.html#a57c4675d44c2525190aaea4aa9ad934c">tvm::script::printer::LambdaDocNode</a>
 , <a class="el" href="classtvm_1_1script_1_1printer_1_1ListDocNode.html#a42c294b30207934d9d25c936207dd735">tvm::script::printer::ListDocNode</a>
 , <a class="el" href="classtvm_1_1script_1_1printer_1_1LiteralDocNode.html#a77b63c411fa93643fc1e92e5599dae1a">tvm::script::printer::LiteralDocNode</a>
+, <a class="el" href="classtvm_1_1script_1_1printer_1_1MetadataFrameNode.html#a21c0d602390803c408ea42a4f29e938a">tvm::script::printer::MetadataFrameNode</a>
 , <a class="el" href="classtvm_1_1script_1_1printer_1_1OperationDocNode.html#a684ebfc74875affa31b198c75296fdc1">tvm::script::printer::OperationDocNode</a>
 , <a class="el" href="classtvm_1_1script_1_1printer_1_1ReturnDocNode.html#a9ec13f73e3e39eb858cce2dc9e129d8c">tvm::script::printer::ReturnDocNode</a>
+, <a class="el" href="classtvm_1_1script_1_1printer_1_1RootNodeContainerNode.html#a3a89377513c03803bcacdf5191669098">tvm::script::printer::RootNodeContainerNode</a>
 , <a class="el" href="classtvm_1_1script_1_1printer_1_1ScopeDocNode.html#a001030671efb796c6bfa0d4af5ac7b69">tvm::script::printer::ScopeDocNode</a>
 , <a class="el" href="classtvm_1_1script_1_1printer_1_1SliceDocNode.html#a29219a3b147231db0a17b5ad0b528dcd">tvm::script::printer::SliceDocNode</a>
 , <a class="el" href="classtvm_1_1script_1_1printer_1_1StmtBlockDocNode.html#a6e657ac6d7579ff0bf1d02e715edf3db">tvm::script::printer::StmtBlockDocNode</a>
 , <a class="el" href="classtvm_1_1script_1_1printer_1_1StmtDocNode.html#ac2bf61995021ab93ee6a7381c68b491f">tvm::script::printer::StmtDocNode</a>
 , <a class="el" href="classtvm_1_1script_1_1printer_1_1TupleDocNode.html#aadde19053de1e9adc6423537d27e4c00">tvm::script::printer::TupleDocNode</a>
+, <a class="el" href="classtvm_1_1script_1_1printer_1_1VarDefFrameNode.html#a97285b4f806cb8634113dc2ac4118ff4">tvm::script::printer::VarDefFrameNode</a>
+, <a class="el" href="classtvm_1_1script_1_1printer_1_1VarTableNode.html#aeafb855ae063d8d682a65b74c38a429d">tvm::script::printer::VarTableNode</a>
 , <a class="el" href="classtvm_1_1script_1_1printer_1_1WhileDocNode.html#a6e850c4d876a4833700749ea90a311ef">tvm::script::printer::WhileDocNode</a>
-, <a class="el" href="classtvm_1_1SequentialSpanNode.html#a1f3e84220801667178786e1b3cbdff3e">tvm::SequentialSpanNode</a>
-, <a class="el" href="classtvm_1_1SourceMapNode.html#ad91cd23c3dbce2c1d0587208a261a791">tvm::SourceMapNode</a>
 , <a class="el" href="classtvm_1_1SourceNameNode.html#acbea8729c55af6e2451338e2be5a84ce">tvm::SourceNameNode</a>
-, <a class="el" href="classtvm_1_1SourceNode.html#a508b8fa241cfa467a021df90cdfd6747">tvm::SourceNode</a>
 , <a class="el" href="classtvm_1_1SpanNode.html#adf555befd933b86f7ce2cfd0989d4282">tvm::SpanNode</a>
 , <a class="el" href="classtvm_1_1TargetKindNode.html#a87b1530870f586aa78996f7449e445a6">tvm::TargetKindNode</a>
 , <a class="el" href="classtvm_1_1TargetNode.html#ad4a9f21d97d244c2055e9ba2eca71ee5">tvm::TargetNode</a>
@@ -326,7 +327,6 @@ $(function() {
 , <a class="el" href="classtvm_1_1tir_1_1AttrStmtNode.html#ab430d517a34ec9786d6e4c8a1c3ae810">tvm::tir::AttrStmtNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1BijectiveLayoutNode.html#a58436540190348f9109940ccd4ffe5d7">tvm::tir::BijectiveLayoutNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1BinaryOpNode.html#a75e2d8fdc2a5793f34ecb771a6938cc6">tvm::tir::BinaryOpNode&lt; T &gt;</a>
-, <a class="el" href="classtvm_1_1tir_1_1BlockDependenceInfoNode.html#afa912e0e70e7a3e718b4c1c736d08084">tvm::tir::BlockDependenceInfoNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1BlockNode.html#a8a3285d3f6643f2fc19bb366b5ee6656">tvm::tir::BlockNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1BlockRealizeNode.html#ac3b02808faa6243c3ce8075491bc19af">tvm::tir::BlockRealizeNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1BlockRVNode.html#af90b398c502892d19ff3bdf6463d32ab">tvm::tir::BlockRVNode</a>
@@ -353,6 +353,7 @@ $(function() {
 , <a class="el" href="classtvm_1_1tir_1_1LayoutNode.html#a2977b7ca9f44e09896696bcdb4b61953">tvm::tir::LayoutNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1LetNode.html#aa152cd4cc5251565371c0ee9330f128f">tvm::tir::LetNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1LetStmtNode.html#a71dbfcfb3e13a23cd22528b167568e24">tvm::tir::LetStmtNode</a>
+, <a class="el" href="classtvm_1_1tir_1_1LoadNode.html#acc4597323aba2761dafaf9a24bb4c0e4">tvm::tir::LoadNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1LoopRVNode.html#a14af0473ffa8fda9cc298d4d5981696e">tvm::tir::LoopRVNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1MatchBufferRegionNode.html#a670c1468d4b099fd35247c94555413b7">tvm::tir::MatchBufferRegionNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1NotNode.html#a82114b9eeaf685c4b6b578118a7d3fcf">tvm::tir::NotNode</a>
@@ -369,6 +370,7 @@ $(function() {
 , <a class="el" href="classtvm_1_1tir_1_1SeqStmtNode.html#a3196bba617d63bab596f363ae1f932d1">tvm::tir::SeqStmtNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1ShuffleNode.html#af764cbab54a79f4f7f3d5e1ddd9e1e5f">tvm::tir::ShuffleNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1StmtSRefNode.html#ad4d0dab331c6e42c9197e5c0020099b5">tvm::tir::StmtSRefNode</a>
+, <a class="el" href="classtvm_1_1tir_1_1StoreNode.html#a3f6c20a2767139e3a6555554f1e130a4">tvm::tir::StoreNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1StringImmNode.html#ac01ffc8ae6ef913d1fbc34fb7f23847c">tvm::tir::StringImmNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1TensorIntrinNode.html#a0751a3d5523ea6abb3df8238bb1fecbc">tvm::tir::TensorIntrinNode</a>
 , <a class="el" href="classtvm_1_1tir_1_1TraceNode.html#a511b72a3fc8db1e1c4ce38e2695523e3">tvm::tir::TraceNode</a>
@@ -392,15 +394,6 @@ $(function() {
 , <a class="el" href="structtvm_1_1WorkspaceMemoryPoolsNode.html#a29ae1001eaa92befc2c766f984edac81">tvm::WorkspaceMemoryPoolsNode</a>
 , <a class="el" href="structtvm_1_1WorkspacePoolInfoNode.html#a660995eb794b19575decb575d9188d54">tvm::WorkspacePoolInfoNode</a>
 </li>
-<li>VisitBlockAnnotations()
-: <a class="el" href="classtvm_1_1tir_1_1IndexDataTypeRewriter.html#ac3cbdd10c2660208ba65dab805968c79">tvm::tir::IndexDataTypeRewriter</a>
-</li>
-<li>VisitBuffer()
-: <a class="el" href="classtvm_1_1tir_1_1IndexDataTypeRewriter.html#a020018fd34983116e16548986da455f9">tvm::tir::IndexDataTypeRewriter</a>
-</li>
-<li>VisitBufferRegion()
-: <a class="el" href="classtvm_1_1tir_1_1IndexDataTypeRewriter.html#aa44e8eb51377a5329c30cd13410fb4df">tvm::tir::IndexDataTypeRewriter</a>
-</li>
 <li>VisitClause()
 : <a class="el" href="classtvm_1_1relay_1_1ExprMutator.html#ae24134355b0e8c77aaab58c28a94202a">tvm::relay::ExprMutator</a>
 , <a class="el" href="classtvm_1_1relay_1_1ExprVisitor.html#ab109b327586181cecf76f7b5c562e91b">tvm::relay::ExprVisitor</a>
@@ -415,7 +408,7 @@ $(function() {
 </li>
 <li>VisitDFPattern_()
 : <a class="el" href="classtvm_1_1relay_1_1DFPatternFunctor_3_01R_07const_01DFPattern_01_6n_00_01Args_8_8_8_08_4.html#a6ae64a12b38f514c7503aded49283c7f">tvm::relay::DFPatternFunctor&lt; R(const DFPattern &amp;n, Args...)&gt;</a>
-, <a class="el" href="classtvm_1_1relay_1_1DFPatternVisitor.html#af6cb65b48220b7f937c751f9bfc18e91">tvm::relay::DFPatternVisitor</a>
+, <a class="el" href="classtvm_1_1relay_1_1DFPatternVisitor.html#a77888582580ddea4c743715b9579d83b">tvm::relay::DFPatternVisitor</a>
 </li>
 <li>VisitDFPatternDefault_()
 : <a class="el" href="classtvm_1_1relay_1_1DFPatternFunctor_3_01R_07const_01DFPattern_01_6n_00_01Args_8_8_8_08_4.html#a5b505cf396e6efcd18aeacb0177eeb2a">tvm::relay::DFPatternFunctor&lt; R(const DFPattern &amp;n, Args...)&gt;</a>
@@ -433,27 +426,18 @@ $(function() {
 , <a class="el" href="classtvm_1_1tir_1_1StmtVisitor.html#a6d35a6081ee7dbc440e5a980f70795c6">tvm::tir::StmtVisitor</a>
 </li>
 <li>VisitExpr_()
-: <a class="el" href="classtvm_1_1relay_1_1ExprFunctor_3_01R_07const_01Expr_01_6n_00_01Args_8_8_8_08_4.html#a106fe266717d897c6c633745ea484c98">tvm::relay::ExprFunctor&lt; R(const Expr &amp;n, Args...)&gt;</a>
-, <a class="el" href="classtvm_1_1relay_1_1ExprMutator.html#ae8e1f8512f277d0e2f0390ccad48b565">tvm::relay::ExprMutator</a>
-, <a class="el" href="classtvm_1_1relay_1_1ExprVisitor.html#a52cec47d5e4792dd1cf0f5635ab14fa8">tvm::relay::ExprVisitor</a>
+: <a class="el" href="classtvm_1_1relay_1_1ExprFunctor_3_01R_07const_01Expr_01_6n_00_01Args_8_8_8_08_4.html#af9dc3ff4e078e2c9100db1f9ee6374f8">tvm::relay::ExprFunctor&lt; R(const Expr &amp;n, Args...)&gt;</a>
+, <a class="el" href="classtvm_1_1relay_1_1ExprMutator.html#affe6bbbc8d394c8a0f4c459c6ae09e8f">tvm::relay::ExprMutator</a>
+, <a class="el" href="classtvm_1_1relay_1_1ExprVisitor.html#a72b3aeee22ea51f39c36d028d109cddc">tvm::relay::ExprVisitor</a>
 , <a class="el" href="classtvm_1_1relay_1_1MixedModeMutator.html#a86656f533b4961437f53d1dbe30ae1fb">tvm::relay::MixedModeMutator</a>
-, <a class="el" href="classtvm_1_1relay_1_1MixedModeVisitor.html#a55a146580dac0de6220db966a9ac1fa5">tvm::relay::MixedModeVisitor</a>
-, <a class="el" href="classtvm_1_1tir_1_1DataTypeLegalizer.html#aedf84c8c4df1f4c451d41d9c9b8fa266">tvm::tir::DataTypeLegalizer</a>
-, <a class="el" href="classtvm_1_1tir_1_1ExprFunctor_3_01R_07const_01PrimExpr_01_6n_00_01Args_8_8_8_08_4.html#a7a6233828f233b9d3d415dd3ac75518b">tvm::tir::ExprFunctor&lt; R(const PrimExpr &amp;n, Args...)&gt;</a>
-, <a class="el" href="classtvm_1_1tir_1_1ExprMutator.html#ae1c5c9652137783b1d0636b2837143aa">tvm::tir::ExprMutator</a>
-, <a class="el" href="classtvm_1_1tir_1_1ExprVisitor.html#a8d6d70c40f607e9e438d7f40d4cb2d68">tvm::tir::ExprVisitor</a>
-, <a class="el" href="classtvm_1_1tir_1_1IndexDataTypeNormalizer.html#a83924f4f1bd318d388b492c6d6e5cd6b">tvm::tir::IndexDataTypeNormalizer</a>
-, <a class="el" href="classtvm_1_1tir_1_1IndexDataTypeRewriter.html#a046af3f6a45f44768b19a2d057bdca8f">tvm::tir::IndexDataTypeRewriter</a>
+, <a class="el" href="classtvm_1_1relay_1_1MixedModeVisitor.html#a109b942e0299536851a3dc53a02b1ddc">tvm::relay::MixedModeVisitor</a>
+, <a class="el" href="classtvm_1_1tir_1_1ExprFunctor_3_01R_07const_01PrimExpr_01_6n_00_01Args_8_8_8_08_4.html#a26ef2dea0abc6f927e4fedc56ef0b3e9">tvm::tir::ExprFunctor&lt; R(const PrimExpr &amp;n, Args...)&gt;</a>
+, <a class="el" href="classtvm_1_1tir_1_1ExprMutator.html#abba3fcf085a7be3337ef56765c7ed935">tvm::tir::ExprMutator</a>
+, <a class="el" href="classtvm_1_1tir_1_1ExprVisitor.html#a80845900e297ba27e9700b4e8b827118">tvm::tir::ExprVisitor</a>
 </li>
 <li>VisitExprDefault_()
 : <a class="el" href="classtvm_1_1relay_1_1ExprFunctor_3_01R_07const_01Expr_01_6n_00_01Args_8_8_8_08_4.html#ab35a37c57578e32a8c873cdfe9e31a0f">tvm::relay::ExprFunctor&lt; R(const Expr &amp;n, Args...)&gt;</a>
 , <a class="el" href="classtvm_1_1tir_1_1ExprFunctor_3_01R_07const_01PrimExpr_01_6n_00_01Args_8_8_8_08_4.html#abd446c1ab885af47986b4b8c73a1d881">tvm::tir::ExprFunctor&lt; R(const PrimExpr &amp;n, Args...)&gt;</a>
-</li>
-<li>VisitIndices()
-: <a class="el" href="classtvm_1_1tir_1_1IndexDataTypeRewriter.html#ac8e945d93a018a2a3c5409df9dfcca1a">tvm::tir::IndexDataTypeRewriter</a>
-</li>
-<li>VisitIterVar()
-: <a class="el" href="classtvm_1_1tir_1_1IndexDataTypeRewriter.html#a3a1623362bcc494a4e640709ce959efe">tvm::tir::IndexDataTypeRewriter</a>
 </li>
 <li>VisitLeaf()
 : <a class="el" href="classtvm_1_1relay_1_1MixedModeMutator.html#ae12ee4816bd7543d92a417f33acdc452">tvm::relay::MixedModeMutator</a>
@@ -470,9 +454,9 @@ $(function() {
 , <a class="el" href="classtvm_1_1relay_1_1PatternFunctor_3_01R_07const_01Pattern_01_6n_00_01Args_8_8_8_08_4.html#ad6692c86b749bb0d93042aa2a0425a74">tvm::relay::PatternFunctor&lt; R(const Pattern &amp;n, Args...)&gt;</a>
 </li>
 <li>VisitPattern_()
-: <a class="el" href="classtvm_1_1relay_1_1PatternFunctor_3_01R_07const_01Pattern_01_6n_00_01Args_8_8_8_08_4.html#afe53bd4de34ab8dda2ea3c46a91ea6a8">tvm::relay::PatternFunctor&lt; R(const Pattern &amp;n, Args...)&gt;</a>
-, <a class="el" href="classtvm_1_1relay_1_1PatternMutator.html#a5c4cdc5bd1b1929edf9afa3cf85b9857">tvm::relay::PatternMutator</a>
-, <a class="el" href="classtvm_1_1relay_1_1PatternVisitor.html#aacc0309f0a28ade3e33287906c990259">tvm::relay::PatternVisitor</a>
+: <a class="el" href="classtvm_1_1relay_1_1PatternFunctor_3_01R_07const_01Pattern_01_6n_00_01Args_8_8_8_08_4.html#abf4c3547c6fbeaf2d187a340286744ec">tvm::relay::PatternFunctor&lt; R(const Pattern &amp;n, Args...)&gt;</a>
+, <a class="el" href="classtvm_1_1relay_1_1PatternMutator.html#aedeb370baf4bca6018153d01d2594a84">tvm::relay::PatternMutator</a>
+, <a class="el" href="classtvm_1_1relay_1_1PatternVisitor.html#a615c586aebfe563c7dfee3ff99e8ecb5">tvm::relay::PatternVisitor</a>
 </li>
 <li>VisitPatternDefault_()
 : <a class="el" href="classtvm_1_1relay_1_1PatternFunctor_3_01R_07const_01Pattern_01_6n_00_01Args_8_8_8_08_4.html#ad71efcd0b9a937b35f7fd4e2b6131773">tvm::relay::PatternFunctor&lt; R(const Pattern &amp;n, Args...)&gt;</a>
@@ -488,11 +472,9 @@ $(function() {
 , <a class="el" href="classtvm_1_1tir_1_1StmtMutator.html#a4306d1beba05fa1ac582503498a6d7ce">tvm::tir::StmtMutator</a>
 </li>
 <li>VisitStmt_()
-: <a class="el" href="classtvm_1_1tir_1_1DataTypeLegalizer.html#aca20c14f1f058ffb3ef6c8bba1fda6f1">tvm::tir::DataTypeLegalizer</a>
-, <a class="el" href="classtvm_1_1tir_1_1IndexDataTypeRewriter.html#a0195f5def23df2aafef01255243390f3">tvm::tir::IndexDataTypeRewriter</a>
-, <a class="el" href="classtvm_1_1tir_1_1StmtFunctor_3_01R_07const_01Stmt_01_6n_00_01Args_8_8_8_01args_08_4.html#a5d6146f080b95f73d41be3a2af34c934">tvm::tir::StmtFunctor&lt; R(const Stmt &amp;n, Args... args)&gt;</a>
-, <a class="el" href="classtvm_1_1tir_1_1StmtMutator.html#ade45b66284e1bc514afeb45bfd645b1f">tvm::tir::StmtMutator</a>
-, <a class="el" href="classtvm_1_1tir_1_1StmtVisitor.html#aff23e46f636a2e874f931ad3e10d4eb7">tvm::tir::StmtVisitor</a>
+: <a class="el" href="classtvm_1_1tir_1_1StmtFunctor_3_01R_07const_01Stmt_01_6n_00_01Args_8_8_8_01args_08_4.html#a5f86aa92770d279f28b47260f879b0bd">tvm::tir::StmtFunctor&lt; R(const Stmt &amp;n, Args... args)&gt;</a>
+, <a class="el" href="classtvm_1_1tir_1_1StmtMutator.html#afad3009a7d05a345ca868a980f58b9ca">tvm::tir::StmtMutator</a>
+, <a class="el" href="classtvm_1_1tir_1_1StmtVisitor.html#a973300325d22158d8d7096ddc862b13e">tvm::tir::StmtVisitor</a>
 </li>
 <li>VisitStmtDefault_()
 : <a class="el" href="classtvm_1_1tir_1_1StmtFunctor_3_01R_07const_01Stmt_01_6n_00_01Args_8_8_8_01args_08_4.html#ae51b328e2b59a50bed7112a93dba1aae">tvm::tir::StmtFunctor&lt; R(const Stmt &amp;n, Args... args)&gt;</a>
@@ -506,9 +488,9 @@ $(function() {
 , <a class="el" href="classtvm_1_1TypeMutator.html#a84e824911927d98e20a338eab8b75a45">tvm::TypeMutator</a>
 </li>
 <li>VisitType_()
-: <a class="el" href="classtvm_1_1TypeFunctor_3_01R_07const_01Type_01_6n_00_01Args_8_8_8_08_4.html#ae4061c0c04da5b6c889842506c2d5091">tvm::TypeFunctor&lt; R(const Type &amp;n, Args...)&gt;</a>
-, <a class="el" href="classtvm_1_1TypeMutator.html#ad4ad7209f8789568e5e57870f0b758f0">tvm::TypeMutator</a>
-, <a class="el" href="classtvm_1_1TypeVisitor.html#a11378b4db6f704c04a97bec1c8ea8261">tvm::TypeVisitor</a>
+: <a class="el" href="classtvm_1_1TypeFunctor_3_01R_07const_01Type_01_6n_00_01Args_8_8_8_08_4.html#aca50c939b0a6d8ebea33865c26e82729">tvm::TypeFunctor&lt; R(const Type &amp;n, Args...)&gt;</a>
+, <a class="el" href="classtvm_1_1TypeMutator.html#a0d7ff530827c63fb3eb18cb720305dca">tvm::TypeMutator</a>
+, <a class="el" href="classtvm_1_1TypeVisitor.html#a1e33da035ed09ba49e2cc254f8a033c4">tvm::TypeVisitor</a>
 </li>
 <li>VisitTypeDefault_()
 : <a class="el" href="classtvm_1_1TypeFunctor_3_01R_07const_01Type_01_6n_00_01Args_8_8_8_08_4.html#a91553f9e04c39b3821a70ae4f7b0c597">tvm::TypeFunctor&lt; R(const Type &amp;n, Args...)&gt;</a>
@@ -527,10 +509,7 @@ $(function() {
 : <a class="el" href="structtvm_1_1runtime_1_1vm_1_1VMFrame.html#a8f8c990ee4fa7cb7472f5440f2ca3bde">tvm::runtime::vm::VMFrame</a>
 </li>
 <li>VMFunction()
-: <a class="el" href="structtvm_1_1runtime_1_1vm_1_1VMFunction.html#aea763069fe1dd6849ce0d1ec336931e0">tvm::runtime::vm::VMFunction</a>
-</li>
-<li>VMLoadExecutable()
-: <a class="el" href="classtvm_1_1runtime_1_1vm_1_1Executable.html#a88f92f74e5dccdc7dd50acecb1e8ef9d">tvm::runtime::vm::Executable</a>
+: <a class="el" href="structtvm_1_1runtime_1_1vm_1_1VMFunction.html#af9d2bdcf19642c21bc4909b9e9b6196d">tvm::runtime::vm::VMFunction</a>
 </li>
 <li>Void()
 : <a class="el" href="classtvm_1_1runtime_1_1DataType.html#ab8dc0832aff8fd7421884c0fe20a3bfd">tvm::runtime::DataType</a>
@@ -539,12 +518,9 @@ $(function() {
 : <a class="el" href="classtvm_1_1tir_1_1Buffer.html#a1b79026ddcc4d828f0ef4356064d394c">tvm::tir::Buffer</a>
 </li>
 <li>vtable()
-: <a class="el" href="classtvm_1_1relay_1_1DFPatternPrinter.html#aa0c2cc56333b9b65ed4a5832ba34c0a7">tvm::relay::DFPatternPrinter</a>
-, <a class="el" href="classtvm_1_1ReprLegacyPrinter.html#abb852174ed679cfbb4e6586f18fcef09">tvm::ReprLegacyPrinter</a>
-, <a class="el" href="classtvm_1_1ReprPrinter.html#ace33744d3c98c545d490d37113103677">tvm::ReprPrinter</a>
+: <a class="el" href="classtvm_1_1ReprPrinter.html#ace33744d3c98c545d490d37113103677">tvm::ReprPrinter</a>
 , <a class="el" href="classtvm_1_1script_1_1ir__builder_1_1details_1_1Namer.html#a8227ff24f3e5dc2c5014110f8bc4c679">tvm::script::ir_builder::details::Namer</a>
 , <a class="el" href="classtvm_1_1script_1_1printer_1_1IRDocsifier.html#a408230cfec2cccb843ba4b6fb3b75093">tvm::script::printer::IRDocsifier</a>
-, <a class="el" href="classtvm_1_1TVMScriptPrinter.html#a7fa01f3febf489e9e72ce1af12d05e76">tvm::TVMScriptPrinter</a>
 </li>
 </ul>
 </div><!-- contents -->

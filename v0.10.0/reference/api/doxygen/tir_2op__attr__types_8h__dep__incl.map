@@ -1,19 +1,18 @@
 <map id="include/tvm/tir/op_attr_types.h" name="include/tvm/tir/op_attr_types.h">
-<area shape="rect" id="node2" href="$tir_2analysis_8h.html" title="Analysis utilities and passes for TIR. " alt="" coords="470,95,657,121"/>
-<area shape="rect" id="node3" href="$constant__utils_8h.html" title="Utility functions for handling constants in TVM expressions. " alt="" coords="479,169,648,211"/>
-<area shape="rect" id="node4" href="$broadcast_8h.html" title="Broadcast op constructions. " alt="" coords="53,355,261,382"/>
-<area shape="rect" id="node6" href="$reduction_8h.html" title="Reduction op constructors. " alt="" coords="34,519,240,546"/>
-<area shape="rect" id="node10" href="$topi_2nn_8h.html" title="NN op constructions. " alt="" coords="370,609,530,635"/>
-<area shape="rect" id="node11" href="$reorg_8h.html" title="Reorg op constructions. " alt="" coords="554,601,725,643"/>
-<area shape="rect" id="node13" href="$topi_2transform_8h.html" title="Transform op constructors. " alt="" coords="342,437,550,464"/>
-<area shape="rect" id="node14" href="$detail_2broadcast_8h.html" title="Detail broadcast. " alt="" coords="168,259,338,300"/>
-<area shape="rect" id="node15" href="$strided__slice_8h.html" title="Utility functions for strided_slice op. " alt="" coords="387,348,556,389"/>
-<area shape="rect" id="node16" href="$einsum_8h.html" title="Einstein summation op. " alt="" coords="682,266,874,293"/>
-<area shape="rect" id="node17" href="$nn_2bnn_8h.html" title="Binary op constructions. " alt="" coords="899,259,1047,300"/>
-<area shape="rect" id="node18" href="$flatten_8h.html" title="Softmax op constructions. " alt="" coords="1071,259,1219,300"/>
-<area shape="rect" id="node5" href="$elemwise_8h.html" title="Elementwise op constructions. " alt="" coords="60,437,267,464"/>
-<area shape="rect" id="node12" href="$bias__add_8h.html" title="bias_add op constructions " alt="" coords="264,512,412,553"/>
-<area shape="rect" id="node7" href="$nn_2pooling_8h.html" title="Pooling op constructions. " alt="" coords="144,691,292,732"/>
-<area shape="rect" id="node8" href="$rms__norm_8h.html" title="root mean square normalization op constructions " alt="" coords="198,601,346,643"/>
-<area shape="rect" id="node9" href="$nn_2softmax_8h.html" title="Softmax op constructions. " alt="" coords="26,601,174,643"/>
+<area shape="rect" id="node2" href="$tir_2analysis_8h.html" title="Analysis utilities and passes for TIR. " alt="" coords="455,95,642,121"/>
+<area shape="rect" id="node3" href="$constant__utils_8h.html" title="Utility functions for handling constants in TVM expressions. " alt="" coords="464,169,633,211"/>
+<area shape="rect" id="node4" href="$broadcast_8h.html" title="Broadcast op constructions. " alt="" coords="38,355,246,382"/>
+<area shape="rect" id="node6" href="$reduction_8h.html" title="Reduction op constructors. " alt="" coords="27,519,233,546"/>
+<area shape="rect" id="node9" href="$topi_2nn_8h.html" title="NN op constructions. " alt="" coords="495,609,655,635"/>
+<area shape="rect" id="node10" href="$reorg_8h.html" title="Reorg op constructions. " alt="" coords="301,601,471,643"/>
+<area shape="rect" id="node12" href="$topi_2transform_8h.html" title="Transform op constructors. " alt="" coords="327,437,535,464"/>
+<area shape="rect" id="node13" href="$detail_2broadcast_8h.html" title="Detail broadcast. " alt="" coords="153,259,323,300"/>
+<area shape="rect" id="node14" href="$strided__slice_8h.html" title="Utility functions for strided_slice op. " alt="" coords="372,348,541,389"/>
+<area shape="rect" id="node15" href="$einsum_8h.html" title="Einstein summation op. " alt="" coords="667,266,859,293"/>
+<area shape="rect" id="node16" href="$nn_2bnn_8h.html" title="Binary op constructions. " alt="" coords="884,259,1032,300"/>
+<area shape="rect" id="node17" href="$flatten_8h.html" title="Softmax op constructions. " alt="" coords="1056,259,1204,300"/>
+<area shape="rect" id="node5" href="$elemwise_8h.html" title="Elementwise op constructions. " alt="" coords="45,437,252,464"/>
+<area shape="rect" id="node11" href="$bias__add_8h.html" title="bias_add op constructions " alt="" coords="257,512,405,553"/>
+<area shape="rect" id="node7" href="$nn_2pooling_8h.html" title="Pooling op constructions. " alt="" coords="259,691,407,732"/>
+<area shape="rect" id="node8" href="$nn_2softmax_8h.html" title="Softmax op constructions. " alt="" coords="128,601,276,643"/>
 </map>

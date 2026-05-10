@@ -1,10 +1,10 @@
 <map id="tvm::tir::usmp::PoolAllocationNode" name="tvm::tir::usmp::PoolAllocationNode">
-<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,1285,252,1803"/>
-<area shape="rect" id="node3" href="$classtvm_1_1Integer.html" title="Container of constant int that adds more constructors. " alt="" coords="369,1432,493,1656"/>
-<area shape="rect" id="node4" href="$classtvm_1_1IntImm.html" title="Managed reference class to IntImmNode. " alt="" coords="307,1100,513,1236"/>
-<area shape="rect" id="node5" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="315,915,521,1051"/>
-<area shape="rect" id="node6" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="315,668,521,760"/>
-<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="399,307,578,619"/>
-<area shape="rect" id="node9" href="$classtvm_1_1PoolInfo.html" title="Base class for WorkspacePoolInfo and ConstantPoolInfo. " alt="" coords="457,784,662,891"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,1241,252,1759"/>
+<area shape="rect" id="node3" href="$classtvm_1_1Integer.html" title="Container of constant int that adds more constructors. " alt="" coords="369,1388,493,1612"/>
+<area shape="rect" id="node4" href="$classtvm_1_1IntImm.html" title="Managed reference class to IntImmNode. " alt="" coords="307,1085,513,1192"/>
+<area shape="rect" id="node5" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="315,900,521,1036"/>
+<area shape="rect" id="node6" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="315,653,521,745"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="399,307,578,604"/>
+<area shape="rect" id="node9" href="$classtvm_1_1PoolInfo.html" title="Base class for WorkspacePoolInfo and ConstantPoolInfo. " alt="" coords="457,769,662,876"/>
 <area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="395,5,582,244"/>
 </map>

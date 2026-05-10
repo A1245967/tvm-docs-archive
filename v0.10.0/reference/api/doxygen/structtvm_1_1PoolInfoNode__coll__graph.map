@@ -1,12 +1,12 @@
 <map id="tvm::PoolInfoNode" name="tvm::PoolInfoNode">
-<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,2009,252,2527"/>
-<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::Target \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l+ CalcCapacityImpl()\l+ CalcCapacityImpl()\l+ CalcCapacityImpl()\l+ AgregateImpl()\l+ AgregateImpl()\l+ AgregateImpl()\l+ Agregate()\l}" alt="" coords="327,784,488,1125"/>
-<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="586,307,765,619"/>
-<area shape="rect" id="node9" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="469,668,674,760"/>
-<area shape="rect" id="node10" href="$classtvm_1_1runtime_1_1Map.html" title="{tvm::runtime::Map\&lt;\l tvm::Target, tvm::Integer \&gt;\n||+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ operator=()\l+ operator=()\l+ at()\land 12 more...\l}" alt="" coords="609,1309,814,1548"/>
-<area shape="rect" id="node11" href="$classtvm_1_1runtime_1_1String.html" title="Reference to string objects. " alt="" coords="856,1732,1015,1985"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,1863,252,2380"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::Target \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l}" alt="" coords="332,769,483,1008"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="586,307,765,604"/>
+<area shape="rect" id="node9" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="469,653,674,745"/>
+<area shape="rect" id="node10" href="$classtvm_1_1runtime_1_1Map.html" title="{tvm::runtime::Map\&lt;\l tvm::Target, tvm::Integer \&gt;\n||+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ operator=()\l+ operator=()\l+ at()\land 12 more...\l}" alt="" coords="609,1192,814,1431"/>
+<area shape="rect" id="node11" href="$classtvm_1_1runtime_1_1String.html" title="Reference to string objects. " alt="" coords="856,1585,1012,1839"/>
 <area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="582,5,769,244"/>
-<area shape="rect" id="node6" href="$classtvm_1_1Integer.html" title="Container of constant int that adds more constructors. " alt="" coords="485,2156,609,2380"/>
-<area shape="rect" id="node7" href="$classtvm_1_1IntImm.html" title="Managed reference class to IntImmNode. " alt="" coords="469,1572,674,1708"/>
-<area shape="rect" id="node8" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="469,1149,674,1285"/>
+<area shape="rect" id="node6" href="$classtvm_1_1Integer.html" title="Container of constant int that adds more constructors. " alt="" coords="485,2009,609,2233"/>
+<area shape="rect" id="node7" href="$classtvm_1_1IntImm.html" title="Managed reference class to IntImmNode. " alt="" coords="469,1455,674,1561"/>
+<area shape="rect" id="node8" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="469,1032,674,1168"/>
 </map>

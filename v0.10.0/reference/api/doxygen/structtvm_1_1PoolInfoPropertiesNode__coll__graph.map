@@ -1,10 +1,10 @@
 <map id="tvm::PoolInfoPropertiesNode" name="tvm::PoolInfoPropertiesNode">
-<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,1417,252,1935"/>
-<area shape="rect" id="node3" href="$classtvm_1_1Integer.html" title="Container of constant int that adds more constructors. " alt="" coords="369,1564,493,1788"/>
-<area shape="rect" id="node4" href="$classtvm_1_1IntImm.html" title="Managed reference class to IntImmNode. " alt="" coords="329,1232,534,1368"/>
-<area shape="rect" id="node5" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="337,1047,542,1183"/>
-<area shape="rect" id="node6" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="337,668,542,760"/>
-<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="421,307,599,619"/>
-<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1Map.html" title="{tvm::runtime::Map\&lt;\l tvm::Target, tvm::Integer \&gt;\n||+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ operator=()\l+ operator=()\l+ at()\land 12 more...\l}" alt="" coords="478,784,683,1023"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,1373,252,1891"/>
+<area shape="rect" id="node3" href="$classtvm_1_1Integer.html" title="Container of constant int that adds more constructors. " alt="" coords="369,1520,493,1744"/>
+<area shape="rect" id="node4" href="$classtvm_1_1IntImm.html" title="Managed reference class to IntImmNode. " alt="" coords="329,1217,534,1324"/>
+<area shape="rect" id="node5" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="337,1032,542,1168"/>
+<area shape="rect" id="node6" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="337,653,542,745"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="421,307,599,604"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1Map.html" title="{tvm::runtime::Map\&lt;\l tvm::Target, tvm::Integer \&gt;\n||+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ operator=()\l+ operator=()\l+ at()\land 12 more...\l}" alt="" coords="478,769,683,1008"/>
 <area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="417,5,603,244"/>
 </map>

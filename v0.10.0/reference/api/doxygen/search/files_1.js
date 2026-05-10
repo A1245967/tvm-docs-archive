@@ -3,7 +3,6 @@ var searchData=
   ['base_2eh',['base.h',['../relay_2base_8h.html',1,'(Global Namespace)'],['../runtime_2container_2base_8h.html',1,'(Global Namespace)'],['../script_2ir__builder_2base_8h.html',1,'(Global Namespace)']]],
   ['bias_5fadd_2eh',['bias_add.h',['../bias__add_8h.html',1,'']]],
   ['bitserial_2eh',['bitserial.h',['../bitserial_8h.html',1,'']]],
-  ['block_5fdependence_5finfo_2eh',['block_dependence_info.h',['../block__dependence__info_8h.html',1,'']]],
   ['block_5fscope_2eh',['block_scope.h',['../block__scope_8h.html',1,'']]],
   ['bnn_2eh',['bnn.h',['../nn_2bnn_8h.html',1,'(Global Namespace)'],['../x86_2bnn_8h.html',1,'(Global Namespace)']]],
   ['bound_2eh',['bound.h',['../bound_8h.html',1,'']]],

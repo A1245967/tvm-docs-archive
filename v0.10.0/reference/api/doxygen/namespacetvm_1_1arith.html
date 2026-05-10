@@ -160,13 +160,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtvm_1_1arith_1_1Analyzer.html" title="Analyzer that contains bunch of sub-analyzers. ">Analyzer</a> to get modular information over expression.  <a href="classtvm_1_1arith_1_1ModularSetAnalyzer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtvm_1_1arith_1_1ModularSetNode.html">ModularSetNode</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtvm_1_1Range.html" title="Range container. ">Range</a> of a linear integer function. Use to do specify the possible index values.  <a href="classtvm_1_1arith_1_1ModularSetNode.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtvm_1_1Range.html" title="Range constainer. ">Range</a> of a linear integer function. Use to do specify the possible index values.  <a href="classtvm_1_1arith_1_1ModularSetNode.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtvm_1_1arith_1_1RewriteSimplifier.html">RewriteSimplifier</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite-rule based simplifier.  <a href="classtvm_1_1arith_1_1RewriteSimplifier.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtvm_1_1arith_1_1TransitiveComparisonAnalyzer.html">TransitiveComparisonAnalyzer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using previously specified knowns, compare the expressions provided.  <a href="classtvm_1_1arith_1_1TransitiveComparisonAnalyzer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -183,33 +180,10 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespacetvm_1_1arith.html#ac6a38da661cd3681eb85abe1cd810422aad0250170b362173e1e2a2e3a6f13d20">kFloorDiv</a>
  }</td></tr>
 <tr class="separator:ac6a38da661cd3681eb85abe1cd810422"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a038b0205b1c66d27c9dff7703e359339"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#a038b0205b1c66d27c9dff7703e359339">ProofStrength</a> : int { <a class="el" href="namespacetvm_1_1arith.html#a038b0205b1c66d27c9dff7703e359339a6867faeaa475fda467e48267db2bb8a8">ProofStrength::kDefault</a> = 0, 
-<a class="el" href="namespacetvm_1_1arith.html#a038b0205b1c66d27c9dff7703e359339a3f67e3bf6c5ae9efc290f80011f65b80">ProofStrength::kSymbolicBound</a> = 1
- }<tr class="memdesc:a038b0205b1c66d27c9dff7703e359339"><td class="mdescLeft">&#160;</td><td class="mdescRight">The strength used in top-level condition proves.  <a href="namespacetvm_1_1arith.html#a038b0205b1c66d27c9dff7703e359339">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:a038b0205b1c66d27c9dff7703e359339"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d555a0cc363f669a49fad7e5f7d69d0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">CompareResult</a> : int { <br />
-&#160;&#160;<a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0af9f8d006118de5ad04dd7c000b8f3b91">CompareResult::kInconsistent</a> = 0, 
-<a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0a7db2fe13b438b1005c70fcc9ab826b3b">CompareResult::kEQ</a> = 1, 
-<a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0add0f23f162dcf68bf7bc761ac13040ae">CompareResult::kLT</a> = 2, 
-<a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0a1893df55d7fc768f2336fdcb7c7b9c37">CompareResult::kLE</a> = 3, 
-<br />
-&#160;&#160;<a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0aa3d18adb9a64157d6708f8ba39dfcdbc">CompareResult::kGT</a> = 4, 
-<a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0ac0275be4f85005f8ef340d3d5be8d361">CompareResult::kGE</a> = 5, 
-<a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0a03e3ad128c41e04acc6a0e59fdf11a58">CompareResult::kNE</a> = 6, 
-<a class="el" href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9da25c2dc47991b3df171ed5192bcf70390">kUnknown</a> = 7
-<br />
- }<tr class="memdesc:a1d555a0cc363f669a49fad7e5f7d69d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure for representing result of known.  <a href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:a1d555a0cc363f669a49fad7e5f7d69d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca8806e355ad3dd5f1df9c1eca9aac9d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9d">SignType</a> { <br />
-&#160;&#160;<a class="el" href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9da5eb70f55e8952b4484fe6c652138ae00">kPositive</a>, 
+<tr class="memitem:aca8806e355ad3dd5f1df9c1eca9aac9d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9d">SignType</a> { <a class="el" href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9da5eb70f55e8952b4484fe6c652138ae00">kPositive</a>, 
 <a class="el" href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9da56331fd0b2625f7ce83b369b8a0a6f2a">kNegative</a>, 
 <a class="el" href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9dab2f22d68a809adead1caf5ec7c61bf67">kZero</a>, 
-<a class="el" href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9da8812c1a077255594d23bc1c2f3af3979">kUnknown</a>, 
-<br />
-&#160;&#160;<a class="el" href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9da25c2dc47991b3df171ed5192bcf70390">kUnknown</a> = 7
-<br />
+<a class="el" href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9da8812c1a077255594d23bc1c2f3af3979">kUnknown</a>
  }<tr class="memdesc:aca8806e355ad3dd5f1df9c1eca9aac9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sign type of an integer expression.  <a href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9d">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:aca8806e355ad3dd5f1df9c1eca9aac9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,10 +196,6 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1023d832e2cd2270c283ed2ef8e34dc6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">CompareResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#a1023d832e2cd2270c283ed2ef8e34dc6">operator &amp;</a> (<a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">CompareResult</a> lhs, <a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">CompareResult</a> rhs)</td></tr>
-<tr class="separator:a1023d832e2cd2270c283ed2ef8e34dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a660ff1fdbb08fea19a922157cadad7a7"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">CompareResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#a660ff1fdbb08fea19a922157cadad7a7">operator|</a> (<a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">CompareResult</a> lhs, <a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">CompareResult</a> rhs)</td></tr>
-<tr class="separator:a660ff1fdbb08fea19a922157cadad7a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0860828b70ea8ff0d2f7c036c37afd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1arith_1_1IntSet.html">IntSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#af0860828b70ea8ff0d2f7c036c37afd5">DeduceBound</a> (<a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> v, <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> cond, const <a class="el" href="classtvm_1_1runtime_1_1Map.html">Map</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">Var</a>, <a class="el" href="classtvm_1_1arith_1_1IntSet.html">IntSet</a> &gt; &amp;hint_map, const <a class="el" href="classtvm_1_1runtime_1_1Map.html">Map</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">Var</a>, <a class="el" href="classtvm_1_1arith_1_1IntSet.html">IntSet</a> &gt; &amp;relax_map)</td></tr>
 <tr class="memdesc:af0860828b70ea8ff0d2f7c036c37afd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deduce the bound of the target variable in a expression, give the domain of each variables. Return undefined <a class="el" href="classtvm_1_1arith_1_1IntSet.html" title="Managed reference to IntSetNode. ">IntSet</a> to represent failure.  <a href="#af0860828b70ea8ff0d2f7c036c37afd5">More...</a><br /></td></tr>
 <tr class="separator:af0860828b70ea8ff0d2f7c036c37afd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,9 +211,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a73160d1f944121ad2ef22205dd496fdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1arith_1_1IntSet.html">IntSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#a73160d1f944121ad2ef22205dd496fdc">EvalSet</a> (<a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> e, const <a class="el" href="classtvm_1_1runtime_1_1Map.html">Map</a>&lt; <a class="el" href="classtvm_1_1tir_1_1IterVar.html">IterVar</a>, <a class="el" href="classtvm_1_1arith_1_1IntSet.html">IntSet</a> &gt; &amp;dom_map)</td></tr>
 <tr class="memdesc:a73160d1f944121ad2ef22205dd496fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an symbolic integer set that contains all possible values of e given the domain of each iteration variables.  <a href="#a73160d1f944121ad2ef22205dd496fdc">More...</a><br /></td></tr>
 <tr class="separator:a73160d1f944121ad2ef22205dd496fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7868b169dae69264e3b41a7ce8959750"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1arith_1_1IntSet.html">IntSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#a7868b169dae69264e3b41a7ce8959750">EvalSet</a> (<a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> e, const <a class="el" href="classtvm_1_1runtime_1_1Map.html">Map</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">Var</a>, <a class="el" href="classtvm_1_1arith_1_1IntSet.html">IntSet</a> &gt; &amp;dom_map)</td></tr>
-<tr class="memdesc:a7868b169dae69264e3b41a7ce8959750"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an symbolic integer set that contains all possible values of e given the domain of each variables.  <a href="#a7868b169dae69264e3b41a7ce8959750">More...</a><br /></td></tr>
-<tr class="separator:a7868b169dae69264e3b41a7ce8959750"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d0d0f69e5f98e935d2bd4058d74bcfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1arith_1_1IntSet.html">IntSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#a9d0d0f69e5f98e935d2bd4058d74bcfa">EvalSet</a> (<a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> e, const std::unordered_map&lt; const <a class="el" href="classtvm_1_1tir_1_1VarNode.html">tir::VarNode</a> *, <a class="el" href="classtvm_1_1arith_1_1IntSet.html">IntSet</a> &gt; &amp;dom_map)</td></tr>
 <tr class="memdesc:a9d0d0f69e5f98e935d2bd4058d74bcfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as EvalSet, but takes unordered_map.  <a href="#a9d0d0f69e5f98e935d2bd4058d74bcfa">More...</a><br /></td></tr>
 <tr class="separator:a9d0d0f69e5f98e935d2bd4058d74bcfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -310,21 +277,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ad0052f8b26c04f2b161a2432331f661c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1arith_1_1IterMapResult.html">IterMapResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#ad0052f8b26c04f2b161a2432331f661c">DetectIterMap</a> (const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; &amp;indices, const <a class="el" href="classtvm_1_1runtime_1_1Map.html">Map</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">Var</a>, <a class="el" href="classtvm_1_1Range.html">Range</a> &gt; &amp;input_iters, const <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &amp;predicate, <a class="el" href="namespacetvm_1_1arith.html#a243b60bbe2d3852099eb65454b240c63">IterMapLevel</a> check_level, <a class="el" href="classtvm_1_1arith_1_1Analyzer.html">arith::Analyzer</a> *analyzer, bool simplify_trivial_iterators=true)</td></tr>
 <tr class="memdesc:ad0052f8b26c04f2b161a2432331f661c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detect if indices can be written as [y_0 + c_0, y_1 + c_1, ..., y_n + c_n].  <a href="#ad0052f8b26c04f2b161a2432331f661c">More...</a><br /></td></tr>
 <tr class="separator:ad0052f8b26c04f2b161a2432331f661c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf3b96167387339a548c479033bf1c8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#acf3b96167387339a548c479033bf1c8e">IterMapSimplify</a> (const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; &amp;indices, const <a class="el" href="classtvm_1_1runtime_1_1Map.html">Map</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">Var</a>, <a class="el" href="classtvm_1_1Range.html">Range</a> &gt; &amp;input_iters, const <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &amp;input_pred, <a class="el" href="namespacetvm_1_1arith.html#a243b60bbe2d3852099eb65454b240c63">IterMapLevel</a> check_level, <a class="el" href="classtvm_1_1arith_1_1Analyzer.html">arith::Analyzer</a> *analyzer, bool simplify_trivial_iterators=true)</td></tr>
-<tr class="memdesc:acf3b96167387339a548c479033bf1c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use IterVarMap detector to rewrite and simplify the indices.  <a href="#acf3b96167387339a548c479033bf1c8e">More...</a><br /></td></tr>
-<tr class="separator:acf3b96167387339a548c479033bf1c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae774a02f3f651feeaca95b4e2b379134"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#ae774a02f3f651feeaca95b4e2b379134">IterMapSimplify</a> (const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; &amp;indices, const <a class="el" href="classtvm_1_1runtime_1_1Map.html">Map</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">Var</a>, <a class="el" href="classtvm_1_1Range.html">Range</a> &gt; &amp;input_iters, const <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &amp;input_pred, <a class="el" href="namespacetvm_1_1arith.html#a243b60bbe2d3852099eb65454b240c63">IterMapLevel</a> check_level, bool simplify_trivial_iterators=true)</td></tr>
+<tr class="memdesc:ae774a02f3f651feeaca95b4e2b379134"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use IterVarMap detector to rewrite and simplify the indices.  <a href="#ae774a02f3f651feeaca95b4e2b379134">More...</a><br /></td></tr>
+<tr class="separator:ae774a02f3f651feeaca95b4e2b379134"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8e8be2bde49ccbe7025f4d7a730e694"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1runtime_1_1Map.html">Map</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">Var</a>, <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#ae8e8be2bde49ccbe7025f4d7a730e694">InverseAffineIterMap</a> (const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1arith_1_1IterSumExpr.html">IterSumExpr</a> &gt; &amp;iter_map, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; outputs)</td></tr>
 <tr class="memdesc:ae8e8be2bde49ccbe7025f4d7a730e694"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the inverse of the affine transformation to the outputs.  <a href="#ae8e8be2bde49ccbe7025f4d7a730e694">More...</a><br /></td></tr>
 <tr class="separator:ae8e8be2bde49ccbe7025f4d7a730e694"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07096c818b466b42171bc93c1784cdf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1arith_1_1IterMark.html">IterMark</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#a07096c818b466b42171bc93c1784cdf8">SubspaceDivide</a> (const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; &amp;bindings, const <a class="el" href="classtvm_1_1runtime_1_1Map.html">Map</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">Var</a>, <a class="el" href="classtvm_1_1Range.html">Range</a> &gt; &amp;input_iters, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">Var</a> &gt; &amp;sub_iters, const <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &amp;predicate, <a class="el" href="namespacetvm_1_1arith.html#a243b60bbe2d3852099eb65454b240c63">IterMapLevel</a> check_level, <a class="el" href="classtvm_1_1arith_1_1Analyzer.html">arith::Analyzer</a> *analyzer, bool simplify_trivial_iterators=true)</td></tr>
-<tr class="memdesc:a07096c818b466b42171bc93c1784cdf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detect if bindings can be written as [a_0*e_0 + b_0 + c_0, a_1*e_1 + b_1, ..., a_n*e_n + b_n].  <a href="#a07096c818b466b42171bc93c1784cdf8">More...</a><br /></td></tr>
-<tr class="separator:a07096c818b466b42171bc93c1784cdf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb7d26b41b1cb5ea6aedba46715fcd7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1arith_1_1IterMark.html">IterMark</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#aeb7d26b41b1cb5ea6aedba46715fcd7e">SubspaceDivide</a> (const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt; &amp;bindings, const <a class="el" href="classtvm_1_1runtime_1_1Map.html">Map</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">Var</a>, <a class="el" href="classtvm_1_1Range.html">Range</a> &gt; &amp;input_iters, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">Var</a> &gt; &amp;sub_iters, const <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &amp;predicate, <a class="el" href="namespacetvm_1_1arith.html#a243b60bbe2d3852099eb65454b240c63">IterMapLevel</a> check_level, <a class="el" href="classtvm_1_1arith_1_1Analyzer.html">arith::Analyzer</a> *analyzer)</td></tr>
+<tr class="memdesc:aeb7d26b41b1cb5ea6aedba46715fcd7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detect if bindings can be written as [a_0*e_0 + b_0 + c_0, a_1*e_1 + b_1, ..., a_n*e_n + b_n].  <a href="#aeb7d26b41b1cb5ea6aedba46715fcd7e">More...</a><br /></td></tr>
+<tr class="separator:aeb7d26b41b1cb5ea6aedba46715fcd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ec2f0c15f6e42cc49a414146b39d0b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#a5ec2f0c15f6e42cc49a414146b39d0b5">NormalizeIterMapToExpr</a> (const <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &amp;expr)</td></tr>
 <tr class="memdesc:a5ec2f0c15f6e42cc49a414146b39d0b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given an expression that may contain <a class="el" href="classtvm_1_1arith_1_1IterMapExpr.html" title="Managed reference to IterMapExprNode. ">IterMapExpr</a>, transform it to normal <a class="el" href="classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. ">PrimExpr</a>.  <a href="#a5ec2f0c15f6e42cc49a414146b39d0b5">More...</a><br /></td></tr>
 <tr class="separator:a5ec2f0c15f6e42cc49a414146b39d0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6d3e5cdc54dd62010d5dba363269f2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1arith_1_1IterSumExpr.html">IterSumExpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#ae6d3e5cdc54dd62010d5dba363269f2f">NormalizeToIterSum</a> (<a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> index, const <a class="el" href="classtvm_1_1runtime_1_1Map.html">Map</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">Var</a>, <a class="el" href="classtvm_1_1Range.html">Range</a> &gt; &amp;input_iters, <a class="el" href="classtvm_1_1arith_1_1Analyzer.html">arith::Analyzer</a> *analyzer)</td></tr>
-<tr class="memdesc:ae6d3e5cdc54dd62010d5dba363269f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite index as <a class="el" href="classtvm_1_1arith_1_1IterSumExpr.html" title="Managed reference to IterSumExprNode. ">IterSumExpr</a>.  <a href="#ae6d3e5cdc54dd62010d5dba363269f2f">More...</a><br /></td></tr>
-<tr class="separator:ae6d3e5cdc54dd62010d5dba363269f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87a12ee0854469b04329a961ef261559"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1arith.html#a87a12ee0854469b04329a961ef261559">DetectLinearEquation</a> (const <a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a> &amp;e, const <a class="el" href="classtvm_1_1runtime_1_1Array.html">Array</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">tir::Var</a> &gt; &amp;vars)</td></tr>
 <tr class="memdesc:a87a12ee0854469b04329a961ef261559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detect if e can be rewritten as e = sum_{i=0}^{n-1} var[i] * coeff[i] + coeff[n] Where coeff[i] and base are invariant of var[j] for all i and j.  <a href="#a87a12ee0854469b04329a961ef261559">More...</a><br /></td></tr>
 <tr class="separator:a87a12ee0854469b04329a961ef261559"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -371,41 +335,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a1d555a0cc363f669a49fad7e5f7d69d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d555a0cc363f669a49fad7e5f7d69d0">&#9670;&nbsp;</a></span>CompareResult</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">tvm::arith::CompareResult</a> : int</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Structure for representing result of known. </p>
-<p>Values are assigned to allow these flags to be used in bitwise operations. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1d555a0cc363f669a49fad7e5f7d69d0af9f8d006118de5ad04dd7c000b8f3b91"></a>kInconsistent&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1d555a0cc363f669a49fad7e5f7d69d0a7db2fe13b438b1005c70fcc9ab826b3b"></a>kEQ&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1d555a0cc363f669a49fad7e5f7d69d0add0f23f162dcf68bf7bc761ac13040ae"></a>kLT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1d555a0cc363f669a49fad7e5f7d69d0a1893df55d7fc768f2336fdcb7c7b9c37"></a>kLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1d555a0cc363f669a49fad7e5f7d69d0aa3d18adb9a64157d6708f8ba39dfcdbc"></a>kGT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1d555a0cc363f669a49fad7e5f7d69d0ac0275be4f85005f8ef340d3d5be8d361"></a>kGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1d555a0cc363f669a49fad7e5f7d69d0a03e3ad128c41e04acc6a0e59fdf11a58"></a>kNE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aca8806e355ad3dd5f1df9c1eca9aac9da25c2dc47991b3df171ed5192bcf70390"></a>kUnknown&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <a id="ac6a38da661cd3681eb85abe1cd810422"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac6a38da661cd3681eb85abe1cd810422">&#9670;&nbsp;</a></span>DivMode</h2>
 
@@ -447,38 +376,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a038b0205b1c66d27c9dff7703e359339"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a038b0205b1c66d27c9dff7703e359339">&#9670;&nbsp;</a></span>ProofStrength</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespacetvm_1_1arith.html#a038b0205b1c66d27c9dff7703e359339">tvm::arith::ProofStrength</a> : int</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The strength used in top-level condition proves. </p>
-<dl class="section note"><dt>Note</dt><dd>The higher, the more time consuming it can be.</dd></dl>
-<p>Do not use level beyond kDefault in internal recursive rewriting in arith analysis and only use it at top-level simplification to avoid speed issues. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a038b0205b1c66d27c9dff7703e359339a6867faeaa475fda467e48267db2bb8a8"></a>kDefault&#160;</td><td class="fielddoc"><p>default strength, can be used in. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a038b0205b1c66d27c9dff7703e359339a3f67e3bf6c5ae9efc290f80011f65b80"></a>kSymbolicBound&#160;</td><td class="fielddoc"><p>Prove using symbolic bound analysis. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
 <a id="aca8806e355ad3dd5f1df9c1eca9aac9d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca8806e355ad3dd5f1df9c1eca9aac9d">&#9670;&nbsp;</a></span>SignType</h2>
 
@@ -497,7 +394,6 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="aca8806e355ad3dd5f1df9c1eca9aac9da56331fd0b2625f7ce83b369b8a0a6f2a"></a>kNegative&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aca8806e355ad3dd5f1df9c1eca9aac9dab2f22d68a809adead1caf5ec7c61bf67"></a>kZero&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aca8806e355ad3dd5f1df9c1eca9aac9da8812c1a077255594d23bc1c2f3af3979"></a>kUnknown&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aca8806e355ad3dd5f1df9c1eca9aac9da25c2dc47991b3df171ed5192bcf70390"></a>kUnknown&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1062,7 +958,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a73160d1f944121ad2ef22205dd496fdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73160d1f944121ad2ef22205dd496fdc">&#9670;&nbsp;</a></span>EvalSet() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a73160d1f944121ad2ef22205dd496fdc">&#9670;&nbsp;</a></span>EvalSet() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1099,46 +995,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a7868b169dae69264e3b41a7ce8959750"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7868b169dae69264e3b41a7ce8959750">&#9670;&nbsp;</a></span>EvalSet() <span class="overload">[2/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1arith_1_1IntSet.html">IntSet</a> tvm::arith::EvalSet </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a>&#160;</td>
-          <td class="paramname"><em>e</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1runtime_1_1Map.html">Map</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">Var</a>, <a class="el" href="classtvm_1_1arith_1_1IntSet.html">IntSet</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>dom_map</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Find an symbolic integer set that contains all possible values of e given the domain of each variables. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">e</td><td>The expression to be evaluated. </td></tr>
-    <tr><td class="paramname">dom_map</td><td>The domain of each variable. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>An integer set that can cover all the possible values of e. </dd></dl>
-
-</div>
-</div>
 <a id="a9d0d0f69e5f98e935d2bd4058d74bcfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d0d0f69e5f98e935d2bd4058d74bcfa">&#9670;&nbsp;</a></span>EvalSet() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d0d0f69e5f98e935d2bd4058d74bcfa">&#9670;&nbsp;</a></span>EvalSet() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1176,7 +1034,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a74234ce6f7733b3d8055d781cc782df7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74234ce6f7733b3d8055d781cc782df7">&#9670;&nbsp;</a></span>EvalSet() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a74234ce6f7733b3d8055d781cc782df7">&#9670;&nbsp;</a></span>EvalSet() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1214,7 +1072,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa30b03ba03ff9cad2cad7320194dfcbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa30b03ba03ff9cad2cad7320194dfcbe">&#9670;&nbsp;</a></span>EvalSet() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa30b03ba03ff9cad2cad7320194dfcbe">&#9670;&nbsp;</a></span>EvalSet() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1252,7 +1110,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a4bf945fe43afafbedffad6d5633efad7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bf945fe43afafbedffad6d5633efad7">&#9670;&nbsp;</a></span>EvalSet() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bf945fe43afafbedffad6d5633efad7">&#9670;&nbsp;</a></span>EvalSet() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1290,7 +1148,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a79359af75db0286bfe975b9828e971e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79359af75db0286bfe975b9828e971e4">&#9670;&nbsp;</a></span>EvalSet() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a79359af75db0286bfe975b9828e971e4">&#9670;&nbsp;</a></span>EvalSet() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1434,8 +1292,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acf3b96167387339a548c479033bf1c8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf3b96167387339a548c479033bf1c8e">&#9670;&nbsp;</a></span>IterMapSimplify()</h2>
+<a id="ae774a02f3f651feeaca95b4e2b379134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae774a02f3f651feeaca95b4e2b379134">&#9670;&nbsp;</a></span>IterMapSimplify()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1467,12 +1325,6 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classtvm_1_1arith_1_1Analyzer.html">arith::Analyzer</a> *&#160;</td>
-          <td class="paramname"><em>analyzer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>simplify_trivial_iterators</em> = <code>true</code>&#160;</td>
         </tr>
@@ -1491,7 +1343,6 @@ Variables</h2></td></tr>
     <tr><td class="paramname">input_iters</td><td>Map from variable to iterator's range. </td></tr>
     <tr><td class="paramname">input_pred</td><td>The predicate constraints on the input iterators </td></tr>
     <tr><td class="paramname">check_level</td><td>The iter mapping checking level. </td></tr>
-    <tr><td class="paramname">analyzer</td><td><a class="el" href="classtvm_1_1arith_1_1Analyzer.html" title="Analyzer that contains bunch of sub-analyzers. ">Analyzer</a> used to get context information. </td></tr>
     <tr><td class="paramname">simplify_trivial_iterators</td><td>If true, iterators with unit extents are simplified </td></tr>
   </table>
   </dd>
@@ -1524,126 +1375,6 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The corresponding normal <a class="el" href="classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. ">PrimExpr</a>. </dd></dl>
-
-</div>
-</div>
-<a id="ae6d3e5cdc54dd62010d5dba363269f2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6d3e5cdc54dd62010d5dba363269f2f">&#9670;&nbsp;</a></span>NormalizeToIterSum()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtvm_1_1arith_1_1IterSumExpr.html">IterSumExpr</a> tvm::arith::NormalizeToIterSum </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classtvm_1_1PrimExpr.html">PrimExpr</a>&#160;</td>
-          <td class="paramname"><em>index</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtvm_1_1runtime_1_1Map.html">Map</a>&lt; <a class="el" href="classtvm_1_1tir_1_1Var.html">Var</a>, <a class="el" href="classtvm_1_1Range.html">Range</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>input_iters</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classtvm_1_1arith_1_1Analyzer.html">arith::Analyzer</a> *&#160;</td>
-          <td class="paramname"><em>analyzer</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Rewrite index as <a class="el" href="classtvm_1_1arith_1_1IterSumExpr.html" title="Managed reference to IterSumExprNode. ">IterSumExpr</a>. </p>
-<p>((i0 // b0) % a0) * s0 + ((i0 // b1) % a1) * s1 ... + base</p>
-<p>The iterators are ordered such that s0 &gt; s1 ... if we can prove the relation.</p>
-<p>Note that base may contain expressions that cannot be detected as the right pattern.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">index</td><td>The input index </td></tr>
-    <tr><td class="paramname">input_iters</td><td>The input iterators. </td></tr>
-    <tr><td class="paramname">analyzer</td><td>The input analyzer. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>This function is useful to detect iterator stride patterns. </dd></dl>
-
-</div>
-</div>
-<a id="a1023d832e2cd2270c283ed2ef8e34dc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1023d832e2cd2270c283ed2ef8e34dc6">&#9670;&nbsp;</a></span>operator &()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">CompareResult</a> tvm::arith::operator&amp; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">CompareResult</a>&#160;</td>
-          <td class="paramname"><em>lhs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">CompareResult</a>&#160;</td>
-          <td class="paramname"><em>rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a660ff1fdbb08fea19a922157cadad7a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a660ff1fdbb08fea19a922157cadad7a7">&#9670;&nbsp;</a></span>operator|()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">CompareResult</a> tvm::arith::operator| </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">CompareResult</a>&#160;</td>
-          <td class="paramname"><em>lhs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">CompareResult</a>&#160;</td>
-          <td class="paramname"><em>rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -1724,7 +1455,7 @@ Variables</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A transform (src <a class="el" href="classtvm_1_1arith_1_1IntConstraints.html" title="Managed reference to IntConstraintsNode. ">IntConstraints</a> -&gt; dst <a class="el" href="classtvm_1_1arith_1_1IntConstraints.html" title="Managed reference to IntConstraintsNode. ">IntConstraints</a>) from original variables to a set of new variables. The ranges of new variables always start from zero, their extents are solved from <code>system_to_solve</code>. src <a class="el" href="classtvm_1_1arith_1_1IntConstraints.html" title="Managed reference to IntConstraintsNode. ">IntConstraints</a> is the same as <code>system_to_solve</code>. dst IntConstraints(variables, ranges, relations) contains,<ol type="1">
 <li>variables - the variables that have been solved.</li>
 <li>ranges - the best range (start from zero) of each variable.</li>
-<li>relations - constraints that cannot be transformed to <a class="el" href="classtvm_1_1Range.html" title="Range container. ">Range</a> will be stored in relations. Variable mapping can be obtained from IntConstraintsTransform.src_to_dst and IntConstraintsTransform.dst_to_src. </li>
+<li>relations - constraints that cannot be transformed to <a class="el" href="classtvm_1_1Range.html" title="Range constainer. ">Range</a> will be stored in relations. Variable mapping can be obtained from IntConstraintsTransform.src_to_dst and IntConstraintsTransform.dst_to_src. </li>
 </ol>
 </dd></dl>
 
@@ -1756,7 +1487,7 @@ Variables</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The result ranges for each variables. The returned IntConstraints(variables, ranges, relations) contains,<ol type="1">
 <li>variables - the variables that have been solved.</li>
 <li>ranges - the best range of each variable.</li>
-<li>relations - constraints that cannot be transformed to <a class="el" href="classtvm_1_1Range.html" title="Range container. ">Range</a> will be stored in relations. </li>
+<li>relations - constraints that cannot be transformed to <a class="el" href="classtvm_1_1Range.html" title="Range constainer. ">Range</a> will be stored in relations. </li>
 </ol>
 </dd></dl>
 
@@ -1817,8 +1548,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a07096c818b466b42171bc93c1784cdf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07096c818b466b42171bc93c1784cdf8">&#9670;&nbsp;</a></span>SubspaceDivide()</h2>
+<a id="aeb7d26b41b1cb5ea6aedba46715fcd7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb7d26b41b1cb5ea6aedba46715fcd7e">&#9670;&nbsp;</a></span>SubspaceDivide()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1857,13 +1588,7 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classtvm_1_1arith_1_1Analyzer.html">arith::Analyzer</a> *&#160;</td>
-          <td class="paramname"><em>analyzer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>simplify_trivial_iterators</em> = <code>true</code>&#160;</td>
+          <td class="paramname"><em>analyzer</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1883,8 +1608,7 @@ Variables</h2></td></tr>
     <tr><td class="paramname">sub_iters</td><td>Iterators of subspace. </td></tr>
     <tr><td class="paramname">predicate</td><td>The predicate constraints on the input iterators </td></tr>
     <tr><td class="paramname">check_level</td><td>The iter mapping checking level. </td></tr>
-    <tr><td class="paramname">analyzer</td><td><a class="el" href="classtvm_1_1arith_1_1Analyzer.html" title="Analyzer that contains bunch of sub-analyzers. ">Analyzer</a> used to get context information. </td></tr>
-    <tr><td class="paramname">simplify_trivial_iterators</td><td>If true, iterators with extent of 1 will be replaced with a constant value.</td></tr>
+    <tr><td class="paramname">analyzer</td><td><a class="el" href="classtvm_1_1arith_1_1Analyzer.html" title="Analyzer that contains bunch of sub-analyzers. ">Analyzer</a> used to get context information.</td></tr>
   </table>
   </dd>
 </dl>

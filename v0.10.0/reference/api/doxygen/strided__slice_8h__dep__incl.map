@@ -1,10 +1,9 @@
 <map id="include/tvm/topi/detail/strided_slice.h" name="include/tvm/topi/detail/strided_slice.h">
 <area shape="rect" id="node2" href="$topi_2transform_8h.html" title="Transform op constructors. " alt="" coords="157,95,365,121"/>
 <area shape="rect" id="node3" href="$bias__add_8h.html" title="bias_add op constructions " alt="" coords="5,169,153,211"/>
-<area shape="rect" id="node4" href="$topi_2nn_8h.html" title="NN op constructions. " alt="" coords="22,266,182,293"/>
+<area shape="rect" id="node4" href="$topi_2nn_8h.html" title="NN op constructions. " alt="" coords="66,266,226,293"/>
 <area shape="rect" id="node6" href="$reduction_8h.html" title="Reduction op constructors. " alt="" coords="229,177,434,203"/>
-<area shape="rect" id="node9" href="$reorg_8h.html" title="Reorg op constructions. " alt="" coords="602,259,773,300"/>
-<area shape="rect" id="node5" href="$nn_2pooling_8h.html" title="Pooling op constructions. " alt="" coords="87,348,235,389"/>
-<area shape="rect" id="node7" href="$rms__norm_8h.html" title="root mean square normalization op constructions " alt="" coords="257,259,405,300"/>
-<area shape="rect" id="node8" href="$nn_2softmax_8h.html" title="Softmax op constructions. " alt="" coords="429,259,577,300"/>
+<area shape="rect" id="node8" href="$reorg_8h.html" title="Reorg op constructions. " alt="" coords="474,259,645,300"/>
+<area shape="rect" id="node5" href="$nn_2pooling_8h.html" title="Pooling op constructions. " alt="" coords="131,348,279,389"/>
+<area shape="rect" id="node7" href="$nn_2softmax_8h.html" title="Softmax op constructions. " alt="" coords="301,259,449,300"/>
 </map>

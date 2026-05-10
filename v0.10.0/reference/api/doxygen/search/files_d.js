@@ -9,7 +9,6 @@ var searchData=
   ['registry_2eh',['registry.h',['../registry_8h.html',1,'']]],
   ['reorg_2eh',['reorg.h',['../reorg_8h.html',1,'']]],
   ['repr_5fprinter_2eh',['repr_printer.h',['../repr__printer_8h.html',1,'']]],
-  ['rms_5fnorm_2eh',['rms_norm.h',['../rms__norm_8h.html',1,'']]],
   ['rocblas_2eh',['rocblas.h',['../rocblas_8h.html',1,'']]],
   ['runner_2eh',['runner.h',['../runner_8h.html',1,'']]],
   ['runtime_2eh',['runtime.h',['../runtime_8h.html',1,'']]]

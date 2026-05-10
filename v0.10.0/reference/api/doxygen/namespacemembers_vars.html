@@ -73,9 +73,6 @@ $(function() {
 <li>async_wait_queue_scope
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#aa2304828e489c908f0b1f08d7384b711">tvm::tir::attr</a>
 </li>
-<li>auto_copy
-: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a54930cf29f25fa3d67b0f983858fa467">tvm::tir::attr</a>
-</li>
 <li>AUTO_SCHEDULER_LOG_VERSION
 : <a class="el" href="namespacetvm_1_1auto__scheduler.html#a04029f3b293fba232218203167b2ef63">tvm::auto_scheduler</a>
 </li>
@@ -170,12 +167,6 @@ $(function() {
 
 
 <h3><a id="index_i"></a>- i -</h3><ul>
-<li>is_tvm_array
-: <a class="el" href="namespacetvm_1_1runtime.html#a046f48c6c26b7e59951fd144cf89ce7e">tvm::runtime</a>
-</li>
-<li>is_tvm_array&lt; Array&lt; T &gt; &gt;
-: <a class="el" href="namespacetvm_1_1runtime.html#a11573f379e5d0f328e1bb86760677788">tvm::runtime</a>
-</li>
 <li>is_valid_iterator_v
 : <a class="el" href="namespacetvm_1_1runtime.html#afbd2b4816e4fde19ac51ed38463fb43c">tvm::runtime</a>
 </li>
@@ -225,6 +216,9 @@ $(function() {
 <li>kConv2dNCHW
 : <a class="el" href="namespacetvm_1_1topi.html#a2fd97432407bc468930e459a9826ce95">tvm::topi</a>
 </li>
+<li>kDefaultDispatchToken
+: <a class="el" href="namespacetvm_1_1script_1_1printer.html#a236ba2b9c23dc35e181a7c4883dda0b3">tvm::script::printer</a>
+</li>
 <li>kDefaultWorkspaceAlignment
 : <a class="el" href="namespacetvm_1_1runtime.html#a551bab1e24e2e794f8ccd4446b63a7af">tvm::runtime</a>
 </li>
@@ -239,6 +233,12 @@ $(function() {
 </li>
 <li>kDepthwiseConv2dNHWC
 : <a class="el" href="namespacetvm_1_1topi.html#a9094c3c432410ef2675444ecf8e06bfe">tvm::topi</a>
+</li>
+<li>kDeviceThreadAxis
+: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a4933845b75cf4f08fb66f55fdd94986f">tvm::tir::attr</a>
+</li>
+<li>kDeviceUseDynSharedMemory
+: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a6644dc9ce51ba96b0364f7f891dcad9a">tvm::tir::attr</a>
 </li>
 <li>kEinsum
 : <a class="el" href="namespacetvm_1_1topi.html#a6b33f2b888123f3ccd7191feeaedb93b">tvm::topi</a>
@@ -268,7 +268,7 @@ $(function() {
 : <a class="el" href="namespacetvm_1_1relay_1_1attr.html#ad294262b6b1ca1b7bf3924a139f17562">tvm::relay::attr</a>
 </li>
 <li>kInvalidDeviceType
-: <a class="el" href="namespacetvm.html#a3f405fee06b79f345a4debf023c7c42c">tvm</a>
+: <a class="el" href="namespacetvm.html#ab3c85920678b8ba5d925d386b66c0261">tvm</a>
 </li>
 <li>kIsEntryFunc
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a489d0cebd2820025bc3d6c5a9011cdd4">tvm::tir::attr</a>
@@ -278,12 +278,6 @@ $(function() {
 </li>
 <li>kIsGlobalFunc
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a3166c6d41ff1816ab01e398be07bac20">tvm::tir::attr</a>
-</li>
-<li>kIsHostFunc
-: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#ab91a41e0c0292462e91affae45b12db5">tvm::tir::attr</a>
-</li>
-<li>kKernelLaunchParams
-: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a7366f26ffad7ca99febbd65ac678bcba">tvm::tir::attr</a>
 </li>
 <li>kMatMul
 : <a class="el" href="namespacetvm_1_1topi.html#aa9f70e7392653f38da6ff53f5f554f98">tvm::topi</a>
@@ -298,7 +292,7 @@ $(function() {
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#ac74386674da85bc4b4dd1ee28a97ff63">tvm::tir::attr</a>
 </li>
 <li>kNullDeviceType
-: <a class="el" href="namespacetvm.html#aaa7a89abe680654f1140be0e35b0feb1">tvm</a>
+: <a class="el" href="namespacetvm.html#ab7076521b2e0d4224b7803811cbd1fd6">tvm</a>
 </li>
 <li>kParams
 : <a class="el" href="namespacetvm_1_1relay_1_1attr.html#a3cd72e0efb5bcba623c8af8cf0f5314d">tvm::relay::attr</a>
@@ -326,9 +320,6 @@ $(function() {
 </li>
 <li>kSkipOptimization
 : <a class="el" href="namespacetvm_1_1relay_1_1attr.html#aed3671df7e12d228b8070806d07f7c62">tvm::relay::attr</a>
-</li>
-<li>kSystemLibPrefix
-: <a class="el" href="namespacetvm_1_1attr.html#aae652055bd020f8aa1cc32436e155603">tvm::attr</a>
 </li>
 <li>kTarget
 : <a class="el" href="namespacetvm_1_1attr.html#a580ae92d00e34f0a8f0d40395b8d972c">tvm::attr</a>
@@ -367,9 +358,6 @@ $(function() {
 <li>layout_transforms
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#ace6dc58c76a20757b54c5afd76bdbf53">tvm::tir::attr</a>
 </li>
-<li>local_stage
-: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#af3c36a3dd1f599b1fc641784f3020796">tvm::tir::attr</a>
-</li>
 <li>loop_scope
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a9125ab905a93924ee79269aa808ed517">tvm::tir::attr</a>
 </li>
@@ -386,20 +374,8 @@ $(function() {
 <li>meta_schedule_auto_tensorize_init
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a82af28d290971bb889ea37caca78ff46">tvm::tir::attr</a>
 </li>
-<li>meta_schedule_cache_type
-: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a4ca5c5953b2047c177c627b794822f04">tvm::tir::attr</a>
-</li>
-<li>meta_schedule_cache_type_read
-: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a7f5af02ec48a1be0f1162e2e1bdf7153">tvm::tir::attr</a>
-</li>
-<li>meta_schedule_cache_type_write
-: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#ab6e77542dd6c4d86f8d7d3d1881daa7f">tvm::tir::attr</a>
-</li>
 <li>meta_schedule_cooperative_fetch
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a82bba3064a40ce62c958db4b120471a7">tvm::tir::attr</a>
-</li>
-<li>meta_schedule_inline_rule
-: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#ae4b1468e0d830201631fd97e1f944e07">tvm::tir::attr</a>
 </li>
 <li>meta_schedule_layout_rewrite_preproc
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a763184e47fc7f1423d12e5f919d932be">tvm::tir::attr</a>
@@ -409,9 +385,6 @@ $(function() {
 </li>
 <li>meta_schedule_random_compute_producer
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a350918383cf7d7c9a95114ab7fda7781">tvm::tir::attr</a>
-</li>
-<li>meta_schedule_tensor_core_enabled
-: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a3fa5e8f47d3ce634be6091cdb2fb8348">tvm::tir::attr</a>
 </li>
 <li>meta_schedule_thread_extent_high_inclusive
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#ad73f6ad441e1be3b2e71dead1e89f4bb">tvm::tir::attr</a>
@@ -482,9 +455,6 @@ $(function() {
 <li>reduce_scope
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a50fc9633b9cfbcefa2393dbb2ece1846">tvm::tir::attr</a>
 </li>
-<li>require_block_var_bound_predicate
-: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#af1b654a57098d16dd2d08efaa949ffe3">tvm::tir::attr</a>
-</li>
 <li>rolling_buffer_scope
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a5d0392acd85eb3cd406315d3c02eadd8">tvm::tir::attr</a>
 </li>
@@ -523,6 +493,9 @@ $(function() {
 <li>tvm_dev_mblob
 : <a class="el" href="namespacetvm_1_1runtime_1_1symbol.html#a316b327224938ffb2a73a9c4432d1da9">tvm::runtime::symbol</a>
 </li>
+<li>tvm_dev_mblob_nbytes
+: <a class="el" href="namespacetvm_1_1runtime_1_1symbol.html#aba35391edf7c3a25628bf99ed42cdca1">tvm::runtime::symbol</a>
+</li>
 <li>tvm_entrypoint_suffix
 : <a class="el" href="namespacetvm_1_1runtime_1_1symbol.html#a00aad7edbef6fd3a1e2f6f94582fea8d">tvm::runtime::symbol</a>
 </li>
@@ -554,9 +527,6 @@ $(function() {
 
 
 <h3><a id="index_v"></a>- v -</h3><ul>
-<li>vector_bytes
-: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a7a5ec1a12abbc199795176f1da4f9fb9">tvm::tir::attr</a>
-</li>
 <li>virtual_thread
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a464533c1560ace5e0b5071ba6902482e">tvm::tir::attr</a>
 </li>

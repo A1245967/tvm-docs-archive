@@ -81,9 +81,12 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a7366f26ffad7ca99febbd65ac678bcba"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a7366f26ffad7ca99febbd65ac678bcba">kKernelLaunchParams</a> = &quot;tir.kernel_launch_params&quot;</td></tr>
-<tr class="memdesc:a7366f26ffad7ca99febbd65ac678bcba"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of thread <a class="el" href="classtvm_1_1tir_1_1IterVar.html" title="Iteration Variable, represents an iteration over an integer interval. ">IterVar</a> that a DeviceLaunch function corresponds to.  <a href="#a7366f26ffad7ca99febbd65ac678bcba">More...</a><br /></td></tr>
-<tr class="separator:a7366f26ffad7ca99febbd65ac678bcba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4933845b75cf4f08fb66f55fdd94986f"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a4933845b75cf4f08fb66f55fdd94986f">kDeviceThreadAxis</a> = &quot;tir.device_thread_axis&quot;</td></tr>
+<tr class="memdesc:a4933845b75cf4f08fb66f55fdd94986f"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of thread <a class="el" href="classtvm_1_1tir_1_1IterVar.html" title="Iteration Variable, represents an iteration over an integer interval. ">IterVar</a> that a DeviceLaunch function corresponds to.  <a href="#a4933845b75cf4f08fb66f55fdd94986f">More...</a><br /></td></tr>
+<tr class="separator:a4933845b75cf4f08fb66f55fdd94986f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6644dc9ce51ba96b0364f7f891dcad9a"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a6644dc9ce51ba96b0364f7f891dcad9a">kDeviceUseDynSharedMemory</a> = &quot;tir.device_use_dyn_shared_memory&quot;</td></tr>
+<tr class="memdesc:a6644dc9ce51ba96b0364f7f891dcad9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not use dynamic shared memory.  <a href="#a6644dc9ce51ba96b0364f7f891dcad9a">More...</a><br /></td></tr>
+<tr class="separator:a6644dc9ce51ba96b0364f7f891dcad9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac74386674da85bc4b4dd1ee28a97ff63"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#ac74386674da85bc4b4dd1ee28a97ff63">kNoAlias</a> = &quot;tir.noalias&quot;</td></tr>
 <tr class="memdesc:ac74386674da85bc4b4dd1ee28a97ff63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to set noalias rule on the function arguments.  <a href="#ac74386674da85bc4b4dd1ee28a97ff63">More...</a><br /></td></tr>
 <tr class="separator:ac74386674da85bc4b4dd1ee28a97ff63"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -93,9 +96,6 @@ Variables</h2></td></tr>
 <tr class="memitem:a3166c6d41ff1816ab01e398be07bac20"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a3166c6d41ff1816ab01e398be07bac20">kIsGlobalFunc</a> = &quot;tir.is_global_func&quot;</td></tr>
 <tr class="memdesc:a3166c6d41ff1816ab01e398be07bac20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark the function as the global function called from the host.  <a href="#a3166c6d41ff1816ab01e398be07bac20">More...</a><br /></td></tr>
 <tr class="separator:a3166c6d41ff1816ab01e398be07bac20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab91a41e0c0292462e91affae45b12db5"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#ab91a41e0c0292462e91affae45b12db5">kIsHostFunc</a> = &quot;tir.is_host_func&quot;</td></tr>
-<tr class="memdesc:ab91a41e0c0292462e91affae45b12db5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark the function as run on the host, mutually exclusive with kTarget.  <a href="#ab91a41e0c0292462e91affae45b12db5">More...</a><br /></td></tr>
-<tr class="separator:ab91a41e0c0292462e91affae45b12db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a399eed804ecc482a607f0f65f07b78dd"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a399eed804ecc482a607f0f65f07b78dd">thread_extent</a> = &quot;thread_extent&quot;</td></tr>
 <tr class="memdesc:a399eed804ecc482a607f0f65f07b78dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark launching extent of thread, used by device API.  <a href="#a399eed804ecc482a607f0f65f07b78dd">More...</a><br /></td></tr>
 <tr class="separator:a399eed804ecc482a607f0f65f07b78dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -103,7 +103,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:a464533c1560ace5e0b5071ba6902482e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark launching of a virtual thread.  <a href="#a464533c1560ace5e0b5071ba6902482e">More...</a><br /></td></tr>
 <tr class="separator:a464533c1560ace5e0b5071ba6902482e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac62a341bfebe5448f290aa54b0f84cac"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#ac62a341bfebe5448f290aa54b0f84cac">coproc_scope</a> = &quot;coproc_scope&quot;</td></tr>
-<tr class="memdesc:ac62a341bfebe5448f290aa54b0f84cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark region is processed by a co-processor.  <a href="#ac62a341bfebe5448f290aa54b0f84cac">More...</a><br /></td></tr>
+<tr class="memdesc:ac62a341bfebe5448f290aa54b0f84cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark region is processed by a co-proccesor.  <a href="#ac62a341bfebe5448f290aa54b0f84cac">More...</a><br /></td></tr>
 <tr class="separator:ac62a341bfebe5448f290aa54b0f84cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1d3379e8d6486e79853e254ea9a724e"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#ae1d3379e8d6486e79853e254ea9a724e">coproc_uop_scope</a> = &quot;coproc_uop_scope&quot;</td></tr>
 <tr class="memdesc:ae1d3379e8d6486e79853e254ea9a724e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark region creates coprocessor micro ops, can be reused if corresponding variable is independent.  <a href="#ae1d3379e8d6486e79853e254ea9a724e">More...</a><br /></td></tr>
@@ -283,34 +283,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a82af28d290971bb889ea37caca78ff46"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a82af28d290971bb889ea37caca78ff46">meta_schedule_auto_tensorize_init</a> = &quot;meta_schedule.auto_tensorize_init&quot;</td></tr>
 <tr class="memdesc:a82af28d290971bb889ea37caca78ff46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark that the init statement of a block should be further rewritten using tensorization.  <a href="#a82af28d290971bb889ea37caca78ff46">More...</a><br /></td></tr>
 <tr class="separator:a82af28d290971bb889ea37caca78ff46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1b654a57098d16dd2d08efaa949ffe3"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#af1b654a57098d16dd2d08efaa949ffe3">require_block_var_bound_predicate</a> = &quot;require_bound_predicate&quot;</td></tr>
-<tr class="memdesc:af1b654a57098d16dd2d08efaa949ffe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark that the block need to add predicate for block var bounds during lowering.  <a href="#af1b654a57098d16dd2d08efaa949ffe3">More...</a><br /></td></tr>
-<tr class="separator:af1b654a57098d16dd2d08efaa949ffe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fa5e8f47d3ce634be6091cdb2fb8348"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a3fa5e8f47d3ce634be6091cdb2fb8348">meta_schedule_tensor_core_enabled</a> = &quot;meta_schedule.tensor_core_enabled&quot;</td></tr>
-<tr class="memdesc:a3fa5e8f47d3ce634be6091cdb2fb8348"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark that tensor core is enabled in the <a class="el" href="classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. ">PrimExpr</a>.  <a href="#a3fa5e8f47d3ce634be6091cdb2fb8348">More...</a><br /></td></tr>
-<tr class="separator:a3fa5e8f47d3ce634be6091cdb2fb8348"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ca5c5953b2047c177c627b794822f04"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a4ca5c5953b2047c177c627b794822f04">meta_schedule_cache_type</a> = &quot;meta_schedule.cache_type&quot;</td></tr>
-<tr class="memdesc:a4ca5c5953b2047c177c627b794822f04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark a block as generated by cache_read or cache_write block. 0 means cache_read; 1 means cache_write.  <a href="#a4ca5c5953b2047c177c627b794822f04">More...</a><br /></td></tr>
-<tr class="separator:a4ca5c5953b2047c177c627b794822f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f5af02ec48a1be0f1162e2e1bdf7153"><td class="memItemLeft" align="right" valign="top">constexpr const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a7f5af02ec48a1be0f1162e2e1bdf7153">meta_schedule_cache_type_read</a> = 0</td></tr>
-<tr class="separator:a7f5af02ec48a1be0f1162e2e1bdf7153"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6e77542dd6c4d86f8d7d3d1881daa7f"><td class="memItemLeft" align="right" valign="top">constexpr const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#ab6e77542dd6c4d86f8d7d3d1881daa7f">meta_schedule_cache_type_write</a> = 1</td></tr>
-<tr class="separator:ab6e77542dd6c4d86f8d7d3d1881daa7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54930cf29f25fa3d67b0f983858fa467"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a54930cf29f25fa3d67b0f983858fa467">auto_copy</a> = &quot;auto_copy&quot;</td></tr>
-<tr class="memdesc:a54930cf29f25fa3d67b0f983858fa467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark auto copy for memhammer.  <a href="#a54930cf29f25fa3d67b0f983858fa467">More...</a><br /></td></tr>
-<tr class="separator:a54930cf29f25fa3d67b0f983858fa467"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3c36a3dd1f599b1fc641784f3020796"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#af3c36a3dd1f599b1fc641784f3020796">local_stage</a> = &quot;local_stage&quot;</td></tr>
-<tr class="memdesc:af3c36a3dd1f599b1fc641784f3020796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark local stage constraint on data copy.  <a href="#af3c36a3dd1f599b1fc641784f3020796">More...</a><br /></td></tr>
-<tr class="separator:af3c36a3dd1f599b1fc641784f3020796"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a5ec1a12abbc199795176f1da4f9fb9"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a7a5ec1a12abbc199795176f1da4f9fb9">vector_bytes</a> = &quot;vector_bytes&quot;</td></tr>
-<tr class="memdesc:a7a5ec1a12abbc199795176f1da4f9fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark vectorization length constraint on block.  <a href="#a7a5ec1a12abbc199795176f1da4f9fb9">More...</a><br /></td></tr>
-<tr class="separator:a7a5ec1a12abbc199795176f1da4f9fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a350f417c4c3ed61f4578c5e5cb72d667"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a350f417c4c3ed61f4578c5e5cb72d667">warp_execution</a> = &quot;warp_execution&quot;</td></tr>
 <tr class="memdesc:a350f417c4c3ed61f4578c5e5cb72d667"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark that a block is executed by a warp. This implies the extend of threadIdx.x is warp size.  <a href="#a350f417c4c3ed61f4578c5e5cb72d667">More...</a><br /></td></tr>
 <tr class="separator:a350f417c4c3ed61f4578c5e5cb72d667"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4b1468e0d830201631fd97e1f944e07"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm_1_1tir_1_1attr.html#ae4b1468e0d830201631fd97e1f944e07">meta_schedule_inline_rule</a> = &quot;meta_schedule.inline_rule&quot;</td></tr>
-<tr class="memdesc:ae4b1468e0d830201631fd97e1f944e07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark that a block is disallowed in auto inline.  <a href="#ae4b1468e0d830201631fd97e1f944e07">More...</a><br /></td></tr>
-<tr class="separator:ae4b1468e0d830201631fd97e1f944e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classtvm_1_1tir_1_1PrimFunc.html" title="Managed reference to PrimFuncNode. ">PrimFunc</a> specific attribute names. </p>
@@ -414,22 +389,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a54930cf29f25fa3d67b0f983858fa467"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54930cf29f25fa3d67b0f983858fa467">&#9670;&nbsp;</a></span>auto_copy</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr const char* tvm::tir::attr::auto_copy = &quot;auto_copy&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Mark auto copy for memhammer. </p>
 
 </div>
 </div>
@@ -590,7 +549,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Mark region is processed by a co-processor. </p>
+<p>Mark region is processed by a co-proccesor. </p>
 
 </div>
 </div>
@@ -754,6 +713,46 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a4933845b75cf4f08fb66f55fdd94986f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4933845b75cf4f08fb66f55fdd94986f">&#9670;&nbsp;</a></span>kDeviceThreadAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr const char* tvm::tir::attr::kDeviceThreadAxis = &quot;tir.device_thread_axis&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>List of thread <a class="el" href="classtvm_1_1tir_1_1IterVar.html" title="Iteration Variable, represents an iteration over an integer interval. ">IterVar</a> that a DeviceLaunch function corresponds to. </p>
+<p><a class="el" href="classtvm_1_1Type.html" title="Managed reference to TypeNode. ">Type</a>: Array&lt;tir::IterVar&gt;</p>
+<p>We call a device kernel launch function f using the following convention:</p>
+<p><a class="el" href="classtvm_1_1tir_1_1Call.html" title="Managed reference to CallNode. ">Call</a>(f, [arg1, arg2, ..., arg_n, work_size_1, work_size_2, ... work_size_m, dyn_shmem_size])</p>
+<p>Here n = len(arg), m = len(work_size) = len(device_thread_axis).</p>
+<p>When kDeviceUseDynSharedMemory is not set, dyn_shmem_size argument is omitted.</p>
+<p>The list of device_thread_axis indicates how can be bind the work_size arguments to the corresponding threads.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacetvm.html#a85e4536ea4e1c8d3d48c61135f0a8ff0aea7c0ea92da6200bb14ea17a6094e2bc" title="Device kernel launch. ">tvm::CallingConv::kDeviceKernelLaunch</a> </dd></dl>
+
+</div>
+</div>
+<a id="a6644dc9ce51ba96b0364f7f891dcad9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6644dc9ce51ba96b0364f7f891dcad9a">&#9670;&nbsp;</a></span>kDeviceUseDynSharedMemory</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr const char* tvm::tir::attr::kDeviceUseDynSharedMemory = &quot;tir.device_use_dyn_shared_memory&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether or not use dynamic shared memory. </p>
+<p><a class="el" href="classtvm_1_1Type.html" title="Managed reference to TypeNode. ">Type</a>: <a class="el" href="classtvm_1_1Integer.html" title="Container of constant int that adds more constructors. ">Integer</a> </p>
+
+</div>
+</div>
 <a id="a489d0cebd2820025bc3d6c5a9011cdd4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a489d0cebd2820025bc3d6c5a9011cdd4">&#9670;&nbsp;</a></span>kIsEntryFunc</h2>
 
@@ -786,57 +785,6 @@ Variables</h2></td></tr>
 
 <p>Mark the function as the global function called from the host. </p>
 <p><a class="el" href="classtvm_1_1Type.html" title="Managed reference to TypeNode. ">Type</a>: <a class="el" href="classtvm_1_1Integer.html" title="Container of constant int that adds more constructors. ">Integer</a> </p>
-
-</div>
-</div>
-<a id="ab91a41e0c0292462e91affae45b12db5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab91a41e0c0292462e91affae45b12db5">&#9670;&nbsp;</a></span>kIsHostFunc</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr const char* tvm::tir::attr::kIsHostFunc = &quot;tir.is_host_func&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Mark the function as run on the host, mutually exclusive with kTarget. </p>
-<p><a class="el" href="classtvm_1_1Type.html" title="Managed reference to TypeNode. ">Type</a>: <a class="el" href="classtvm_1_1Integer.html" title="Container of constant int that adds more constructors. ">Integer</a> </p>
-
-</div>
-</div>
-<a id="a7366f26ffad7ca99febbd65ac678bcba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7366f26ffad7ca99febbd65ac678bcba">&#9670;&nbsp;</a></span>kKernelLaunchParams</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr const char* tvm::tir::attr::kKernelLaunchParams = &quot;tir.kernel_launch_params&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>List of thread <a class="el" href="classtvm_1_1tir_1_1IterVar.html" title="Iteration Variable, represents an iteration over an integer interval. ">IterVar</a> that a DeviceLaunch function corresponds to. </p>
-<p><a class="el" href="classtvm_1_1Type.html" title="Managed reference to TypeNode. ">Type</a>: Array&lt;String&gt;</p>
-<p>We call a device kernel launch function f using the following convention:</p>
-<p><a class="el" href="classtvm_1_1tir_1_1Call.html" title="Managed reference to CallNode. ">Call</a>(f, [arg1, arg2, ..., arg_n, work_size_1, work_size_2, ... work_size_m, dyn_shmem_size])</p>
-<p>Here n = len(arg), m = len(work_size) = len(launch_params)-1.</p>
-<p>The list of kernel launch params indicates which additional parameters will be provided to the PackedFunc by the calling scope.</p>
-<ul>
-<li><p class="startli">"threadIdx.x", "threadIdx.y", "threadIdx.z"</p>
-<p class="startli">The extent of the thread count in x/y/z, to be used when launching the compute kernel on the device. <a class="el" href="classtvm_1_1tir_1_1For.html" title="Managed reference to ForNode. ">For</a> example, the gridDimX/Y/Z parameters passed to cuLaunchKernel when launching a CUDA kernel, or the groupCountX/Y/Z parameters passed to vkCmdDispatch when dispatching a compute pipeline to Vulkan.</p>
-</li>
-<li><p class="startli">"blockIdx.x", "blockIdx.y", "blockIdx.z"</p>
-<p class="startli">The extent of the block iterators, to be used when launching the compute kernel on the device. <a class="el" href="classtvm_1_1tir_1_1For.html" title="Managed reference to ForNode. ">For</a> example, the blockDimX/Y/Z parameters passed to cuLaunchKernel when launching a CUDA kernel. <a class="el" href="classtvm_1_1tir_1_1For.html" title="Managed reference to ForNode. ">For</a> runtimes that do not require the block to be provided externally, this parameter is ignored. <a class="el" href="classtvm_1_1tir_1_1For.html" title="Managed reference to ForNode. ">For</a> example, the spv::ExecutionModeLocalSize for SPIR-V shaders on Vulkan, where this parameter is defined in the shader.</p>
-</li>
-<li><p class="startli">tvm::runtime::launch_param::kUseDynamicSharedMemoryTag</p>
-<p class="startli">The size of the shared memory that may be allocated internally by the kernel. <a class="el" href="classtvm_1_1tir_1_1For.html" title="Managed reference to ForNode. ">For</a> example, exposed as the CU_FUNC_ATTRIBUTE_MAX_DYNAMIC_SHARED_SIZE_BYTES attribute in cuda.</p>
-<p class="startli">Defined as "tir.use_dyn_shared_memory".</p>
-</li>
-</ul>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacetvm.html#a85e4536ea4e1c8d3d48c61135f0a8ff0aea7c0ea92da6200bb14ea17a6094e2bc" title="Device kernel launch. ">tvm::CallingConv::kDeviceKernelLaunch</a> </dd></dl>
 
 </div>
 </div>
@@ -887,22 +835,6 @@ Variables</h2></td></tr>
 
 <p>Marks the layout transforms to be used for a tensor. </p>
 <p>Only applies to a <a class="el" href="classtvm_1_1tir_1_1DataProducer.html" title="Managed reference to DataProducerNode. ">DataProducer</a>, as it should be made part of the <a class="el" href="classtvm_1_1tir_1_1PrimFunc.html" title="Managed reference to PrimFuncNode. ">PrimFunc</a> attributes for TIR. </p>
-
-</div>
-</div>
-<a id="af3c36a3dd1f599b1fc641784f3020796"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3c36a3dd1f599b1fc641784f3020796">&#9670;&nbsp;</a></span>local_stage</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr const char* tvm::tir::attr::local_stage = &quot;local_stage&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Mark local stage constraint on data copy. </p>
 
 </div>
 </div>
@@ -970,55 +902,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ca5c5953b2047c177c627b794822f04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ca5c5953b2047c177c627b794822f04">&#9670;&nbsp;</a></span>meta_schedule_cache_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr const char* tvm::tir::attr::meta_schedule_cache_type = &quot;meta_schedule.cache_type&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Mark a block as generated by cache_read or cache_write block. 0 means cache_read; 1 means cache_write. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a7f5af02ec48a1be0f1162e2e1bdf7153">meta_schedule_cache_type_read</a> </dd>
-<dd>
-<a class="el" href="namespacetvm_1_1tir_1_1attr.html#ab6e77542dd6c4d86f8d7d3d1881daa7f">meta_schedule_cache_type_write</a> </dd></dl>
-
-</div>
-</div>
-<a id="a7f5af02ec48a1be0f1162e2e1bdf7153"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f5af02ec48a1be0f1162e2e1bdf7153">&#9670;&nbsp;</a></span>meta_schedule_cache_type_read</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr const int tvm::tir::attr::meta_schedule_cache_type_read = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a4ca5c5953b2047c177c627b794822f04" title="Mark a block as generated by cache_read or cache_write block. 0 means cache_read; 1 means cache_write...">meta_schedule_cache_type</a> </dd></dl>
-
-</div>
-</div>
-<a id="ab6e77542dd6c4d86f8d7d3d1881daa7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6e77542dd6c4d86f8d7d3d1881daa7f">&#9670;&nbsp;</a></span>meta_schedule_cache_type_write</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr const int tvm::tir::attr::meta_schedule_cache_type_write = 1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacetvm_1_1tir_1_1attr.html#a4ca5c5953b2047c177c627b794822f04" title="Mark a block as generated by cache_read or cache_write block. 0 means cache_read; 1 means cache_write...">meta_schedule_cache_type</a> </dd></dl>
-
-</div>
-</div>
 <a id="a82bba3064a40ce62c958db4b120471a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a82bba3064a40ce62c958db4b120471a7">&#9670;&nbsp;</a></span>meta_schedule_cooperative_fetch</h2>
 
@@ -1032,22 +915,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Mark that the loop should be further skip and bound to environment threads to enable cooperative fetching. </p>
-
-</div>
-</div>
-<a id="ae4b1468e0d830201631fd97e1f944e07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4b1468e0d830201631fd97e1f944e07">&#9670;&nbsp;</a></span>meta_schedule_inline_rule</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr const char* tvm::tir::attr::meta_schedule_inline_rule = &quot;meta_schedule.inline_rule&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Mark that a block is disallowed in auto inline. </p>
 
 </div>
 </div>
@@ -1096,22 +963,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">    <span class="stringliteral">&quot;meta_schedule.random_compute_producer&quot;</span></div></div><!-- fragment -->
 <p>Mark the block whose producer needs to be applied by rule Random-Compute-Location. </p>
-
-</div>
-</div>
-<a id="a3fa5e8f47d3ce634be6091cdb2fb8348"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fa5e8f47d3ce634be6091cdb2fb8348">&#9670;&nbsp;</a></span>meta_schedule_tensor_core_enabled</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr const char* tvm::tir::attr::meta_schedule_tensor_core_enabled = &quot;meta_schedule.tensor_core_enabled&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Mark that tensor core is enabled in the <a class="el" href="classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. ">PrimExpr</a>. </p>
 
 </div>
 </div>
@@ -1403,22 +1254,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af1b654a57098d16dd2d08efaa949ffe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1b654a57098d16dd2d08efaa949ffe3">&#9670;&nbsp;</a></span>require_block_var_bound_predicate</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr const char* tvm::tir::attr::require_block_var_bound_predicate = &quot;require_bound_predicate&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Mark that the block need to add predicate for block var bounds during lowering. </p>
-
-</div>
-</div>
 <a id="a5d0392acd85eb3cd406315d3c02eadd8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d0392acd85eb3cd406315d3c02eadd8">&#9670;&nbsp;</a></span>rolling_buffer_scope</h2>
 
@@ -1562,22 +1397,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Mark launching extent of thread, used by device API. </p>
-
-</div>
-</div>
-<a id="a7a5ec1a12abbc199795176f1da4f9fb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a5ec1a12abbc199795176f1da4f9fb9">&#9670;&nbsp;</a></span>vector_bytes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr const char* tvm::tir::attr::vector_bytes = &quot;vector_bytes&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Mark vectorization length constraint on block. </p>
 
 </div>
 </div>

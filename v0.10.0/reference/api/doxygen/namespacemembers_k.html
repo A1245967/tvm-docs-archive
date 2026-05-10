@@ -115,9 +115,6 @@ $(function() {
 <li>kBaseType
 : <a class="el" href="namespacetvm.html#acd267f8d7f55da6ac681239831963279a86ff765603911600b938cea9a65e984b">tvm</a>
 </li>
-<li>kBinarySerializable
-: <a class="el" href="namespacetvm_1_1runtime.html#a6edb2235f96c34eaf0119834d293ca54abb73d116e7bde220e81a19e98cc62103">tvm::runtime</a>
-</li>
 <li>kBool
 : <a class="el" href="namespacetvm_1_1runtime_1_1metadata.html#a6edfc2b47c55d18f94867a18a7b02fb7a9d43d649644949fee30ec9bbafce49e8">tvm::runtime::metadata</a>
 </li>
@@ -172,6 +169,9 @@ $(function() {
 <li>kDefault
 : <a class="el" href="namespacetvm_1_1tir.html#a9ac05a14db42ca73da1d3945e7ce2fd1a4500370408bf0077c86a795cbe9dbf39">tvm::tir</a>
 </li>
+<li>kDefaultDispatchToken
+: <a class="el" href="namespacetvm_1_1script_1_1printer.html#a236ba2b9c23dc35e181a7c4883dda0b3">tvm::script::printer</a>
+</li>
 <li>kDefaultWorkspaceAlignment
 : <a class="el" href="namespacetvm_1_1runtime.html#a551bab1e24e2e794f8ccd4446b63a7af">tvm::runtime</a>
 </li>
@@ -190,11 +190,14 @@ $(function() {
 <li>kDeviceName
 : <a class="el" href="namespacetvm_1_1runtime.html#a46fef1ca0ccc05473e9bb0a8c6b66619a0ac04959bdda893a53c05024409de9ca">tvm::runtime</a>
 </li>
+<li>kDeviceThreadAxis
+: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a4933845b75cf4f08fb66f55fdd94986f">tvm::tir::attr</a>
+</li>
+<li>kDeviceUseDynSharedMemory
+: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a6644dc9ce51ba96b0364f7f891dcad9a">tvm::tir::attr</a>
+</li>
 <li>kDriverVersion
 : <a class="el" href="namespacetvm_1_1runtime.html#a46fef1ca0ccc05473e9bb0a8c6b66619a100cda550bad77fbaf993566c022bdf9">tvm::runtime</a>
-</li>
-<li>kDSOExportable
-: <a class="el" href="namespacetvm_1_1runtime.html#a6edb2235f96c34eaf0119834d293ca54aeac3ca683f62d5793245a4a4a378015c">tvm::runtime</a>
 </li>
 <li>kEinsum
 : <a class="el" href="namespacetvm_1_1topi.html#a6b33f2b888123f3ccd7191feeaedb93b">tvm::topi</a>
@@ -256,7 +259,7 @@ $(function() {
 : <a class="el" href="namespacetvm_1_1runtime_1_1metadata.html#a6edfc2b47c55d18f94867a18a7b02fb7a59eaf67f3b8f99cbb4e5d6136b867c08">tvm::runtime::metadata</a>
 </li>
 <li>kInvalidDeviceType
-: <a class="el" href="namespacetvm.html#a3f405fee06b79f345a4debf023c7c42c">tvm</a>
+: <a class="el" href="namespacetvm.html#ab3c85920678b8ba5d925d386b66c0261">tvm</a>
 </li>
 <li>kIsEntryFunc
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a489d0cebd2820025bc3d6c5a9011cdd4">tvm::tir::attr</a>
@@ -266,15 +269,6 @@ $(function() {
 </li>
 <li>kIsGlobalFunc
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a3166c6d41ff1816ab01e398be07bac20">tvm::tir::attr</a>
-</li>
-<li>kIsHostFunc
-: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#ab91a41e0c0292462e91affae45b12db5">tvm::tir::attr</a>
-</li>
-<li>kKernelLaunchParams
-: <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a7366f26ffad7ca99febbd65ac678bcba">tvm::tir::attr</a>
-</li>
-<li>kL2CacheSizeBytes
-: <a class="el" href="namespacetvm_1_1runtime.html#a46fef1ca0ccc05473e9bb0a8c6b66619afebd0fa20dbcf8f5fe6b31f7bdfb7496">tvm::runtime</a>
 </li>
 <li>kMatMul
 : <a class="el" href="namespacetvm_1_1topi.html#aa9f70e7392653f38da6ff53f5f554f98">tvm::topi</a>
@@ -310,7 +304,7 @@ $(function() {
 : <a class="el" href="namespacetvm_1_1runtime.html#a46fef1ca0ccc05473e9bb0a8c6b66619a463bdbf9ce7f9dc87a73d0b787da43cd">tvm::runtime</a>
 </li>
 <li>kNaive
-: <a class="el" href="namespacetvm_1_1runtime_1_1memory.html#a902bbce5a86071aad9677b07d93b5518a0d815b0b0dea8deb7885c87e8e7552e8">tvm::runtime::memory</a>
+: <a class="el" href="namespacetvm_1_1runtime_1_1vm.html#a71f7eacb312dc56f649ce8627a160c33a4f0c960a80de2b3c598272e5a304a3ad">tvm::runtime::vm</a>
 </li>
 <li>kNegative
 : <a class="el" href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9da56331fd0b2625f7ce83b369b8a0a6f2a">tvm::arith</a>
@@ -319,7 +313,7 @@ $(function() {
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#ac74386674da85bc4b4dd1ee28a97ff63">tvm::tir::attr</a>
 </li>
 <li>kNullDeviceType
-: <a class="el" href="namespacetvm.html#aaa7a89abe680654f1140be0e35b0feb1">tvm</a>
+: <a class="el" href="namespacetvm.html#ab7076521b2e0d4224b7803811cbd1fd6">tvm</a>
 </li>
 <li>kOpaque
 : <a class="el" href="namespacetvm_1_1relay.html#ab5f4d382bf1bee69c3e484ea6c837578a3cb3cec00829ebd525feba875f2d6ac1">tvm::relay</a>
@@ -341,7 +335,7 @@ $(function() {
 : <a class="el" href="namespacetvm_1_1relay_1_1attr.html#afe7f6dd3b19c62aced68364ae2414aae">tvm::relay::attr</a>
 </li>
 <li>kPooled
-: <a class="el" href="namespacetvm_1_1runtime_1_1memory.html#a902bbce5a86071aad9677b07d93b5518af3f1fb21c6145983b152c1530941c06d">tvm::runtime::memory</a>
+: <a class="el" href="namespacetvm_1_1runtime_1_1vm.html#a71f7eacb312dc56f649ce8627a160c33a3482ddfc39ce53c88b16b51b50c2e8c0">tvm::runtime::vm</a>
 </li>
 <li>kPositive
 : <a class="el" href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9da5eb70f55e8952b4484fe6c652138ae00">tvm::arith</a>
@@ -357,9 +351,6 @@ $(function() {
 </li>
 <li>kRPCSessMask
 : <a class="el" href="namespacetvm_1_1runtime.html#a48cbe06e6c95ca6fabc20dd1cbacc2c9">tvm::runtime</a>
-</li>
-<li>kRunnable
-: <a class="el" href="namespacetvm_1_1runtime.html#a6edb2235f96c34eaf0119834d293ca54a6aa052b038d11007d0df028d29fcda2e">tvm::runtime</a>
 </li>
 <li>kRuntime
 : <a class="el" href="namespacetvm_1_1attr.html#aef97167cb20d9c7d9f7df38fab897984">tvm::attr</a>
@@ -381,9 +372,6 @@ $(function() {
 </li>
 <li>kString
 : <a class="el" href="namespacetvm_1_1runtime_1_1metadata.html#a6edfc2b47c55d18f94867a18a7b02fb7a6bc1719d53714867a67daaecca418348">tvm::runtime::metadata</a>
-</li>
-<li>kSystemLibPrefix
-: <a class="el" href="namespacetvm_1_1attr.html#aae652055bd020f8aa1cc32436e155603">tvm::attr</a>
 </li>
 <li>kTarget
 : <a class="el" href="namespacetvm_1_1attr.html#a580ae92d00e34f0a8f0d40395b8d972c">tvm::attr</a>
@@ -422,7 +410,7 @@ $(function() {
 : <a class="el" href="namespacetvm_1_1runtime_1_1metadata.html#a6edfc2b47c55d18f94867a18a7b02fb7ad7d5f93d97b0267aef7100f41f4d7340">tvm::runtime::metadata</a>
 </li>
 <li>kUnknown
-: <a class="el" href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9da25c2dc47991b3df171ed5192bcf70390">tvm::arith</a>
+: <a class="el" href="namespacetvm_1_1arith.html#aca8806e355ad3dd5f1df9c1eca9aac9da8812c1a077255594d23bc1c2f3af3979">tvm::arith</a>
 </li>
 <li>kUnrolled
 : <a class="el" href="namespacetvm_1_1tir.html#add7d0a6b1dd91f0c3c5dd2f4cf64358ea37ab325f4c3ab1d2a905cbfe546bc403">tvm::tir</a>

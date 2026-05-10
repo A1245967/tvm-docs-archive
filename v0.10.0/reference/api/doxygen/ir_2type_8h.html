@@ -74,7 +74,7 @@ $(function() {
 
 <p>IR/AST nodes for the unified type system in TVM.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;<a class="el" href="source__map_8h_source.html">tvm/ir/source_map.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="ir_2span_8h_source.html">tvm/ir/span.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="node_8h_source.html">tvm/node/node.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="array_8h_source.html">tvm/runtime/container/array.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="data__type_8h_source.html">tvm/runtime/data_type.h</a>&gt;</code><br />
@@ -83,13 +83,12 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for type.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ir_2type_8h__incl.svg" width="4488" height="1082"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ir_2type_8h__incl.svg" width="3952" height="918"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ir_2type_8h__dep__incl.svg" width="11664" height="1720"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ir_2type_8h__dep__incl.svg" width="4156" height="812"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -179,9 +178,6 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab839d9f872e97b31e30c0059a3eb9a92"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm.html#ab839d9f872e97b31e30c0059a3eb9a92">tvm::TypeKind2String</a> (TypeKind kind)</td></tr>
-<tr class="memdesc:ab839d9f872e97b31e30c0059a3eb9a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a TypeKind to a string.  <a href="namespacetvm.html#ab839d9f872e97b31e30c0059a3eb9a92">More...</a><br /></td></tr>
-<tr class="separator:ab839d9f872e97b31e30c0059a3eb9a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27df956aaa2e5e25005e0f9dc1638a08"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm.html#a27df956aaa2e5e25005e0f9dc1638a08">tvm::VoidType</a> ()</td></tr>
 <tr class="separator:a27df956aaa2e5e25005e0f9dc1638a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a196edb73fc9f13d965b8de1c9287a2db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetvm.html#a196edb73fc9f13d965b8de1c9287a2db">tvm::IsVoidType</a> (const Type &amp;type)</td></tr>
@@ -194,7 +190,7 @@ Functions</h2></td></tr>
 <p>This file contains types that are common across IR variants.</p>
 <h2>Relation between Type and runtime::DataType</h2>
 <p>Besides Type, we also store a dtype field in the low-level PrimExpr. runtime::DataType(dtype) provides coarse grained type information during compile time and runtime. It is eagerly built in low-level expression construction and can be used for quick type checking in the low-level IR. For example, when an Expr's dtype is int32, we know for sure that its type is also int32.</p>
-<p>On the other hand, Type provides more fine grained information. For example, a low level expression can have <a class="el" href="namespacetvm_1_1script_1_1ir__builder_1_1tir.html#a2847211679cf8fa29f613ddcf60e58c5" title="Create a TIR var that represents a pointer. ">DataType::Handle()</a> as its dtype and MemRef[float32] as its type. Types are usually lazily constructed via type checking, so they may not readily be available during IR construction.</p>
+<p>On the other hand, Type provides more fine grained information. For example, a low level expression can have <a class="el" href="namespacetvm_1_1script_1_1ir__builder_1_1tir.html#a07e14252128fe48c5e9bbd33c1e460fc">DataType::Handle()</a> as its dtype and MemRef[float32] as its type. Types are usually lazily constructed via type checking, so they may not readily be available during IR construction.</p>
 <p>The unified Type serves as a common bridge across IR dialects. For example, we require all the functions to have a type signature, which allow us to build cross dialect function calls. </p>
 </div></div><!-- contents -->
 <!-- start footer part -->

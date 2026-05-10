@@ -61,17 +61,14 @@ $(function() {
 <div class="textblock">Here is a list of all namespace members with links to the namespace documentation for each member:</div>
 
 <h3><a id="index_c"></a>- c -</h3><ul>
-<li>CalculateAllocatedBytes()
-: <a class="el" href="namespacetvm_1_1tir.html#a2f0f177b771c1c6c8a4097f540ed903c">tvm::tir</a>
-</li>
-<li>CalculateConstantBytes()
-: <a class="el" href="namespacetvm_1_1tir.html#a7314714e14035c9b1096737920c689ee">tvm::tir</a>
+<li>calculate_num_weight_chunks()
+: <a class="el" href="namespacetvm_1_1runtime_1_1hexagon.html#aeb015ac131aff76434e7672f49de7814">tvm::runtime::hexagon</a>
 </li>
 <li>CalculateExprComplexity()
 : <a class="el" href="namespacetvm_1_1tir.html#accfaeb3b1ce8601eab8d9b575d66f025">tvm::tir</a>
 </li>
 <li>CalculateExtentsSize()
-: <a class="el" href="namespacetvm_1_1tir_1_1usmp.html#ad2424e3662cdcad9a18b496ba42ca10d">tvm::tir::usmp</a>
+: <a class="el" href="namespacetvm_1_1tir_1_1usmp.html#a1529c901d8116a3ff0331a38b8e0e076">tvm::tir::usmp</a>
 </li>
 <li>CalculateModuleWorkspaceSize()
 : <a class="el" href="namespacetvm_1_1tir_1_1usmp.html#a40a26630428319adf281826355d3e56f">tvm::tir::usmp</a>
@@ -138,6 +135,9 @@ $(function() {
 <li>CheckFeature()
 : <a class="el" href="namespacetvm_1_1relay.html#a886335a9bb055385ed04d27b74da36c7">tvm::relay</a>
 </li>
+<li>chunkify_hwio_16b()
+: <a class="el" href="namespacetvm_1_1runtime_1_1hexagon.html#ab804db41d2047a01977effc1c35f072c">tvm::runtime::hexagon</a>
+</li>
 <li>clip()
 : <a class="el" href="namespacetvm_1_1topi.html#a0535d4dc9cd63b723cba6f00ea1eccef">tvm::topi</a>
 </li>
@@ -169,13 +169,10 @@ $(function() {
 : <a class="el" href="namespacetvm_1_1topi.html#a50b46549c2a66bedd305f5e7db0d6d89">tvm::topi</a>
 </li>
 <li>CompactBufferAllocation()
-: <a class="el" href="namespacetvm_1_1tir_1_1transform.html#a1e2ad780d6302432ead7f8b5fbffc275">tvm::tir::transform</a>
-</li>
-<li>CompareResult
-: <a class="el" href="namespacetvm_1_1arith.html#a1d555a0cc363f669a49fad7e5f7d69d0">tvm::arith</a>
+: <a class="el" href="namespacetvm_1_1tir_1_1transform.html#ac6dbf3a491d01da405c1ce6d5944ee85">tvm::tir::transform</a>
 </li>
 <li>compute()
-: <a class="el" href="namespacetvm_1_1te.html#a86ab2c98eaf03c2d8286ccf19ab54f81">tvm::te</a>
+: <a class="el" href="namespacetvm_1_1te.html#a18b58076bec4041d2dc7614def49af27">tvm::te</a>
 </li>
 <li>compute_scope
 : <a class="el" href="namespacetvm_1_1tir_1_1attr.html#a00a6b89838348f152d844cead81b5016">tvm::tir::attr</a>
@@ -207,9 +204,6 @@ $(function() {
 <li>ConstructorNode
 : <a class="el" href="namespacetvm_1_1relay.html#a6b95f70a9b44cc1c96593201594d1345">tvm::relay</a>
 </li>
-<li>ContainsNode()
-: <a class="el" href="namespacetvm_1_1tir.html#a2e86a6db6acc68d381d49df3e665415a">tvm::tir</a>
-</li>
 <li>conv2d_hwcn()
 : <a class="el" href="namespacetvm_1_1topi.html#add4fcf426adc8dc763147fe931cd75db">tvm::topi</a>
 </li>
@@ -230,9 +224,6 @@ $(function() {
 </li>
 <li>ConvertPoolAllocationsToOffsets()
 : <a class="el" href="namespacetvm_1_1tir_1_1usmp_1_1transform.html#a464c07ca7cea628a49aa8c90fa6359ef">tvm::tir::usmp::transform</a>
-</li>
-<li>ConvertSSA()
-: <a class="el" href="namespacetvm_1_1tir_1_1transform.html#a78c4595056a7a397a88cce0d06975409">tvm::tir::transform</a>
 </li>
 <li>ConvertToArrayOfBufferInfo()
 : <a class="el" href="namespacetvm_1_1tir_1_1usmp.html#a21ae43cbdb5b3d51a069db62f3ae9227">tvm::tir::usmp</a>
@@ -257,11 +248,11 @@ $(function() {
 : <a class="el" href="namespacetvm.html#a41c8855d1e4f7ea1d01e42e6c214f877">tvm</a>
 , <a class="el" href="namespacetvm_1_1topi.html#ad343de728513ee6303ddb9012325cf89">tvm::topi</a>
 </li>
+<li>CountSubstring()
+: <a class="el" href="namespacetvm_1_1topi.html#abd222ea897da02e20c660fe435f06b84">tvm::topi</a>
+</li>
 <li>crc16_compute()
 : <a class="el" href="namespacetvm_1_1runtime_1_1micro__rpc.html#aee88d771b775a6c7caf709c47880ad3d">tvm::runtime::micro_rpc</a>
-</li>
-<li>create_barriers()
-: <a class="el" href="namespacetvm_1_1tir_1_1builtin.html#a2dd4fbe8995788ddcd3dfb1f788869ee">tvm::tir::builtin</a>
 </li>
 <li>create_schedule()
 : <a class="el" href="namespacetvm_1_1te.html#a485034766309df280239e0994913b34b">tvm::te</a>

@@ -1,19 +1,19 @@
 <map id="tvm::relay::DFPattern" name="tvm::relay::DFPattern">
-<area shape="rect" id="node3" href="$classtvm_1_1relay_1_1AltPattern.html" title="A pattern which matches either of two patterns. " alt="" coords="5,711,211,817"/>
-<area shape="rect" id="node4" href="$classtvm_1_1relay_1_1AttrPattern.html" title="A pattern which matches attributes in another pattern. " alt="" coords="235,711,440,817"/>
-<area shape="rect" id="node5" href="$classtvm_1_1relay_1_1CallPattern.html" title="{tvm::relay::CallPattern\n||+ CallPattern()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="464,711,669,817"/>
-<area shape="rect" id="node6" href="$classtvm_1_1relay_1_1ConstantPattern.html" title="{tvm::relay::ConstantPattern\n||+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="693,718,899,810"/>
-<area shape="rect" id="node7" href="$classtvm_1_1relay_1_1DataTypePattern.html" title="A pattern which matches a type in another pattern. " alt="" coords="923,711,1130,817"/>
-<area shape="rect" id="node8" href="$classtvm_1_1relay_1_1DominatorPattern.html" title="A pattern which matches a variable length dominator path. " alt="" coords="1155,711,1368,817"/>
-<area shape="rect" id="node9" href="$classtvm_1_1relay_1_1ExprPattern.html" title="A pattern which matches a literal expression. " alt="" coords="1392,711,1597,817"/>
-<area shape="rect" id="node10" href="$classtvm_1_1relay_1_1FunctionPattern.html" title="Managed reference to FunctionNode. " alt="" coords="1621,696,1827,832"/>
-<area shape="rect" id="node11" href="$classtvm_1_1relay_1_1IfPattern.html" title="{tvm::relay::IfPattern\n||+ IfPattern()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="1851,711,2056,817"/>
-<area shape="rect" id="node12" href="$classtvm_1_1relay_1_1LetPattern.html" title="Let binding that binds a local var. " alt="" coords="2080,711,2285,817"/>
-<area shape="rect" id="node13" href="$classtvm_1_1relay_1_1ShapePattern.html" title="A pattern which matches a type in another pattern. " alt="" coords="2309,711,2515,817"/>
-<area shape="rect" id="node14" href="$classtvm_1_1relay_1_1TupleGetItemPattern.html" title="{tvm::relay::TupleGetItem\lPattern\n||+ TupleGetItemPattern()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="2539,703,2744,825"/>
-<area shape="rect" id="node15" href="$classtvm_1_1relay_1_1TuplePattern.html" title="{tvm::relay::TuplePattern\n||+ TuplePattern()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="2768,711,2973,817"/>
-<area shape="rect" id="node16" href="$classtvm_1_1relay_1_1TypePattern.html" title="A pattern which matches a type in another pattern. " alt="" coords="2997,711,3203,817"/>
-<area shape="rect" id="node17" href="$classtvm_1_1relay_1_1VarPattern.html" title="{tvm::relay::VarPattern\n||+ VarPattern()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="3227,711,3432,817"/>
-<area shape="rect" id="node18" href="$classtvm_1_1relay_1_1WildcardPattern.html" title="A pattern which matches anything. " alt="" coords="3456,711,3661,817"/>
-<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="1749,5,1928,332"/>
+<area shape="rect" id="node3" href="$classtvm_1_1relay_1_1AltPattern.html" title="A pattern which matches either of two patterns. " alt="" coords="5,696,211,803"/>
+<area shape="rect" id="node4" href="$classtvm_1_1relay_1_1AttrPattern.html" title="A pattern which matches attributes in another pattern. " alt="" coords="235,696,440,803"/>
+<area shape="rect" id="node5" href="$classtvm_1_1relay_1_1CallPattern.html" title="{tvm::relay::CallPattern\n||+ CallPattern()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="464,696,669,803"/>
+<area shape="rect" id="node6" href="$classtvm_1_1relay_1_1ConstantPattern.html" title="{tvm::relay::ConstantPattern\n||+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="693,703,899,795"/>
+<area shape="rect" id="node7" href="$classtvm_1_1relay_1_1DataTypePattern.html" title="A pattern which matches a type in another pattern. " alt="" coords="923,696,1130,803"/>
+<area shape="rect" id="node8" href="$classtvm_1_1relay_1_1DominatorPattern.html" title="A pattern which matches a variable length dominator path. " alt="" coords="1155,696,1368,803"/>
+<area shape="rect" id="node9" href="$classtvm_1_1relay_1_1ExprPattern.html" title="A pattern which matches a literal expression. " alt="" coords="1392,696,1597,803"/>
+<area shape="rect" id="node10" href="$classtvm_1_1relay_1_1FunctionPattern.html" title="Managed reference to FunctionNode. " alt="" coords="1621,681,1827,817"/>
+<area shape="rect" id="node11" href="$classtvm_1_1relay_1_1IfPattern.html" title="{tvm::relay::IfPattern\n||+ IfPattern()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="1851,696,2056,803"/>
+<area shape="rect" id="node12" href="$classtvm_1_1relay_1_1LetPattern.html" title="Let binding that binds a local var. " alt="" coords="2080,696,2285,803"/>
+<area shape="rect" id="node13" href="$classtvm_1_1relay_1_1ShapePattern.html" title="A pattern which matches a type in another pattern. " alt="" coords="2309,696,2515,803"/>
+<area shape="rect" id="node14" href="$classtvm_1_1relay_1_1TupleGetItemPattern.html" title="{tvm::relay::TupleGetItem\lPattern\n||+ TupleGetItemPattern()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="2539,689,2744,810"/>
+<area shape="rect" id="node15" href="$classtvm_1_1relay_1_1TuplePattern.html" title="{tvm::relay::TuplePattern\n||+ TuplePattern()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="2768,696,2973,803"/>
+<area shape="rect" id="node16" href="$classtvm_1_1relay_1_1TypePattern.html" title="A pattern which matches a type in another pattern. " alt="" coords="2997,696,3203,803"/>
+<area shape="rect" id="node17" href="$classtvm_1_1relay_1_1VarPattern.html" title="{tvm::relay::VarPattern\n||+ VarPattern()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="3227,696,3432,803"/>
+<area shape="rect" id="node18" href="$classtvm_1_1relay_1_1WildcardPattern.html" title="A pattern which matches anything. " alt="" coords="3456,703,3661,795"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="1749,5,1928,317"/>
 </map>
