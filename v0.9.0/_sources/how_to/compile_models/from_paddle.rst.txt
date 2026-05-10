@@ -45,12 +45,6 @@ https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/inst
     from tvm.contrib.download import download_testdata
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 41-44
 
 Load pretrained ResNet50 model
@@ -70,12 +64,6 @@ We load a pretrained ResNet50 provided by PaddlePaddle.
             tar.extract(name, "./")
 
     model = paddle.jit.load("./paddle_resnet50/model")
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 55-58
@@ -110,12 +98,6 @@ A single cat dominates the examples!
     img = np.expand_dims(img, axis=0)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 80-82
 
 Compile the model with relay
@@ -136,21 +118,6 @@ Compile the model with relay
         ).evaluate()
 
 
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-      "target_host parameter is going to be deprecated. "
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 93-95
 
 Execute on TVM
@@ -162,12 +129,6 @@ Execute on TVM
 
     dtype = "float32"
     tvm_output = executor(tvm.nd.array(img.astype(dtype))).numpy()
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 99-102
@@ -196,21 +157,6 @@ Look up prediction top 1 index in 1000 class synset.
 
     top1 = np.argmax(tvm_output[0])
     print(f"TVM prediction top-1 id: {top1}, class name: {synset[top1]}")
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    TVM prediction top-1 id: 282, class name:  282: 'tiger cat',
-
-
-
-
 
 
 .. _sphx_glr_download_how_to_compile_models_from_paddle.py:

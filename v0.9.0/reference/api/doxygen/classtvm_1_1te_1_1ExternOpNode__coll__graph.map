@@ -1,0 +1,10 @@
+<map id="tvm::te::ExternOpNode" name="tvm::te::ExternOpNode">
+<area shape="rect" id="node2" href="$classtvm_1_1te_1_1OperationNode.html" title="Base class of all operation nodes. " alt="" coords="135,1457,411,1725"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,653,252,1171"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Map.html" title="{tvm::runtime::Map\&lt;\l tvm::runtime::String,\l tvm::runtime::ObjectRef \&gt;\n||+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ operator=()\l+ operator=()\l+ at()\land 12 more...\l}" alt="" coords="369,785,568,1039"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="541,307,719,604"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::tir::Buffer \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 24 more...\l}" alt="" coords="389,1195,540,1433"/>
+<area shape="rect" id="node8" href="$classtvm_1_1tir_1_1Stmt.html" title="Container of all statements. " alt="" coords="553,1268,758,1360"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::te::Tensor \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 24 more...\l}" alt="" coords="728,1472,879,1711"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="537,5,723,244"/>
+</map>

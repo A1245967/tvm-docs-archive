@@ -1,0 +1,11 @@
+<map id="tvm::relay::GatherAttrs" name="tvm::relay::GatherAttrs">
+<area shape="rect" id="node2" href="$classtvm_1_1AttrsNode.html" title="{tvm::AttrsNode\&lt; GatherAttrs \&gt;\n||+ VisitAttrs()\l+ VisitNonDefaultAttrs()\l+ InitByPackedArgs()\l+ SEqualReduce()\l+ SHashReduce()\l+ ListFieldInfo()\l}" alt="" coords="113,1686,339,1837"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseAttrsNode.html" title="Base class of all attribute class. " alt="" coords="49,1361,325,1600"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,795,252,1312"/>
+<area shape="rect" id="node5" href="$classtvm_1_1Integer.html" title="Container of constant int that adds more constructors. " alt="" coords="375,1649,525,1873"/>
+<area shape="rect" id="node6" href="$classtvm_1_1IntImm.html" title="Managed reference class to IntImmNode. " alt="" coords="359,1427,565,1534"/>
+<area shape="rect" id="node7" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="370,985,575,1121"/>
+<area shape="rect" id="node8" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="370,653,575,745"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="383,307,562,604"/>
+<area shape="rect" id="node10" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="379,5,566,244"/>
+</map>

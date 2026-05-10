@@ -1,0 +1,10 @@
+<map id="tvm::meta_schedule::PyDatabaseNode" name="tvm::meta_schedule::PyDatabaseNode">
+<area shape="rect" id="node2" href="$classtvm_1_1meta__schedule_1_1DatabaseNode.html" title="{tvm::meta_schedule\l::DatabaseNode\n|+ _type_key\l|+ ~DatabaseNode()\l+ HasWorkload()\l+ CommitWorkload()\l+ CommitTuningRecord()\l+ GetTopK()\l+ GetAllTuningRecords()\l+ Size()\l+ TVM_DECLARE_BASE_OBJECT_INFO()\l}" alt="" coords="5,572,281,767"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="20,5,267,523"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1TypedPackedFunc.html" title="{tvm::runtime::TypedPacked\lFunc\&lt; int64_t()\&gt;\n||}" alt="" coords="306,623,509,715"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1TypedPackedFunc.html" title="{tvm::runtime::TypedPacked\lFunc\&lt; bool(const IRModule &amp;)\&gt;\n||}" alt="" coords="533,623,762,715"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1TypedPackedFunc.html" title="{tvm::runtime::TypedPacked\lFunc\&lt; Array\&lt; TuningRecord \&gt;()\&gt;\n||}" alt="" coords="786,623,1029,715"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1TypedPackedFunc.html" title="{tvm::runtime::TypedPacked\lFunc\&lt; Array\&lt; TuningRecord\l \&gt;(const Workload &amp;, int)\&gt;\n||}" alt="" coords="1053,616,1260,723"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1TypedPackedFunc.html" title="{tvm::runtime::TypedPacked\lFunc\&lt; Workload(const IRModule &amp;)\&gt;\n||}" alt="" coords="1284,623,1547,715"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1TypedPackedFunc.html" title="{tvm::runtime::TypedPacked\lFunc\&lt; void(const TuningRecord &amp;)\&gt;\n||}" alt="" coords="1571,623,1830,715"/>
+</map>

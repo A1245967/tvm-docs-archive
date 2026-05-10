@@ -1,0 +1,51 @@
+<map id="include/tvm/ir/expr.h" name="include/tvm/ir/expr.h">
+<area shape="rect" id="node2" href="$analyzer_8h.html" title="Algebra expression simplifications. " alt="" coords="889,527,1095,553"/>
+<area shape="rect" id="node3" href="$int__solver_8h.html" title="integer constraints data structures and solvers " alt="" coords="581,601,736,643"/>
+<area shape="rect" id="node4" href="$iter__affine__map_8h.html" title="Iterator quasi&#45;affine mapping patterns. " alt="" coords="1067,601,1226,643"/>
+<area shape="rect" id="node12" href="$bound_8h.html" title="Bound deducers. " alt="" coords="216,527,405,553"/>
+<area shape="rect" id="node14" href="$int__set_8h.html" title="Integer set. " alt="" coords="632,437,787,479"/>
+<area shape="rect" id="node15" href="$pattern_8h.html" title="Expression pattern detectors. " alt="" coords="811,445,1007,471"/>
+<area shape="rect" id="node16" href="$ir_2adt_8h.html" title="Algebraic data type definitions. " alt="" coords="3216,177,3365,203"/>
+<area shape="rect" id="node17" href="$ir_2module_8h.html" title="IRModule that holds the functions and type definitions. " alt="" coords="3113,266,3290,293"/>
+<area shape="rect" id="node19" href="$ir_2op_8h.html" title="Primitive operators(builtin intrinsics) and registry for them. " alt="" coords="1285,445,1429,471"/>
+<area shape="rect" id="node20" href="$relay_2expr_8h.html" title="Relay expression language. " alt="" coords="1504,527,1685,553"/>
+<area shape="rect" id="node24" href="$tir_2op_8h.html" title="Common operators defined for Expr. " alt="" coords="43,527,192,553"/>
+<area shape="rect" id="node25" href="$executor_8h.html" title="Object representation of Executor configuration and registry. " alt="" coords="1761,445,1970,471"/>
+<area shape="rect" id="node26" href="$runtime_8h.html" title="Object representation of Runtime configuration and registry. " alt="" coords="1995,445,2197,471"/>
+<area shape="rect" id="node27" href="$database_8h.html" title="include/tvm/meta_schedule\l/database.h" alt="" coords="3155,437,3357,479"/>
+<area shape="rect" id="node28" href="$tune__context_8h.html" title="include/tvm/meta_schedule\l/tune_context.h" alt="" coords="3453,437,3656,479"/>
+<area shape="rect" id="node29" href="$target_8h.html" title="Compilation target object. " alt="" coords="3185,348,3327,389"/>
+<area shape="rect" id="node30" href="$tir_2usmp_2utils_8h.html" title="Utilities for Unified Static Memory Planner. " alt="" coords="2728,437,2885,479"/>
+<area shape="rect" id="node31" href="$affine__type_8h.html" title="Quantized Tensor Types. " alt="" coords="3693,80,3848,121"/>
+<area shape="rect" id="node32" href="$ir_2attrs_8h.html" title="Helpers for attribute objects. " alt="" coords="1891,87,2050,114"/>
+<area shape="rect" id="node33" href="$ir_2function_8h.html" title="Function nodes. " alt="" coords="3011,177,3192,203"/>
+<area shape="rect" id="node40" href="$tensor__type_8h.html" title="Polymorphic tensor types. " alt="" coords="3872,80,4029,121"/>
+<area shape="rect" id="node41" href="$runner_8h.html" title="include/tvm/meta_schedule\l/runner.h" alt="" coords="3643,259,3845,300"/>
+<area shape="rect" id="node42" href="$schedule__rule_8h.html" title="include/tvm/meta_schedule\l/schedule_rule.h" alt="" coords="3453,348,3656,389"/>
+<area shape="rect" id="node43" href="$metadata__base_8h.html" title="Defines types which can be used in Metadata. " alt="" coords="4053,80,4208,121"/>
+<area shape="rect" id="node44" href="$target__info_8h.html" title="Various information about target. " alt="" coords="4233,80,4375,121"/>
+<area shape="rect" id="node45" href="$buffer_8h.html" title="Symbolic n&#45;dimensional array, to represent a memory buffer. " alt="" coords="401,266,573,293"/>
+<area shape="rect" id="node46" href="$tir_2expr_8h.html" title="TIR expressions. " alt="" coords="437,355,600,382"/>
+<area shape="rect" id="node47" href="$index__map_8h.html" title="Defines a remapping of buffer indices. " alt="" coords="749,259,907,300"/>
+<area shape="rect" id="node48" href="$tir_2op__attr__types_8h.html" title="Attribute types in the Op registry for TIR ops. " alt="" coords="4399,80,4537,121"/>
+<area shape="rect" id="node49" href="$var_8h.html" title="Variables in the TIR. " alt="" coords="648,177,803,203"/>
+<area shape="rect" id="node50" href="$topi_2utils_8h.html" title="Topi utility function. " alt="" coords="4561,87,4733,114"/>
+<area shape="rect" id="node5" href="$operation_8h.html" title="Operation node can generate one or multiple Tensors. " alt="" coords="312,691,507,717"/>
+<area shape="rect" id="node6" href="$constant__utils_8h.html" title="Utility functions for handling constants in TVM expressions. " alt="" coords="645,765,814,807"/>
+<area shape="rect" id="node7" href="$nn_2bnn_8h.html" title="Binary op constructions. " alt="" coords="655,855,803,896"/>
+<area shape="rect" id="node8" href="$topi_2nn_8h.html" title="NN op constructions. " alt="" coords="388,862,548,889"/>
+<area shape="rect" id="node9" href="$nn_2pooling_8h.html" title="Pooling op constructions. " alt="" coords="645,944,793,985"/>
+<area shape="rect" id="node10" href="$dilate_8h.html" title="Dilate op constructions. " alt="" coords="473,765,621,807"/>
+<area shape="rect" id="node11" href="$greedy_8h.html" title="This header file contains helper methods used in greedy algorithms for planning memory for USMP..." alt="" coords="1252,601,1409,643"/>
+<area shape="rect" id="node13" href="$tensor_8h.html" title="Dataflow tensor object. " alt="" coords="273,609,447,635"/>
+<area shape="rect" id="node21" href="$relay_2adt_8h.html" title="Algebraic data types for Relay. " alt="" coords="2836,609,3009,635"/>
+<area shape="rect" id="node18" href="$type__relation_8h.html" title="Type relation and function for type inference(checking). " alt="" coords="1862,348,2007,389"/>
+<area shape="rect" id="node22" href="$algorithm_8h.html" title="include/tvm/relay/attrs\l/algorithm.h" alt="" coords="1636,601,1807,643"/>
+<area shape="rect" id="node23" href="$relay_2attrs_2memory_8h.html" title="Attributes for memory operators. " alt="" coords="1439,601,1609,643"/>
+<area shape="rect" id="node34" href="$annotation_8h.html" title="Attribute for annotation operators. " alt="" coords="1885,169,2056,211"/>
+<area shape="rect" id="node35" href="$bitserial_8h.html" title="Auxiliary attributes for bitserial operators. " alt="" coords="2131,169,2301,211"/>
+<area shape="rect" id="node36" href="$call_8h.html" title="Attribute for call_lowered operator. " alt="" coords="2325,169,2496,211"/>
+<area shape="rect" id="node37" href="$relay_2attrs_2debug_8h.html" title="Auxiliary attributes for debug operators. " alt="" coords="2520,169,2691,211"/>
+<area shape="rect" id="node38" href="$device__copy_8h.html" title="Attribute for the device copy operator. " alt="" coords="2715,169,2885,211"/>
+<area shape="rect" id="node39" href="$image_8h.html" title="Auxiliary attributes for image operators. " alt="" coords="1488,169,1659,211"/>
+</map>

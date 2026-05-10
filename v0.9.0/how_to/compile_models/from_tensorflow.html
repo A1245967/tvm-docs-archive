@@ -447,15 +447,6 @@ from tensorflow.</p>
         <span class="n">graph_def</span> <span class="o">=</span> <span class="n">tf_testing</span><span class="o">.</span><span class="n">AddShapesToGraphDef</span><span class="p">(</span><span class="n">sess</span><span class="p">,</span> <span class="s2">&quot;softmax&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>WARNING:tensorflow:From /root/tvm/python/tvm/relay/testing/tf.py:139: convert_variables_to_constants (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
-Instructions for updating:
-Use `tf.compat.v1.graph_util.convert_variables_to_constants`
-WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/convert_to_constants.py:856: extract_sub_graph (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
-Instructions for updating:
-Use `tf.compat.v1.graph_util.extract_sub_graph`
-</pre></div>
-</div>
 </section>
 <section id="decode-image">
 <h2>Decode image<a class="headerlink" href="#decode-image" title="Permalink to this headline">¶</a></h2>
@@ -488,14 +479,6 @@ params: params converted from tensorflow params (tensor protobuf).</p>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Tensorflow protobuf imported to relay frontend.&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/root/tvm/python/tvm/relay/frontend/tensorflow.py:535: UserWarning: Ignore the passed shape. Shape in graphdef will be used for operator DecodeJpeg/contents.
-  &quot;will be used for operator %s.&quot; % node.name
-/root/tvm/python/tvm/relay/frontend/tensorflow_ops.py:1009: UserWarning: DecodeJpeg: It&#39;s a pass through, please handle preprocessing before input
-  warnings.warn(&quot;DecodeJpeg: It&#39;s a pass through, please handle preprocessing before input&quot;)
-Tensorflow protobuf imported to relay frontend.
-</pre></div>
-</div>
 </section>
 <section id="relay-build">
 <h2>Relay Build<a class="headerlink" href="#relay-build" title="Permalink to this headline">¶</a></h2>
@@ -508,148 +491,6 @@ lib: target library which can be deployed on target with TVM runtime.</p>
 </dl>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">with</span> <span class="n">tvm</span><span class="o">.</span><span class="n">transform</span><span class="o">.</span><span class="n">PassContext</span><span class="p">(</span><span class="n">opt_level</span><span class="o">=</span><span class="mi">3</span><span class="p">):</span>
     <span class="n">lib</span> <span class="o">=</span> <span class="n">relay</span><span class="o">.</span><span class="n">build</span><span class="p">(</span><span class="n">mod</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-  &quot;target_host parameter is going to be deprecated. &quot;
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
-conv2d NHWC layout is not optimized for x86 with autotvm.
 </pre></div>
 </div>
 </section>
@@ -684,14 +525,6 @@ conv2d NHWC layout is not optimized for x86 with autotvm.
     <span class="n">human_string</span> <span class="o">=</span> <span class="n">node_lookup</span><span class="o">.</span><span class="n">id_to_string</span><span class="p">(</span><span class="n">node_id</span><span class="p">)</span>
     <span class="n">score</span> <span class="o">=</span> <span class="n">predictions</span><span class="p">[</span><span class="n">node_id</span><span class="p">]</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> (score = </span><span class="si">%.5f</span><span class="s2">)&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">human_string</span><span class="p">,</span> <span class="n">score</span><span class="p">))</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>African elephant, Loxodonta africana (score = 0.58335)
-tusker (score = 0.33901)
-Indian elephant, Elephas maximus (score = 0.02391)
-banana (score = 0.00025)
-vault (score = 0.00021)
 </pre></div>
 </div>
 </section>
@@ -749,15 +582,6 @@ vault (score = 0.00021)
 
 
 <span class="n">run_inference_on_image</span><span class="p">(</span><span class="n">img_path</span><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>===== TENSORFLOW RESULTS =======
-African elephant, Loxodonta africana (score = 0.58394)
-tusker (score = 0.33909)
-Indian elephant, Elephas maximus (score = 0.03186)
-banana (score = 0.00022)
-desk (score = 0.00019)
 </pre></div>
 </div>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-how-to-compile-models-from-tensorflow-py">

@@ -1,0 +1,10 @@
+<map id="tvm::te::TensorIntrinCallNode" name="tvm::te::TensorIntrinCallNode">
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,653,252,1171"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::tir::IterVar \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 24 more...\l}" alt="" coords="370,793,522,1031"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="707,307,886,604"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::PrimExpr \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 24 more...\l}" alt="" coords="547,793,697,1031"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; Region \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 24 more...\l}" alt="" coords="721,793,872,1031"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::te::Tensor \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 24 more...\l}" alt="" coords="896,793,1047,1031"/>
+<area shape="rect" id="node9" href="$classtvm_1_1te_1_1TensorIntrin.html" title="Managed reference to TensorIntrinNode. " alt="" coords="1071,859,1277,965"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="703,5,890,244"/>
+</map>

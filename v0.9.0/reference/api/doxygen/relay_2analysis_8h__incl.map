@@ -1,0 +1,33 @@
+<map id="include/tvm/relay/analysis.h" name="include/tvm/relay/analysis.h">
+<area shape="rect" id="node2" href="$ir_2module_8h.html" title="IRModule that holds the functions and type definitions. " alt="" coords="2811,386,2938,413"/>
+<area shape="rect" id="node39" href="$relay_2adt_8h.html" title="Algebraic data types for Relay. " alt="" coords="2341,80,2464,107"/>
+<area shape="rect" id="node42" href="$relay_2expr_8h.html" title="Relay expression language. " alt="" coords="2159,155,2289,181"/>
+<area shape="rect" id="node48" href="$relay_2type_8h.html" title="Relay typed AST nodes. " alt="" coords="1614,229,1685,256"/>
+<area shape="rect" id="node50" href="$relay_2function_8h.html" title="Relay Function. " alt="" coords="2072,80,2227,107"/>
+<area shape="rect" id="node3" href="$ir_2adt_8h.html" title="Algebraic data type definitions. " alt="" coords="2887,543,2985,569"/>
+<area shape="rect" id="node4" href="$ir_2expr_8h.html" title="Base expr nodes in TVM. " alt="" coords="1968,625,2075,651"/>
+<area shape="rect" id="node14" href="$ir_2type_8h.html" title="IR/AST nodes for the unified type system in TVM. " alt="" coords="1117,714,1224,741"/>
+<area shape="rect" id="node15" href="$array_8h.html" title="Runtime Array container types. " alt="" coords="2811,796,2979,837"/>
+<area shape="rect" id="node22" href="$string_8h.html" title="Runtime String container types. " alt="" coords="3205,796,3373,837"/>
+<area shape="rect" id="node28" href="$ir_2function_8h.html" title="Function nodes. " alt="" coords="3392,468,3523,495"/>
+<area shape="rect" id="node32" href="$map_8h.html" title="Runtime Map container types. " alt="" coords="3433,707,3601,748"/>
+<area shape="rect" id="node35" href="$source__map_8h.html" title="A map from source names to source code. " alt="" coords="1702,468,1890,495"/>
+<area shape="rect" id="node6" href="$node_8h.html" title="Definitions and helper macros for IR/AST nodes. " alt="" coords="1807,885,1939,912"/>
+<area shape="rect" id="node8" href="$object_8h.html" title="A managed object in the TVM runtime. " alt="" coords="2131,1035,2290,1061"/>
+<area shape="rect" id="node27" href="$runtime_2container_2adt_8h.html" title="Runtime ADT container types. " alt="" coords="3448,796,3616,837"/>
+<area shape="rect" id="node5" href="$ir_2span_8h.html" title="Span information for debugging purposes. " alt="" coords="1361,803,1469,830"/>
+<area shape="rect" id="node7" href="$runtime_2memory_8h.html" title="Runtime memory management. " alt="" coords="2983,960,3158,987"/>
+<area shape="rect" id="node21" href="$data__type_8h.html" title="tvm/runtime/data_type.h" alt="" coords="1619,1035,1803,1061"/>
+<area shape="rect" id="node18" href="$runtime_2container_2base_8h.html" title="Base utilities for common POD(plain old data) container types. " alt="" coords="3567,885,3641,912"/>
+<area shape="rect" id="node29" href="$ir_2attrs_8h.html" title="Helpers for attribute objects. " alt="" coords="2275,543,2381,569"/>
+<area shape="rect" id="node31" href="$packed__func_8h.html" title="Type&#45;erased function used across TVM API. " alt="" coords="2251,617,2405,659"/>
+<area shape="rect" id="node33" href="$optional_8h.html" title="Runtime Optional container types. " alt="" coords="3640,796,3808,837"/>
+<area shape="rect" id="node36" href="$registry_8h.html" title="This file defines the TVM global function registry. " alt="" coords="1438,543,1607,569"/>
+<area shape="rect" id="node40" href="$relay_2base_8h.html" title="Base classes for the Relay IR. " alt="" coords="1233,468,1365,495"/>
+<area shape="rect" id="node41" href="$tir_2expr_8h.html" title="TIR expressions. " alt="" coords="2581,543,2691,569"/>
+<area shape="rect" id="node43" href="$ir_2op_8h.html" title="Primitive operators(builtin intrinsics) and registry for them. " alt="" coords="1784,229,1877,256"/>
+<area shape="rect" id="node46" href="$virtual__device_8h.html" title="A compile time representation for where data is to be stored at runtime, and how to compile code to c..." alt="" coords="3475,379,3613,420"/>
+<area shape="rect" id="node44" href="$type__relation_8h.html" title="Type relation and function for type inference(checking). " alt="" coords="1493,304,1656,331"/>
+<area shape="rect" id="node45" href="$env__func_8h.html" title="Serializable global function used in IR. " alt="" coords="735,1035,871,1061"/>
+<area shape="rect" id="node49" href="$tensor__type_8h.html" title="Polymorphic tensor types. " alt="" coords="1107,543,1261,569"/>
+</map>

@@ -61,12 +61,6 @@ We begin by initializing a TVM environment.
     import numpy as np
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 56-62
 
 You will get better performance if you can identify the CPU you are targeting
@@ -82,12 +76,6 @@ AVX-512 instructions.
 
 
     tgt = tvm.target.Target(target="llvm", host="llvm")
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 66-80
@@ -116,12 +104,6 @@ are only declaring how the computation should be done.
     A = te.placeholder((n,), name="A")
     B = te.placeholder((n,), name="B")
     C = te.compute(A.shape, lambda i: A[i] + B[i], name="C")
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 87-93
@@ -166,12 +148,6 @@ iterating in row major order.
     s = te.create_schedule(C.op)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 121-132
 
 Compile and Evaluate the Default Schedule
@@ -192,21 +168,6 @@ the inputs and outputs) as well as target language we want to compile to.
 
 
     fadd = tvm.build(s, [A, B, C], tgt, name="myadd")
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-      "target_host parameter is going to be deprecated. "
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 136-144
@@ -233,12 +194,6 @@ computation performed by numpy.
     c = tvm.nd.array(np.zeros(n, dtype=C.dtype), dev)
     fadd(a, b, c)
     tvm.testing.assert_allclose(c.numpy(), a.numpy() + b.numpy())
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 155-157
@@ -283,21 +238,6 @@ helper function to run a profile of the TVM generated code.
     evaluate_addition(fadd, tgt, "naive", log=log)
 
 
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    Numpy running time: 0.000005
-    naive: 0.000003
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 190-202
 
 Updating the Schedule to Use Parallelism
@@ -321,12 +261,6 @@ schedule operation to our computation.
     s[C].parallel(C.op.axis[0])
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 206-211
 
 The ``tvm.lower`` command will generate the Intermediate Representation (IR)
@@ -341,32 +275,6 @@ return a readable C-style statement.
 
 
     print(tvm.lower(s, [A, B, C], simple_mode=True))
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    @main = primfn(A_1: handle, B_1: handle, C_1: handle) -> ()
-      attr = {"from_legacy_te_schedule": True, "global_symbol": "main", "tir.noalias": True}
-      buffers = {A: Buffer(A_2: Pointer(float32), float32, [(stride: int32*n: int32)], [], type="auto"),
-                 B: Buffer(B_2: Pointer(float32), float32, [(stride_1: int32*n)], [], type="auto"),
-                 C: Buffer(C_2: Pointer(float32), float32, [(stride_2: int32*n)], [], type="auto")}
-      buffer_map = {A_1: A, B_1: B, C_1: C}
-      preflattened_buffer_map = {A_1: A_3: Buffer(A_2, float32, [n], [stride], type="auto"), B_1: B_3: Buffer(B_2, float32, [n], [stride_1], type="auto"), C_1: C_3: Buffer(C_2, float32, [n], [stride_2], type="auto")} {
-      for (i: int32, 0, n) "parallel" {
-        C[(i*stride_2)] = (A[(i*stride)] + B[(i*stride_1)])
-      }
-    }
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 215-217
@@ -385,22 +293,6 @@ compile and run this new schedule with the parallel operation applied:
     tvm.testing.assert_allclose(c.numpy(), a.numpy() + b.numpy())
 
     evaluate_addition(fadd_parallel, tgt, "parallel", log=log)
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-      "target_host parameter is going to be deprecated. "
-    parallel: 0.000004
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 226-236
@@ -446,40 +338,6 @@ factor to be the number of threads on your CPU.
     print(tvm.lower(s, [A, B, C], simple_mode=True))
 
 
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-      "target_host parameter is going to be deprecated. "
-    vector: 0.000012
-    @main = primfn(A_1: handle, B_1: handle, C_1: handle) -> ()
-      attr = {"from_legacy_te_schedule": True, "global_symbol": "main", "tir.noalias": True}
-      buffers = {A: Buffer(A_2: Pointer(float32), float32, [(stride: int32*n: int32)], [], type="auto"),
-                 B: Buffer(B_2: Pointer(float32), float32, [(stride_1: int32*n)], [], type="auto"),
-                 C: Buffer(C_2: Pointer(float32), float32, [(stride_2: int32*n)], [], type="auto")}
-      buffer_map = {A_1: A, B_1: B, C_1: C}
-      preflattened_buffer_map = {A_1: A_3: Buffer(A_2, float32, [n], [stride], type="auto"), B_1: B_3: Buffer(B_2, float32, [n], [stride_1], type="auto"), C_1: C_3: Buffer(C_2, float32, [n], [stride_2], type="auto")} {
-      for (i.outer: int32, 0, floordiv((n + 3), 4)) "parallel" {
-        for (i.inner.s: int32, 0, 4) {
-          if @tir.likely((((i.outer*4) + i.inner.s) < n), dtype=bool) {
-            let cse_var_1: int32 = ((i.outer*4) + i.inner.s)
-            C[(cse_var_1*stride_2)] = (A[(cse_var_1*stride)] + B[(cse_var_1*stride_1)])
-          }
-        }
-      }
-    }
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 262-265
 
 Comparing the Different Schedules
@@ -498,24 +356,6 @@ We can now compare the different schedules
             "%s\t%s\t%s"
             % (result[0].rjust(20), str(result[1]).rjust(20), str(result[1] / baseline).rjust(20))
         )
-
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-                Operator                  Timing             Performance
-                   numpy    5.22874001035234e-06                     1.0
-                   naive    3.4395000000000007e-06    0.6578066595757606
-                parallel              4.0737e-06      0.7790978308224379
-                  vector             1.15347e-05      2.2060190365484877
-
 
 
 
@@ -646,12 +486,6 @@ will target compilation of the vector addition to GPUs.
             print(fadd.get_source())
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 394-404
 
 Saving and Loading Compiled Modules
@@ -683,20 +517,6 @@ The following code first performs the following steps:
         fadd.imported_modules[0].save(temp.relpath("myadd.cl"))
     cc.create_shared(temp.relpath("myadd.so"), [temp.relpath("myadd.o")])
     print(temp.listdir())
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    ['myadd.so', 'myadd.o']
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 420-426
@@ -738,12 +558,6 @@ together. We can verify that the newly loaded function works.
     tvm.testing.assert_allclose(c.numpy(), a.numpy() + b.numpy())
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 451-457
 
 Pack Everything into One Library
@@ -762,12 +576,6 @@ code. Currently we support packing of Metal, OpenCL and CUDA modules.
     fadd2 = tvm.runtime.load_module(temp.relpath("myadd_pack.so"))
     fadd2(a, b, c)
     tvm.testing.assert_allclose(c.numpy(), a.numpy() + b.numpy())
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 464-473
@@ -808,12 +616,6 @@ device, and verifies the correctness of the code.
         c = tvm.nd.array(np.zeros(n, dtype=C.dtype), dev)
         fadd_cl(a, b, c)
         tvm.testing.assert_allclose(c.numpy(), a.numpy() + b.numpy())
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 496-517
@@ -930,20 +732,6 @@ matrix multiplication.
     answer = numpy.dot(a.numpy(), b.numpy())
 
 
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    Numpy running time: 0.009401
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 601-605
 
 Now we write a basic matrix multiplication using TVM TE and verify that it
@@ -990,22 +778,6 @@ optimizations.
     evaluate_operation(s, [A, B, C], target=target, name="mmult", optimization="none", log=log)
 
 
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-      "target_host parameter is going to be deprecated. "
-    none: 3.933077
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 640-644
 
 Let's take a look at the intermediate representation of the operator and
@@ -1019,39 +791,6 @@ nested loops over the indices of the A and B matrices.
 
 
     print(tvm.lower(s, [A, B, C], simple_mode=True))
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    @main = primfn(A_1: handle, B_1: handle, C_1: handle) -> ()
-      attr = {"from_legacy_te_schedule": True, "global_symbol": "main", "tir.noalias": True}
-      buffers = {A: Buffer(A_2: Pointer(float32), float32, [1048576], []),
-                 B: Buffer(B_2: Pointer(float32), float32, [1048576], []),
-                 C: Buffer(C_2: Pointer(float32), float32, [1048576], [])}
-      buffer_map = {A_1: A, B_1: B, C_1: C}
-      preflattened_buffer_map = {A_1: A_3: Buffer(A_2, float32, [1024, 1024], []), B_1: B_3: Buffer(B_2, float32, [1024, 1024], []), C_1: C_3: Buffer(C_2, float32, [1024, 1024], [])} {
-      for (x: int32, 0, 1024) {
-        for (y: int32, 0, 1024) {
-          C[((x*1024) + y)] = 0f32
-          for (k: int32, 0, 1024) {
-            let cse_var_2: int32 = (x*1024)
-            let cse_var_1: int32 = (cse_var_2 + y)
-            C[cse_var_1] = (C[cse_var_1] + (A[(cse_var_2 + k)]*B[((k*1024) + y)]))
-          }
-        }
-      }
-    }
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 648-672
@@ -1099,22 +838,6 @@ schedule.
     evaluate_operation(s, [A, B, C], target=target, name="mmult", optimization="blocking", log=log)
 
 
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-      "target_host parameter is going to be deprecated. "
-    blocking: 0.142128
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 686-689
 
 By reordering the computation to take advantage of caching, you should see a
@@ -1127,50 +850,6 @@ internal representation and compare it to the original:
 
 
     print(tvm.lower(s, [A, B, C], simple_mode=True))
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    @main = primfn(A_1: handle, B_1: handle, C_1: handle) -> ()
-      attr = {"from_legacy_te_schedule": True, "global_symbol": "main", "tir.noalias": True}
-      buffers = {A: Buffer(A_2: Pointer(float32), float32, [1048576], []),
-                 B: Buffer(B_2: Pointer(float32), float32, [1048576], []),
-                 C: Buffer(C_2: Pointer(float32), float32, [1048576], [])}
-      buffer_map = {A_1: A, B_1: B, C_1: C}
-      preflattened_buffer_map = {A_1: A_3: Buffer(A_2, float32, [1024, 1024], []), B_1: B_3: Buffer(B_2, float32, [1024, 1024], []), C_1: C_3: Buffer(C_2, float32, [1024, 1024], [])} {
-      for (x.outer: int32, 0, 32) {
-        for (y.outer: int32, 0, 32) {
-          for (x.inner.init: int32, 0, 32) {
-            for (y.inner.init: int32, 0, 32) {
-              C[((((x.outer*32768) + (x.inner.init*1024)) + (y.outer*32)) + y.inner.init)] = 0f32
-            }
-          }
-          for (k.outer: int32, 0, 256) {
-            for (k.inner: int32, 0, 4) {
-              for (x.inner: int32, 0, 32) {
-                for (y.inner: int32, 0, 32) {
-                  let cse_var_3: int32 = (y.outer*32)
-                  let cse_var_2: int32 = ((x.outer*32768) + (x.inner*1024))
-                  let cse_var_1: int32 = ((cse_var_2 + cse_var_3) + y.inner)
-                  C[cse_var_1] = (C[cse_var_1] + (A[((cse_var_2 + (k.outer*4)) + k.inner)]*B[((((k.outer*4096) + (k.inner*1024)) + cse_var_3) + y.inner)]))
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 693-704
@@ -1199,49 +878,6 @@ already cache friendly from our previous optimizations.
 
     # The generalized IR after vectorization
     print(tvm.lower(s, [A, B, C], simple_mode=True))
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-      "target_host parameter is going to be deprecated. "
-    vectorization: 0.146339
-    @main = primfn(A_1: handle, B_1: handle, C_1: handle) -> ()
-      attr = {"from_legacy_te_schedule": True, "global_symbol": "main", "tir.noalias": True}
-      buffers = {A: Buffer(A_2: Pointer(float32), float32, [1048576], []),
-                 B: Buffer(B_2: Pointer(float32), float32, [1048576], []),
-                 C: Buffer(C_2: Pointer(float32), float32, [1048576], [])}
-      buffer_map = {A_1: A, B_1: B, C_1: C}
-      preflattened_buffer_map = {A_1: A_3: Buffer(A_2, float32, [1024, 1024], []), B_1: B_3: Buffer(B_2, float32, [1024, 1024], []), C_1: C_3: Buffer(C_2, float32, [1024, 1024], [])} {
-      for (x.outer: int32, 0, 32) {
-        for (y.outer: int32, 0, 32) {
-          for (x.inner.init: int32, 0, 32) {
-            C[ramp((((x.outer*32768) + (x.inner.init*1024)) + (y.outer*32)), 1, 32)] = broadcast(0f32, 32)
-          }
-          for (k.outer: int32, 0, 256) {
-            for (k.inner: int32, 0, 4) {
-              for (x.inner: int32, 0, 32) {
-                let cse_var_3: int32 = (y.outer*32)
-                let cse_var_2: int32 = ((x.outer*32768) + (x.inner*1024))
-                let cse_var_1: int32 = (cse_var_2 + cse_var_3)
-                C[ramp(cse_var_1, 1, 32)] = (C[ramp(cse_var_1, 1, 32)] + (broadcast(A[((cse_var_2 + (k.outer*4)) + k.inner)], 32)*B[ramp((((k.outer*4096) + (k.inner*1024)) + cse_var_3), 1, 32)]))
-              }
-            }
-          }
-        }
-      }
-    }
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 714-724
@@ -1277,49 +913,6 @@ more cache friendly.
 
     # Again, print the new generalized IR
     print(tvm.lower(s, [A, B, C], simple_mode=True))
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-      "target_host parameter is going to be deprecated. "
-    loop permutation: 0.058467
-    @main = primfn(A_1: handle, B_1: handle, C_1: handle) -> ()
-      attr = {"from_legacy_te_schedule": True, "global_symbol": "main", "tir.noalias": True}
-      buffers = {A: Buffer(A_2: Pointer(float32), float32, [1048576], []),
-                 B: Buffer(B_2: Pointer(float32), float32, [1048576], []),
-                 C: Buffer(C_2: Pointer(float32), float32, [1048576], [])}
-      buffer_map = {A_1: A, B_1: B, C_1: C}
-      preflattened_buffer_map = {A_1: A_3: Buffer(A_2, float32, [1024, 1024], []), B_1: B_3: Buffer(B_2, float32, [1024, 1024], []), C_1: C_3: Buffer(C_2, float32, [1024, 1024], [])} {
-      for (x.outer: int32, 0, 32) {
-        for (y.outer: int32, 0, 32) {
-          for (x.inner.init: int32, 0, 32) {
-            C[ramp((((x.outer*32768) + (x.inner.init*1024)) + (y.outer*32)), 1, 32)] = broadcast(0f32, 32)
-          }
-          for (k.outer: int32, 0, 256) {
-            for (x.inner: int32, 0, 32) {
-              for (k.inner: int32, 0, 4) {
-                let cse_var_3: int32 = (y.outer*32)
-                let cse_var_2: int32 = ((x.outer*32768) + (x.inner*1024))
-                let cse_var_1: int32 = (cse_var_2 + cse_var_3)
-                C[ramp(cse_var_1, 1, 32)] = (C[ramp(cse_var_1, 1, 32)] + (broadcast(A[((cse_var_2 + (k.outer*4)) + k.inner)], 32)*B[ramp((((k.outer*4096) + (k.inner*1024)) + cse_var_3), 1, 32)]))
-              }
-            }
-          }
-        }
-      }
-    }
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 742-767
@@ -1382,56 +975,6 @@ optimized schedule.
     print(tvm.lower(s, [A, B, C], simple_mode=True))
 
 
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-      "target_host parameter is going to be deprecated. "
-    array packing: 0.069147
-    @main = primfn(A_1: handle, B_1: handle, C_1: handle) -> ()
-      attr = {"from_legacy_te_schedule": True, "global_symbol": "main", "tir.noalias": True}
-      buffers = {A: Buffer(A_2: Pointer(float32), float32, [1048576], []),
-                 B: Buffer(B_2: Pointer(float32), float32, [1048576], []),
-                 C: Buffer(C_2: Pointer(float32), float32, [1048576], [])}
-      buffer_map = {A_1: A, B_1: B, C_1: C}
-      preflattened_buffer_map = {A_1: A_3: Buffer(A_2, float32, [1024, 1024], []), B_1: B_3: Buffer(B_2, float32, [1024, 1024], []), C_1: C_3: Buffer(C_2, float32, [1024, 1024], [])} {
-      allocate(packedB: Pointer(global float32x32), float32x32, [32768]), storage_scope = global {
-        for (x: int32, 0, 32) "parallel" {
-          for (y: int32, 0, 1024) {
-            packedB_1: Buffer(packedB, float32x32, [32768], [])[((x*1024) + y)] = B[ramp(((y*1024) + (x*32)), 1, 32)]
-          }
-        }
-        for (x.outer: int32, 0, 32) {
-          for (y.outer: int32, 0, 32) {
-            for (x.inner.init: int32, 0, 32) {
-              C[ramp((((x.outer*32768) + (x.inner.init*1024)) + (y.outer*32)), 1, 32)] = broadcast(0f32, 32)
-            }
-            for (k.outer: int32, 0, 256) {
-              for (x.inner: int32, 0, 32) {
-                for (k.inner: int32, 0, 4) {
-                  let cse_var_3: int32 = ((x.outer*32768) + (x.inner*1024))
-                  let cse_var_2: int32 = (k.outer*4)
-                  let cse_var_1: int32 = (cse_var_3 + (y.outer*32))
-                  C[ramp(cse_var_1, 1, 32)] = (C[ramp(cse_var_1, 1, 32)] + (broadcast(A[((cse_var_3 + cse_var_2) + k.inner)], 32)*packedB_1[(((y.outer*1024) + cse_var_2) + k.inner)]))
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 795-805
 
 Optimization 5: Optimizing Block Writing Through Caching
@@ -1479,66 +1022,6 @@ to `C` when all the block results are ready.
     print(tvm.lower(s, [A, B, C], simple_mode=True))
 
 
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-      "target_host parameter is going to be deprecated. "
-    block caching: 0.062550
-    @main = primfn(A_1: handle, B_1: handle, C_1: handle) -> ()
-      attr = {"from_legacy_te_schedule": True, "global_symbol": "main", "tir.noalias": True}
-      buffers = {A: Buffer(A_2: Pointer(float32), float32, [1048576], []),
-                 B: Buffer(B_2: Pointer(float32), float32, [1048576], []),
-                 C: Buffer(C_2: Pointer(float32), float32, [1048576], [])}
-      buffer_map = {A_1: A, B_1: B, C_1: C}
-      preflattened_buffer_map = {A_1: A_3: Buffer(A_2, float32, [1024, 1024], []), B_1: B_3: Buffer(B_2, float32, [1024, 1024], []), C_1: C_3: Buffer(C_2, float32, [1024, 1024], [])} {
-      allocate(packedB: Pointer(global float32x32), float32x32, [32768]), storage_scope = global;
-      allocate(C.global: Pointer(global float32), float32, [1024]), storage_scope = global {
-        for (x: int32, 0, 32) "parallel" {
-          for (y: int32, 0, 1024) {
-            packedB_1: Buffer(packedB, float32x32, [32768], [])[((x*1024) + y)] = B[ramp(((y*1024) + (x*32)), 1, 32)]
-          }
-        }
-        for (x.outer: int32, 0, 32) {
-          for (y.outer: int32, 0, 32) {
-            for (x.c.init: int32, 0, 32) {
-              C.global_1: Buffer(C.global, float32, [1024], [])[ramp((x.c.init*32), 1, 32)] = broadcast(0f32, 32)
-            }
-            for (k.outer: int32, 0, 256) {
-              for (x.c: int32, 0, 32) {
-                let cse_var_4: int32 = (k.outer*4)
-                let cse_var_3: int32 = (x.c*32)
-                let cse_var_2: int32 = ((y.outer*1024) + cse_var_4)
-                let cse_var_1: int32 = (((x.outer*32768) + (x.c*1024)) + cse_var_4)
-                 {
-                  C.global_1[ramp(cse_var_3, 1, 32)] = (C.global_1[ramp(cse_var_3, 1, 32)] + (broadcast(A[cse_var_1], 32)*packedB_1[cse_var_2]))
-                  C.global_1[ramp(cse_var_3, 1, 32)] = (C.global_1[ramp(cse_var_3, 1, 32)] + (broadcast(A[(cse_var_1 + 1)], 32)*packedB_1[(cse_var_2 + 1)]))
-                  C.global_1[ramp(cse_var_3, 1, 32)] = (C.global_1[ramp(cse_var_3, 1, 32)] + (broadcast(A[(cse_var_1 + 2)], 32)*packedB_1[(cse_var_2 + 2)]))
-                  C.global_1[ramp(cse_var_3, 1, 32)] = (C.global_1[ramp(cse_var_3, 1, 32)] + (broadcast(A[(cse_var_1 + 3)], 32)*packedB_1[(cse_var_2 + 3)]))
-                }
-              }
-            }
-            for (x.inner: int32, 0, 32) {
-              for (y.inner: int32, 0, 32) {
-                C[((((x.outer*32768) + (x.inner*1024)) + (y.outer*32)) + y.inner)] = C.global_1[((x.inner*32) + y.inner)]
-              }
-            }
-          }
-        }
-      }
-    }
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 835-842
 
 Optimization 6: Parallelization
@@ -1569,66 +1052,6 @@ of thread-level parallelization.
     print(tvm.lower(s, [A, B, C], simple_mode=True))
 
 
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-      "target_host parameter is going to be deprecated. "
-    parallelization: 0.017818
-    @main = primfn(A_1: handle, B_1: handle, C_1: handle) -> ()
-      attr = {"from_legacy_te_schedule": True, "global_symbol": "main", "tir.noalias": True}
-      buffers = {A: Buffer(A_2: Pointer(float32), float32, [1048576], []),
-                 B: Buffer(B_2: Pointer(float32), float32, [1048576], []),
-                 C: Buffer(C_2: Pointer(float32), float32, [1048576], [])}
-      buffer_map = {A_1: A, B_1: B, C_1: C}
-      preflattened_buffer_map = {A_1: A_3: Buffer(A_2, float32, [1024, 1024], []), B_1: B_3: Buffer(B_2, float32, [1024, 1024], []), C_1: C_3: Buffer(C_2, float32, [1024, 1024], [])} {
-      allocate(packedB: Pointer(global float32x32), float32x32, [32768]), storage_scope = global {
-        for (x: int32, 0, 32) "parallel" {
-          for (y: int32, 0, 1024) {
-            packedB_1: Buffer(packedB, float32x32, [32768], [])[((x*1024) + y)] = B[ramp(((y*1024) + (x*32)), 1, 32)]
-          }
-        }
-        for (x.outer: int32, 0, 32) "parallel" {
-          allocate(C.global: Pointer(global float32), float32, [1024]), storage_scope = global;
-          for (y.outer: int32, 0, 32) {
-            for (x.c.init: int32, 0, 32) {
-              C.global_1: Buffer(C.global, float32, [1024], [])[ramp((x.c.init*32), 1, 32)] = broadcast(0f32, 32)
-            }
-            for (k.outer: int32, 0, 256) {
-              for (x.c: int32, 0, 32) {
-                let cse_var_4: int32 = (k.outer*4)
-                let cse_var_3: int32 = (x.c*32)
-                let cse_var_2: int32 = ((y.outer*1024) + cse_var_4)
-                let cse_var_1: int32 = (((x.outer*32768) + (x.c*1024)) + cse_var_4)
-                 {
-                  C.global_1[ramp(cse_var_3, 1, 32)] = (C.global_1[ramp(cse_var_3, 1, 32)] + (broadcast(A[cse_var_1], 32)*packedB_1[cse_var_2]))
-                  C.global_1[ramp(cse_var_3, 1, 32)] = (C.global_1[ramp(cse_var_3, 1, 32)] + (broadcast(A[(cse_var_1 + 1)], 32)*packedB_1[(cse_var_2 + 1)]))
-                  C.global_1[ramp(cse_var_3, 1, 32)] = (C.global_1[ramp(cse_var_3, 1, 32)] + (broadcast(A[(cse_var_1 + 2)], 32)*packedB_1[(cse_var_2 + 2)]))
-                  C.global_1[ramp(cse_var_3, 1, 32)] = (C.global_1[ramp(cse_var_3, 1, 32)] + (broadcast(A[(cse_var_1 + 3)], 32)*packedB_1[(cse_var_2 + 3)]))
-                }
-              }
-            }
-            for (x.inner: int32, 0, 32) {
-              for (y.inner: int32, 0, 32) {
-                C[((((x.outer*32768) + (x.inner*1024)) + (y.outer*32)) + y.inner)] = C.global_1[((x.inner*32) + y.inner)]
-              }
-            }
-          }
-        }
-      }
-    }
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 858-865
 
 Summary of Matrix Multiplication Example
@@ -1651,27 +1074,6 @@ working, we can compare the results.
             "%s\t%s\t%s"
             % (result[0].rjust(20), str(result[1]).rjust(20), str(result[1] / baseline).rjust(20))
         )
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-                Operator                  Timing             Performance
-                    none      3.9330769219000006                     1.0
-                blocking     0.14212802119999998    0.036136598399235074
-           vectorization     0.14633924380000002     0.03720731801230729
-        loop permutation            0.0584667678     0.01486540155735264
-           array packing            0.0691468843    0.017580862432407335
-           block caching     0.06254978850000001    0.015903525342134246
-         parallelization    0.017818045499999997    0.004530306895546912
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 875-881

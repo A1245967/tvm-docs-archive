@@ -1,0 +1,29 @@
+<map id="include/tvm/auto_scheduler/search_task.h" name="include/tvm/auto_scheduler/search_task.h">
+<area shape="rect" id="node2" href="$compute__dag_8h.html" title="The auto&#45;scheduler&#39;s computational graph and related program analyses. " alt="" coords="292,95,442,136"/>
+<area shape="rect" id="node41" href="$ndarray_8h.html" title="A device&#45;independent managed NDArray abstraction. " alt="" coords="1289,736,1458,763"/>
+<area shape="rect" id="node47" href="$target_8h.html" title="Compilation target object. " alt="" coords="2538,437,2684,464"/>
+<area shape="rect" id="node3" href="$loop__state_8h.html" title="The definition of the &quot;state&quot; in the search. " alt="" coords="348,184,498,225"/>
+<area shape="rect" id="node7" href="$c__runtime__api_8h.html" title="tvm/runtime/c_runtime\l_api.h" alt="" coords="1306,1124,1478,1165"/>
+<area shape="rect" id="node19" href="$te_2schedule_8h.html" title="Define a schedule. " alt="" coords="1614,363,1752,389"/>
+<area shape="rect" id="node5" href="$transform__step_8h.html" title="Transformation steps. These steps are used to manipulate LoopState. They are similar to the schedule ..." alt="" coords="630,273,781,315"/>
+<area shape="rect" id="node6" href="$node_8h.html" title="Definitions and helper macros for IR/AST nodes. " alt="" coords="2009,900,2141,927"/>
+<area shape="rect" id="node11" href="$runtime_2memory_8h.html" title="Runtime memory management. " alt="" coords="2168,975,2342,1001"/>
+<area shape="rect" id="node12" href="$object_8h.html" title="A managed object in the TVM runtime. " alt="" coords="2184,1049,2342,1076"/>
+<area shape="rect" id="node20" href="$with_8h.html" title="RAII wrapper function to enter and exit a context object similar to python&#39;s with syntax..." alt="" coords="744,512,889,539"/>
+<area shape="rect" id="node21" href="$tensor_8h.html" title="Dataflow tensor object. " alt="" coords="2419,512,2542,539"/>
+<area shape="rect" id="node22" href="$tir_2expr_8h.html" title="TIR expressions. " alt="" coords="2425,587,2536,613"/>
+<area shape="rect" id="node37" href="$tensor__intrin_8h.html" title="Tensor intrinsic operations. " alt="" coords="2708,437,2871,464"/>
+<area shape="rect" id="node38" href="$index__map_8h.html" title="Defines a remapping of buffer indices. " alt="" coords="1107,587,1262,613"/>
+<area shape="rect" id="node23" href="$ir_2expr_8h.html" title="Base expr nodes in TVM. " alt="" coords="3068,661,3175,688"/>
+<area shape="rect" id="node26" href="$data__type_8h.html" title="tvm/runtime/data_type.h" alt="" coords="3160,1049,3344,1076"/>
+<area shape="rect" id="node27" href="$string_8h.html" title="Runtime String container types. " alt="" coords="2568,811,2736,852"/>
+<area shape="rect" id="node24" href="$ir_2span_8h.html" title="Span information for debugging purposes. " alt="" coords="3185,818,3293,845"/>
+<area shape="rect" id="node25" href="$ir_2type_8h.html" title="IR/AST nodes for the unified type system in TVM. " alt="" coords="3278,736,3384,763"/>
+<area shape="rect" id="node29" href="$runtime_2container_2base_8h.html" title="Base utilities for common POD(plain old data) container types. " alt="" coords="2318,900,2392,927"/>
+<area shape="rect" id="node42" href="$optional_8h.html" title="Runtime Optional container types. " alt="" coords="1715,811,1883,852"/>
+<area shape="rect" id="node43" href="$shape__tuple_8h.html" title="Runtime ShapeTuple container types. " alt="" coords="1118,811,1286,852"/>
+<area shape="rect" id="node44" href="$serializer_8h.html" title="Serializer extension to support TVM data types Include this file to enable serialization of DLDataTyp..." alt="" coords="1411,818,1590,845"/>
+<area shape="rect" id="node48" href="$ir_2module_8h.html" title="IRModule that holds the functions and type definitions. " alt="" coords="2710,512,2837,539"/>
+<area shape="rect" id="node50" href="$target__kind_8h.html" title="Target kind registry. " alt="" coords="2008,818,2190,845"/>
+<area shape="rect" id="node49" href="$ir_2adt_8h.html" title="Algebraic data type definitions. " alt="" coords="2868,587,2967,613"/>
+</map>

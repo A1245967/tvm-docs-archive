@@ -1,0 +1,8 @@
+<map id="tvm::meta_schedule::ApplyHistoryBestNode" name="tvm::meta_schedule::ApplyHistoryBestNode">
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,653,252,1171"/>
+<area shape="rect" id="node3" href="$classtvm_1_1meta__schedule_1_1Database.html" title="Managed reference to DatabaseNode. " alt="" coords="369,837,557,987"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="483,307,662,604"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1PackedFunc.html" title="Packed function is a type&#45;erased function. The arguments are passed by packed format. " alt="" coords="582,822,787,1002"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="479,5,666,244"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1TypedPackedFunc.html" title="{tvm::runtime::TypedPacked\lFunc\&lt; Optional\&lt; tir::PrimFunc\l \&gt;(const Array\&lt; te::Tensor,\l void \&gt; &amp;)\&gt;\n||}" alt="" coords="811,851,1030,973"/>
+</map>

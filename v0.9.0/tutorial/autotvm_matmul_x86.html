@@ -604,13 +604,6 @@ the task and search space are independent of the tuner picked.</p>
 <span class="nb">print</span><span class="p">(</span><span class="n">task</span><span class="o">.</span><span class="n">config_space</span><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>ConfigSpace (len=100, space_map=
-   0 tile_y: Split(policy=factors, product=512, num_outputs=2) len=10
-   1 tile_x: Split(policy=factors, product=512, num_outputs=2) len=10
-)
-</pre></div>
-</div>
 <p>Then we need to define how to measure the generated code and pick a tuner.
 Since our space is small, a random tuner is just okay.</p>
 <p>We only make 10 trials in this tutorial for demonstration. In practice, you
@@ -637,22 +630,6 @@ reduce variance, we take 5 measurements and average them.</p>
 <span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>waiting for device...
-device available
-Get devices for measurement successfully!
-No: 1   GFLOPS: 7.42/7.42       result: MeasureResult(costs=(0.036186726399999994,), error_no=MeasureErrorNo.NO_ERROR, all_cost=0.8268134593963623, timestamp=1777752256.1434097)       [(&#39;tile_y&#39;, [-1, 256]), (&#39;tile_x&#39;, [-1, 16])],None,48
-No: 2   GFLOPS: 2.75/7.42       result: MeasureResult(costs=(0.0975431346,), error_no=MeasureErrorNo.NO_ERROR, all_cost=1.7783336639404297, timestamp=1777752257.955641)        [(&#39;tile_y&#39;, [-1, 1]), (&#39;tile_x&#39;, [-1, 4])],None,20
-No: 3   GFLOPS: 20.61/20.61     result: MeasureResult(costs=(0.013024533400000001,), error_no=MeasureErrorNo.NO_ERROR, all_cost=0.6143796443939209, timestamp=1777752258.4070926)       [(&#39;tile_y&#39;, [-1, 2]), (&#39;tile_x&#39;, [-1, 128])],None,71
-No: 4   GFLOPS: 7.87/20.61      result: MeasureResult(costs=(0.034129588,), error_no=MeasureErrorNo.NO_ERROR, all_cost=0.7703659534454346, timestamp=1777752259.1892867)        [(&#39;tile_y&#39;, [-1, 16]), (&#39;tile_x&#39;, [-1, 8])],None,34
-No: 5   GFLOPS: 1.31/20.61      result: MeasureResult(costs=(0.2045458958,), error_no=MeasureErrorNo.NO_ERROR, all_cost=3.5114526748657227, timestamp=1777752262.7231371)       [(&#39;tile_y&#39;, [-1, 16]), (&#39;tile_x&#39;, [-1, 1])],None,4
-No: 6   GFLOPS: 16.15/20.61     result: MeasureResult(costs=(0.0166163012,), error_no=MeasureErrorNo.NO_ERROR, all_cost=0.47626662254333496, timestamp=1777752263.2359383)      [(&#39;tile_y&#39;, [-1, 512]), (&#39;tile_x&#39;, [-1, 256])],None,89
-No: 7   GFLOPS: 7.77/20.61      result: MeasureResult(costs=(0.034568475599999995,), error_no=MeasureErrorNo.NO_ERROR, all_cost=0.7971930503845215, timestamp=1777752264.0367286)       [(&#39;tile_y&#39;, [-1, 128]), (&#39;tile_x&#39;, [-1, 16])],None,47
-No: 8   GFLOPS: 24.97/24.97     result: MeasureResult(costs=(0.0107491004,), error_no=MeasureErrorNo.NO_ERROR, all_cost=0.4745821952819824, timestamp=1777752264.461815)        [(&#39;tile_y&#39;, [-1, 1]), (&#39;tile_x&#39;, [-1, 64])],None,60
-No: 9   GFLOPS: 21.99/24.97     result: MeasureResult(costs=(0.0122061114,), error_no=MeasureErrorNo.NO_ERROR, all_cost=0.40717411041259766, timestamp=1777752264.9045043)      [(&#39;tile_y&#39;, [-1, 128]), (&#39;tile_x&#39;, [-1, 512])],None,97
-No: 10  GFLOPS: 23.06/24.97     result: MeasureResult(costs=(0.011640985000000001,), error_no=MeasureErrorNo.NO_ERROR, all_cost=0.4142003059387207, timestamp=1777752265.3483613)       [(&#39;tile_y&#39;, [-1, 256]), (&#39;tile_x&#39;, [-1, 512])],None,98
-</pre></div>
-</div>
 <p>With tuning completed, we can choose the configuration from the log file that
 has the best measured performance and compile the schedule with the
 corresponding parameters. We also do a quick verification that the schedule is
@@ -675,10 +652,6 @@ best config with the same argument.</p>
 <span class="n">func</span><span class="p">(</span><span class="n">tvm</span><span class="o">.</span><span class="n">nd</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">a_np</span><span class="p">),</span> <span class="n">tvm</span><span class="o">.</span><span class="n">nd</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">b_np</span><span class="p">),</span> <span class="n">c_tvm</span><span class="p">)</span>
 
 <span class="n">tvm</span><span class="o">.</span><span class="n">testing</span><span class="o">.</span><span class="n">assert_allclose</span><span class="p">(</span><span class="n">c_np</span><span class="p">,</span> <span class="n">c_tvm</span><span class="o">.</span><span class="n">numpy</span><span class="p">(),</span> <span class="n">rtol</span><span class="o">=</span><span class="mf">1e-4</span><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Finish loading 10 records
 </pre></div>
 </div>
 </section>

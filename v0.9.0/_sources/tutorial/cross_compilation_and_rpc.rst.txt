@@ -116,12 +116,6 @@ Here we will declare a simple kernel on the local machine:
     s = te.create_schedule(B.op)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 109-113
 
 Then we cross compile the kernel.
@@ -146,12 +140,6 @@ on our webpage building server. See the detailed note in the following block.
     temp = utils.tempdir()
     path = temp.relpath("lib.tar")
     func.export_library(path)
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 128-160
@@ -210,12 +198,6 @@ First we obtain an RPC session from remote device.
         remote = rpc.connect(host, port)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 176-178
 
 Upload the lib to the remote device, then invoke a device local
@@ -238,12 +220,6 @@ compiler to relink them. Now `func` is a remote module object.
     np.testing.assert_equal(b.numpy(), a.numpy() + 1)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 191-196
 
 When you want to evaluate the performance of the kernel on the remote
@@ -260,20 +236,6 @@ device and returns the measured cost. Network overhead is excluded.
     time_f = func.time_evaluator(func.entry_name, dev, number=10)
     cost = time_f(a, b).mean
     print("%g secs/op" % cost)
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    8.21e-08 secs/op
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 202-223
@@ -335,12 +297,6 @@ The following function shows how we run an OpenCL kernel remotely
         func(a, b)
         np.testing.assert_equal(b.numpy(), a.numpy() + 1)
         print("OpenCL test passed!")
-
-
-
-
-
-
 
 
 

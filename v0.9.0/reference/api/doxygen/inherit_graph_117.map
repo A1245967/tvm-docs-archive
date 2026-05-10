@@ -1,0 +1,407 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="5,8510,184,8537"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; Range \&gt;" alt="" coords="321,5,472,47"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; Region \&gt;" alt="" coords="321,71,472,112"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::arith::IterSplitExpr \&gt;" alt="" coords="295,136,499,177"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::arith::IterSumExpr \&gt;" alt="" coords="295,201,499,243"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::AttrFieldInfo \&gt;" alt="" coords="313,267,480,308"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::auto_scheduler\l::Iterator \&gt;" alt="" coords="311,333,482,389"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::auto_scheduler\l::Stage \&gt;" alt="" coords="311,413,482,469"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::auto_scheduler\l::Step \&gt;" alt="" coords="311,493,482,549"/>
+<area shape="rect" id="node10" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::ConstantInfo \&gt;" alt="" coords="312,573,481,615"/>
+<area shape="rect" id="node11" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::ConstantPoolInfo \&gt;" alt="" coords="298,639,495,680"/>
+<area shape="rect" id="node12" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::Constructor \&gt;" alt="" coords="316,704,477,745"/>
+<area shape="rect" id="node13" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::Diagnostic \&gt;" alt="" coords="319,769,474,811"/>
+<area shape="rect" id="node14" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::FloatImm \&gt;" alt="" coords="321,835,472,876"/>
+<area shape="rect" id="node15" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::instrument::PassInstrument \&gt;" alt="" coords="263,900,530,941"/>
+<area shape="rect" id="node16" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::Integer \&gt;" alt="" coords="321,965,472,1007"/>
+<area shape="rect" id="node17" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::IntImm \&gt;" alt="" coords="321,1031,472,1072"/>
+<area shape="rect" id="node18" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::IRModule \&gt;" alt="" coords="321,1096,472,1137"/>
+<area shape="rect" id="node19" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::meta_schedule\l::ArgInfo \&gt;" alt="" coords="311,1162,482,1218"/>
+<area shape="rect" id="node20" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::meta_schedule\l::MeasureCallback \&gt;" alt="" coords="311,1242,482,1298"/>
+<area shape="rect" id="node21" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::meta_schedule\l::Postproc \&gt;" alt="" coords="311,1322,482,1378"/>
+<area shape="rect" id="node22" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::meta_schedule\l::ScheduleRule \&gt;" alt="" coords="311,1402,482,1458"/>
+<area shape="rect" id="node23" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::meta_schedule\l::TuneContext \&gt;" alt="" coords="311,1482,482,1538"/>
+<area shape="rect" id="node24" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::PoolInfo \&gt;" alt="" coords="321,1563,472,1604"/>
+<area shape="rect" id="node25" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::PrimExpr \&gt;" alt="" coords="321,1628,472,1669"/>
+<area shape="rect" id="node26" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::Range \&gt;" alt="" coords="321,1693,472,1735"/>
+<area shape="rect" id="node27" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::relay::Clause \&gt;" alt="" coords="311,1759,482,1800"/>
+<area shape="rect" id="node28" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::relay::DFPattern \&gt;" alt="" coords="301,1824,492,1865"/>
+<area shape="rect" id="node29" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::relay::OpImplementation \&gt;" alt="" coords="272,1889,521,1931"/>
+<area shape="rect" id="node30" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::relay::OpSpecialization \&gt;" alt="" coords="279,1955,515,1996"/>
+<area shape="rect" id="node31" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::relay::Pattern \&gt;" alt="" coords="309,2020,484,2061"/>
+<area shape="rect" id="node32" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::relay::Var \&gt;" alt="" coords="321,2085,472,2127"/>
+<area shape="rect" id="node33" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::RelayExpr \&gt;" alt="" coords="321,2151,473,2192"/>
+<area shape="rect" id="node34" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::runtime::Array\l\&lt; tvm::Integer \&gt; \&gt;" alt="" coords="314,2217,479,2273"/>
+<area shape="rect" id="node35" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::runtime::Array\l\&lt; tvm::PrimExpr \&gt; \&gt;" alt="" coords="314,2297,479,2353"/>
+<area shape="rect" id="node36" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::runtime::Map\l\&lt; tvm::runtime::String,\l tvm::runtime::ObjectRef \&gt; \&gt;" alt="" coords="290,2377,503,2448"/>
+<area shape="rect" id="node37" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::runtime::ObjectRef \&gt;" alt="" coords="292,2472,501,2513"/>
+<area shape="rect" id="node38" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::runtime::Optional\l\&lt; tvm::Integer \&gt; \&gt;" alt="" coords="304,2538,489,2594"/>
+<area shape="rect" id="node39" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::runtime::String \&gt;" alt="" coords="305,2619,488,2660"/>
+<area shape="rect" id="node40" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::Target \&gt;" alt="" coords="321,2684,472,2725"/>
+<area shape="rect" id="node41" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::te::IterVarRelation \&gt;" alt="" coords="294,2749,499,2791"/>
+<area shape="rect" id="node42" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::te::Operation \&gt;" alt="" coords="311,2815,482,2856"/>
+<area shape="rect" id="node43" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::te::Stage \&gt;" alt="" coords="321,2880,472,2921"/>
+<area shape="rect" id="node44" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::te::Tensor \&gt;" alt="" coords="321,2945,472,2987"/>
+<area shape="rect" id="node45" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::TensorAffineType \&gt;" alt="" coords="296,3011,497,3052"/>
+<area shape="rect" id="node46" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::tir::Buffer \&gt;" alt="" coords="321,3076,472,3117"/>
+<area shape="rect" id="node47" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::tir::BufferRegion \&gt;" alt="" coords="300,3141,493,3183"/>
+<area shape="rect" id="node48" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::tir::IndexMap \&gt;" alt="" coords="311,3207,482,3248"/>
+<area shape="rect" id="node49" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::tir::Instruction \&gt;" alt="" coords="308,3272,485,3313"/>
+<area shape="rect" id="node50" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::tir::IterVar \&gt;" alt="" coords="321,3337,473,3379"/>
+<area shape="rect" id="node51" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::tir::MatchBufferRegion \&gt;" alt="" coords="281,3403,513,3444"/>
+<area shape="rect" id="node52" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::tir::Stmt \&gt;" alt="" coords="321,3468,472,3509"/>
+<area shape="rect" id="node53" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::tir::Var \&gt;" alt="" coords="321,3533,472,3575"/>
+<area shape="rect" id="node54" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::transform::Pass \&gt;" alt="" coords="303,3599,491,3640"/>
+<area shape="rect" id="node55" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::Type \&gt;" alt="" coords="321,3664,472,3705"/>
+<area shape="rect" id="node56" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::TypeConstraint \&gt;" alt="" coords="304,3729,489,3771"/>
+<area shape="rect" id="node57" href="$classtvm_1_1runtime_1_1Array.html" title="tvm::runtime::Array\l\&lt; tvm::TypeVar \&gt;" alt="" coords="321,3795,472,3836"/>
+<area shape="rect" id="node58" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::GlobalTypeVar,\l tvm::TypeData \&gt;" alt="" coords="317,3861,477,3917"/>
+<area shape="rect" id="node59" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::GlobalVar, tvm\l::BaseFunc \&gt;" alt="" coords="317,3941,476,3997"/>
+<area shape="rect" id="node60" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::meta_schedule\l::Mutator, tvm::FloatImm \&gt;" alt="" coords="297,4021,496,4077"/>
+<area shape="rect" id="node61" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::relay::Var, tvm\l::runtime::ObjectRef \&gt;" alt="" coords="313,4101,481,4157"/>
+<area shape="rect" id="node62" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::runtime::String,\l tvm::GlobalTypeVar \&gt;" alt="" coords="311,4181,482,4237"/>
+<area shape="rect" id="node63" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::runtime::String,\l tvm::GlobalVar \&gt;" alt="" coords="316,4261,477,4317"/>
+<area shape="rect" id="node64" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::runtime::String,\l tvm::runtime::Map\&lt; tvm\l::runtime::String, tvm::\lruntime::ObjectRef \&gt; \&gt;" alt="" coords="303,4341,490,4426"/>
+<area shape="rect" id="node65" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::runtime::String,\l tvm::runtime::ObjectRef \&gt;" alt="" coords="297,4450,496,4506"/>
+<area shape="rect" id="node66" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::SourceName, tvm\l::parser::Source \&gt;" alt="" coords="308,4530,485,4586"/>
+<area shape="rect" id="node67" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::Target, tvm::Integer \&gt;" alt="" coords="294,4611,499,4652"/>
+<area shape="rect" id="node68" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::te::Operation,\l tvm::te::Stage \&gt;" alt="" coords="320,4677,473,4733"/>
+<area shape="rect" id="node69" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::tir::Instruction,\l tvm::runtime::ObjectRef \&gt;" alt="" coords="297,4757,496,4813"/>
+<area shape="rect" id="node70" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::tir::IterVar,\l tvm::te::IterVarAttr \&gt;" alt="" coords="315,4837,479,4893"/>
+<area shape="rect" id="node71" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::tir::usmp::BufferInfo,\l tvm::tir::Stmt \&gt;" alt="" coords="299,4917,494,4973"/>
+<area shape="rect" id="node72" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::tir::Var, tvm\l::PrimExpr \&gt;" alt="" coords="320,4997,473,5053"/>
+<area shape="rect" id="node73" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::tir::Var, tvm\l::Range \&gt;" alt="" coords="320,5077,473,5133"/>
+<area shape="rect" id="node74" href="$classtvm_1_1runtime_1_1Map.html" title="tvm::runtime::Map\&lt;\l tvm::tir::Var, tvm\l::tir::Buffer \&gt;" alt="" coords="320,5157,473,5213"/>
+<area shape="rect" id="node75" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::DiagnosticContext \&gt;" alt="" coords="293,5237,500,5279"/>
+<area shape="rect" id="node76" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::FloatImm \&gt;" alt="" coords="311,5303,482,5344"/>
+<area shape="rect" id="node77" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::Integer \&gt;" alt="" coords="311,5368,482,5409"/>
+<area shape="rect" id="node78" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::IRModule \&gt;" alt="" coords="311,5433,482,5475"/>
+<area shape="rect" id="node79" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::meta_schedule::\lCostModel \&gt;" alt="" coords="307,5499,486,5555"/>
+<area shape="rect" id="node80" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::meta_schedule::\lDatabase \&gt;" alt="" coords="307,5579,486,5635"/>
+<area shape="rect" id="node81" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::meta_schedule::\lSearchStrategy \&gt;" alt="" coords="307,5659,486,5715"/>
+<area shape="rect" id="node82" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::meta_schedule::\lSpaceGenerator \&gt;" alt="" coords="307,5739,486,5795"/>
+<area shape="rect" id="node83" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::PrimExpr \&gt;" alt="" coords="311,5820,482,5861"/>
+<area shape="rect" id="node84" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::runtime::Array\l\&lt; tvm::auto_scheduler::\lMeasureCallback \&gt; \&gt;" alt="" coords="307,5885,486,5956"/>
+<area shape="rect" id="node85" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::runtime::Array\l\&lt; tvm::FloatImm \&gt; \&gt;" alt="" coords="311,5981,482,6037"/>
+<area shape="rect" id="node86" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::runtime::Array\l\&lt; tvm::Integer \&gt; \&gt;" alt="" coords="311,6061,482,6117"/>
+<area shape="rect" id="node87" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::runtime::Array\l\&lt; tvm::meta_schedule::ArgInfo \&gt; \&gt;" alt="" coords="269,6141,524,6197"/>
+<area shape="rect" id="node88" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::runtime::Array\l\&lt; tvm::meta_schedule::BuilderResult \&gt; \&gt;" alt="" coords="249,6221,544,6277"/>
+<area shape="rect" id="node89" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::runtime::Array\l\&lt; tvm::meta_schedule::MeasureCandidate \&gt; \&gt;" alt="" coords="232,6301,561,6357"/>
+<area shape="rect" id="node90" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::runtime::Array\l\&lt; tvm::meta_schedule::RunnerFuture \&gt; \&gt;" alt="" coords="249,6381,544,6437"/>
+<area shape="rect" id="node91" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::runtime::Map\&lt; tvm\l::runtime::String, tvm::\lruntime::NDArray \&gt; \&gt;" alt="" coords="297,6461,496,6532"/>
+<area shape="rect" id="node92" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::runtime::NDArray \&gt;" alt="" coords="297,6556,497,6597"/>
+<area shape="rect" id="node93" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::runtime::ObjectRef \&gt;" alt="" coords="292,6621,501,6663"/>
+<area shape="rect" id="node94" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::runtime::String \&gt;" alt="" coords="305,6687,488,6728"/>
+<area shape="rect" id="node95" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::Target \&gt;" alt="" coords="311,6752,482,6793"/>
+<area shape="rect" id="node96" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::tir::IterVar \&gt;" alt="" coords="311,6817,482,6859"/>
+<area shape="rect" id="node97" href="$classtvm_1_1runtime_1_1Optional.html" title="tvm::runtime::Optional\l\&lt; tvm::tir::Stmt \&gt;" alt="" coords="311,6883,482,6924"/>
+<area shape="rect" id="node98" href="$classtvm_1_1AffineType.html" title="Managed reference to AffineTypeNode. " alt="" coords="333,6949,460,6975"/>
+<area shape="rect" id="node101" href="$classtvm_1_1arith_1_1ConstIntBound.html" title="reference class to ConstIntBoundNode " alt="" coords="302,6999,491,7026"/>
+<area shape="rect" id="node102" href="$classtvm_1_1arith_1_1IntConstraints.html" title="Managed reference to IntConstraintsNode. " alt="" coords="304,7050,489,7077"/>
+<area shape="rect" id="node103" href="$classtvm_1_1arith_1_1IntConstraintsTransform.html" title="Managed reference to IntConstraintsTransformNode. " alt="" coords="304,7101,489,7143"/>
+<area shape="rect" id="node104" href="$classtvm_1_1arith_1_1IntGroupBounds.html" title="Managed reference to IntGroupBoundsNode. " alt="" coords="297,7167,496,7194"/>
+<area shape="rect" id="node105" href="$classtvm_1_1arith_1_1IntSet.html" title="Managed reference to IntSetNode. " alt="" coords="331,7218,463,7245"/>
+<area shape="rect" id="node106" href="$classtvm_1_1arith_1_1IterMapResult.html" title="Managed reference to IterMapResultNode. " alt="" coords="305,7269,489,7295"/>
+<area shape="rect" id="node107" href="$classtvm_1_1arith_1_1IterMark.html" title="Managed reference to IterMarkExprNode. " alt="" coords="323,7319,471,7346"/>
+<area shape="rect" id="node108" href="$classtvm_1_1arith_1_1ModularSet.html" title="reference of ModularSetNode " alt="" coords="313,7370,480,7397"/>
+<area shape="rect" id="node109" href="$classtvm_1_1AttrFieldInfo.html" title="AttrFieldInfo. " alt="" coords="329,7421,465,7447"/>
+<area shape="rect" id="node110" href="$classtvm_1_1Attrs.html" title="Managed reference to BaseAttrsNode. " alt="" coords="353,7471,440,7498"/>
+<area shape="rect" id="node112" href="$classtvm_1_1auto__scheduler_1_1AccessAnalyzer.html" title="Managed reference to AccessAnalyzerNode. " alt="" coords="319,7523,474,7564"/>
+<area shape="rect" id="node113" href="$classtvm_1_1auto__scheduler_1_1AttachMap.html" title="Managed reference to AttachMapNode. " alt="" coords="319,7588,474,7629"/>
+<area shape="rect" id="node114" href="$classtvm_1_1auto__scheduler_1_1BuildResult.html" title="Managed reference to BuildResultNode. " alt="" coords="319,7653,474,7695"/>
+<area shape="rect" id="node115" href="$classtvm_1_1auto__scheduler_1_1ComputeDAG.html" title="Managed reference to ComputeDAGNode. " alt="" coords="319,7719,474,7760"/>
+<area shape="rect" id="node116" href="$classtvm_1_1auto__scheduler_1_1CostModel.html" title="Managed reference to CostModelNode. " alt="" coords="319,7784,474,7825"/>
+<area shape="rect" id="node119" href="$classtvm_1_1auto__scheduler_1_1HardwareParams.html" title="Managed reference to HardwareParamsNode. " alt="" coords="319,7849,474,7891"/>
+<area shape="rect" id="node120" href="$classtvm_1_1auto__scheduler_1_1Iterator.html" title="Managed reference to IteratorNode. " alt="" coords="319,7915,474,7956"/>
+<area shape="rect" id="node121" href="$classtvm_1_1auto__scheduler_1_1MeasureCallback.html" title="Managed reference to MeasureCallbackNode. " alt="" coords="319,7980,474,8021"/>
+<area shape="rect" id="node124" href="$classtvm_1_1auto__scheduler_1_1MeasureInput.html" title="Managed reference to MeasureInputNode. " alt="" coords="319,8045,474,8087"/>
+<area shape="rect" id="node125" href="$classtvm_1_1auto__scheduler_1_1MeasureResult.html" title="Managed reference to MeasureResultNode. " alt="" coords="319,8111,474,8152"/>
+<area shape="rect" id="node126" href="$classtvm_1_1auto__scheduler_1_1ProgramBuilder.html" title="Managed reference to ProgramBuilderNode. " alt="" coords="319,8176,474,8217"/>
+<area shape="rect" id="node128" href="$classtvm_1_1auto__scheduler_1_1ProgramMeasurer.html" title="Managed reference to ProgramMeasurerNode. " alt="" coords="319,8241,474,8283"/>
+<area shape="rect" id="node129" href="$classtvm_1_1auto__scheduler_1_1ProgramRunner.html" title="Managed reference to ProgramRunnerNode. " alt="" coords="319,8307,474,8348"/>
+<area shape="rect" id="node132" href="$classtvm_1_1auto__scheduler_1_1RecordReader.html" title="Managed reference to RecordReaderNode. " alt="" coords="319,8372,474,8413"/>
+<area shape="rect" id="node133" href="$classtvm_1_1auto__scheduler_1_1SearchCallback.html" title="Managed reference to SearchCallbackNode. " alt="" coords="319,8437,474,8479"/>
+<area shape="rect" id="node135" href="$classtvm_1_1auto__scheduler_1_1SearchPolicy.html" title="Managed reference to SearchPolicyNode. " alt="" coords="319,8503,474,8544"/>
+<area shape="rect" id="node136" href="$classtvm_1_1auto__scheduler_1_1SearchTask.html" title="Managed reference to SearchTaskNode. " alt="" coords="319,8568,474,8609"/>
+<area shape="rect" id="node137" href="$classtvm_1_1auto__scheduler_1_1Stage.html" title="Managed reference to StageNode. " alt="" coords="319,8633,474,8675"/>
+<area shape="rect" id="node138" href="$classtvm_1_1auto__scheduler_1_1State.html" title="Managed reference to StateNode. " alt="" coords="319,8699,474,8740"/>
+<area shape="rect" id="node139" href="$classtvm_1_1auto__scheduler_1_1Step.html" title="Managed reference to StepNode. " alt="" coords="319,8764,474,8805"/>
+<area shape="rect" id="node154" href="$classtvm_1_1auto__scheduler_1_1TuningOptions.html" title="Managed reference to TuningOptionsNode. " alt="" coords="319,8829,474,8871"/>
+<area shape="rect" id="node155" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="338,8895,455,8922"/>
+<area shape="rect" id="node216" href="$classtvm_1_1CompilationConfig.html" title="Managed reference class to CompilationConfig. " alt="" coords="308,8946,485,8973"/>
+<area shape="rect" id="node217" href="$classtvm_1_1ConstantInfo.html" title="tvm::ConstantInfo" alt="" coords="327,8997,466,9023"/>
+<area shape="rect" id="node218" href="$classtvm_1_1ConstantMemoryPools.html" title="tvm::ConstantMemoryPools" alt="" coords="295,9047,498,9074"/>
+<area shape="rect" id="node219" href="$classtvm_1_1Diagnostic.html" title="tvm::Diagnostic" alt="" coords="334,9098,459,9125"/>
+<area shape="rect" id="node220" href="$classtvm_1_1DiagnosticContext.html" title="tvm::DiagnosticContext" alt="" coords="309,9149,485,9175"/>
+<area shape="rect" id="node221" href="$classtvm_1_1DiagnosticRenderer.html" title="tvm::DiagnosticRenderer" alt="" coords="305,9199,489,9226"/>
+<area shape="rect" id="node222" href="$classtvm_1_1EnvFunc.html" title="Managed reference to EnvFuncNode. " alt="" coords="341,9250,452,9277"/>
+<area shape="rect" id="node223" href="$classtvm_1_1GenericFunc.html" title="Generic function that can be specialized on a per&#45;target basis. " alt="" coords="329,9301,465,9327"/>
+<area shape="rect" id="node224" href="$classtvm_1_1instrument_1_1PassInstrument.html" title="Managed reference class for PassInstrumentNode. " alt="" coords="279,9351,515,9378"/>
+<area shape="rect" id="node225" href="$classtvm_1_1IRModule.html" title="Managed reference class to IRModuleNode. " alt="" coords="339,9402,455,9429"/>
+<area shape="rect" id="node226" href="$classtvm_1_1MemoryInfo.html" title="Defines memory info. " alt="" coords="329,9453,464,9479"/>
+<area shape="rect" id="node227" href="$classtvm_1_1meta__schedule_1_1ApplyHistoryBest.html" title="Managed reference to ApplyHistoryBestNode. " alt="" coords="319,9504,474,9545"/>
+<area shape="rect" id="node228" href="$classtvm_1_1meta__schedule_1_1ArgInfo.html" title="Managed reference to ArgInfoNode. " alt="" coords="319,9569,474,9611"/>
+<area shape="rect" id="node230" href="$classtvm_1_1meta__schedule_1_1Builder.html" title="Managed reference to BuilderNode. " alt="" coords="319,9635,474,9676"/>
+<area shape="rect" id="node231" href="$classtvm_1_1meta__schedule_1_1BuilderInput.html" title="Managed reference to BuilderInputNode. " alt="" coords="319,9700,474,9741"/>
+<area shape="rect" id="node232" href="$classtvm_1_1meta__schedule_1_1BuilderResult.html" title="Managed reference to BuilderResultNode. " alt="" coords="319,9765,474,9807"/>
+<area shape="rect" id="node233" href="$classtvm_1_1meta__schedule_1_1CostModel.html" title="Managed reference to CostModelNode. " alt="" coords="319,9831,474,9872"/>
+<area shape="rect" id="node234" href="$classtvm_1_1meta__schedule_1_1Database.html" title="Managed reference to DatabaseNode. " alt="" coords="319,9896,474,9937"/>
+<area shape="rect" id="node235" href="$classtvm_1_1meta__schedule_1_1ExtractedTask.html" title="Managed reference to ExtractedTaskNode. " alt="" coords="319,9961,474,10003"/>
+<area shape="rect" id="node236" href="$classtvm_1_1meta__schedule_1_1FeatureExtractor.html" title="Managed reference to FeatureExtractorNode. " alt="" coords="319,10027,474,10068"/>
+<area shape="rect" id="node237" href="$classtvm_1_1meta__schedule_1_1MeasureCallback.html" title="Managed reference to MeasureCallbackNode. " alt="" coords="319,10092,474,10133"/>
+<area shape="rect" id="node238" href="$classtvm_1_1meta__schedule_1_1MeasureCandidate.html" title="Managed reference to MeasureCandidateNode. " alt="" coords="319,10157,474,10199"/>
+<area shape="rect" id="node239" href="$classtvm_1_1meta__schedule_1_1Mutator.html" title="Managed reference to MutatorNode. " alt="" coords="319,10223,474,10264"/>
+<area shape="rect" id="node240" href="$classtvm_1_1meta__schedule_1_1Postproc.html" title="Managed reference to PostprocNode. " alt="" coords="319,10288,474,10329"/>
+<area shape="rect" id="node241" href="$classtvm_1_1meta__schedule_1_1Profiler.html" title="Managed reference to ProfilerNode. " alt="" coords="319,10353,474,10395"/>
+<area shape="rect" id="node242" href="$classtvm_1_1meta__schedule_1_1Runner.html" title="Managed reference to RunnerNode. " alt="" coords="319,10419,474,10460"/>
+<area shape="rect" id="node243" href="$classtvm_1_1meta__schedule_1_1RunnerFuture.html" title="Managed reference to RunnerFutureNode. " alt="" coords="319,10484,474,10525"/>
+<area shape="rect" id="node244" href="$classtvm_1_1meta__schedule_1_1RunnerInput.html" title="Managed reference to RunnerInputNode. " alt="" coords="319,10549,474,10591"/>
+<area shape="rect" id="node245" href="$classtvm_1_1meta__schedule_1_1RunnerResult.html" title="Managed reference to RunnerResultNode. " alt="" coords="319,10615,474,10656"/>
+<area shape="rect" id="node246" href="$classtvm_1_1meta__schedule_1_1ScheduleRule.html" title="Managed reference to ScheduleRuleNode. " alt="" coords="319,10680,474,10721"/>
+<area shape="rect" id="node247" href="$classtvm_1_1meta__schedule_1_1SearchStrategy.html" title="Managed reference to SearchStrategyNode. " alt="" coords="319,10745,474,10787"/>
+<area shape="rect" id="node248" href="$classtvm_1_1meta__schedule_1_1SpaceGenerator.html" title="Managed reference to SpaceGeneratorNode. " alt="" coords="319,10811,474,10852"/>
+<area shape="rect" id="node249" href="$classtvm_1_1meta__schedule_1_1TaskScheduler.html" title="Managed reference to TaskSchedulerNode. " alt="" coords="319,10876,474,10917"/>
+<area shape="rect" id="node250" href="$classtvm_1_1meta__schedule_1_1TuneContext.html" title="Managed reference to TuneContextNode. " alt="" coords="319,10941,474,10983"/>
+<area shape="rect" id="node251" href="$classtvm_1_1meta__schedule_1_1TuningRecord.html" title="The managed reference of TuningRecordNode. " alt="" coords="319,11007,474,11048"/>
+<area shape="rect" id="node252" href="$classtvm_1_1meta__schedule_1_1Workload.html" title="Managed reference to WorkloadNode. " alt="" coords="319,11072,474,11113"/>
+<area shape="rect" id="node253" href="$classtvm_1_1parser_1_1Source.html" title="tvm::parser::Source" alt="" coords="322,11138,471,11165"/>
+<area shape="rect" id="node254" href="$classtvm_1_1parser_1_1SourceMap.html" title="tvm::parser::SourceMap" alt="" coords="309,11189,485,11215"/>
+<area shape="rect" id="node255" href="$classtvm_1_1PoolInfo.html" title="Base class for WorkspacePoolInfo and ConstantPoolInfo. " alt="" coords="342,11239,451,11266"/>
+<area shape="rect" id="node258" href="$classtvm_1_1PoolInfoProperties.html" title="tvm::PoolInfoProperties" alt="" coords="309,11290,484,11317"/>
+<area shape="rect" id="node259" href="$classtvm_1_1Range.html" title="Range constainer. " alt="" coords="348,11341,445,11367"/>
+<area shape="rect" id="node260" href="$classtvm_1_1relay_1_1Clause.html" title="tvm::relay::Clause" alt="" coords="326,11391,467,11418"/>
+<area shape="rect" id="node261" href="$classtvm_1_1relay_1_1ConstructorValue.html" title="tvm::relay::ConstructorValue" alt="" coords="292,11442,501,11469"/>
+<area shape="rect" id="node262" href="$classtvm_1_1relay_1_1DFPattern.html" title="Managed reference to dataflow patterns. " alt="" coords="316,11493,477,11519"/>
+<area shape="rect" id="node279" href="$classtvm_1_1relay_1_1DFPatternCallback.html" title="Managed reference to dataflow pattern callbacks. " alt="" coords="288,11543,505,11570"/>
+<area shape="rect" id="node280" href="$classtvm_1_1relay_1_1Executor.html" title="Managed reference class to ExecutorNode. " alt="" coords="319,11594,474,11621"/>
+<area shape="rect" id="node281" href="$classtvm_1_1relay_1_1Id.html" title="tvm::relay::Id" alt="" coords="342,11645,451,11671"/>
+<area shape="rect" id="node282" href="$classtvm_1_1relay_1_1OpImplementation.html" title="Operator implementation class. " alt="" coords="287,11695,506,11722"/>
+<area shape="rect" id="node283" href="$classtvm_1_1relay_1_1OpSpecialization.html" title="Operator specialization class. " alt="" coords="293,11746,500,11773"/>
+<area shape="rect" id="node284" href="$classtvm_1_1relay_1_1OpStrategy.html" title="Operator strategy class. " alt="" coords="311,11797,482,11823"/>
+<area shape="rect" id="node285" href="$classtvm_1_1relay_1_1Pattern.html" title="Pattern is the base type for an ADT match pattern in Relay. " alt="" coords="325,11847,469,11874"/>
+<area shape="rect" id="node290" href="$classtvm_1_1relay_1_1RecClosure.html" title="tvm::relay::RecClosure" alt="" coords="311,11898,482,11925"/>
+<area shape="rect" id="node291" href="$classtvm_1_1relay_1_1RefValue.html" title="tvm::relay::RefValue" alt="" coords="319,11949,475,11975"/>
+<area shape="rect" id="node292" href="$classtvm_1_1relay_1_1Runtime.html" title="Managed reference class to RuntimeNode. " alt="" coords="321,11999,473,12026"/>
+<area shape="rect" id="node293" href="$classtvm_1_1runtime_1_1ADT.html" title="reference to algebraic data type objects. " alt="" coords="325,12050,468,12077"/>
+<area shape="rect" id="node294" href="$classtvm_1_1runtime_1_1Array.html" title="Array, container representing a contiguous sequence of ObjectRefs. " alt="" coords="321,12101,472,12143"/>
+<area shape="rect" id="node295" href="$classtvm_1_1runtime_1_1Closure.html" title="reference to closure. " alt="" coords="315,12167,479,12194"/>
+<area shape="rect" id="node298" href="$classtvm_1_1runtime_1_1Map.html" title="Map container of NodeRef&#45;&gt;NodeRef in DSL graph. Map implements copy on write semantics, which means map is mutable but copy will happen when array is referenced in more than two places. " alt="" coords="289,12219,504,12260"/>
+<area shape="rect" id="node299" href="$classtvm_1_1runtime_1_1metadata_1_1MetadataBase.html" title="Reference class for the common MetadataBaseNode class. " alt="" coords="307,12284,486,12325"/>
+<area shape="rect" id="node304" href="$classtvm_1_1runtime_1_1Module.html" title="Module container of TVM. " alt="" coords="315,12350,478,12377"/>
+<area shape="rect" id="node305" href="$classtvm_1_1runtime_1_1NDArray.html" title="Managed NDArray. The array is backed by reference counted blocks. " alt="" coords="311,12401,482,12427"/>
+<area shape="rect" id="node306" href="$classtvm_1_1runtime_1_1Optional.html" title="Optional container that to represent to a Nullable variant of T. " alt="" coords="293,12451,501,12478"/>
+<area shape="rect" id="node307" href="$classtvm_1_1runtime_1_1PackedFunc.html" title="Packed function is a type&#45;erased function. The arguments are passed by packed format. " alt="" coords="301,12502,493,12529"/>
+<area shape="rect" id="node308" href="$classtvm_1_1runtime_1_1profiling_1_1DeviceWrapper.html" title="Wrapper for Device. " alt="" coords="312,12553,481,12595"/>
+<area shape="rect" id="node309" href="$classtvm_1_1runtime_1_1profiling_1_1MetricCollector.html" title="Wrapper for MetricCollectorNode. " alt="" coords="312,12619,481,12660"/>
+<area shape="rect" id="node310" href="$classtvm_1_1runtime_1_1profiling_1_1Report.html" title="tvm::runtime::profiling\l::Report" alt="" coords="312,12684,481,12725"/>
+<area shape="rect" id="node311" href="$classtvm_1_1runtime_1_1ShapeTuple.html" title="Reference to shape tuple objects. " alt="" coords="301,12750,492,12777"/>
+<area shape="rect" id="node312" href="$classtvm_1_1runtime_1_1String.html" title="Reference to string objects. " alt="" coords="320,12801,473,12827"/>
+<area shape="rect" id="node313" href="$classtvm_1_1runtime_1_1Timer.html" title="Timer for a specific device. " alt="" coords="320,12851,473,12878"/>
+<area shape="rect" id="node314" href="$classtvm_1_1runtime_1_1vm_1_1Storage.html" title="reference to storage. " alt="" coords="299,12902,494,12929"/>
+<area shape="rect" id="node315" href="$classtvm_1_1SourceName.html" title="The source name of a file span. " alt="" coords="327,12953,466,12979"/>
+<area shape="rect" id="node316" href="$classtvm_1_1Span.html" title="tvm::Span" alt="" coords="353,13003,441,13030"/>
+<area shape="rect" id="node317" href="$classtvm_1_1Target.html" title="Managed reference class to TargetNode. " alt="" coords="347,13054,446,13081"/>
+<area shape="rect" id="node318" href="$classtvm_1_1TargetKind.html" title="Managed reference class to TargetKindNode. " alt="" coords="333,13105,460,13131"/>
+<area shape="rect" id="node319" href="$classtvm_1_1TargetTag.html" title="Managed reference class to TargetTagNode. " alt="" coords="335,13155,458,13182"/>
+<area shape="rect" id="node320" href="$classtvm_1_1te_1_1IterVarAttr.html" title="Additional scheduable attributes about IterVar. " alt="" coords="324,13206,469,13233"/>
+<area shape="rect" id="node321" href="$classtvm_1_1te_1_1IterVarRelation.html" title="The schedule relation between IterVars can be Split, Fuse. " alt="" coords="309,13257,484,13283"/>
+<area shape="rect" id="node327" href="$classtvm_1_1te_1_1Operation.html" title="Operation that produces tensors. " alt="" coords="326,13307,467,13334"/>
+<area shape="rect" id="node334" href="$classtvm_1_1te_1_1Schedule.html" title="Global schedule container For operations and all the operations they depend on. The schedule per Oper..." alt="" coords="329,13358,465,13385"/>
+<area shape="rect" id="node335" href="$classtvm_1_1te_1_1SpecializedCondition.html" title="Specialized condition to enable op specialization. " alt="" coords="290,13409,503,13435"/>
+<area shape="rect" id="node336" href="$classtvm_1_1te_1_1Stage.html" title="Stage, contains scheduling for a stage of computation. " alt="" coords="339,13459,454,13486"/>
+<area shape="rect" id="node337" href="$classtvm_1_1te_1_1TensorIntrin.html" title="Managed reference to TensorIntrinNode. " alt="" coords="319,13510,474,13537"/>
+<area shape="rect" id="node338" href="$classtvm_1_1te_1_1TensorIntrinCall.html" title="Managed reference to TensorIntrinCallNode. " alt="" coords="307,13561,487,13587"/>
+<area shape="rect" id="node339" href="$classtvm_1_1tir_1_1BijectiveLayout.html" title="Bijective function mapping for data layout transformation. Given two Layout, BijectiveLayout build an..." alt="" coords="307,13611,486,13638"/>
+<area shape="rect" id="node340" href="$classtvm_1_1tir_1_1BlockRV.html" title="Managed reference to BlockRVNode. " alt="" coords="331,13662,463,13689"/>
+<area shape="rect" id="node341" href="$classtvm_1_1tir_1_1BlockScope.html" title="Managed reference to BlockScopeNode. " alt="" coords="320,13713,473,13739"/>
+<area shape="rect" id="node342" href="$classtvm_1_1tir_1_1Buffer.html" title="Buffer is a symbolic n&#45;darray structure. It is a composition of primitive symbolic types..." alt="" coords="337,13763,456,13790"/>
+<area shape="rect" id="node343" href="$classtvm_1_1tir_1_1BufferRegion.html" title="Managed reference to BufferRegionNode. " alt="" coords="315,13814,478,13841"/>
+<area shape="rect" id="node344" href="$classtvm_1_1tir_1_1CommReducer.html" title="Managed reference to CommReducerNode. " alt="" coords="309,13865,484,13891"/>
+<area shape="rect" id="node345" href="$classtvm_1_1tir_1_1DataProducer.html" title="Managed reference to DataProducerNode. " alt="" coords="313,13915,480,13942"/>
+<area shape="rect" id="node347" href="$classtvm_1_1tir_1_1Dependency.html" title="Managed reference to DependencyNode. " alt="" coords="317,13966,476,13993"/>
+<area shape="rect" id="node348" href="$classtvm_1_1tir_1_1IndexMap.html" title="tvm::tir::IndexMap" alt="" coords="326,14017,467,14043"/>
+<area shape="rect" id="node349" href="$classtvm_1_1tir_1_1Instruction.html" title="Managed reference to InstructionNode. " alt="" coords="323,14067,470,14094"/>
+<area shape="rect" id="node350" href="$classtvm_1_1tir_1_1InstructionKind.html" title="Managed reference to InstructionKindNode. " alt="" coords="309,14118,485,14145"/>
+<area shape="rect" id="node351" href="$classtvm_1_1tir_1_1IterVar.html" title="Iteration Variable, represents an iteration over an integer interval. " alt="" coords="335,14169,458,14195"/>
+<area shape="rect" id="node352" href="$classtvm_1_1tir_1_1Layout.html" title="Managed reference to LayoutNode. " alt="" coords="335,14219,458,14246"/>
+<area shape="rect" id="node353" href="$classtvm_1_1tir_1_1LoopRV.html" title="Managed reference to LoopRVNode. " alt="" coords="333,14270,460,14297"/>
+<area shape="rect" id="node354" href="$classtvm_1_1tir_1_1MatchBufferRegion.html" title="Managed reference to MatchBufferRegionNode. " alt="" coords="295,14321,498,14347"/>
+<area shape="rect" id="node355" href="$classtvm_1_1tir_1_1Schedule.html" title="Managed reference to ScheduleNode. " alt="" coords="328,14371,465,14398"/>
+<area shape="rect" id="node356" href="$classtvm_1_1tir_1_1ScheduleState.html" title="Managed reference to ScheduleStateNode. " alt="" coords="311,14422,482,14449"/>
+<area shape="rect" id="node357" href="$classtvm_1_1tir_1_1Stmt.html" title="Container of all statements. " alt="" coords="342,14473,451,14499"/>
+<area shape="rect" id="node376" href="$classtvm_1_1tir_1_1StmtSRef.html" title="Managed reference to StmtSRefNode. " alt="" coords="327,14523,466,14550"/>
+<area shape="rect" id="node377" href="$classtvm_1_1tir_1_1TensorIntrin.html" title="Managed reference to TensorIntrinNode. " alt="" coords="319,14574,475,14601"/>
+<area shape="rect" id="node378" href="$classtvm_1_1tir_1_1Trace.html" title="Managed reference to TraceNode. " alt="" coords="339,14625,454,14651"/>
+<area shape="rect" id="node379" href="$classtvm_1_1tir_1_1usmp_1_1AllocatedPoolInfo.html" title="tvm::tir::usmp::Allocated\lPoolInfo" alt="" coords="305,14676,488,14717"/>
+<area shape="rect" id="node380" href="$classtvm_1_1tir_1_1usmp_1_1BufferInfo.html" title="tvm::tir::usmp::BufferInfo" alt="" coords="303,14742,490,14769"/>
+<area shape="rect" id="node381" href="$classtvm_1_1tir_1_1usmp_1_1BufferInfoAnalysis.html" title="tvm::tir::usmp::BufferInfo\lAnalysis" alt="" coords="303,14793,490,14835"/>
+<area shape="rect" id="node382" href="$classtvm_1_1tir_1_1usmp_1_1PoolAllocation.html" title="tvm::tir::usmp::PoolAllocation" alt="" coords="289,14859,504,14886"/>
+<area shape="rect" id="node383" href="$classtvm_1_1transform_1_1Pass.html" title="tvm::transform::Pass" alt="" coords="317,14910,476,14937"/>
+<area shape="rect" id="node385" href="$classtvm_1_1transform_1_1PassContext.html" title="PassContext that is used to configure the pass behavior. " alt="" coords="292,14961,501,14987"/>
+<area shape="rect" id="node386" href="$classtvm_1_1transform_1_1PassInfo.html" title="Managed reference class for PassInfoNode. " alt="" coords="305,15011,488,15038"/>
+<area shape="rect" id="node387" href="$classtvm_1_1Type.html" title="Managed reference to TypeNode. " alt="" coords="353,15106,441,15133"/>
+<area shape="rect" id="node402" href="$classtvm_1_1TypedEnvFunc_3_01R_07Args_8_8_8_08_4.html" title="A typed version of EnvFunc. It is backed by a GlobalFuncNode internally. " alt="" coords="316,15157,477,15199"/>
+<area shape="rect" id="node403" href="$classtvm_1_1TypeReporter.html" title="Container class of TypeReporter. " alt="" coords="325,15223,469,15250"/>
+<area shape="rect" id="node404" href="$classtvm_1_1VirtualDevice.html" title="Managed reference class to VirtualDeviceNode. " alt="" coords="325,15274,469,15301"/>
+<area shape="rect" id="node405" href="$classtvm_1_1WorkspaceMemoryPools.html" title="tvm::WorkspaceMemoryPools" alt="" coords="289,15325,505,15351"/>
+<area shape="rect" id="node99" href="$classtvm_1_1TensorAffineType.html" title="Managed reference to AffineTypes. " alt="" coords="637,6923,808,6950"/>
+<area shape="rect" id="node100" href="$classtvm_1_1TupleAffineType.html" title="Managed reference to TupleAffineTypes. " alt="" coords="641,6974,804,7001"/>
+<area shape="rect" id="node111" href="$classtvm_1_1DictAttrs.html" title="Managed reference to DictAttrsNode. " alt="" coords="666,7471,779,7498"/>
+<area shape="rect" id="node117" href="$classtvm_1_1auto__scheduler_1_1PythonBasedModel.html" title="Managed reference to PythonBasedModelNode. " alt="" coords="645,7751,800,7792"/>
+<area shape="rect" id="node118" href="$classtvm_1_1auto__scheduler_1_1RandomModel.html" title="Managed reference to RandomModelNode. " alt="" coords="645,7816,800,7857"/>
+<area shape="rect" id="node122" href="$classtvm_1_1auto__scheduler_1_1PythonBasedMeasureCallback.html" title="Managed reference to PythonBasedMeasureCallbackNode. " alt="" coords="609,7947,836,7988"/>
+<area shape="rect" id="node123" href="$classtvm_1_1auto__scheduler_1_1RecordToFile.html" title="Managed reference to RecordToFileNode. " alt="" coords="645,8012,800,8053"/>
+<area shape="rect" id="node127" href="$classtvm_1_1auto__scheduler_1_1LocalBuilder.html" title="Managed reference to LocalBuilderNode. " alt="" coords="645,8111,800,8152"/>
+<area shape="rect" id="node130" href="$classtvm_1_1auto__scheduler_1_1LocalRunner.html" title="Managed reference to LocalRunnerNode. " alt="" coords="645,8176,800,8217"/>
+<area shape="rect" id="node131" href="$classtvm_1_1auto__scheduler_1_1RPCRunner.html" title="Managed reference to RPCRunnerNode. " alt="" coords="645,8241,800,8283"/>
+<area shape="rect" id="node134" href="$classtvm_1_1auto__scheduler_1_1PreloadMeasuredStates.html" title="Managed reference to PreloadMeasuredStatesNode. " alt="" coords="631,8307,814,8348"/>
+<area shape="rect" id="node140" href="$classtvm_1_1auto__scheduler_1_1AnnotationStep.html" title="Managed reference to AnnotationStepNode. " alt="" coords="645,8372,800,8413"/>
+<area shape="rect" id="node141" href="$classtvm_1_1auto__scheduler_1_1CacheReadStep.html" title="Managed reference to CacheReadStepNode. " alt="" coords="645,8437,800,8479"/>
+<area shape="rect" id="node142" href="$classtvm_1_1auto__scheduler_1_1CacheWriteStep.html" title="Managed reference to CacheWriteStepNode. " alt="" coords="645,8503,800,8544"/>
+<area shape="rect" id="node143" href="$classtvm_1_1auto__scheduler_1_1ComputeAtStep.html" title="Managed reference to ComputeAtStepNode. " alt="" coords="645,8568,800,8609"/>
+<area shape="rect" id="node144" href="$classtvm_1_1auto__scheduler_1_1ComputeInlineStep.html" title="Managed reference to ComputeInlineStepNode. " alt="" coords="645,8633,800,8675"/>
+<area shape="rect" id="node145" href="$classtvm_1_1auto__scheduler_1_1ComputeRootStep.html" title="Managed reference to ComputeRootStepNode. " alt="" coords="645,8699,800,8740"/>
+<area shape="rect" id="node146" href="$classtvm_1_1auto__scheduler_1_1FollowFusedSplitStep.html" title="Managed reference to FollowFusedSplitStepNode. " alt="" coords="639,8764,807,8805"/>
+<area shape="rect" id="node147" href="$classtvm_1_1auto__scheduler_1_1FollowSplitStep.html" title="Managed reference to FollowSplitStepNode. " alt="" coords="645,8829,800,8871"/>
+<area shape="rect" id="node148" href="$classtvm_1_1auto__scheduler_1_1FuseStep.html" title="Managed reference to FuseStepNode. " alt="" coords="645,8895,800,8936"/>
+<area shape="rect" id="node149" href="$classtvm_1_1auto__scheduler_1_1PragmaStep.html" title="Managed reference to PragmaStepNode. " alt="" coords="645,8960,800,9001"/>
+<area shape="rect" id="node150" href="$classtvm_1_1auto__scheduler_1_1ReorderStep.html" title="Managed reference to ReorderStepNode. " alt="" coords="645,9025,800,9067"/>
+<area shape="rect" id="node151" href="$classtvm_1_1auto__scheduler_1_1RfactorStep.html" title="Managed reference to RfactorStepNode. " alt="" coords="645,9091,800,9132"/>
+<area shape="rect" id="node152" href="$classtvm_1_1auto__scheduler_1_1SplitStep.html" title="Managed reference to SplitStepNode. " alt="" coords="645,9156,800,9197"/>
+<area shape="rect" id="node153" href="$classtvm_1_1auto__scheduler_1_1StorageAlignStep.html" title="Managed reference to StorageAlignStepNode. " alt="" coords="645,9221,800,9263"/>
+<area shape="rect" id="node156" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="665,9287,780,9314"/>
+<area shape="rect" id="node197" href="$classtvm_1_1RelayExpr.html" title="Managed reference to RelayExprNode. " alt="" coords="661,10478,784,10505"/>
+<area shape="rect" id="node157" href="$classtvm_1_1arith_1_1IterMapExpr.html" title="Managed reference to IterMapExprNode. " alt="" coords="891,8375,1063,8402"/>
+<area shape="rect" id="node160" href="$classtvm_1_1FloatImm.html" title="Managed reference class to FloatImmNode. " alt="" coords="918,8426,1037,8453"/>
+<area shape="rect" id="node161" href="$classtvm_1_1IntImm.html" title="Managed reference class to IntImmNode. " alt="" coords="926,8477,1029,8503"/>
+<area shape="rect" id="node164" href="$classtvm_1_1tir_1_1Add.html" title="Managed reference to AddNode. " alt="" coords="926,8527,1029,8554"/>
+<area shape="rect" id="node165" href="$classtvm_1_1tir_1_1And.html" title="Managed reference to AndNode. " alt="" coords="926,8578,1029,8605"/>
+<area shape="rect" id="node166" href="$classtvm_1_1tir_1_1Any.html" title="Managed reference to AnyNode. " alt="" coords="926,8629,1029,8655"/>
+<area shape="rect" id="node167" href="$classtvm_1_1tir_1_1Broadcast.html" title="Managed reference to BroadcastNode. " alt="" coords="906,8679,1049,8706"/>
+<area shape="rect" id="node168" href="$classtvm_1_1tir_1_1BufferLoad.html" title="Managed reference to BufferLoadNode. " alt="" coords="903,8730,1052,8757"/>
+<area shape="rect" id="node169" href="$classtvm_1_1tir_1_1Call.html" title="Managed reference to CallNode. " alt="" coords="926,8781,1029,8807"/>
+<area shape="rect" id="node170" href="$classtvm_1_1tir_1_1Cast.html" title="Managed reference to CastNode. " alt="" coords="924,8831,1031,8858"/>
+<area shape="rect" id="node171" href="$classtvm_1_1tir_1_1Div.html" title="Managed reference to DivNode. " alt="" coords="927,8882,1027,8909"/>
+<area shape="rect" id="node172" href="$classtvm_1_1tir_1_1EQ.html" title="Managed reference to EQNode. " alt="" coords="929,8933,1025,8959"/>
+<area shape="rect" id="node173" href="$classtvm_1_1tir_1_1FloorDiv.html" title="Managed reference to FloorDivNode. " alt="" coords="911,8983,1043,9010"/>
+<area shape="rect" id="node174" href="$classtvm_1_1tir_1_1FloorMod.html" title="Managed reference to FloorModNode. " alt="" coords="909,9034,1046,9061"/>
+<area shape="rect" id="node175" href="$classtvm_1_1tir_1_1GE.html" title="Managed reference to GENode. " alt="" coords="929,9085,1025,9111"/>
+<area shape="rect" id="node176" href="$classtvm_1_1tir_1_1GT.html" title="Managed reference to GTNode. " alt="" coords="929,9135,1025,9162"/>
+<area shape="rect" id="node177" href="$classtvm_1_1tir_1_1LE.html" title="Managed reference to LENode. " alt="" coords="931,9186,1024,9213"/>
+<area shape="rect" id="node178" href="$classtvm_1_1tir_1_1Let.html" title="Managed reference to LetNode. " alt="" coords="928,9237,1027,9263"/>
+<area shape="rect" id="node179" href="$classtvm_1_1tir_1_1Load.html" title="Managed reference to LoadNode. " alt="" coords="923,9287,1032,9314"/>
+<area shape="rect" id="node180" href="$classtvm_1_1tir_1_1LT.html" title="Managed reference to LTNode. " alt="" coords="931,9338,1024,9365"/>
+<area shape="rect" id="node181" href="$classtvm_1_1tir_1_1Max.html" title="Managed reference to MaxNode. " alt="" coords="925,9389,1030,9415"/>
+<area shape="rect" id="node182" href="$classtvm_1_1tir_1_1Min.html" title="Managed reference to MinNode. " alt="" coords="927,9439,1028,9466"/>
+<area shape="rect" id="node183" href="$classtvm_1_1tir_1_1Mod.html" title="Managed reference to ModNode. " alt="" coords="925,9490,1030,9517"/>
+<area shape="rect" id="node184" href="$classtvm_1_1tir_1_1Mul.html" title="Managed reference to MulNode. " alt="" coords="927,9541,1028,9567"/>
+<area shape="rect" id="node185" href="$classtvm_1_1tir_1_1NE.html" title="Managed reference to NENode. " alt="" coords="929,9591,1025,9618"/>
+<area shape="rect" id="node186" href="$classtvm_1_1tir_1_1Not.html" title="Managed reference to NotNode. " alt="" coords="927,9642,1028,9669"/>
+<area shape="rect" id="node187" href="$classtvm_1_1tir_1_1Or.html" title="Managed reference to OrNode. " alt="" coords="931,9693,1024,9719"/>
+<area shape="rect" id="node188" href="$classtvm_1_1tir_1_1ProducerLoad.html" title="Managed reference to ProducerLoadNode. " alt="" coords="894,9743,1061,9770"/>
+<area shape="rect" id="node189" href="$classtvm_1_1tir_1_1Ramp.html" title="Managed reference to RampNode. " alt="" coords="919,9794,1035,9821"/>
+<area shape="rect" id="node190" href="$classtvm_1_1tir_1_1Reduce.html" title="Managed reference to ReduceNode. " alt="" coords="914,9845,1041,9871"/>
+<area shape="rect" id="node191" href="$classtvm_1_1tir_1_1Select.html" title="Managed reference to SelectNode. " alt="" coords="918,9895,1037,9922"/>
+<area shape="rect" id="node192" href="$classtvm_1_1tir_1_1Shuffle.html" title="Managed reference to ShuffleNode. " alt="" coords="915,9946,1039,9973"/>
+<area shape="rect" id="node193" href="$classtvm_1_1tir_1_1StringImm.html" title="Managed reference to StringImmNode. " alt="" coords="904,9997,1051,10023"/>
+<area shape="rect" id="node194" href="$classtvm_1_1tir_1_1Sub.html" title="Managed reference to SubNode. " alt="" coords="926,10047,1029,10074"/>
+<area shape="rect" id="node195" href="$classtvm_1_1tir_1_1Var.html" title="a named variable in TIR " alt="" coords="927,10098,1027,10125"/>
+<area shape="rect" id="node158" href="$classtvm_1_1arith_1_1IterSplitExpr.html" title="Managed reference to IterSplitExprNode. " alt="" coords="1119,8338,1293,8365"/>
+<area shape="rect" id="node159" href="$classtvm_1_1arith_1_1IterSumExpr.html" title="Managed reference to IterSumExprNode. " alt="" coords="1119,8389,1293,8415"/>
+<area shape="rect" id="node162" href="$classtvm_1_1Bool.html" title="Boolean constant. " alt="" coords="1163,8465,1249,8491"/>
+<area shape="rect" id="node163" href="$classtvm_1_1Integer.html" title="Container of constant int that adds more constructors. " alt="" coords="1155,8515,1257,8542"/>
+<area shape="rect" id="node196" href="$classtvm_1_1tir_1_1SizeVar.html" title="a named variable represents a tensor index size " alt="" coords="1143,10098,1269,10125"/>
+<area shape="rect" id="node198" href="$classtvm_1_1BaseFunc.html" title="Managed reference to BaseFuncNode. " alt="" coords="918,10149,1037,10175"/>
+<area shape="rect" id="node201" href="$classtvm_1_1Constructor.html" title="Managed reference to ConstructorNode. " alt="" coords="912,10199,1043,10226"/>
+<area shape="rect" id="node202" href="$classtvm_1_1GlobalVar.html" title="Managed reference to GlobalVarNode. " alt="" coords="917,10250,1037,10277"/>
+<area shape="rect" id="node203" href="$classtvm_1_1Op.html" title="Managed reference class to OpNode. " alt="" coords="940,10301,1015,10327"/>
+<area shape="rect" id="node204" href="$classtvm_1_1relay_1_1Call.html" title="tvm::relay::Call" alt="" coords="916,10351,1039,10378"/>
+<area shape="rect" id="node205" href="$classtvm_1_1relay_1_1Constant.html" title="tvm::relay::Constant" alt="" coords="900,10402,1055,10429"/>
+<area shape="rect" id="node206" href="$classtvm_1_1relay_1_1If.html" title="tvm::relay::If" alt="" coords="924,10453,1031,10479"/>
+<area shape="rect" id="node207" href="$classtvm_1_1relay_1_1Let.html" title="tvm::relay::Let" alt="" coords="919,10503,1036,10530"/>
+<area shape="rect" id="node208" href="$classtvm_1_1relay_1_1Match.html" title="tvm::relay::Match" alt="" coords="909,10554,1045,10581"/>
+<area shape="rect" id="node209" href="$classtvm_1_1relay_1_1RefCreate.html" title="tvm::relay::RefCreate" alt="" coords="896,10605,1059,10631"/>
+<area shape="rect" id="node210" href="$classtvm_1_1relay_1_1RefRead.html" title="tvm::relay::RefRead" alt="" coords="901,10655,1053,10682"/>
+<area shape="rect" id="node211" href="$classtvm_1_1relay_1_1RefWrite.html" title="tvm::relay::RefWrite" alt="" coords="900,10706,1055,10733"/>
+<area shape="rect" id="node212" href="$classtvm_1_1relay_1_1TempExpr.html" title="tvm::relay::TempExpr" alt="" coords="896,10757,1059,10783"/>
+<area shape="rect" id="node213" href="$classtvm_1_1relay_1_1Tuple.html" title="tvm::relay::Tuple" alt="" coords="911,10807,1044,10834"/>
+<area shape="rect" id="node214" href="$classtvm_1_1relay_1_1TupleGetItem.html" title="tvm::relay::TupleGetItem" alt="" coords="884,10858,1071,10885"/>
+<area shape="rect" id="node215" href="$classtvm_1_1relay_1_1Var.html" title="tvm::relay::Var" alt="" coords="918,10909,1037,10935"/>
+<area shape="rect" id="node199" href="$classtvm_1_1relay_1_1Function.html" title="Managed reference to FunctionNode. " alt="" coords="1130,10149,1282,10175"/>
+<area shape="rect" id="node200" href="$classtvm_1_1tir_1_1PrimFunc.html" title="Managed reference to PrimFuncNode. " alt="" coords="1137,10199,1275,10226"/>
+<area shape="rect" id="node229" href="$classtvm_1_1meta__schedule_1_1TensorInfo.html" title="Managed reference to TensorInfoNode. " alt="" coords="645,10529,800,10571"/>
+<area shape="rect" id="node256" href="$classtvm_1_1ConstantPoolInfo.html" title="tvm::ConstantPoolInfo" alt="" coords="639,10961,806,10987"/>
+<area shape="rect" id="node257" href="$classtvm_1_1WorkspacePoolInfo.html" title="tvm::WorkspacePoolInfo" alt="" coords="632,11011,813,11038"/>
+<area shape="rect" id="node263" href="$classtvm_1_1relay_1_1AltPattern.html" title="A pattern which matches either of two patterns. " alt="" coords="641,11062,804,11089"/>
+<area shape="rect" id="node264" href="$classtvm_1_1relay_1_1AttrPattern.html" title="A pattern which matches attributes in another pattern. " alt="" coords="639,11113,807,11139"/>
+<area shape="rect" id="node265" href="$classtvm_1_1relay_1_1CallPattern.html" title="tvm::relay::CallPattern" alt="" coords="638,11163,807,11190"/>
+<area shape="rect" id="node266" href="$classtvm_1_1relay_1_1ConstantPattern.html" title="tvm::relay::ConstantPattern" alt="" coords="621,11214,824,11241"/>
+<area shape="rect" id="node267" href="$classtvm_1_1relay_1_1DataTypePattern.html" title="A pattern which matches a type in another pattern. " alt="" coords="619,11265,826,11291"/>
+<area shape="rect" id="node268" href="$classtvm_1_1relay_1_1DominatorPattern.html" title="A pattern which matches a variable length dominator path. " alt="" coords="616,11315,829,11342"/>
+<area shape="rect" id="node269" href="$classtvm_1_1relay_1_1ExprPattern.html" title="A pattern which matches a literal expression. " alt="" coords="636,11366,809,11393"/>
+<area shape="rect" id="node270" href="$classtvm_1_1relay_1_1FunctionPattern.html" title="Managed reference to FunctionNode. " alt="" coords="623,11417,822,11443"/>
+<area shape="rect" id="node271" href="$classtvm_1_1relay_1_1IfPattern.html" title="tvm::relay::IfPattern" alt="" coords="646,11467,799,11494"/>
+<area shape="rect" id="node272" href="$classtvm_1_1relay_1_1LetPattern.html" title="Let binding that binds a local var. " alt="" coords="641,11518,805,11545"/>
+<area shape="rect" id="node273" href="$classtvm_1_1relay_1_1ShapePattern.html" title="A pattern which matches a type in another pattern. " alt="" coords="631,11569,815,11595"/>
+<area shape="rect" id="node274" href="$classtvm_1_1relay_1_1TupleGetItemPattern.html" title="tvm::relay::TupleGetItem\lPattern" alt="" coords="629,11620,816,11661"/>
+<area shape="rect" id="node275" href="$classtvm_1_1relay_1_1TuplePattern.html" title="tvm::relay::TuplePattern" alt="" coords="633,11686,813,11713"/>
+<area shape="rect" id="node276" href="$classtvm_1_1relay_1_1TypePattern.html" title="A pattern which matches a type in another pattern. " alt="" coords="635,11737,811,11763"/>
+<area shape="rect" id="node277" href="$classtvm_1_1relay_1_1VarPattern.html" title="tvm::relay::VarPattern" alt="" coords="639,11787,806,11814"/>
+<area shape="rect" id="node278" href="$classtvm_1_1relay_1_1WildcardPattern.html" title="A pattern which matches anything. " alt="" coords="622,11838,823,11865"/>
+<area shape="rect" id="node286" href="$classtvm_1_1relay_1_1PatternConstructor.html" title="tvm::relay::PatternConstructor" alt="" coords="613,11889,832,11915"/>
+<area shape="rect" id="node287" href="$classtvm_1_1relay_1_1PatternTuple.html" title="tvm::relay::PatternTuple" alt="" coords="633,11939,813,11966"/>
+<area shape="rect" id="node288" href="$classtvm_1_1relay_1_1PatternVar.html" title="tvm::relay::PatternVar" alt="" coords="639,11990,806,12017"/>
+<area shape="rect" id="node289" href="$classtvm_1_1relay_1_1PatternWildcard.html" title="tvm::relay::PatternWildcard" alt="" coords="622,12041,823,12067"/>
+<area shape="rect" id="node296" href="$classtvm_1_1relay_1_1InterpreterClosure.html" title="tvm::relay::InterpreterClosure" alt="" coords="615,12117,830,12143"/>
+<area shape="rect" id="node297" href="$classtvm_1_1runtime_1_1vm_1_1VMClosure.html" title="reference to closure. " alt="" coords="616,12167,829,12194"/>
+<area shape="rect" id="node300" href="$classtvm_1_1runtime_1_1metadata_1_1ConstantInfoMetadata.html" title="tvm::runtime::metadata\l::ConstantInfoMetadata" alt="" coords="633,12219,812,12260"/>
+<area shape="rect" id="node301" href="$classtvm_1_1runtime_1_1metadata_1_1Metadata.html" title="tvm::runtime::metadata\l::Metadata" alt="" coords="633,12284,812,12325"/>
+<area shape="rect" id="node302" href="$classtvm_1_1runtime_1_1metadata_1_1MetadataArray.html" title="Reference class for MetadataArray. " alt="" coords="633,12349,812,12391"/>
+<area shape="rect" id="node303" href="$classtvm_1_1runtime_1_1metadata_1_1TensorInfo.html" title="tvm::runtime::metadata\l::TensorInfo" alt="" coords="633,12415,812,12456"/>
+<area shape="rect" id="node322" href="$classtvm_1_1te_1_1Fuse.html" title="Managed reference to FuseNode. " alt="" coords="669,13054,776,13081"/>
+<area shape="rect" id="node323" href="$classtvm_1_1te_1_1Rebase.html" title="Managed reference to RebaseNode. " alt="" coords="660,13105,785,13131"/>
+<area shape="rect" id="node324" href="$classtvm_1_1te_1_1Singleton.html" title="Managed reference to SingletonNode. " alt="" coords="653,13155,792,13182"/>
+<area shape="rect" id="node325" href="$classtvm_1_1te_1_1Split.html" title="Managed reference to SplitNode. " alt="" coords="669,13206,776,13233"/>
+<area shape="rect" id="node326" href="$classtvm_1_1te_1_1Transform.html" title="tvm::te::Transform" alt="" coords="651,13257,795,13283"/>
+<area shape="rect" id="node328" href="$classtvm_1_1te_1_1ComputeOp.html" title="Managed reference to ComputeOpNode. " alt="" coords="645,13307,800,13334"/>
+<area shape="rect" id="node329" href="$classtvm_1_1te_1_1ExternOp.html" title="Managed reference to ExternOpNode. " alt="" coords="654,13358,791,13385"/>
+<area shape="rect" id="node330" href="$classtvm_1_1te_1_1HybridOp.html" title="Managed reference to HybridOpNode. " alt="" coords="653,13409,792,13435"/>
+<area shape="rect" id="node331" href="$classtvm_1_1te_1_1PlaceholderOp.html" title="Managed reference to PlaceholderOpNode. " alt="" coords="637,13459,808,13486"/>
+<area shape="rect" id="node332" href="$classtvm_1_1te_1_1ScanOp.html" title="Managed reference to ScanOpNode. " alt="" coords="659,13510,786,13537"/>
+<area shape="rect" id="node333" href="$classtvm_1_1te_1_1TensorComputeOp.html" title="Managed reference to TensorComputeOpNode. " alt="" coords="623,13561,822,13587"/>
+<area shape="rect" id="node346" href="$classtvm_1_1te_1_1Tensor.html" title="Tensor structure representing a possible input, or intermediate computation result. " alt="" coords="662,13915,783,13942"/>
+<area shape="rect" id="node358" href="$classtvm_1_1tir_1_1Allocate.html" title="Managed reference to AllocateNode. " alt="" coords="657,13966,788,13993"/>
+<area shape="rect" id="node359" href="$classtvm_1_1tir_1_1AllocateConst.html" title="Managed reference to AllocateConstNode. " alt="" coords="639,14017,807,14043"/>
+<area shape="rect" id="node360" href="$classtvm_1_1tir_1_1AssertStmt.html" title="Managed reference to AssertStmtNode. " alt="" coords="647,14067,798,14094"/>
+<area shape="rect" id="node361" href="$classtvm_1_1tir_1_1AttrStmt.html" title="Managed reference to AttrStmtNode. " alt="" coords="656,14118,789,14145"/>
+<area shape="rect" id="node362" href="$classtvm_1_1tir_1_1Block.html" title="Managed reference to BlockNode. " alt="" coords="665,14169,780,14195"/>
+<area shape="rect" id="node363" href="$classtvm_1_1tir_1_1BlockRealize.html" title="Managed reference to BlockRealizeNode. " alt="" coords="641,14219,804,14246"/>
+<area shape="rect" id="node364" href="$classtvm_1_1tir_1_1BufferRealize.html" title="Managed reference to BufferRealizeNode. " alt="" coords="639,14270,806,14297"/>
+<area shape="rect" id="node365" href="$classtvm_1_1tir_1_1BufferStore.html" title="Managed reference to BufferStoreNode. " alt="" coords="647,14321,799,14347"/>
+<area shape="rect" id="node366" href="$classtvm_1_1tir_1_1Evaluate.html" title="Managed reference to EvaluateNode. " alt="" coords="655,14371,790,14398"/>
+<area shape="rect" id="node367" href="$classtvm_1_1tir_1_1For.html" title="Managed reference to ForNode. " alt="" coords="673,14422,772,14449"/>
+<area shape="rect" id="node368" href="$classtvm_1_1tir_1_1IfThenElse.html" title="Managed reference to IfThenElseNode. " alt="" coords="649,14473,796,14499"/>
+<area shape="rect" id="node369" href="$classtvm_1_1tir_1_1LetStmt.html" title="Managed reference to LetStmtNode. " alt="" coords="658,14523,787,14550"/>
+<area shape="rect" id="node370" href="$classtvm_1_1tir_1_1Prefetch.html" title="Managed reference to PrefetchNode. " alt="" coords="657,14574,789,14601"/>
+<area shape="rect" id="node371" href="$classtvm_1_1tir_1_1ProducerRealize.html" title="Managed reference to ProducerRealizeNode. " alt="" coords="631,14625,814,14651"/>
+<area shape="rect" id="node372" href="$classtvm_1_1tir_1_1ProducerStore.html" title="Managed reference to ProducerStoreNode. " alt="" coords="638,14675,807,14702"/>
+<area shape="rect" id="node373" href="$classtvm_1_1tir_1_1SeqStmt.html" title="Sequence statement. " alt="" coords="656,14726,789,14753"/>
+<area shape="rect" id="node374" href="$classtvm_1_1tir_1_1Store.html" title="Managed reference to StoreNode. " alt="" coords="667,14777,779,14803"/>
+<area shape="rect" id="node375" href="$classtvm_1_1tir_1_1While.html" title="Managed reference to WhileNode. " alt="" coords="665,14827,780,14854"/>
+<area shape="rect" id="node384" href="$classtvm_1_1transform_1_1Sequential.html" title="tvm::transform::Sequential" alt="" coords="624,14878,821,14905"/>
+<area shape="rect" id="node388" href="$classtvm_1_1BaseTensorType.html" title="Managed reference to BaseTensorTypeNode. " alt="" coords="641,14929,805,14955"/>
+<area shape="rect" id="node389" href="$classtvm_1_1FuncType.html" title="Managed reference to FuncTypeNode. " alt="" coords="663,14979,782,15006"/>
+<area shape="rect" id="node390" href="$classtvm_1_1GlobalTypeVar.html" title="Managed reference to GlobalTypeVarNode. " alt="" coords="647,15030,799,15057"/>
+<area shape="rect" id="node391" href="$classtvm_1_1IncompleteType.html" title="Managed reference to IncompleteTypeNode. " alt="" coords="642,15081,803,15107"/>
+<area shape="rect" id="node392" href="$classtvm_1_1PointerType.html" title="tvm::PointerType" alt="" coords="655,15131,790,15158"/>
+<area shape="rect" id="node393" href="$classtvm_1_1PrimType.html" title="tvm::PrimType" alt="" coords="663,15182,782,15209"/>
+<area shape="rect" id="node394" href="$classtvm_1_1RelayRefType.html" title="Managed reference to RelayRefTypeNode. " alt="" coords="649,15233,796,15259"/>
+<area shape="rect" id="node395" href="$classtvm_1_1TensorType.html" title="Managed reference to TensorTypeNode. " alt="" coords="657,15283,789,15310"/>
+<area shape="rect" id="node396" href="$classtvm_1_1TupleType.html" title="Managed reference to TupleTypeNode. " alt="" coords="661,15334,785,15361"/>
+<area shape="rect" id="node397" href="$classtvm_1_1TypeCall.html" title="Managed reference to TypeCallNode. " alt="" coords="666,15385,779,15411"/>
+<area shape="rect" id="node398" href="$classtvm_1_1TypeConstraint.html" title="Managed reference to TypeConstraintNode. " alt="" coords="645,15435,800,15462"/>
+<area shape="rect" id="node400" href="$classtvm_1_1TypeData.html" title="Stores all data for an Algebraic Data Type (ADT). " alt="" coords="663,15486,782,15513"/>
+<area shape="rect" id="node401" href="$classtvm_1_1TypeVar.html" title="Managed reference to TypeVarNode. " alt="" coords="667,15537,778,15563"/>
+<area shape="rect" id="node399" href="$classtvm_1_1TypeRelation.html" title="Managed reference to TypeRelationNode. " alt="" coords="906,15435,1049,15462"/>
+</map>

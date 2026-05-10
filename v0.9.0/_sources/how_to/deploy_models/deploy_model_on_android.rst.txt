@@ -45,12 +45,6 @@ This is an example of using Relay to compile a keras model and deploy it on Andr
 
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 42-84
 
 Setup Environment
@@ -226,12 +220,6 @@ We load a pretrained MobileNetV2(alpha=0.5) classification model provided by ker
     keras_mobilenet_v2.load_weights(weights_path)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 207-209
 
 In order to test our model, here we download an image of cat and
@@ -259,12 +247,6 @@ transform its format.
     x = transform_image(image)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 227-229
 
 synset is used to transform the label from number of ImageNet class to
@@ -286,12 +268,6 @@ the word human can understand.
     synset_path = download_testdata(synset_url, synset_name, module="data")
     with open(synset_path) as f:
         synset = eval(f.read())
-
-
-
-
-
-
 
 
 
@@ -345,21 +321,6 @@ to run this tutorial with a real device.
     lib.export_library(lib_fname, fcompile)
 
 
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-      "target_host parameter is going to be deprecated. "
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 287-291
 
 Deploy the Model Remotely by RPC
@@ -400,12 +361,6 @@ to the remote android device.
     module = runtime.GraphModule(rlib["default"](dev))
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 320-322
 
 Execute on TVM
@@ -429,25 +384,6 @@ Execute on TVM
 
     print("Evaluate inference time cost...")
     print(module.benchmark(dev, number=1, repeat=10))
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    TVM prediction top-1: tiger cat
-    Evaluate inference time cost...
-    Execution time summary:
-     mean (ms)   median (ms)    max (ms)     min (ms)     std (ms)  
-       8.0985       8.1012       8.4453       7.8201       0.1844   
-               
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 338-361

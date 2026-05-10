@@ -568,11 +568,6 @@ to run this tutorial with a real device.</p>
 <span class="n">lib</span><span class="o">.</span><span class="n">export_library</span><span class="p">(</span><span class="n">lib_fname</span><span class="p">,</span> <span class="n">fcompile</span><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-  &quot;target_host parameter is going to be deprecated. &quot;
-</pre></div>
-</div>
 </section>
 <section id="deploy-the-model-remotely-by-rpc">
 <h2>Deploy the Model Remotely by RPC<a class="headerlink" href="#deploy-the-model-remotely-by-rpc" title="Permalink to this headline">¶</a></h2>
@@ -622,14 +617,6 @@ to the remote android device.</p>
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Evaluate inference time cost...&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">module</span><span class="o">.</span><span class="n">benchmark</span><span class="p">(</span><span class="n">dev</span><span class="p">,</span> <span class="n">number</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">repeat</span><span class="o">=</span><span class="mi">10</span><span class="p">))</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>TVM prediction top-1: tiger cat
-Evaluate inference time cost...
-Execution time summary:
- mean (ms)   median (ms)    max (ms)     min (ms)     std (ms)
-   8.0985       8.1012       8.4453       7.8201       0.1844
 </pre></div>
 </div>
 </section>

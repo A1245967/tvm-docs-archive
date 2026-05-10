@@ -498,13 +498,6 @@ to run this tutorial with a real device.</p>
 <span class="n">lib</span><span class="o">.</span><span class="n">export_library</span><span class="p">(</span><span class="n">lib_fname</span><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/root/tvm/python/tvm/relay/build_module.py:411: DeprecationWarning: Please use input parameter mod (tvm.IRModule) instead of deprecated parameter mod (tvm.relay.function.Function)
-  DeprecationWarning,
-/root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-  &quot;target_host parameter is going to be deprecated. &quot;
-</pre></div>
-</div>
 </section>
 <section id="deploy-the-model-remotely-by-rpc">
 <h2>Deploy the Model Remotely by RPC<a class="headerlink" href="#deploy-the-model-remotely-by-rpc" title="Permalink to this headline">¶</a></h2>
@@ -535,10 +528,6 @@ to the remote device.</p>
 <span class="c1"># get top1 result</span>
 <span class="n">top1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">out</span><span class="o">.</span><span class="n">numpy</span><span class="p">())</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;TVM prediction top-1: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">synset</span><span class="p">[</span><span class="n">top1</span><span class="p">]))</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>TVM prediction top-1: tiger cat
 </pre></div>
 </div>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-how-to-deploy-models-deploy-model-on-rasp-py">

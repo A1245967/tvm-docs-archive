@@ -414,11 +414,6 @@ A quick solution is</p>
     <span class="p">)</span><span class="o">.</span><span class="n">evaluate</span><span class="p">()</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-  &quot;target_host parameter is going to be deprecated. &quot;
-</pre></div>
-</div>
 </section>
 <section id="execute-on-tvm">
 <h2>Execute on TVM<a class="headerlink" href="#execute-on-tvm" title="Permalink to this headline">¶</a></h2>
@@ -445,10 +440,6 @@ A quick solution is</p>
 
 <span class="n">top1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">tvm_output</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;TVM prediction top-1 id: </span><span class="si">{</span><span class="n">top1</span><span class="si">}</span><span class="s2">, class name: </span><span class="si">{</span><span class="n">synset</span><span class="p">[</span><span class="n">top1</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>TVM prediction top-1 id: 282, class name:  282: &#39;tiger cat&#39;,
 </pre></div>
 </div>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-how-to-compile-models-from-paddle-py">

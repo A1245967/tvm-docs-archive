@@ -113,12 +113,6 @@ tensorflow 2.2+ are required.
 
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 108-112
 
 Configure Settings
@@ -152,12 +146,6 @@ and sparsity to run.
     # determines how sparse the generated weights should be. The higher
     # the sparsity, the faster the result.
     sparsity = 0.85
-
-
-
-
-
-
 
 
 
@@ -210,12 +198,6 @@ a relay graph that we can optimize and deploy.
 
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 179-185
 
 Convert to Relay Graph
@@ -263,12 +245,6 @@ to reimport from tensorflow each time this script is run.
 
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 219-225
 
 Run the Dense Graph
@@ -300,12 +276,6 @@ tensors instead of sparse aware kernels.
     def run_dense(mod, params, shape_dict, target, dev):
         print("Dense Model Benchmark:")
         return run_relay_graph(mod, params, shape_dict, target, dev)
-
-
-
-
-
-
 
 
 
@@ -387,12 +357,6 @@ run faster.
 
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 317-322
 
 Run All the Code!
@@ -414,12 +378,6 @@ you'll need to uncomment the last line first.
 
 
     # benchmark()
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 333-337
@@ -459,12 +417,6 @@ and shows about a 2.5X speedup from using sparsity.
     # Runtime:             10.64 ms            (0.29 ms)
     # Block Sparse Model with 1x1 blocks:
     # Runtime:             6.46 ms             (0.05 ms)
-
-
-
-
-
-
 
 
 .. _sphx_glr_download_how_to_deploy_models_deploy_sparse.py:

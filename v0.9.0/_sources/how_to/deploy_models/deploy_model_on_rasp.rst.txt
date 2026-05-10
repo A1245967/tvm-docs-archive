@@ -40,12 +40,6 @@ it on Raspberry Pi.
     from tvm.contrib.download import download_testdata
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 37-74
 
 .. _build-tvm-runtime-on-device:
@@ -128,12 +122,6 @@ You can found more details about this part at tutorial :ref:`tutorial-from-mxnet
     block = get_model("resnet18_v1", pretrained=True)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 110-112
 
 In order to test our model, here we download an image of cat and
@@ -160,12 +148,6 @@ transform its format.
     x = transform_image(image)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 129-131
 
 synset is used to transform the label from number of ImageNet class to
@@ -189,12 +171,6 @@ the word human can understand.
         synset = eval(f.read())
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 145-147
 
 Now we would like to port the Gluon model to a portable computational graph.
@@ -213,12 +189,6 @@ It's as easy as several lines.
     func = relay.Function(func.params, relay.nn.softmax(func.body), None, func.type_params, func.attrs)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 156-157
 
 Here are some basic data workload configurations.
@@ -231,12 +201,6 @@ Here are some basic data workload configurations.
     num_classes = 1000
     image_shape = (3, 224, 224)
     data_shape = (batch_size,) + image_shape
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 163-172
@@ -285,23 +249,6 @@ to run this tutorial with a real device.
     lib.export_library(lib_fname)
 
 
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /root/tvm/python/tvm/relay/build_module.py:411: DeprecationWarning: Please use input parameter mod (tvm.IRModule) instead of deprecated parameter mod (tvm.relay.function.Function)
-      DeprecationWarning,
-    /root/tvm/python/tvm/driver/build_module.py:268: UserWarning: target_host parameter is going to be deprecated. Please pass in tvm.target.Target(target, host=target_host) instead.
-      "target_host parameter is going to be deprecated. "
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 201-205
 
 Deploy the Model Remotely by RPC
@@ -339,20 +286,6 @@ to the remote device.
     # get top1 result
     top1 = np.argmax(out.numpy())
     print("TVM prediction top-1: {}".format(synset[top1]))
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    TVM prediction top-1: tiger cat
-
-
-
 
 
 .. _sphx_glr_download_how_to_deploy_models_deploy_model_on_rasp.py:
