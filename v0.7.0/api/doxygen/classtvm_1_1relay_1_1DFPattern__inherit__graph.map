@@ -1,0 +1,16 @@
+<map id="tvm::relay::DFPattern" name="tvm::relay::DFPattern">
+<area shape="rect" id="node3" href="$classtvm_1_1relay_1_1AltPattern.html" title="A pattern which matches either of two patterns. " alt="" coords="5,513,211,619"/>
+<area shape="rect" id="node4" href="$classtvm_1_1relay_1_1AttrPattern.html" title="A pattern which matches attributes in another pattern. " alt="" coords="235,513,440,619"/>
+<area shape="rect" id="node5" href="$classtvm_1_1relay_1_1CallPattern.html" title="{tvm::relay::CallPattern\n||+ CallPattern()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="464,513,669,619"/>
+<area shape="rect" id="node6" href="$classtvm_1_1relay_1_1ConstantPattern.html" title="{tvm::relay::ConstantPattern\n||+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="693,520,899,612"/>
+<area shape="rect" id="node7" href="$classtvm_1_1relay_1_1DataTypePattern.html" title="A pattern which matches a type in another pattern. " alt="" coords="923,513,1130,619"/>
+<area shape="rect" id="node8" href="$classtvm_1_1relay_1_1DominatorPattern.html" title="A pattern which matches a variable length dominator path. " alt="" coords="1155,513,1368,619"/>
+<area shape="rect" id="node9" href="$classtvm_1_1relay_1_1ExprPattern.html" title="A pattern which matches a literal expression. " alt="" coords="1392,513,1597,619"/>
+<area shape="rect" id="node10" href="$classtvm_1_1relay_1_1ShapePattern.html" title="A pattern which matches a type in another pattern. " alt="" coords="1621,513,1827,619"/>
+<area shape="rect" id="node11" href="$classtvm_1_1relay_1_1TupleGetItemPattern.html" title="{tvm::relay::TupleGetItem\lPattern\n||+ TupleGetItemPattern()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="1851,505,2056,627"/>
+<area shape="rect" id="node12" href="$classtvm_1_1relay_1_1TuplePattern.html" title="{tvm::relay::TuplePattern\n||+ TuplePattern()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="2080,513,2285,619"/>
+<area shape="rect" id="node13" href="$classtvm_1_1relay_1_1TypePattern.html" title="A pattern which matches a type in another pattern. " alt="" coords="2309,513,2515,619"/>
+<area shape="rect" id="node14" href="$classtvm_1_1relay_1_1VarPattern.html" title="{tvm::relay::VarPattern\n||+ VarPattern()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="2539,513,2744,619"/>
+<area shape="rect" id="node15" href="$classtvm_1_1relay_1_1WildcardPattern.html" title="A pattern which matches anything. " alt="" coords="2768,520,2973,612"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="1405,5,1584,317"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="include/tvm/runtime/module.h" name="include/tvm/runtime/module.h">
+<area shape="rect" id="node3" href="$c__runtime__api_8h.html" title="tvm/runtime/c_runtime\l_api.h" alt="" coords="291,408,463,449"/>
+<area shape="rect" id="node7" href="$runtime_2memory_8h.html" title="Runtime memory management. " alt="" coords="938,259,1113,285"/>
+<area shape="rect" id="node8" href="$object_8h.html" title="A managed object in the TVM runtime. " alt="" coords="655,333,814,360"/>
+<area shape="rect" id="node18" href="$packed__func_8h.html" title="Type&#45;erased function used across TVM API. " alt="" coords="1068,95,1223,136"/>
+<area shape="rect" id="node19" href="$runtime_2container_8h.html" title="Common POD(plain old data) container types. " alt="" coords="1189,184,1369,211"/>
+<area shape="rect" id="node23" href="$data__type_8h.html" title="tvm/runtime/data_type.h" alt="" coords="839,333,1023,360"/>
+<area shape="rect" id="node24" href="$ndarray_8h.html" title="A device&#45;independent managed NDArray abstraction. " alt="" coords="301,259,470,285"/>
+<area shape="rect" id="node25" href="$serializer_8h.html" title="Serializer extension to support TVM data types Include this file to enable serialization of DLDataTyp..." alt="" coords="161,333,340,360"/>
+</map>

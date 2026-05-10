@@ -1,0 +1,11 @@
+<map id="include/tvm/runtime/crt/error_codes.h" name="include/tvm/runtime/crt/error_codes.h">
+<area shape="rect" id="node2" href="$crt_8h.html" title="Defines core life cycle functions used by CRT. " alt="" coords="5,102,160,143"/>
+<area shape="rect" id="node3" href="$func__registry_8h.html" title="Defines generic string&#45;based function lookup structs. " alt="" coords="184,102,339,143"/>
+<area shape="rect" id="node7" href="$platform_8h.html" title="The virtual memory manager for micro&#45;controllers. " alt="" coords="235,199,389,240"/>
+<area shape="rect" id="node8" href="$framing_8h.html" title="Framing for RPC. " alt="" coords="463,199,662,240"/>
+<area shape="rect" id="node9" href="$session_8h.html" title="RPC Session. " alt="" coords="465,288,661,329"/>
+<area shape="rect" id="node10" href="$write__stream_8h.html" title="include/tvm/runtime\l/crt/rpc_common/write\l_stream.h" alt="" coords="515,95,683,151"/>
+<area shape="rect" id="node4" href="$runtime_2crt_2module_8h.html" title="Runtime container of the functions. " alt="" coords="56,199,211,240"/>
+<area shape="rect" id="node5" href="$crt_2packed__func_8h.html" title="Type&#45;erased function used across TVM API. " alt="" coords="145,288,300,329"/>
+<area shape="rect" id="node6" href="$graph__runtime_8h.html" title="Tiny graph runtime that can run graph containing only tvm PackedFunc. " alt="" coords="145,377,300,419"/>
+</map>

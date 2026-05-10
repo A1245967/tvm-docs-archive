@@ -1,0 +1,11 @@
+<map id="tvm::relay::PatternVarNode" name="tvm::relay::PatternVarNode">
+<area shape="rect" id="node2" href="$classtvm_1_1relay_1_1PatternNode.html" title="Base type for declaring relay pattern. " alt="" coords="299,1360,575,1496"/>
+<area shape="rect" id="node3" href="$classtvm_1_1relay_1_1RelayNode.html" title="This is the base node container of all relay structures. " alt="" coords="299,1226,575,1303"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,653,252,1156"/>
+<area shape="rect" id="node5" href="$classtvm_1_1Span.html" title="{tvm::Span\n||+ Span()\l+ Merge()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="370,844,575,965"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="497,307,675,604"/>
+<area shape="rect" id="node10" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="599,859,805,951"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 10 more...\l}" alt="" coords="493,5,679,244"/>
+<area shape="rect" id="node8" href="$classtvm_1_1relay_1_1Var.html" title="{tvm::relay::Var\n||+ Var()\l+ Var()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="599,1367,805,1489"/>
+<area shape="rect" id="node9" href="$classtvm_1_1RelayExpr.html" title="Managed reference to RelayExprNode. " alt="" coords="599,1219,805,1311"/>
+</map>

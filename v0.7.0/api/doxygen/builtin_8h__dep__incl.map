@@ -1,0 +1,12 @@
+<map id="include/tvm/tir/builtin.h" name="include/tvm/tir/builtin.h">
+<area shape="rect" id="node2" href="$detail_2extern_8h.html" title="Helpers for using external functions. " alt="" coords="211,80,380,121"/>
+<area shape="rect" id="node7" href="$elemwise_8h.html" title="Elementwise op constructions. " alt="" coords="405,87,612,114"/>
+<area shape="rect" id="node3" href="$cublas_8h.html" title="External function interface to cuBLAS libraries. " alt="" coords="5,169,183,211"/>
+<area shape="rect" id="node6" href="$rocblas_8h.html" title="include/tvm/topi/contrib\l/rocblas.h" alt="" coords="207,169,384,211"/>
+<area shape="rect" id="node4" href="$cuda_2dense_8h.html" title="CUDA schedule for dense operation. " alt="" coords="17,259,179,300"/>
+<area shape="rect" id="node5" href="$rocm_2dense_8h.html" title="rocm schedule for dense operation " alt="" coords="74,348,239,389"/>
+<area shape="rect" id="node8" href="$reduction_8h.html" title="Reduction op constructors. " alt="" coords="409,177,614,203"/>
+<area shape="rect" id="node9" href="$nn_2pooling_8h.html" title="Pooling op constructions. " alt="" coords="265,259,413,300"/>
+<area shape="rect" id="node10" href="$nn_2softmax_8h.html" title="Softmax op constructions. " alt="" coords="437,259,585,300"/>
+<area shape="rect" id="node11" href="$reorg_8h.html" title="Reorg op constructions. " alt="" coords="610,259,781,300"/>
+</map>

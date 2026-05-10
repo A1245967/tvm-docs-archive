@@ -1,0 +1,5 @@
+<map id="tvm::runtime::TVMPODValue_" name="tvm::runtime::TVMPODValue_">
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1TVMArgValue.html" title="A single argument value to PackedFunc. Containing both type_code and TVMValue. " alt="" coords="5,395,219,589"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1TVMRetValue.html" title="Return Value container, Unlike TVMArgValue, which only holds reference and do not delete the underlyi..." alt="" coords="243,365,456,619"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1TVMMovableArgValue__.html" title="Internal auxiliary struct for TypedPackedFunc to indicate a movable argument. " alt="" coords="13,667,211,773"/>
+</map>

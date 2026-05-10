@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VTA: Deep Learning Accelerator Stack &mdash; tvm 0.7.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/tvm_theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-binder.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-dataframe.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-rendered-html.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/tvm-logo-square.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="VTA Installation Guide" href="install.html" />
+    <link rel="prev" title="Security Guide" href="../dev/security.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html">
+            <img src="../_static/tvm-logo-small.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.7.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">How to</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../install/index.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contribute/index.html">Contribute to TVM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/index.html">Deploy and Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/how_to.html">Developer How-To Guide</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html">Get Started Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#compile-deep-learning-models">Compile Deep Learning Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#tensor-expression-and-schedules">Tensor Expression and Schedules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#optimize-tensor-operators">Optimize Tensor Operators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#autotvm-template-based-auto-tuning">AutoTVM : Template-based Auto Tuning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#autoscheduler-template-free-auto-scheduling">AutoScheduler : Template-free Auto Scheduling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#developer-tutorials">Developer Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#topi-tvm-operator-inventory">TOPI: TVM Operator Inventory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#micro-tvm">Micro TVM</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">References</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../langref/index.html">Language Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/python/index.html">Python API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/links.html">Links to Other API References</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Deep Dive</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dev/index.html">Design and Architecture</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">MISC</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">VTA: Deep Learning Accelerator Stack</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install.html">VTA Installation Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dev/index.html">VTA Design and Developer Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorials/index.html">VTA Tutorials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#literature">Literature</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">Frequently Asked Questions</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">tvm</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>VTA: Deep Learning Accelerator Stack</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/vta/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="vta-deep-learning-accelerator-stack">
+<span id="vta-index"></span><h1>VTA: Deep Learning Accelerator Stack<a class="headerlink" href="#vta-deep-learning-accelerator-stack" title="Permalink to this headline">¶</a></h1>
+<p>The Versatile Tensor Accelerator (VTA) is an open, generic, and customizable deep learning accelerator with a complete TVM-based compiler stack. We designed VTA to expose the most salient and common characteristics of mainstream deep learning accelerators. Together TVM and VTA form an end-to-end hardware-software deep learning system stack that includes hardware design, drivers, a JIT runtime, and an optimizing compiler stack based on TVM.</p>
+<a class="reference internal image-reference" href="https://raw.githubusercontent.com/uwsampl/web-data/master/vta/blogpost/vta_overview.png"><img alt="https://raw.githubusercontent.com/uwsampl/web-data/master/vta/blogpost/vta_overview.png" class="align-center" src="https://raw.githubusercontent.com/uwsampl/web-data/master/vta/blogpost/vta_overview.png" style="width: 60%;" /></a>
+<p>VTA has the following key features:</p>
+<ul class="simple">
+<li><p>Generic, modular, open-source hardware.</p></li>
+<li><p>Streamlined workflow to deploy to FPGAs.</p></li>
+<li><p>Simulator support to prototype compilation passes on regular workstations.</p></li>
+<li><p>Pynq-based driver and JIT runtime for both simulated and FPGA hardware back-end.</p></li>
+<li><p>End to end TVM stack integration.</p></li>
+</ul>
+<p>This page contains links to all the resources related to VTA:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="install.html">VTA Installation Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dev/index.html">VTA Design and Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials/index.html">VTA Tutorials</a></li>
+</ul>
+</div>
+<section id="literature">
+<h2>Literature<a class="headerlink" href="#literature" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Read the VTA <a class="reference external" href="https://tvm.apache.org/2018/07/12/vta-release-announcement">release blog post</a>.</p></li>
+<li><p>Read the VTA tech report: <a class="reference external" href="https://arxiv.org/abs/1807.04188">An Open Hardware Software Stack for Deep Learning</a>.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../dev/security.html" class="btn btn-neutral float-left" title="Security Guide" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="install.html" class="btn btn-neutral float-right" title="VTA Installation Guide" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020, Apache Software Foundation.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <!-- Theme Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75982049-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-75982049-2', {
+          'anonymize_ip': false,
+      });
+    </script> 
+
+</body>
+</html>

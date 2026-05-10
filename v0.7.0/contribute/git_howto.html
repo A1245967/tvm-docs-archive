@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Git Usage Tips &mdash; tvm 0.7.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/tvm_theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-binder.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-dataframe.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-rendered-html.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/tvm-logo-square.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Apache TVM (incubating) Release Process" href="release_process.html" />
+    <link rel="prev" title="Submit a Pull Request" href="pull_request.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html">
+            <img src="../_static/tvm-logo-small.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.7.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">How to</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../install/index.html">Installation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Contribute to TVM</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="community.html">TVM Community Guideline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="code_review.html">Perform Code Reviews</a></li>
+<li class="toctree-l2"><a class="reference internal" href="committer_guide.html">Committer Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="document.html">Write Document and Tutorials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="code_guide.html">Code Guide and Tips</a></li>
+<li class="toctree-l2"><a class="reference internal" href="error_handling.html">Error Handling Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pull_request.html">Submit a Pull Request</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Git Usage Tips</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-combine-multiple-commits-into-one">How to combine multiple commits into one</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#reset-to-the-most-recent-master">Reset to the most recent master</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#recover-a-previous-commit-after-reset">Recover a Previous Commit after Reset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#apply-only-k-latest-commits-on-to-the-master">Apply only k-Latest Commits on to the master</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#what-is-the-consequence-of-force-push">What is the consequence of force push</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="release_process.html">Apache TVM (incubating) Release Process</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/index.html">Deploy and Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/how_to.html">Developer How-To Guide</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html">Get Started Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#compile-deep-learning-models">Compile Deep Learning Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#tensor-expression-and-schedules">Tensor Expression and Schedules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#optimize-tensor-operators">Optimize Tensor Operators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#autotvm-template-based-auto-tuning">AutoTVM : Template-based Auto Tuning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#autoscheduler-template-free-auto-scheduling">AutoScheduler : Template-free Auto Scheduling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#developer-tutorials">Developer Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#topi-tvm-operator-inventory">TOPI: TVM Operator Inventory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#micro-tvm">Micro TVM</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">References</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../langref/index.html">Language Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/python/index.html">Python API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/links.html">Links to Other API References</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Deep Dive</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dev/index.html">Design and Architecture</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">MISC</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../vta/index.html">VTA: Deep Learning Accelerator Stack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">Frequently Asked Questions</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">tvm</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Contribute to TVM</a> &raquo;</li>
+      <li>Git Usage Tips</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/contribute/git_howto.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="git-usage-tips">
+<span id="git-howto"></span><h1>Git Usage Tips<a class="headerlink" href="#git-usage-tips" title="Permalink to this headline">¶</a></h1>
+<p>Here are some tips for git workflow.</p>
+<p>## How to resolve conflict with master</p>
+<ul class="simple">
+<li><p>First rebase to most recent master</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># The first two steps can be skipped after you do it once.</span>
+git<span class="w"> </span>remote<span class="w"> </span>add<span class="w"> </span>upstream<span class="w"> </span><span class="o">[</span>url<span class="w"> </span>to<span class="w"> </span>tvm<span class="w"> </span>repo<span class="o">]</span>
+git<span class="w"> </span>fetch<span class="w"> </span>upstream
+git<span class="w"> </span>rebase<span class="w"> </span>upstream/master
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>The git may show some conflicts it cannot merge, say <cite>conflicted.py</cite>.</p>
+<ul>
+<li><p>Manually modify the file to resolve the conflict.</p></li>
+<li><p>After you resolved the conflict, mark it as resolved by</p></li>
+</ul>
+</li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>add<span class="w"> </span>conflicted.py
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Then you can continue rebase by</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>rebase<span class="w"> </span>--continue
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Finally push to your fork, you may need to force push here.</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>push<span class="w"> </span>--force
+</pre></div>
+</div>
+<section id="how-to-combine-multiple-commits-into-one">
+<h2>How to combine multiple commits into one<a class="headerlink" href="#how-to-combine-multiple-commits-into-one" title="Permalink to this headline">¶</a></h2>
+<p>Sometimes we want to combine multiple commits, especially when later commits are only fixes to previous ones,
+to create a PR with set of meaningful commits. You can do it by following steps.</p>
+<ul class="simple">
+<li><p>Before doing so, configure the default editor of git if you haven’t done so before.</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>config<span class="w"> </span>core.editor<span class="w"> </span>the-editor-you-like
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Assume we want to merge last 3 commits, type the following commands</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>rebase<span class="w"> </span>-i<span class="w"> </span>HEAD~3
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>It will pop up an text editor. Set the first commit as <cite>pick</cite>, and change later ones to <cite>squash</cite>.</p></li>
+<li><p>After you saved the file, it will pop up another text editor to ask you modify the combined commit message.</p></li>
+<li><p>Push the changes to your fork, you need to force push.</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>push<span class="w"> </span>--force
+</pre></div>
+</div>
+</section>
+<section id="reset-to-the-most-recent-master">
+<h2>Reset to the most recent master<a class="headerlink" href="#reset-to-the-most-recent-master" title="Permalink to this headline">¶</a></h2>
+<p>You can always use git reset to reset your version to the most recent master.
+Note that all your <strong>*local changes will get lost*</strong>.
+So only do it when you do not have local changes or when your pull request just get merged.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>reset<span class="w"> </span>--hard<span class="w"> </span><span class="o">[</span><span class="nb">hash</span><span class="w"> </span>tag<span class="w"> </span>of<span class="w"> </span>master<span class="o">]</span>
+</pre></div>
+</div>
+</section>
+<section id="recover-a-previous-commit-after-reset">
+<h2>Recover a Previous Commit after Reset<a class="headerlink" href="#recover-a-previous-commit-after-reset" title="Permalink to this headline">¶</a></h2>
+<p>Sometimes we could mistakenly reset a branch to a wrong commit.
+When that happens, you can use the following command to show the list
+of recent commits</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>reflog
+</pre></div>
+</div>
+<p>Once you get the right hashtag, you can use git reset again to change
+the head to the right commit.</p>
+</section>
+<section id="apply-only-k-latest-commits-on-to-the-master">
+<h2>Apply only k-Latest Commits on to the master<a class="headerlink" href="#apply-only-k-latest-commits-on-to-the-master" title="Permalink to this headline">¶</a></h2>
+<p>Sometimes it is useful to only apply your k-latest changes on top of the master.
+This usually happens when you have other m-commits that are already merged
+before these k-commits. Directly rebase against the master might cause merge conflicts
+on these first m-commits(which are can be safely discarded).</p>
+<p>You can instead use the following command</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># k is the concrete number</span>
+<span class="c1"># Put HEAD~2 for the last 1 commit.</span>
+git<span class="w"> </span>rebase<span class="w"> </span>--onto<span class="w"> </span>upstream/master<span class="w"> </span>HEAD~k
+</pre></div>
+</div>
+<p>You can then force push to the master. Note that the above command will discard
+all the commits before tha last k ones.</p>
+</section>
+<section id="what-is-the-consequence-of-force-push">
+<h2>What is the consequence of force push<a class="headerlink" href="#what-is-the-consequence-of-force-push" title="Permalink to this headline">¶</a></h2>
+<p>The previous two tips requires force push, this is because we altered the path of the commits.
+It is fine to force push to your own fork, as long as the commits changed are only yours.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="pull_request.html" class="btn btn-neutral float-left" title="Submit a Pull Request" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="release_process.html" class="btn btn-neutral float-right" title="Apache TVM (incubating) Release Process" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020, Apache Software Foundation.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <!-- Theme Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75982049-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-75982049-2', {
+          'anonymize_ip': false,
+      });
+    </script> 
+
+</body>
+</html>

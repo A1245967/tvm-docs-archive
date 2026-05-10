@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tvm.micro &mdash; tvm 0.7.0 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/tvm_theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sg_gallery.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sg_gallery-binder.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sg_gallery-dataframe.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sg_gallery-rendered-html.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/tvm-logo-square.png"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="tvm.contrib" href="contrib.html" />
+    <link rel="prev" title="tvm.rpc" href="rpc.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html">
+            <img src="../../_static/tvm-logo-small.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.7.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">How to</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../install/index.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contribute/index.html">Contribute to TVM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/index.html">Deploy and Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dev/how_to.html">Developer How-To Guide</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">Get Started Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html#compile-deep-learning-models">Compile Deep Learning Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html#tensor-expression-and-schedules">Tensor Expression and Schedules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html#optimize-tensor-operators">Optimize Tensor Operators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html#autotvm-template-based-auto-tuning">AutoTVM : Template-based Auto Tuning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html#autoscheduler-template-free-auto-scheduling">AutoScheduler : Template-free Auto Scheduling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html#developer-tutorials">Developer Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html#topi-tvm-operator-inventory">TOPI: TVM Operator Inventory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html#micro-tvm">Micro TVM</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">References</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../langref/index.html">Language Reference</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Python API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="runtime.html">tvm.runtime</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ndarray.html">tvm.runtime.ndarray</a></li>
+<li class="toctree-l2"><a class="reference internal" href="error.html">tvm.error</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ir.html">tvm.ir</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ir.html#module-tvm.transform">tvm.transform</a></li>
+<li class="toctree-l2"><a class="reference internal" href="target.html">tvm.target</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tir.html">tvm.tir</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tir.html#module-tvm.tir.transform">tvm.tir.transform</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tir.html#module-tvm.tir.analysis">tvm.tir.analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tir.html#module-tvm.tir.stmt_functor">tvm.tir.stmt_functor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="te.html">tvm.te</a></li>
+<li class="toctree-l2"><a class="reference internal" href="te.html#module-tvm.te.hybrid">tvm.te.hybrid</a></li>
+<li class="toctree-l2"><a class="reference internal" href="driver.html">tvm.driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="relay/index.html">tvm.relay</a></li>
+<li class="toctree-l2"><a class="reference internal" href="relay/frontend.html">tvm.relay.frontend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="relay/nn.html">tvm.relay.nn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="relay/vision.html">tvm.relay.vision</a></li>
+<li class="toctree-l2"><a class="reference internal" href="relay/image.html">tvm.relay.image</a></li>
+<li class="toctree-l2"><a class="reference internal" href="relay/transform.html">tvm.relay.transform</a></li>
+<li class="toctree-l2"><a class="reference internal" href="relay/analysis.html">tvm.relay.analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="relay/backend.html">tvm.relay.backend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="relay/dataflow_pattern.html">tvm.relay.dataflow_pattern</a></li>
+<li class="toctree-l2"><a class="reference internal" href="relay/testing.html">tvm.relay.testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="autotvm.html">tvm.autotvm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="auto_scheduler.html">tvm.auto_scheduler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rpc.html">tvm.rpc</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">tvm.micro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contrib.html">tvm.contrib</a></li>
+<li class="toctree-l2"><a class="reference internal" href="graph_runtime.html">tvm.contrib.graph_runtime</a></li>
+<li class="toctree-l2"><a class="reference internal" href="topi.html">tvm.topi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vta/index.html">vta</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../links.html">Links to Other API References</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Deep Dive</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../dev/index.html">Design and Architecture</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">MISC</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../vta/index.html">VTA: Deep Learning Accelerator Stack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">Frequently Asked Questions</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">tvm</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Python API</a> &raquo;</li>
+      <li>tvm.micro</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/api/python/micro.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-tvm.micro">
+<span id="tvm-micro"></span><h1>tvm.micro<a class="headerlink" href="#module-tvm.micro" title="Permalink to this headline">¶</a></h1>
+<p>MicroTVM module for bare-metal backends</p>
+<p><strong>Classes:</strong></p>
+<table class="autosummary longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.Artifact" title="tvm.micro.Artifact"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Artifact</span></code></a>(base_dir, labelled_files, metadata)</p></td>
+<td><p>Describes a compiler artifact and defines common logic to archive it for transport.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.Workspace" title="tvm.micro.Workspace"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Workspace</span></code></a>([root, debug])</p></td>
+<td><p>Defines helper functions for manipulating temporary compilation workspaces.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.Compiler" title="tvm.micro.Compiler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Compiler</span></code></a>()</p></td>
+<td><p>The compiler abstraction used with micro TVM.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.DefaultCompiler" title="tvm.micro.DefaultCompiler"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DefaultCompiler</span></code></a>([target])</p></td>
+<td><p>A Compiler implementation that attempts to use the system-installed GCC.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.Flasher" title="tvm.micro.Flasher"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Flasher</span></code></a>()</p></td>
+<td><p>An interface for flashing binaries and returning a transport factory.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.GdbRemoteDebugger" title="tvm.micro.GdbRemoteDebugger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GdbRemoteDebugger</span></code></a>(gdb_binary, ...[, ...])</p></td>
+<td><p>A Debugger that invokes GDB and attaches to a remote GDBserver-based target.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.MicroLibrary" title="tvm.micro.MicroLibrary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MicroLibrary</span></code></a>(base_dir, library_files[, ...])</p></td>
+<td><p>An Artifact that describes a compiled static library.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.MicroBinary" title="tvm.micro.MicroBinary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MicroBinary</span></code></a>(base_dir, binary_file[, ...])</p></td>
+<td><p>An Artifact that describes a compiled binary.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.Session" title="tvm.micro.Session"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Session</span></code></a>([binary, flasher, ...])</p></td>
+<td><p>MicroTVM Device Session</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.TransportLogger" title="tvm.micro.TransportLogger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TransportLogger</span></code></a>(name, child[, logger, level])</p></td>
+<td><p>Wraps a Transport implementation and logs traffic to the Python logging infrastructure.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.DebugWrapperTransport" title="tvm.micro.DebugWrapperTransport"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DebugWrapperTransport</span></code></a>(debugger, transport)</p></td>
+<td><p>A Transport wrapper class that launches a debugger before opening the transport.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.SubprocessTransport" title="tvm.micro.SubprocessTransport"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SubprocessTransport</span></code></a>(args, **kwargs)</p></td>
+<td><p>A Transport implementation that uses a subprocess's stdin/stdout as the channel.</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Functions:</strong></p>
+<table class="autosummary longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.build_static_runtime" title="tvm.micro.build_static_runtime"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_static_runtime</span></code></a>(workspace, compiler, module)</p></td>
+<td><p>Build the on-device runtime, statically linking the given modules.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.default_options" title="tvm.micro.default_options"><code class="xref py py-obj docutils literal notranslate"><span class="pre">default_options</span></code></a>(target_include_dir)</p></td>
+<td><p>Return default opts passed to Compile commands.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.create_local_graph_runtime" title="tvm.micro.create_local_graph_runtime"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_local_graph_runtime</span></code></a>(graph_json_str, ...)</p></td>
+<td><p>Create a local graph runtime driving execution on the remote CPU context given.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py class">
+<dt class="sig sig-object py" id="tvm.micro.Artifact">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">Artifact</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_dir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">labelled_files</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">metadata</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.Artifact" title="Permalink to this definition">¶</a></dt>
+<dd><p>Describes a compiler artifact and defines common logic to archive it for transport.</p>
+<p><strong>Methods:</strong></p>
+<table class="autosummary longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.Artifact.unarchive" title="tvm.micro.Artifact.unarchive"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unarchive</span></code></a>(archive_path, base_dir)</p></td>
+<td><p>Unarchive an artifact into base_dir.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.Artifact.abspath" title="tvm.micro.Artifact.abspath"><code class="xref py py-obj docutils literal notranslate"><span class="pre">abspath</span></code></a>(rel_path)</p></td>
+<td><p>Return absolute path to the member with the given relative path.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.Artifact.label" title="tvm.micro.Artifact.label"><code class="xref py py-obj docutils literal notranslate"><span class="pre">label</span></code></a>(label)</p></td>
+<td><p>Return a list of relative paths to files with the given label.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.Artifact.archive" title="tvm.micro.Artifact.archive"><code class="xref py py-obj docutils literal notranslate"><span class="pre">archive</span></code></a>(archive_path)</p></td>
+<td><p>Create a relocatable tar archive of the artifacts.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.Artifact.unarchive">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">unarchive</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">archive_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_dir</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.Artifact.unarchive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Unarchive an artifact into base_dir.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>archive_path</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a>) – Path to the archive file.</p></li>
+<li><p><strong>base_dir</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a>) – Path to a non-existent, empty directory under which the artifact will live.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The unarchived artifact.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#tvm.micro.Artifact" title="tvm.micro.Artifact">Artifact</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.Artifact.abspath">
+<span class="sig-name descname"><span class="pre">abspath</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rel_path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.Artifact.abspath" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return absolute path to the member with the given relative path.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.Artifact.label">
+<span class="sig-name descname"><span class="pre">label</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">label</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.Artifact.label" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of relative paths to files with the given label.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.Artifact.archive">
+<span class="sig-name descname"><span class="pre">archive</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">archive_path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.Artifact.archive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a relocatable tar archive of the artifacts.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>archive_path</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a>) – Path to the tar file to create. Or, path to a directory, under which a tar file will be
+created named {base_dir}.tar.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The value of archive_path, after potentially making the computation describe above.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)">str</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="tvm.micro.build_static_runtime">
+<span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">build_static_runtime</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">workspace</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">compiler</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lib_opts</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bin_opts</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.build_static_runtime" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build the on-device runtime, statically linking the given modules.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>compiler</strong> (<a class="reference internal" href="#tvm.micro.Compiler" title="tvm.micro.Compiler"><em>tvm.micro.Compiler</em></a>) – Compiler instance used to build the runtime.</p></li>
+<li><p><strong>module</strong> (<a class="reference internal" href="ir.html#tvm.ir.IRModule" title="tvm.ir.IRModule"><em>IRModule</em></a>) – Module to statically link.</p></li>
+<li><p><strong>lib_opts</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.14)"><em>dict</em></a>) – Extra kwargs passed to library(),</p></li>
+<li><p><strong>bin_opts</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.14)"><em>dict</em></a>) – Extra kwargs passed to binary(),</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The compiled runtime.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#tvm.micro.MicroBinary" title="tvm.micro.MicroBinary">MicroBinary</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="tvm.micro.default_options">
+<span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">default_options</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">target_include_dir</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.default_options" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return default opts passed to Compile commands.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="tvm.micro.Workspace">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">Workspace</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">root</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.Workspace" title="Permalink to this definition">¶</a></dt>
+<dd><p>Defines helper functions for manipulating temporary compilation workspaces.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="tvm.micro.Compiler">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">Compiler</span></span><a class="headerlink" href="#tvm.micro.Compiler" title="Permalink to this definition">¶</a></dt>
+<dd><p>The compiler abstraction used with micro TVM.</p>
+<p><strong>Methods:</strong></p>
+<table class="autosummary longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.Compiler.library" title="tvm.micro.Compiler.library"><code class="xref py py-obj docutils literal notranslate"><span class="pre">library</span></code></a>(output, sources[, options])</p></td>
+<td><p>Build a library from the given source files.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.Compiler.binary" title="tvm.micro.Compiler.binary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">binary</span></code></a>(output, objects[, options, ...])</p></td>
+<td><p>Link a binary from the given object and/or source files.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.Compiler.flasher" title="tvm.micro.Compiler.flasher"><code class="xref py py-obj docutils literal notranslate"><span class="pre">flasher</span></code></a>(**kw)</p></td>
+<td><p>Return a Flasher that can be used to program a produced MicroBinary onto the target.</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Attributes:</strong></p>
+<table class="autosummary longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.Compiler.flasher_factory" title="tvm.micro.Compiler.flasher_factory"><code class="xref py py-obj docutils literal notranslate"><span class="pre">flasher_factory</span></code></a></p></td>
+<td><p>Produce a FlasherFactory for a Flasher instance suitable for this Compiler.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.Compiler.library">
+<em class="property"><span class="pre">abstract</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">library</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sources</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">options</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.Compiler.library" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build a library from the given source files.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>output</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a>) – The path to the library that should be created. The containing directory
+is guaranteed to be empty and should be the base_dir for the returned
+Artifact.</p></li>
+<li><p><strong>sources</strong> (<em>List</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a><em>]</em>) – A list of paths to source files that should be compiled.</p></li>
+<li><p><strong>options</strong> (<em>Optional</em><em>[</em><em>List</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a><em>]</em><em>]</em>) – If given, additional command-line flags to pass to the compiler.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The compiled library, as a MicroLibrary instance.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#tvm.micro.MicroLibrary" title="tvm.micro.MicroLibrary">MicroLibrary</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.Compiler.binary">
+<em class="property"><span class="pre">abstract</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">binary</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">objects</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">options</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">link_main</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">main_options</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.Compiler.binary" title="Permalink to this definition">¶</a></dt>
+<dd><p>Link a binary from the given object and/or source files.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>output</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a>) – The path to the binary that should be created. The containing directory
+is guaranteed to be empty and should be the base_dir for the returned
+Artifact.</p></li>
+<li><p><strong>objects</strong> (<em>List</em><em>[</em><a class="reference internal" href="#tvm.micro.MicroLibrary" title="tvm.micro.MicroLibrary"><em>MicroLibrary</em></a><em>]</em>) – A list of paths to source files or libraries that should be compiled. The final binary
+should be statically-linked.</p></li>
+<li><p><strong>options</strong> (<em>Optional</em><em>[</em><em>List</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a><em>]</em><em>]</em>) – If given, additional command-line flags to pass to the compiler.</p></li>
+<li><p><strong>link_main</strong> (<em>Optional</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.14)"><em>bool</em></a><em>]</em>) – True if the standard main entry point for this Compiler should be included in the
+binary. False if a main entry point is provided in one of <cite>objects</cite>.</p></li>
+<li><p><strong>main_options</strong> (<em>Optional</em><em>[</em><em>List</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a><em>]</em><em>]</em>) – If given, additional command-line flags to pass to the compiler when compiling the
+main() library. In some cases, the main() may be compiled directly into the final binary
+along with <cite>objects</cite> for logistical reasons. In those cases, specifying main_options is
+an error and ValueError will be raised.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The compiled binary, as a MicroBinary instance.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#tvm.micro.MicroBinary" title="tvm.micro.MicroBinary">MicroBinary</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tvm.micro.Compiler.flasher_factory">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">flasher_factory</span></span><a class="headerlink" href="#tvm.micro.Compiler.flasher_factory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Produce a FlasherFactory for a Flasher instance suitable for this Compiler.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.Compiler.flasher">
+<span class="sig-name descname"><span class="pre">flasher</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kw</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.Compiler.flasher" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a Flasher that can be used to program a produced MicroBinary onto the target.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="tvm.micro.DefaultCompiler">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">DefaultCompiler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">target</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.DefaultCompiler" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Compiler implementation that attempts to use the system-installed GCC.</p>
+<p><strong>Methods:</strong></p>
+<table class="autosummary longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.DefaultCompiler.library" title="tvm.micro.DefaultCompiler.library"><code class="xref py py-obj docutils literal notranslate"><span class="pre">library</span></code></a>(output, sources[, options])</p></td>
+<td><p>Build a library from the given source files.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.DefaultCompiler.binary" title="tvm.micro.DefaultCompiler.binary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">binary</span></code></a>(output, objects[, options, ...])</p></td>
+<td><p>Link a binary from the given object and/or source files.</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Attributes:</strong></p>
+<table class="autosummary longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.DefaultCompiler.flasher_factory" title="tvm.micro.DefaultCompiler.flasher_factory"><code class="xref py py-obj docutils literal notranslate"><span class="pre">flasher_factory</span></code></a></p></td>
+<td><p>Produce a FlasherFactory for a Flasher instance suitable for this Compiler.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.DefaultCompiler.library">
+<span class="sig-name descname"><span class="pre">library</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sources</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">options</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.DefaultCompiler.library" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build a library from the given source files.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>output</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a>) – The path to the library that should be created. The containing directory
+is guaranteed to be empty and should be the base_dir for the returned
+Artifact.</p></li>
+<li><p><strong>sources</strong> (<em>List</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a><em>]</em>) – A list of paths to source files that should be compiled.</p></li>
+<li><p><strong>options</strong> (<em>Optional</em><em>[</em><em>List</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a><em>]</em><em>]</em>) – If given, additional command-line flags to pass to the compiler.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The compiled library, as a MicroLibrary instance.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#tvm.micro.MicroLibrary" title="tvm.micro.MicroLibrary">MicroLibrary</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.DefaultCompiler.binary">
+<span class="sig-name descname"><span class="pre">binary</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">objects</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">options</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">link_main</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">main_options</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.DefaultCompiler.binary" title="Permalink to this definition">¶</a></dt>
+<dd><p>Link a binary from the given object and/or source files.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>output</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a>) – The path to the binary that should be created. The containing directory
+is guaranteed to be empty and should be the base_dir for the returned
+Artifact.</p></li>
+<li><p><strong>objects</strong> (<em>List</em><em>[</em><a class="reference internal" href="#tvm.micro.MicroLibrary" title="tvm.micro.MicroLibrary"><em>MicroLibrary</em></a><em>]</em>) – A list of paths to source files or libraries that should be compiled. The final binary
+should be statically-linked.</p></li>
+<li><p><strong>options</strong> (<em>Optional</em><em>[</em><em>List</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a><em>]</em><em>]</em>) – If given, additional command-line flags to pass to the compiler.</p></li>
+<li><p><strong>link_main</strong> (<em>Optional</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.14)"><em>bool</em></a><em>]</em>) – True if the standard main entry point for this Compiler should be included in the
+binary. False if a main entry point is provided in one of <cite>objects</cite>.</p></li>
+<li><p><strong>main_options</strong> (<em>Optional</em><em>[</em><em>List</em><em>[</em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a><em>]</em><em>]</em>) – If given, additional command-line flags to pass to the compiler when compiling the
+main() library. In some cases, the main() may be compiled directly into the final binary
+along with <cite>objects</cite> for logistical reasons. In those cases, specifying main_options is
+an error and ValueError will be raised.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The compiled binary, as a MicroBinary instance.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#tvm.micro.MicroBinary" title="tvm.micro.MicroBinary">MicroBinary</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tvm.micro.DefaultCompiler.flasher_factory">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">flasher_factory</span></span><a class="headerlink" href="#tvm.micro.DefaultCompiler.flasher_factory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Produce a FlasherFactory for a Flasher instance suitable for this Compiler.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="tvm.micro.Flasher">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">Flasher</span></span><a class="headerlink" href="#tvm.micro.Flasher" title="Permalink to this definition">¶</a></dt>
+<dd><p>An interface for flashing binaries and returning a transport factory.</p>
+<p><strong>Methods:</strong></p>
+<table class="autosummary longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.Flasher.flash" title="tvm.micro.Flasher.flash"><code class="xref py py-obj docutils literal notranslate"><span class="pre">flash</span></code></a>(micro_binary)</p></td>
+<td><p>Flash a binary onto the device.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.Flasher.flash">
+<em class="property"><span class="pre">abstract</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">flash</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">micro_binary</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.Flasher.flash" title="Permalink to this definition">¶</a></dt>
+<dd><p>Flash a binary onto the device.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>micro_binary</strong> (<a class="reference internal" href="#tvm.micro.MicroBinary" title="tvm.micro.MicroBinary"><em>MicroBinary</em></a>) – A MicroBinary instance.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A ContextManager that can be used to create and tear down an RPC transport layer between
+this TVM instance and the newly-flashed binary.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>transport.TransportContextManager</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="tvm.micro.GdbRemoteDebugger">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">GdbRemoteDebugger</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">gdb_binary</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">remote_hostport</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug_binary</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wrapping_context_manager</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">popen_kw</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.GdbRemoteDebugger" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Debugger that invokes GDB and attaches to a remote GDBserver-based target.</p>
+<p><strong>Methods:</strong></p>
+<table class="autosummary longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.GdbRemoteDebugger.start" title="tvm.micro.GdbRemoteDebugger.start"><code class="xref py py-obj docutils literal notranslate"><span class="pre">start</span></code></a>()</p></td>
+<td><p>Start the debugger, but do not block on it.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.GdbRemoteDebugger.stop" title="tvm.micro.GdbRemoteDebugger.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>()</p></td>
+<td><p>Terminate the debugger.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.GdbRemoteDebugger.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.GdbRemoteDebugger.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Start the debugger, but do not block on it.</p>
+<p>The runtime will continue to be driven in the background.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.GdbRemoteDebugger.stop">
+<span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.GdbRemoteDebugger.stop" title="Permalink to this definition">¶</a></dt>
+<dd><p>Terminate the debugger.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="tvm.micro.MicroLibrary">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">MicroLibrary</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_dir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">library_files</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug_files</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">labelled_files</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">metadata</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.MicroLibrary" title="Permalink to this definition">¶</a></dt>
+<dd><p>An Artifact that describes a compiled static library.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="tvm.micro.MicroBinary">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">MicroBinary</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_dir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">binary_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug_files</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">labelled_files</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">metadata</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.MicroBinary" title="Permalink to this definition">¶</a></dt>
+<dd><p>An Artifact that describes a compiled binary.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="tvm.micro.create_local_graph_runtime">
+<span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">create_local_graph_runtime</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">graph_json_str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mod</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ctx</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.create_local_graph_runtime" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a local graph runtime driving execution on the remote CPU context given.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>graph_json_str</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a>) – A string containing the graph representation.</p></li>
+<li><p><strong>mod</strong> (<a class="reference internal" href="runtime.html#tvm.runtime.Module" title="tvm.runtime.Module"><em>tvm.runtime.Module</em></a>) – The remote module containing functions in graph_json_str.</p></li>
+<li><p><strong>ctx</strong> (<em>tvm.Context</em>) – The remote CPU execution context.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A local graph runtime instance that executes on the remote device.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>tvm.contrib.GraphRuntime</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="tvm.micro.Session">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">Session</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">binary</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">flasher</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">transport_context_manager</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">session_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'micro-rpc'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.Session" title="Permalink to this definition">¶</a></dt>
+<dd><p>MicroTVM Device Session</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>config</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.14)"><em>dict</em></a>) – configuration for this session (as generated by
+<cite>tvm.micro.device.host.default_config()</cite>, for example)</p>
+</dd>
+</dl>
+<p class="rubric">Example</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">c_mod</span> <span class="o">=</span> <span class="o">...</span>  <span class="c1"># some module generated with &quot;c&quot; as the target</span>
+<span class="n">dev_config</span> <span class="o">=</span> <span class="n">micro</span><span class="o">.</span><span class="n">device</span><span class="o">.</span><span class="n">arm</span><span class="o">.</span><span class="n">stm32f746xx</span><span class="o">.</span><span class="n">default_config</span><span class="p">(</span><span class="s1">&#39;127.0.0.1&#39;</span><span class="p">,</span> <span class="mi">6666</span><span class="p">)</span>
+<span class="k">with</span> <span class="n">tvm</span><span class="o">.</span><span class="n">micro</span><span class="o">.</span><span class="n">Session</span><span class="p">(</span><span class="n">dev_config</span><span class="p">)</span> <span class="k">as</span> <span class="n">sess</span><span class="p">:</span>
+    <span class="n">micro_mod</span> <span class="o">=</span> <span class="n">sess</span><span class="o">.</span><span class="n">create_micro_mod</span><span class="p">(</span><span class="n">c_mod</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="tvm.micro.TransportLogger">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">TransportLogger</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">child</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">logger</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">level</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">20</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.TransportLogger" title="Permalink to this definition">¶</a></dt>
+<dd><p>Wraps a Transport implementation and logs traffic to the Python logging infrastructure.</p>
+<p><strong>Methods:</strong></p>
+<table class="autosummary longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.TransportLogger.open" title="tvm.micro.TransportLogger.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>()</p></td>
+<td><p>Open any resources needed to send and receive RPC protocol data for a single session.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.TransportLogger.close" title="tvm.micro.TransportLogger.close"><code class="xref py py-obj docutils literal notranslate"><span class="pre">close</span></code></a>()</p></td>
+<td><p>Release resources associated with this transport.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.TransportLogger.read" title="tvm.micro.TransportLogger.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>(n)</p></td>
+<td><p>Read up to n bytes from the transport.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.TransportLogger.write" title="tvm.micro.TransportLogger.write"><code class="xref py py-obj docutils literal notranslate"><span class="pre">write</span></code></a>(data)</p></td>
+<td><p>Write data to the transport channel.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.TransportLogger.open">
+<span class="sig-name descname"><span class="pre">open</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.TransportLogger.open" title="Permalink to this definition">¶</a></dt>
+<dd><p>Open any resources needed to send and receive RPC protocol data for a single session.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.TransportLogger.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.TransportLogger.close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Release resources associated with this transport.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.TransportLogger.read">
+<span class="sig-name descname"><span class="pre">read</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">n</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.TransportLogger.read" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read up to n bytes from the transport.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>n</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.14)"><em>int</em></a>) – Maximum number of bytes to read from the transport.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Data read from the channel. Less than <cite>n</cite> bytes may be returned, but 0 bytes should
+never be returned except in error. Note that if a transport error occurs, an Exception
+should be raised rather than simply returning empty bytes.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.14)">bytes</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>SessionTerminatedError :</strong> – When the transport layer determines that the active session was terminated by the
+    remote side. Typically this indicates that the remote device has reset.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.TransportLogger.write">
+<span class="sig-name descname"><span class="pre">write</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.TransportLogger.write" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write data to the transport channel.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.14)"><em>bytes</em></a>) – The data to write over the channel.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The number of bytes written to the underlying channel. This can be less than the length
+of <cite>data</cite>, but cannot be 0.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.14)">int</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="tvm.micro.DebugWrapperTransport">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">DebugWrapperTransport</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">debugger</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">transport</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.DebugWrapperTransport" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Transport wrapper class that launches a debugger before opening the transport.</p>
+<p>This is primiarly useful when debugging the other end of a SubprocessTransport. It allows you
+to pipe data through the GDB process to drive the subprocess with a debugger attached.</p>
+<p><strong>Methods:</strong></p>
+<table class="autosummary longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.DebugWrapperTransport.open" title="tvm.micro.DebugWrapperTransport.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>()</p></td>
+<td><p>Open any resources needed to send and receive RPC protocol data for a single session.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.DebugWrapperTransport.write" title="tvm.micro.DebugWrapperTransport.write"><code class="xref py py-obj docutils literal notranslate"><span class="pre">write</span></code></a>(data)</p></td>
+<td><p>Write data to the transport channel.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.DebugWrapperTransport.read" title="tvm.micro.DebugWrapperTransport.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>(n)</p></td>
+<td><p>Read up to n bytes from the transport.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.DebugWrapperTransport.close" title="tvm.micro.DebugWrapperTransport.close"><code class="xref py py-obj docutils literal notranslate"><span class="pre">close</span></code></a>()</p></td>
+<td><p>Release resources associated with this transport.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.DebugWrapperTransport.open">
+<span class="sig-name descname"><span class="pre">open</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.DebugWrapperTransport.open" title="Permalink to this definition">¶</a></dt>
+<dd><p>Open any resources needed to send and receive RPC protocol data for a single session.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.DebugWrapperTransport.write">
+<span class="sig-name descname"><span class="pre">write</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.DebugWrapperTransport.write" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write data to the transport channel.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.14)"><em>bytes</em></a>) – The data to write over the channel.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The number of bytes written to the underlying channel. This can be less than the length
+of <cite>data</cite>, but cannot be 0.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.14)">int</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.DebugWrapperTransport.read">
+<span class="sig-name descname"><span class="pre">read</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">n</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.DebugWrapperTransport.read" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read up to n bytes from the transport.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>n</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.14)"><em>int</em></a>) – Maximum number of bytes to read from the transport.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Data read from the channel. Less than <cite>n</cite> bytes may be returned, but 0 bytes should
+never be returned except in error. Note that if a transport error occurs, an Exception
+should be raised rather than simply returning empty bytes.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.14)">bytes</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>SessionTerminatedError :</strong> – When the transport layer determines that the active session was terminated by the
+    remote side. Typically this indicates that the remote device has reset.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.DebugWrapperTransport.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.DebugWrapperTransport.close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Release resources associated with this transport.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="tvm.micro.SubprocessTransport">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tvm.micro.</span></span><span class="sig-name descname"><span class="pre">SubprocessTransport</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.SubprocessTransport" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Transport implementation that uses a subprocess’s stdin/stdout as the channel.</p>
+<p><strong>Methods:</strong></p>
+<table class="autosummary longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.SubprocessTransport.open" title="tvm.micro.SubprocessTransport.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>()</p></td>
+<td><p>Open any resources needed to send and receive RPC protocol data for a single session.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.SubprocessTransport.write" title="tvm.micro.SubprocessTransport.write"><code class="xref py py-obj docutils literal notranslate"><span class="pre">write</span></code></a>(data)</p></td>
+<td><p>Write data to the transport channel.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#tvm.micro.SubprocessTransport.read" title="tvm.micro.SubprocessTransport.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>(n)</p></td>
+<td><p>Read up to n bytes from the transport.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#tvm.micro.SubprocessTransport.close" title="tvm.micro.SubprocessTransport.close"><code class="xref py py-obj docutils literal notranslate"><span class="pre">close</span></code></a>()</p></td>
+<td><p>Release resources associated with this transport.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.SubprocessTransport.open">
+<span class="sig-name descname"><span class="pre">open</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.SubprocessTransport.open" title="Permalink to this definition">¶</a></dt>
+<dd><p>Open any resources needed to send and receive RPC protocol data for a single session.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.SubprocessTransport.write">
+<span class="sig-name descname"><span class="pre">write</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.SubprocessTransport.write" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write data to the transport channel.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.14)"><em>bytes</em></a>) – The data to write over the channel.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The number of bytes written to the underlying channel. This can be less than the length
+of <cite>data</cite>, but cannot be 0.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.14)">int</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.SubprocessTransport.read">
+<span class="sig-name descname"><span class="pre">read</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">n</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.SubprocessTransport.read" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read up to n bytes from the transport.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>n</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.14)"><em>int</em></a>) – Maximum number of bytes to read from the transport.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Data read from the channel. Less than <cite>n</cite> bytes may be returned, but 0 bytes should
+never be returned except in error. Note that if a transport error occurs, an Exception
+should be raised rather than simply returning empty bytes.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.14)">bytes</a></p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>SessionTerminatedError :</strong> – When the transport layer determines that the active session was terminated by the
+    remote side. Typically this indicates that the remote device has reset.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tvm.micro.SubprocessTransport.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tvm.micro.SubprocessTransport.close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Release resources associated with this transport.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="rpc.html" class="btn btn-neutral float-left" title="tvm.rpc" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="contrib.html" class="btn btn-neutral float-right" title="tvm.contrib" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020, Apache Software Foundation.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <!-- Theme Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75982049-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-75982049-2', {
+          'anonymize_ip': false,
+      });
+    </script> 
+
+</body>
+</html>

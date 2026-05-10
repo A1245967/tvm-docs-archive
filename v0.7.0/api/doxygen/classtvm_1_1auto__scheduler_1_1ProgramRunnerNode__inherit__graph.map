@@ -1,0 +1,5 @@
+<map id="tvm::auto_scheduler::ProgramRunnerNode" name="tvm::auto_scheduler::ProgramRunnerNode">
+<area shape="rect" id="node3" href="$classtvm_1_1auto__scheduler_1_1LocalRunnerNode.html" title="LocalRunner that uses local CPU/GPU to measure the time cost of programs. " alt="" coords="5,850,284,957"/>
+<area shape="rect" id="node4" href="$classtvm_1_1auto__scheduler_1_1RPCRunnerNode.html" title="RPCRunner that uses RPC call to measures the time cost of programs on remote devices. Or sometime we may need to use RPC even in local running to insulate the thread environment. (e.g. running CUDA programs) " alt="" coords="308,813,587,993"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="172,5,419,523"/>
+</map>

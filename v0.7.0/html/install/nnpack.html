@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NNPACK Contrib Installation &mdash; tvm 0.7.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/tvm_theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-binder.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-dataframe.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-rendered-html.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/tvm-logo-square.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Docker Images" href="docker.html" />
+    <link rel="prev" title="Install from Source" href="from_source.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html">
+            <img src="../_static/tvm-logo-small.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.7.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">How to</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Installation</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="from_source.html">Install from Source</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="from_source.html#developers-get-source-from-github">Developers: Get Source from Github</a></li>
+<li class="toctree-l3"><a class="reference internal" href="from_source.html#build-the-shared-library">Build the Shared Library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="from_source.html#python-package-installation">Python Package Installation</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="from_source.html#install-contrib-libraries">Install Contrib Libraries</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">NNPACK Contrib Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="from_source.html#enable-c-tests">Enable C++ Tests</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="docker.html">Docker Images</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contribute/index.html">Contribute to TVM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/index.html">Deploy and Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/how_to.html">Developer How-To Guide</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html">Get Started Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#compile-deep-learning-models">Compile Deep Learning Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#tensor-expression-and-schedules">Tensor Expression and Schedules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#optimize-tensor-operators">Optimize Tensor Operators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#autotvm-template-based-auto-tuning">AutoTVM : Template-based Auto Tuning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#autoscheduler-template-free-auto-scheduling">AutoScheduler : Template-free Auto Scheduling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#developer-tutorials">Developer Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#topi-tvm-operator-inventory">TOPI: TVM Operator Inventory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#micro-tvm">Micro TVM</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">References</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../langref/index.html">Language Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/python/index.html">Python API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/links.html">Links to Other API References</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Deep Dive</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dev/index.html">Design and Architecture</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">MISC</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../vta/index.html">VTA: Deep Learning Accelerator Stack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">Frequently Asked Questions</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">tvm</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Installation</a> &raquo;</li>
+          <li><a href="from_source.html">Install from Source</a> &raquo;</li>
+      <li>NNPACK Contrib Installation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/install/nnpack.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="nnpack-contrib-installation">
+<h1>NNPACK Contrib Installation<a class="headerlink" href="#nnpack-contrib-installation" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://github.com/Maratyszcza/NNPACK">NNPACK</a> is an acceleration package
+for neural network computations, which can run on x86-64, ARMv7, or ARM64 architecture CPUs.
+Using NNPACK, higher-level libraries like _MXNet_ can speed up
+the execution on multi-core CPU computers, including laptops and mobile devices.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>AS TVM already has natively tuned schedules, NNPACK is here mainly for reference and comparison purpose.
+For regular use prefer native tuned TVM implementation.</p>
+</div>
+<p>TVM supports NNPACK for forward propagation (inference only) in convolution, max-pooling, and fully-connected layers.
+In this document, we give a high level overview of how to use NNPACK with TVM.</p>
+<section id="conditions">
+<h2>Conditions<a class="headerlink" href="#conditions" title="Permalink to this headline">¶</a></h2>
+<p>The underlying implementation of NNPACK utilizes several acceleration methods,
+including fft and winograd.
+These algorithms work better on some special <cite>batch size</cite>, <cite>kernel size</cite>, and <cite>stride</cite> settings than on other,
+so depending on the context, not all convolution, max-pooling, or fully-connected layers can be powered by NNPACK.
+When favorable conditions for running NNPACKS are not met,</p>
+<p>NNPACK only supports Linux and OS X systems. Windows is not supported at present.</p>
+</section>
+<section id="build-install-nnpack">
+<h2>Build/Install NNPACK<a class="headerlink" href="#build-install-nnpack" title="Permalink to this headline">¶</a></h2>
+<p>If the trained model meets some conditions of using NNPACK,
+you can build TVM with NNPACK support.
+Follow these simple steps:</p>
+<p>uild NNPACK shared library with the following commands. TVM will link NNPACK dynamically.</p>
+<p>Note: The following NNPACK installation instructions have been tested on Ubuntu 16.04.</p>
+<section id="build-ninja">
+<h3>Build Ninja<a class="headerlink" href="#build-ninja" title="Permalink to this headline">¶</a></h3>
+<p>NNPACK need a recent version of Ninja. So we need to install ninja from source.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>git://github.com/ninja-build/ninja.git
+<span class="nb">cd</span><span class="w"> </span>ninja
+./configure.py<span class="w"> </span>--bootstrap
+</pre></div>
+</div>
+<p>Set the environment variable PATH to tell bash where to find the ninja executable. For example, assume we cloned ninja on the home directory ~. then we can added the following line in ~/.bashrc.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">PATH</span><span class="si">}</span><span class="s2">:~/ninja&quot;</span>
+</pre></div>
+</div>
+</section>
+<section id="build-nnpack">
+<h3>Build NNPACK<a class="headerlink" href="#build-nnpack" title="Permalink to this headline">¶</a></h3>
+<p>The new CMAKE version of NNPACK download <a class="reference external" href="https://github.com/Maratyszcza/PeachPy">Peach</a> and other dependencies alone</p>
+<p>Note: at least on OS X, running <cite>ninja install</cite> below will overwrite googletest libraries installed in <cite>/usr/local/lib</cite>. If you build googletest again to replace the nnpack copy, be sure to pass <cite>-DBUILD_SHARED_LIBS=ON</cite> to <cite>cmake</cite>.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>--recursive<span class="w"> </span>https://github.com/Maratyszcza/NNPACK.git
+<span class="nb">cd</span><span class="w"> </span>NNPACK
+<span class="c1"># Add PIC option in CFLAG and CXXFLAG to build NNPACK shared library</span>
+sed<span class="w"> </span>-i<span class="w"> </span><span class="s2">&quot;s|gnu99|gnu99 -fPIC|g&quot;</span><span class="w"> </span>CMakeLists.txt
+sed<span class="w"> </span>-i<span class="w"> </span><span class="s2">&quot;s|gnu++11|gnu++11 -fPIC|g&quot;</span><span class="w"> </span>CMakeLists.txt
+mkdir<span class="w"> </span>build
+<span class="nb">cd</span><span class="w"> </span>build
+<span class="c1"># Generate ninja build rule and add shared library in configuration</span>
+cmake<span class="w"> </span>-G<span class="w"> </span>Ninja<span class="w"> </span>-D<span class="w"> </span><span class="nv">BUILD_SHARED_LIBS</span><span class="o">=</span>ON<span class="w"> </span>..
+ninja
+sudo<span class="w"> </span>ninja<span class="w"> </span>install
+
+<span class="c1"># Add NNPACK lib folder in your ldconfig</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;/usr/local/lib&quot;</span><span class="w"> </span>&gt;<span class="w"> </span>/etc/ld.so.conf.d/nnpack.conf
+sudo<span class="w"> </span>ldconfig
+</pre></div>
+</div>
+</section>
+</section>
+<section id="build-tvm-with-nnpack-support">
+<h2>Build TVM with NNPACK support<a class="headerlink" href="#build-tvm-with-nnpack-support" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>--recursive<span class="w"> </span>https://github.com/apache/incubator-tvm<span class="w"> </span>tvm
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Set <cite>set(USE_NNPACK ON)</cite> in config.cmake.</p></li>
+<li><p>Set <cite>NNPACK_PATH</cite> to the $(YOUR_NNPACK_INSTALL_PATH)</p></li>
+</ul>
+<p>after configuration use <cite>make</cite> to build TVM</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="from_source.html" class="btn btn-neutral float-left" title="Install from Source" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="docker.html" class="btn btn-neutral float-right" title="Docker Images" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020, Apache Software Foundation.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <!-- Theme Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75982049-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-75982049-2', {
+          'anonymize_ip': false,
+      });
+    </script> 
+
+</body>
+</html>

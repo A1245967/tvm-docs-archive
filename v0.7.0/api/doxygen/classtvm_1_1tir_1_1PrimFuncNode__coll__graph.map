@@ -1,0 +1,15 @@
+<map id="tvm::tir::PrimFuncNode" name="tvm::tir::PrimFuncNode">
+<area shape="rect" id="node2" href="$classtvm_1_1BaseFuncNode.html" title="Base node of all functions. " alt="" coords="512,1572,788,1708"/>
+<area shape="rect" id="node3" href="$classtvm_1_1RelayExprNode.html" title="Base node of all non&#45;primitive expressions. " alt="" coords="252,1303,528,1425"/>
+<area shape="rect" id="node4" href="$classtvm_1_1BaseExprNode.html" title="Base type of all the expressions. " alt="" coords="5,859,281,1009"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="20,307,267,809"/>
+<area shape="rect" id="node6" href="$classtvm_1_1Span.html" title="{tvm::Span\n||+ Span()\l+ Merge()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="306,873,511,995"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="849,409,1027,707"/>
+<area shape="rect" id="node9" href="$classtvm_1_1Type.html" title="Managed reference to TypeNode. " alt="" coords="765,888,970,980"/>
+<area shape="rect" id="node11" href="$classtvm_1_1Attrs.html" title="Managed reference to BaseAttrsNode. " alt="" coords="535,888,741,980"/>
+<area shape="rect" id="node12" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::tir::Var \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 24 more...\l}" alt="" coords="871,1033,1021,1272"/>
+<area shape="rect" id="node13" href="$classtvm_1_1tir_1_1Stmt.html" title="Container of all statements. " alt="" coords="998,1456,1203,1548"/>
+<area shape="rect" id="node14" href="$classtvm_1_1Map.html" title="{tvm::Map\&lt; tvm::tir\l::Var, tvm::tir::Buffer \&gt;\n||+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ operator=()\l+ operator=()\l+ at()\land 10 more...\l}" alt="" coords="1125,1033,1295,1272"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 10 more...\l}" alt="" coords="845,5,1031,244"/>
+<area shape="rect" id="node10" href="$classtvm_1_1DictAttrs.html" title="Managed reference to DictAttrsNode. " alt="" coords="553,1296,758,1432"/>
+</map>

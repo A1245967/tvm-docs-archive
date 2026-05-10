@@ -1,0 +1,19 @@
+<map id="include/tvm/ir/transform.h" name="include/tvm/ir/transform.h">
+<area shape="rect" id="node2" href="$relay_2transform_8h.html" title="Relay specific transformation passes. " alt="" coords="189,80,405,107"/>
+<area shape="rect" id="node4" href="$tir_2analysis_8h.html" title="Analysis utilitie and passes for TIR. " alt="" coords="429,80,616,107"/>
+<area shape="rect" id="node18" href="$tir_2transform_8h.html" title="TIR specific transformation passes. " alt="" coords="640,80,837,107"/>
+<area shape="rect" id="node3" href="$relay_2qnn_2transform_8h.html" title="include/tvm/relay/qnn\l/transform.h" alt="" coords="215,155,379,196"/>
+<area shape="rect" id="node5" href="$constant__utils_8h.html" title="Utility functions for handling constants in TVM expressions. " alt="" coords="438,155,607,196"/>
+<area shape="rect" id="node6" href="$broadcast_8h.html" title="Broadcast op constructions. " alt="" coords="235,333,443,360"/>
+<area shape="rect" id="node8" href="$reduction_8h.html" title="Reduction op constructors. " alt="" coords="372,490,577,517"/>
+<area shape="rect" id="node11" href="$reorg_8h.html" title="Reorg op constructions. " alt="" coords="61,572,232,613"/>
+<area shape="rect" id="node13" href="$topi_2transform_8h.html" title="Transform op constructors. " alt="" coords="43,408,251,435"/>
+<area shape="rect" id="node14" href="$detail_2broadcast_8h.html" title="Detail broadcast. " alt="" coords="377,244,546,285"/>
+<area shape="rect" id="node15" href="$nn_2bnn_8h.html" title="Binary op constructions. " alt="" coords="622,244,770,285"/>
+<area shape="rect" id="node16" href="$flatten_8h.html" title="Softmax op constructions. " alt="" coords="794,244,942,285"/>
+<area shape="rect" id="node17" href="$topi_2nn_8h.html" title="NN op constructions. " alt="" coords="779,333,939,360"/>
+<area shape="rect" id="node7" href="$elemwise_8h.html" title="Elementwise op constructions. " alt="" coords="377,408,583,435"/>
+<area shape="rect" id="node12" href="$bias__add_8h.html" title="bias_add op constructions " alt="" coords="194,483,342,524"/>
+<area shape="rect" id="node9" href="$nn_2pooling_8h.html" title="Pooling op constructions. " alt="" coords="669,572,817,613"/>
+<area shape="rect" id="node10" href="$nn_2softmax_8h.html" title="Softmax op constructions. " alt="" coords="401,572,549,613"/>
+</map>

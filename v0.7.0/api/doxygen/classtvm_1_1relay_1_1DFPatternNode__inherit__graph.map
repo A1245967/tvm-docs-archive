@@ -1,0 +1,16 @@
+<map id="tvm::relay::DFPatternNode" name="tvm::relay::DFPatternNode">
+<area shape="rect" id="node3" href="$classtvm_1_1relay_1_1AltPatternNode.html" title="Pattern for Alternate Expressions. " alt="" coords="5,711,284,832"/>
+<area shape="rect" id="node4" href="$classtvm_1_1relay_1_1AttrPatternNode.html" title="Pattern for Attributes. " alt="" coords="308,711,587,832"/>
+<area shape="rect" id="node5" href="$classtvm_1_1relay_1_1CallPatternNode.html" title="CallPattern container. " alt="" coords="611,696,889,847"/>
+<area shape="rect" id="node6" href="$classtvm_1_1relay_1_1ConstantPatternNode.html" title="Container for Constant. " alt="" coords="913,725,1192,817"/>
+<area shape="rect" id="node7" href="$classtvm_1_1relay_1_1DataTypePatternNode.html" title="Pattern for Types. " alt="" coords="1216,711,1495,832"/>
+<area shape="rect" id="node8" href="$classtvm_1_1relay_1_1DominatorPatternNode.html" title="Dominated Graph Pattern Pattern for fuzzy subgraphs where all outputs of the parent are used finally ..." alt="" coords="1519,703,1797,839"/>
+<area shape="rect" id="node9" href="$classtvm_1_1relay_1_1ExprPatternNode.html" title="Pattern for Relay Expression. " alt="" coords="1821,718,2100,825"/>
+<area shape="rect" id="node10" href="$classtvm_1_1relay_1_1ShapePatternNode.html" title="Pattern for Shapes. " alt="" coords="2124,711,2403,832"/>
+<area shape="rect" id="node11" href="$classtvm_1_1relay_1_1TupleGetItemPatternNode.html" title="{tvm::relay::TupleGetItem\lPatternNode\n|+ tuple\l+ index\l+ _type_key\l|+ VisitAttrs()\l+ TVM_DECLARE_FINAL_OBJECT_INFO()\l}" alt="" coords="2427,703,2705,839"/>
+<area shape="rect" id="node12" href="$classtvm_1_1relay_1_1TuplePatternNode.html" title="Tuple container. " alt="" coords="2729,718,3008,825"/>
+<area shape="rect" id="node13" href="$classtvm_1_1relay_1_1TypePatternNode.html" title="Pattern for Types. " alt="" coords="3032,711,3311,832"/>
+<area shape="rect" id="node14" href="$classtvm_1_1relay_1_1VarPatternNode.html" title="Container for Var. " alt="" coords="3335,703,3613,839"/>
+<area shape="rect" id="node15" href="$classtvm_1_1relay_1_1WildcardPatternNode.html" title="Wildcard Pattern. " alt="" coords="3637,725,3916,817"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="1837,5,2084,523"/>
+</map>

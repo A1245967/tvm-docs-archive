@@ -1,0 +1,36 @@
+<map id="include/tvm/topi/tags.h" name="include/tvm/topi/tags.h">
+<area shape="rect" id="node2" href="$broadcast_8h.html" title="Broadcast op constructions. " alt="" coords="361,87,569,114"/>
+<area shape="rect" id="node3" href="$elemwise_8h.html" title="Elementwise op constructions. " alt="" coords="79,177,285,203"/>
+<area shape="rect" id="node4" href="$reduction_8h.html" title="Reduction op constructors. " alt="" coords="110,266,315,293"/>
+<area shape="rect" id="node5" href="$nn_2pooling_8h.html" title="Pooling op constructions. " alt="" coords="620,348,768,389"/>
+<area shape="rect" id="node6" href="$nn_2softmax_8h.html" title="Softmax op constructions. " alt="" coords="5,348,153,389"/>
+<area shape="rect" id="node7" href="$reorg_8h.html" title="Reorg op constructions. " alt="" coords="267,348,438,389"/>
+<area shape="rect" id="node8" href="$bias__add_8h.html" title="bias_add op constructions " alt="" coords="391,259,539,300"/>
+<area shape="rect" id="node9" href="$topi_2transform_8h.html" title="Transform op constructors. " alt="" coords="361,177,569,203"/>
+<area shape="rect" id="node10" href="$cuda_2dense_8h.html" title="CUDA schedule for dense operation. " alt="" coords="2223,259,2386,300"/>
+<area shape="rect" id="node11" href="$rocm_2dense_8h.html" title="rocm schedule for dense operation " alt="" coords="2162,348,2327,389"/>
+<area shape="rect" id="node12" href="$cuda_2injective_8h.html" title="CUDA schedule for injective operations. " alt="" coords="947,80,1110,121"/>
+<area shape="rect" id="node13" href="$rocm_2injective_8h.html" title="rocm schedule for injective operations " alt="" coords="922,169,1087,211"/>
+<area shape="rect" id="node14" href="$cuda_2normalization_8h.html" title="CUDA schedule for LRN and l2 normalization operations. " alt="" coords="1134,80,1297,121"/>
+<area shape="rect" id="node15" href="$cuda_2pooling_8h.html" title="CUDA schedule for pooling operations. " alt="" coords="1371,80,1534,121"/>
+<area shape="rect" id="node16" href="$rocm_2pooling_8h.html" title="rocm schedule for pooling operations " alt="" coords="1322,169,1487,211"/>
+<area shape="rect" id="node17" href="$cuda_2reduction_8h.html" title="CUDA schedule for reduction operations. " alt="" coords="1609,80,1771,121"/>
+<area shape="rect" id="node18" href="$rocm_2reduction_8h.html" title="rocm schedule for reduction operations " alt="" coords="1559,169,1725,211"/>
+<area shape="rect" id="node19" href="$cuda_2softmax_8h.html" title="include/tvm/topi/cuda\l/softmax.h" alt="" coords="1846,80,2009,121"/>
+<area shape="rect" id="node20" href="$rocm_2softmax_8h.html" title="include/tvm/topi/rocm\l/softmax.h" alt="" coords="1773,169,1938,211"/>
+<area shape="rect" id="node21" href="$generic_2default_8h.html" title="Generic default schedule. " alt="" coords="2033,80,2213,121"/>
+<area shape="rect" id="node22" href="$generic_2extern_8h.html" title="Schedule for extern followed by injective ops. " alt="" coords="2512,169,2692,211"/>
+<area shape="rect" id="node23" href="$generic_2injective_8h.html" title="Generic schedule for injective operations. " alt="" coords="2684,80,2864,121"/>
+<area shape="rect" id="node24" href="$batch__matmul_8h.html" title="Batch matmul op constructions. " alt="" coords="2340,80,2488,121"/>
+<area shape="rect" id="node25" href="$nn_2bnn_8h.html" title="Binary op constructions. " alt="" coords="2512,80,2660,121"/>
+<area shape="rect" id="node26" href="$nn_2dense_8h.html" title="Dense op constructions. " alt="" coords="2116,169,2264,211"/>
+<area shape="rect" id="node27" href="$dilate_8h.html" title="Dilate op constructions. " alt="" coords="2888,80,3036,121"/>
+<area shape="rect" id="node28" href="$flatten_8h.html" title="Softmax op constructions. " alt="" coords="3060,80,3208,121"/>
+<area shape="rect" id="node29" href="$local__response__norm_8h.html" title="local response normalization op constructions " alt="" coords="3233,80,3409,121"/>
+<area shape="rect" id="node30" href="$mapping_8h.html" title="Mapping op constructions. " alt="" coords="3433,80,3581,121"/>
+<area shape="rect" id="node31" href="$topi_2nn_8h.html" title="NN op constructions. " alt="" coords="614,266,774,293"/>
+<area shape="rect" id="node32" href="$rocm_2normalization_8h.html" title="rocm schedule for LRN and l2 normalization operations " alt="" coords="3657,80,3822,121"/>
+<area shape="rect" id="node33" href="$x86_2bnn_8h.html" title="x86 schedule for binary operations " alt="" coords="3847,80,4003,121"/>
+<area shape="rect" id="node34" href="$x86_2default_8h.html" title="default x86 schedule " alt="" coords="4027,80,4183,121"/>
+<area shape="rect" id="node35" href="$x86_2injective_8h.html" title="x86 schedule for injective ops " alt="" coords="4207,80,4363,121"/>
+</map>

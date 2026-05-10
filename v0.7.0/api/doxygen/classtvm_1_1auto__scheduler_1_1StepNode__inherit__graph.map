@@ -1,0 +1,17 @@
+<map id="tvm::auto_scheduler::StepNode" name="tvm::auto_scheduler::StepNode">
+<area shape="rect" id="node3" href="$classtvm_1_1auto__scheduler_1_1AnnotationStepNode.html" title="Annotation step that corresponds to vectorize, parallel, unroll and thread binding. (i.e. te::Stage::vectorize, te::Stage::parallel, te::Stage::vectorize, te::Stage::bind) " alt="" coords="5,762,284,957"/>
+<area shape="rect" id="node4" href="$classtvm_1_1auto__scheduler_1_1CacheReadStepNode.html" title="Cache read step that corresponds to te::Schedule::cache_read. " alt="" coords="308,762,587,957"/>
+<area shape="rect" id="node5" href="$classtvm_1_1auto__scheduler_1_1CacheWriteStepNode.html" title="Cache write step that corresponds to te::Schedule::cache_write. " alt="" coords="611,769,889,949"/>
+<area shape="rect" id="node6" href="$classtvm_1_1auto__scheduler_1_1ComputeAtStepNode.html" title="Compute at step that corresponds to te::Stage::compute_at. " alt="" coords="913,762,1192,957"/>
+<area shape="rect" id="node7" href="$classtvm_1_1auto__scheduler_1_1ComputeInlineStepNode.html" title="Compute inline step that corresponds to te::Stage::compute_inline. " alt="" coords="1216,777,1495,942"/>
+<area shape="rect" id="node8" href="$classtvm_1_1auto__scheduler_1_1ComputeRootStepNode.html" title="Compute root step that corresponds to te::Stage::compute_root. " alt="" coords="1519,777,1797,942"/>
+<area shape="rect" id="node9" href="$classtvm_1_1auto__scheduler_1_1FollowFusedSplitStepNode.html" title="Similar to FollowSplitStep, but uses split factors from multiple steps. " alt="" coords="1821,740,2100,979"/>
+<area shape="rect" id="node10" href="$classtvm_1_1auto__scheduler_1_1FollowSplitStepNode.html" title="Similar to SplitStepNode, but uses split factors from another step (i.e. Follow another split step) ..." alt="" coords="2124,747,2403,971"/>
+<area shape="rect" id="node11" href="$classtvm_1_1auto__scheduler_1_1FuseStepNode.html" title="Fuse step that corresponds to te::Stage::fuse. " alt="" coords="2427,769,2705,949"/>
+<area shape="rect" id="node12" href="$classtvm_1_1auto__scheduler_1_1PragmaStepNode.html" title="Pragma step that corresponds to te::Stage::pragma. " alt="" coords="2729,762,3008,957"/>
+<area shape="rect" id="node13" href="$classtvm_1_1auto__scheduler_1_1ReorderStepNode.html" title="Reorder step that corresponds to te::Stage::reorder. " alt="" coords="3032,769,3311,949"/>
+<area shape="rect" id="node14" href="$classtvm_1_1auto__scheduler_1_1RfactorStepNode.html" title="Reduction factor step that corresponds to te::Schedule::rfactor. " alt="" coords="3335,762,3613,957"/>
+<area shape="rect" id="node15" href="$classtvm_1_1auto__scheduler_1_1SplitStepNode.html" title="Split step that corresponds to te::Stage::split with additional support of multiple&#45;level of factors..." alt="" coords="3637,747,3916,971"/>
+<area shape="rect" id="node16" href="$classtvm_1_1auto__scheduler_1_1StorageAlignStepNode.html" title="Storage align step that corresponds to te::Stage::storage_align. " alt="" coords="3940,755,4219,964"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="1988,5,2235,523"/>
+</map>

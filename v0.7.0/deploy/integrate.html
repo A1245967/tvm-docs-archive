@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Integrate TVM into Your Project &mdash; tvm 0.7.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/tvm_theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-binder.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-dataframe.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sg_gallery-rendered-html.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/tvm-logo-square.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="HLS Backend Example" href="hls.html" />
+    <link rel="prev" title="Deploy to Android" href="android.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html">
+            <img src="../_static/tvm-logo-small.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.7.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">How to</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../install/index.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contribute/index.html">Contribute to TVM</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Deploy and Integration</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="cpp_deploy.html">Deploy TVM Module using C++ API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="android.html">Deploy to Android</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Integrate TVM into Your Project</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#dlpack-support">DLPack Support</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#integrate-user-defined-c-array">Integrate User Defined C++ Array</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="hls.html">HLS Backend Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="arm_compute_lib.html">Relay Arm <sup>®</sup> Compute Library Integration</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/how_to.html">Developer How-To Guide</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html">Get Started Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#compile-deep-learning-models">Compile Deep Learning Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#tensor-expression-and-schedules">Tensor Expression and Schedules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#optimize-tensor-operators">Optimize Tensor Operators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#autotvm-template-based-auto-tuning">AutoTVM : Template-based Auto Tuning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#autoscheduler-template-free-auto-scheduling">AutoScheduler : Template-free Auto Scheduling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#developer-tutorials">Developer Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#topi-tvm-operator-inventory">TOPI: TVM Operator Inventory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html#micro-tvm">Micro TVM</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">References</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../langref/index.html">Language Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/python/index.html">Python API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/links.html">Links to Other API References</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Deep Dive</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dev/index.html">Design and Architecture</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">MISC</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../vta/index.html">VTA: Deep Learning Accelerator Stack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">Frequently Asked Questions</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">tvm</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Deploy and Integration</a> &raquo;</li>
+      <li>Integrate TVM into Your Project</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/deploy/integrate.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="integrate-tvm-into-your-project">
+<h1>Integrate TVM into Your Project<a class="headerlink" href="#integrate-tvm-into-your-project" title="Permalink to this headline">¶</a></h1>
+<p>TVM’s runtime is designed to be lightweight and portable.
+There are several ways you can integrate TVM into your project.</p>
+<p>This article introduces possible ways to integrate TVM
+as a JIT compiler to generate functions on your system.</p>
+<section id="dlpack-support">
+<h2>DLPack Support<a class="headerlink" href="#dlpack-support" title="Permalink to this headline">¶</a></h2>
+<p>TVM’s generated function follows the PackedFunc convention.
+It is a function that can take positional arguments including
+standard types such as float, integer, string.
+The PackedFunc takes DLTensor pointer in <a class="reference external" href="https://github.com/dmlc/dlpack">DLPack</a> convention.
+So the only thing you need to solve is to create a corresponding DLTensor object.</p>
+</section>
+<section id="integrate-user-defined-c-array">
+<h2>Integrate User Defined C++ Array<a class="headerlink" href="#integrate-user-defined-c-array" title="Permalink to this headline">¶</a></h2>
+<p>The only thing we have to do in C++ is to convert your array to DLTensor and pass in its address as
+<code class="docutils literal notranslate"><span class="pre">DLTensor*</span></code> to the generated function.</p>
+<p>## Integrate User Defined Python Array</p>
+<p>Assume you have a python object <code class="docutils literal notranslate"><span class="pre">MyArray</span></code>. There are three things that you need to do</p>
+<ul class="simple">
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">_tvm_tcode</span></code> field to your array which returns <code class="docutils literal notranslate"><span class="pre">tvm.TypeCode.ARRAY_HANDLE</span></code></p></li>
+<li><p>Support <code class="docutils literal notranslate"><span class="pre">_tvm_handle</span></code> property in your object, which returns the address of DLTensor in python integer</p></li>
+<li><p>Register this class by <code class="docutils literal notranslate"><span class="pre">tvm.register_extension</span></code></p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span> <span class="c1"># Example code</span>
+ <span class="kn">import</span><span class="w"> </span><span class="nn">tvm</span>
+
+ <span class="k">class</span><span class="w"> </span><span class="nc">MyArray</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+     <span class="n">_tvm_tcode</span> <span class="o">=</span> <span class="n">tvm</span><span class="o">.</span><span class="n">TypeCode</span><span class="o">.</span><span class="n">ARRAY_HANDLE</span>
+
+     <span class="nd">@property</span>
+     <span class="k">def</span><span class="w"> </span><span class="nf">_tvm_handle</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+         <span class="n">dltensor_addr</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_dltensor_addr</span><span class="p">()</span>
+         <span class="k">return</span> <span class="n">dltensor_addr</span>
+
+     <span class="c1"># You can put registration step in a separate file mypkg.tvm.py</span>
+     <span class="c1"># and only optionally import that if you only want optional dependency.</span>
+<span class="n">tvm</span><span class="o">.</span><span class="n">register_extension</span><span class="p">(</span><span class="n">MyArray</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="android.html" class="btn btn-neutral float-left" title="Deploy to Android" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="hls.html" class="btn btn-neutral float-right" title="HLS Backend Example" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020, Apache Software Foundation.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <!-- Theme Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75982049-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-75982049-2', {
+          'anonymize_ip': false,
+      });
+    </script> 
+
+</body>
+</html>

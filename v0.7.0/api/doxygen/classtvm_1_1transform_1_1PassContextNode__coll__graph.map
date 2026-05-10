@@ -1,0 +1,9 @@
+<map id="tvm::transform::PassContextNode" name="tvm::transform::PassContextNode">
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,653,252,1156"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1TypedPackedFunc.html" title="{tvm::runtime::TypedPacked\lFunc\&lt; void(const IRModule\l &amp;ir_module, const PassInfo\l &amp;ctx, bool is_before)\&gt;\n||}" alt="" coords="370,844,573,965"/>
+<area shape="rect" id="node4" href="$classtvm_1_1Map.html" title="{tvm::Map\&lt; tvm::runtime\l::String, tvm::runtime\l::ObjectRef \&gt;\n||+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ operator=()\l+ operator=()\l+ at()\land 10 more...\l}" alt="" coords="597,778,780,1031"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="702,307,881,604"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::runtime::String \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 24 more...\l}" alt="" coords="804,785,987,1024"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 10 more...\l}" alt="" coords="698,5,885,244"/>
+<area shape="rect" id="node8" href="$classtvm_1_1ErrorReporter.html" title="An abstraction around how errors are stored and reported. Designed to be opaque to users..." alt="" coords="1011,829,1153,980"/>
+</map>
