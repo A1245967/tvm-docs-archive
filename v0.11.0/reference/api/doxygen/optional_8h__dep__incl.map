@@ -1,0 +1,51 @@
+<map id="include/tvm/runtime/container/optional.h" name="include/tvm/runtime/container/optional.h">
+<area shape="rect" id="node2" href="$builder_8h.html" title="include/tvm/meta_schedule\l/builder.h" alt="" coords="1144,735,1347,776"/>
+<area shape="rect" id="node4" href="$task__scheduler_8h.html" title="include/tvm/meta_schedule\l/task_scheduler.h" alt="" coords="2408,1092,2611,1133"/>
+<area shape="rect" id="node5" href="$tune__context_8h.html" title="include/tvm/meta_schedule\l/tune_context.h" alt="" coords="2057,913,2260,955"/>
+<area shape="rect" id="node6" href="$mutator_8h.html" title="include/tvm/meta_schedule\l/mutator.h" alt="" coords="2219,363,2421,404"/>
+<area shape="rect" id="node8" href="$profiler_8h.html" title="include/tvm/meta_schedule\l/profiler.h" alt="" coords="360,735,563,776"/>
+<area shape="rect" id="node9" href="$runner_8h.html" title="include/tvm/meta_schedule\l/runner.h" alt="" coords="3736,363,3939,404"/>
+<area shape="rect" id="node11" href="$search__strategy_8h.html" title="include/tvm/meta_schedule\l/search_strategy.h" alt="" coords="3168,824,3371,865"/>
+<area shape="rect" id="node12" href="$schedule__rule_8h.html" title="include/tvm/meta_schedule\l/schedule_rule.h" alt="" coords="1739,363,1941,404"/>
+<area shape="rect" id="node13" href="$object__path_8h.html" title="include/tvm/node/object\l_path.h" alt="" coords="4519,95,4697,136"/>
+<area shape="rect" id="node36" href="$array_8h.html" title="Runtime Array container types. " alt="" coords="1471,95,1625,136"/>
+<area shape="rect" id="node44" href="$map_8h.html" title="Runtime Map container types. " alt="" coords="688,95,843,136"/>
+<area shape="rect" id="node45" href="$ndarray_8h.html" title="A device&#45;independent managed NDArray abstraction. " alt="" coords="3271,95,3425,136"/>
+<area shape="rect" id="node3" href="$measure__callback_8h.html" title="include/tvm/meta_schedule\l/measure_callback.h" alt="" coords="3168,1003,3371,1044"/>
+<area shape="rect" id="node7" href="$space__generator_8h.html" title="include/tvm/meta_schedule\l/space_generator.h" alt="" coords="2148,735,2351,776"/>
+<area shape="rect" id="node10" href="$meta__schedule_2cost__model_8h.html" title="include/tvm/meta_schedule\l/cost_model.h" alt="" coords="3408,459,3611,501"/>
+<area shape="rect" id="node14" href="$structural__equal_8h.html" title="Structural equality comparison. " alt="" coords="2970,184,3171,225"/>
+<area shape="rect" id="node28" href="$var__table_8h.html" title="include/tvm/script\l/printer/var_table.h" alt="" coords="4392,556,4539,597"/>
+<area shape="rect" id="node30" href="$printer_8h.html" title="include/tvm/script\l/printer.h" alt="" coords="4541,459,4680,501"/>
+<area shape="rect" id="node35" href="$traced__object_8h.html" title="include/tvm/script\l/printer/traced_object.h" alt="" coords="4363,363,4536,404"/>
+<area shape="rect" id="node15" href="$ir_2attrs_8h.html" title="Helpers for attribute objects. " alt="" coords="2582,281,2741,307"/>
+<area shape="rect" id="node23" href="$node_8h.html" title="Definitions and helper macros for IR/AST nodes. " alt="" coords="4014,370,4197,397"/>
+<area shape="rect" id="node32" href="$reflection_8h.html" title="Reflection and serialization of compiler IR/AST nodes. " alt="" coords="3019,281,3232,307"/>
+<area shape="rect" id="node16" href="$ir_2function_8h.html" title="Function nodes. " alt="" coords="1229,370,1411,397"/>
+<area shape="rect" id="node22" href="$relay_2adt_8h.html" title="Algebraic data types for Relay. " alt="" coords="1880,653,2053,679"/>
+<area shape="rect" id="node17" href="$ir_2module_8h.html" title="IRModule that holds the functions and type definitions. " alt="" coords="1486,653,1663,679"/>
+<area shape="rect" id="node21" href="$tir_2function_8h.html" title="TIR Function. " alt="" coords="907,563,1093,590"/>
+<area shape="rect" id="node18" href="$ir_2transform_8h.html" title="include/tvm/ir/transform.h" alt="" coords="1371,742,1563,769"/>
+<area shape="rect" id="node19" href="$database_8h.html" title="include/tvm/meta_schedule\l/database.h" alt="" coords="2597,735,2800,776"/>
+<area shape="rect" id="node20" href="$extracted__task_8h.html" title="include/tvm/meta_schedule\l/extracted_task.h" alt="" coords="1637,735,1840,776"/>
+<area shape="rect" id="node24" href="$ir_2adt_8h.html" title="Algebraic data type definitions. " alt="" coords="1873,563,2023,590"/>
+<area shape="rect" id="node25" href="$ir_2type_8h.html" title="IR/AST nodes for the unified type system in TVM. " alt="" coords="1840,467,1997,493"/>
+<area shape="rect" id="node26" href="$doc_8h.html" title="include/tvm/script\l/printer/doc.h" alt="" coords="4328,459,4467,501"/>
+<area shape="rect" id="node27" href="$ir__docsifier_8h.html" title="include/tvm/script\l/printer/ir_docsifier.h" alt="" coords="4276,645,4433,687"/>
+<area shape="rect" id="node29" href="$traced__object__functor_8h.html" title="include/tvm/script\l/printer/traced_object\l_functor.h" alt="" coords="3990,452,4151,508"/>
+<area shape="rect" id="node31" href="$tir_2expr_8h.html" title="TIR expressions. " alt="" coords="779,467,941,493"/>
+<area shape="rect" id="node33" href="$feature__extractor_8h.html" title="include/tvm/meta_schedule\l/feature_extractor.h" alt="" coords="2725,459,2928,501"/>
+<area shape="rect" id="node34" href="$measure__candidate_8h.html" title="include/tvm/meta_schedule\l/measure_candidate.h" alt="" coords="3307,363,3509,404"/>
+<area shape="rect" id="node37" href="$papi_8h.html" title="include/tvm/runtime\l/contrib/papi.h" alt="" coords="965,459,1120,501"/>
+<area shape="rect" id="node38" href="$packed__func_8h.html" title="Type&#45;erased function used across TVM API. " alt="" coords="2348,184,2503,225"/>
+<area shape="rect" id="node42" href="$buffer_8h.html" title="Symbolic n&#45;dimensional array, to represent a memory buffer. " alt="" coords="651,370,823,397"/>
+<area shape="rect" id="node43" href="$index__map_8h.html" title="Defines a remapping of buffer indices. " alt="" coords="1157,184,1315,225"/>
+<area shape="rect" id="node39" href="$device__api_8h.html" title="Abstract device memory management API. " alt="" coords="1795,273,1949,315"/>
+<area shape="rect" id="node40" href="$profiling_8h.html" title="Runtime profiling including timers. " alt="" coords="1000,363,1155,404"/>
+<area shape="rect" id="node41" href="$executable_8h.html" title="The Relay virtual machine executable. " alt="" coords="1261,273,1416,315"/>
+<area shape="rect" id="node46" href="$search__task_8h.html" title="Meta information and hardware parameters for a search task. " alt="" coords="3625,184,3828,225"/>
+<area shape="rect" id="node47" href="$structural__hash_8h.html" title="include/tvm/node/structural\l_hash.h" alt="" coords="3247,184,3449,225"/>
+<area shape="rect" id="node48" href="$runtime_2debug_8h.html" title="Helpers for debugging at runtime. " alt="" coords="3852,184,4007,225"/>
+<area shape="rect" id="node49" href="$serializer_8h.html" title="Serializer extension to support TVM data types Include this file to enable serialization of DLDataTyp..." alt="" coords="4031,184,4185,225"/>
+<area shape="rect" id="node50" href="$memory__manager_8h.html" title="Abstract device memory management API. " alt="" coords="4210,184,4393,225"/>
+</map>

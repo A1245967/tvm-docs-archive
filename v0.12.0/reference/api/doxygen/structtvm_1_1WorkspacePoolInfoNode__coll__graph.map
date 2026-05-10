@@ -1,0 +1,13 @@
+<map id="tvm::WorkspacePoolInfoNode" name="tvm::WorkspacePoolInfoNode">
+<area shape="rect" id="node2" href="$structtvm_1_1PoolInfoNode.html" title="Describes a pool of memory accessible by one or more targets. " alt="" coords="387,2677,663,2813"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,1995,252,2512"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::Target \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l+ CalcCapacityImpl()\l+ CalcCapacityImpl()\l+ CalcCapacityImpl()\l+ AgregateImpl()\l+ AgregateImpl()\l+ AgregateImpl()\l+ Agregate()\l}" alt="" coords="327,769,488,1111"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="586,307,765,604"/>
+<area shape="rect" id="node10" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="469,653,674,745"/>
+<area shape="rect" id="node11" href="$classtvm_1_1runtime_1_1Map.html" title="{tvm::runtime::Map\&lt;\l tvm::Target, tvm::Integer \&gt;\n||+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ operator=()\l+ operator=()\l+ at()\land 12 more...\l}" alt="" coords="609,1295,814,1533"/>
+<area shape="rect" id="node12" href="$classtvm_1_1runtime_1_1String.html" title="Reference to string objects. " alt="" coords="856,1717,1015,1971"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="582,5,769,244"/>
+<area shape="rect" id="node7" href="$classtvm_1_1Integer.html" title="Container of constant int that adds more constructors. " alt="" coords="485,2141,609,2365"/>
+<area shape="rect" id="node8" href="$classtvm_1_1IntImm.html" title="Managed reference class to IntImmNode. " alt="" coords="469,1557,674,1693"/>
+<area shape="rect" id="node9" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="469,1135,674,1271"/>
+</map>

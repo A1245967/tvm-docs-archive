@@ -413,33 +413,10 @@ examples for each of them.</p>
 <span class="nb">print</span><span class="p">(</span><span class="n">mod</span><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/root/tvm/gallery/how_to/extend_tvm/use_pass_infra.py:64: RuntimeWarning: overflow encountered in cast
-  c_data = np.empty(shape).astype(&quot;float32&quot;)
-/root/tvm/gallery/how_to/extend_tvm/use_pass_infra.py:64: RuntimeWarning: invalid value encountered in cast
-  c_data = np.empty(shape).astype(&quot;float32&quot;)
-def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %0 = nn.conv2d(%x, %weight, padding=[0, 0, 0, 0]) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %1 = add(%0, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %2 = add(%1, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %3 = add(%1, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  add(%2, %3) /* ty=Tensor[(1, 64, 54, 54), float32] */
-}
-</pre></div>
-</div>
 <p>More optimizations can be applied in the similar manner. For instance, we can
 eliminate the common expressions that used by <cite>z</cite> and <cite>z1</cite>.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mod</span> <span class="o">=</span> <span class="n">relay</span><span class="o">.</span><span class="n">transform</span><span class="o">.</span><span class="n">EliminateCommonSubexpr</span><span class="p">()(</span><span class="n">mod</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">mod</span><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %0 = nn.conv2d(%x, %weight, padding=[0, 0, 0, 0]) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %1 = add(%0, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %2 = add(%1, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  add(%2, %2) /* ty=Tensor[(1, 64, 54, 54), float32] */
-}
 </pre></div>
 </div>
 <p>Some optimizations, such as fusion, are parametric as well. For example,
@@ -450,27 +427,6 @@ opt level 0 will not allow operators to be fused together. Users can pass the
 <span class="c1"># We can observe that the optimized module contains functions that only have</span>
 <span class="c1"># a signle primitive op.</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">mod</span><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %0 = fn (%p03: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %p12: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */, Primitive=1) -&gt; Tensor[(1, 64, 54, 54), float32] {
-    nn.conv2d(%p03, %p12, padding=[0, 0, 0, 0]) /* ty=Tensor[(1, 64, 54, 54), float32] */
-  } /* ty=fn (Tensor[(1, 64, 56, 56), float32], Tensor[(64, 64, 3, 3), float32]) -&gt; Tensor[(1, 64, 54, 54), float32] */;
-  %1 = %0(%x, %weight) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %2 = fn (%p02: Tensor[(1, 64, 54, 54), float32] /* ty=Tensor[(1, 64, 54, 54), float32] */, %p11: Tensor[(1, 64, 54, 54), float32] /* ty=Tensor[(1, 64, 54, 54), float32] */, Primitive=1) -&gt; Tensor[(1, 64, 54, 54), float32] {
-    add(%p02, %p11) /* ty=Tensor[(1, 64, 54, 54), float32] */
-  } /* ty=fn (Tensor[(1, 64, 54, 54), float32], Tensor[(1, 64, 54, 54), float32]) -&gt; Tensor[(1, 64, 54, 54), float32] */;
-  %3 = %2(%1, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %4 = fn (%p01: Tensor[(1, 64, 54, 54), float32] /* ty=Tensor[(1, 64, 54, 54), float32] */, %p1: Tensor[(1, 64, 54, 54), float32] /* ty=Tensor[(1, 64, 54, 54), float32] */, Primitive=1) -&gt; Tensor[(1, 64, 54, 54), float32] {
-    add(%p01, %p1) /* ty=Tensor[(1, 64, 54, 54), float32] */
-  } /* ty=fn (Tensor[(1, 64, 54, 54), float32], Tensor[(1, 64, 54, 54), float32]) -&gt; Tensor[(1, 64, 54, 54), float32] */;
-  %5 = %4(%3, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %6 = fn (%p0: Tensor[(1, 64, 54, 54), float32] /* ty=Tensor[(1, 64, 54, 54), float32] */, Primitive=1) -&gt; Tensor[(1, 64, 54, 54), float32] {
-    add(%p0, %p0) /* ty=Tensor[(1, 64, 54, 54), float32] */
-  } /* ty=fn (Tensor[(1, 64, 54, 54), float32]) -&gt; Tensor[(1, 64, 54, 54), float32] */;
-  %6(%5) /* ty=Tensor[(1, 64, 54, 54), float32] */
-}
 </pre></div>
 </div>
 </section>
@@ -507,23 +463,6 @@ pass.</p>
 <span class="nb">print</span><span class="p">(</span><span class="n">mod1</span><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/root/tvm/gallery/how_to/extend_tvm/use_pass_infra.py:64: RuntimeWarning: overflow encountered in cast
-  c_data = np.empty(shape).astype(&quot;float32&quot;)
-/root/tvm/gallery/how_to/extend_tvm/use_pass_infra.py:64: RuntimeWarning: invalid value encountered in cast
-  c_data = np.empty(shape).astype(&quot;float32&quot;)
-def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %4 = fn (%p0: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %p1: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */, %p2: Tensor[(1, 64, 54, 54), float32] /* ty=Tensor[(1, 64, 54, 54), float32] */, %p3: Tensor[(1, 64, 54, 54), float32] /* ty=Tensor[(1, 64, 54, 54), float32] */, Primitive=1) -&gt; Tensor[(1, 64, 54, 54), float32] {
-    %0 = nn.conv2d(%p0, %p1, padding=[0, 0, 0, 0]) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-    %1 = add(%0, %p2) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-    %2 = add(%1, %p3) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-    %3 = add(%1, %p3) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-    add(%2, %3) /* ty=Tensor[(1, 64, 54, 54), float32] */
-  } /* ty=fn (Tensor[(1, 64, 56, 56), float32], Tensor[(64, 64, 3, 3), float32], Tensor[(1, 64, 54, 54), float32], Tensor[(1, 64, 54, 54), float32]) -&gt; Tensor[(1, 64, 54, 54), float32] */;
-  %4(%x, %weight, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */
-}
-</pre></div>
-</div>
 <p>From the transformed Relay program, we can see that there are still two
 identical addition operations. This is because <code class="docutils literal notranslate"><span class="pre">EliminateCommonSubexpr</span></code>
 was not actually performed. The reason is because only the passes that have
@@ -536,18 +475,6 @@ for users to customize the optimization level that they want to execute.</p>
 <span class="nb">print</span><span class="p">(</span><span class="n">mod2</span><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %3 = fn (%p0: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %p1: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */, %p2: Tensor[(1, 64, 54, 54), float32] /* ty=Tensor[(1, 64, 54, 54), float32] */, %p3: Tensor[(1, 64, 54, 54), float32] /* ty=Tensor[(1, 64, 54, 54), float32] */, Primitive=1) -&gt; Tensor[(1, 64, 54, 54), float32] {
-    %0 = nn.conv2d(%p0, %p1, padding=[0, 0, 0, 0]) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-    %1 = add(%0, %p2) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-    %2 = add(%1, %p3) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-    add(%2, %2) /* ty=Tensor[(1, 64, 54, 54), float32] */
-  } /* ty=fn (Tensor[(1, 64, 56, 56), float32], Tensor[(64, 64, 3, 3), float32], Tensor[(1, 64, 54, 54), float32], Tensor[(1, 64, 54, 54), float32]) -&gt; Tensor[(1, 64, 54, 54), float32] */;
-  %3(%x, %weight, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */
-}
-</pre></div>
-</div>
 <p>Now we can see that only one of the two identical additions is kept.</p>
 <p>In addition, users can selectively disable some passes using the
 <cite>disabled_pass</cite> config, which is similar to the <cite>-fno-xxx</cite> option used the
@@ -557,19 +484,6 @@ identical addition operations.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">with</span> <span class="n">tvm</span><span class="o">.</span><span class="n">transform</span><span class="o">.</span><span class="n">PassContext</span><span class="p">(</span><span class="n">opt_level</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">disabled_pass</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;EliminateCommonSubexpr&quot;</span><span class="p">]):</span>
     <span class="n">mod3</span> <span class="o">=</span> <span class="n">seq</span><span class="p">(</span><span class="n">mod</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">mod3</span><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %4 = fn (%p0: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %p1: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */, %p2: Tensor[(1, 64, 54, 54), float32] /* ty=Tensor[(1, 64, 54, 54), float32] */, %p3: Tensor[(1, 64, 54, 54), float32] /* ty=Tensor[(1, 64, 54, 54), float32] */, Primitive=1) -&gt; Tensor[(1, 64, 54, 54), float32] {
-    %0 = nn.conv2d(%p0, %p1, padding=[0, 0, 0, 0]) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-    %1 = add(%0, %p2) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-    %2 = add(%1, %p3) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-    %3 = add(%1, %p3) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-    add(%2, %3) /* ty=Tensor[(1, 64, 54, 54), float32] */
-  } /* ty=fn (Tensor[(1, 64, 56, 56), float32], Tensor[(64, 64, 3, 3), float32], Tensor[(1, 64, 54, 54), float32], Tensor[(1, 64, 54, 54), float32]) -&gt; Tensor[(1, 64, 54, 54), float32] */;
-  %4(%x, %weight, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */
-}
 </pre></div>
 </div>
 </section>
@@ -610,24 +524,6 @@ customized pass.</p>
 <span class="nb">print</span><span class="p">(</span><span class="n">mod3</span><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/root/tvm/gallery/how_to/extend_tvm/use_pass_infra.py:64: RuntimeWarning: overflow encountered in cast
-  c_data = np.empty(shape).astype(&quot;float32&quot;)
-/root/tvm/gallery/how_to/extend_tvm/use_pass_infra.py:64: RuntimeWarning: invalid value encountered in cast
-  c_data = np.empty(shape).astype(&quot;float32&quot;)
-def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %0 = multiply(3f /* ty=float32 */, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %1 = add(%0, %0) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %2 = multiply(3f /* ty=float32 */, 2f /* ty=float32 */) /* ty=float32 */;
-  %3 = nn.conv2d(%x, %weight, padding=[0, 0, 0, 0]) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %4 = multiply(%1, %2) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %5 = add(%3, %4) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %6 = add(%5, %0) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %7 = add(%5, %0) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  add(%6, %7) /* ty=Tensor[(1, 64, 54, 54), float32] */
-}
-</pre></div>
-</div>
 </section>
 <section id="debug-a-pass">
 <h2>Debug a Pass<a class="headerlink" href="#debug-a-pass" title="Permalink to this headline">¶</a></h2>
@@ -645,13 +541,6 @@ could be like the following to enable IR dumping for <code class="docutils liter
         <span class="n">relay</span><span class="o">.</span><span class="n">transform</span><span class="o">.</span><span class="n">FuseOps</span><span class="p">(),</span>
     <span class="p">]</span>
 <span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/root/tvm/gallery/how_to/extend_tvm/use_pass_infra.py:64: RuntimeWarning: overflow encountered in cast
-  c_data = np.empty(shape).astype(&quot;float32&quot;)
-/root/tvm/gallery/how_to/extend_tvm/use_pass_infra.py:64: RuntimeWarning: invalid value encountered in cast
-  c_data = np.empty(shape).astype(&quot;float32&quot;)
 </pre></div>
 </div>
 <p>By inserting the <code class="docutils literal notranslate"><span class="pre">PrintIR</span></code> pass after <code class="docutils literal notranslate"><span class="pre">FoldConstant</span></code>, the pass infra will
@@ -679,136 +568,6 @@ a PassInsturment class printing IR before execution of each passes:</p>
 <span class="nb">print</span><span class="p">(</span><span class="n">mod</span><span class="p">)</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;done&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Running pass: {} The meta data of the pass - pass name: sequential, opt_level: 0, required passes: []
-
-def @main(%x: Tensor[(1, 64, 56, 56), float32], %weight: Tensor[(64, 64, 3, 3), float32]) {
-  %0 = add(meta[relay.Constant][0], meta[relay.Constant][0]);
-  %1 = nn.conv2d(%x, %weight, padding=[0, 0, 0, 0]);
-  %2 = multiply(%0, 2f);
-  %3 = add(%1, %2);
-  %4 = add(%3, meta[relay.Constant][0]);
-  %5 = add(%3, meta[relay.Constant][0]);
-  add(%4, %5)
-}
-
-
-Running pass: {} The meta data of the pass - pass name: FoldConstant, opt_level: 2, required passes: []
-
-def @main(%x: Tensor[(1, 64, 56, 56), float32], %weight: Tensor[(64, 64, 3, 3), float32]) {
-  %0 = add(meta[relay.Constant][0], meta[relay.Constant][0]);
-  %1 = nn.conv2d(%x, %weight, padding=[0, 0, 0, 0]);
-  %2 = multiply(%0, 2f);
-  %3 = add(%1, %2);
-  %4 = add(%3, meta[relay.Constant][0]);
-  %5 = add(%3, meta[relay.Constant][0]);
-  add(%4, %5)
-}
-
-
-Running pass: {} The meta data of the pass - pass name: InferType, opt_level: 0, required passes: []
-
-def @main(%x: Tensor[(1, 64, 56, 56), float32], %weight: Tensor[(64, 64, 3, 3), float32]) {
-  %0 = nn.conv2d(%x, %weight, padding=[0, 0, 0, 0]);
-  %1 = add(%0, meta[relay.Constant][0]);
-  %2 = add(%1, meta[relay.Constant][1]);
-  %3 = add(%1, meta[relay.Constant][1]);
-  add(%2, %3)
-}
-
-
-Running pass: {} The meta data of the pass - pass name: PrintIR, opt_level: 0, required passes: []
-
-def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %0 = nn.conv2d(%x, %weight, padding=[0, 0, 0, 0]) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %1 = add(%0, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %2 = add(%1, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %3 = add(%1, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  add(%2, %3) /* ty=Tensor[(1, 64, 54, 54), float32] */
-}
-
-
-Running pass: {} The meta data of the pass - pass name: InferType, opt_level: 0, required passes: []
-
-def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %0 = nn.conv2d(%x, %weight, padding=[0, 0, 0, 0]) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %1 = add(%0, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %2 = add(%1, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %3 = add(%1, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  add(%2, %3) /* ty=Tensor[(1, 64, 54, 54), float32] */
-}
-
-
-Running pass: {} The meta data of the pass - pass name: EliminateCommonSubexpr, opt_level: 3, required passes: [
-InferType, ]
-
-def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %0 = nn.conv2d(%x, %weight, padding=[0, 0, 0, 0]) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %1 = add(%0, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %2 = add(%1, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %3 = add(%1, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  add(%2, %3) /* ty=Tensor[(1, 64, 54, 54), float32] */
-}
-
-
-Running pass: {} The meta data of the pass - pass name: InferType, opt_level: 0, required passes: []
-
-def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %0 = nn.conv2d(%x, %weight, padding=[0, 0, 0, 0]) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %1 = add(%0, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %2 = add(%1, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  add(%2, %2) /* ty=Tensor[(1, 64, 54, 54), float32] */
-}
-
-
-Running pass: {} The meta data of the pass - pass name: InferType, opt_level: 0, required passes: []
-
-def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %0 = nn.conv2d(%x, %weight, padding=[0, 0, 0, 0]) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %1 = add(%0, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %2 = add(%1, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  add(%2, %2) /* ty=Tensor[(1, 64, 54, 54), float32] */
-}
-
-
-Running pass: {} The meta data of the pass - pass name: FuseOps, opt_level: 0, required passes: [
-InferType, ]
-
-def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %0 = nn.conv2d(%x, %weight, padding=[0, 0, 0, 0]) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %1 = add(%0, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  %2 = add(%1, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-  add(%2, %2) /* ty=Tensor[(1, 64, 54, 54), float32] */
-}
-
-
-Running pass: {} The meta data of the pass - pass name: InferType, opt_level: 0, required passes: []
-
-def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %3 = fn (%p0: Tensor[(1, 64, 56, 56), float32], %p1: Tensor[(64, 64, 3, 3), float32], %p2: Tensor[(1, 64, 54, 54), float32], %p3: Tensor[(1, 64, 54, 54), float32], Primitive=1) -&gt; Tensor[(1, 64, 54, 54), float32] {
-    %0 = nn.conv2d(%p0, %p1, padding=[0, 0, 0, 0]);
-    %1 = add(%0, %p2);
-    %2 = add(%1, %p3);
-    add(%2, %2)
-  };
-  %3(%x, %weight, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */)
-}
-
-
-def @main(%x: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %weight: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */) -&gt; Tensor[(1, 64, 54, 54), float32] {
-  %3 = fn (%p0: Tensor[(1, 64, 56, 56), float32] /* ty=Tensor[(1, 64, 56, 56), float32] */, %p1: Tensor[(64, 64, 3, 3), float32] /* ty=Tensor[(64, 64, 3, 3), float32] */, %p2: Tensor[(1, 64, 54, 54), float32] /* ty=Tensor[(1, 64, 54, 54), float32] */, %p3: Tensor[(1, 64, 54, 54), float32] /* ty=Tensor[(1, 64, 54, 54), float32] */, Primitive=1) -&gt; Tensor[(1, 64, 54, 54), float32] {
-    %0 = nn.conv2d(%p0, %p1, padding=[0, 0, 0, 0]) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-    %1 = add(%0, %p2) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-    %2 = add(%1, %p3) /* ty=Tensor[(1, 64, 54, 54), float32] */;
-    add(%2, %2) /* ty=Tensor[(1, 64, 54, 54), float32] */
-  } /* ty=fn (Tensor[(1, 64, 56, 56), float32], Tensor[(64, 64, 3, 3), float32], Tensor[(1, 64, 54, 54), float32], Tensor[(1, 64, 54, 54), float32]) -&gt; Tensor[(1, 64, 54, 54), float32] */;
-  %3(%x, %weight, meta[relay.Constant][0] /* ty=Tensor[(1, 64, 54, 54), float32] */, meta[relay.Constant][1] /* ty=Tensor[(1, 64, 54, 54), float32] */) /* ty=Tensor[(1, 64, 54, 54), float32] */
-}
-
-
-done
 </pre></div>
 </div>
 </section>

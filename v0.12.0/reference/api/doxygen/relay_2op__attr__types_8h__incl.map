@@ -1,0 +1,38 @@
+<map id="include/tvm/relay/op_attr_types.h" name="include/tvm/relay/op_attr_types.h">
+<area shape="rect" id="node2" href="$relay_2expr_8h.html" title="Relay expression language. " alt="" coords="1416,319,1547,345"/>
+<area shape="rect" id="node34" href="$target_8h.html" title="Compilation target object. " alt="" coords="903,483,1049,509"/>
+<area shape="rect" id="node40" href="$relay_2type_8h.html" title="Relay typed AST nodes. " alt="" coords="1701,401,1771,427"/>
+<area shape="rect" id="node42" href="$generic__func_8h.html" title="Generic function that can be specialzied on a per target basis. " alt="" coords="1975,393,2118,435"/>
+<area shape="rect" id="node43" href="$te_2schedule_8h.html" title="Define a schedule. " alt="" coords="2836,95,2975,121"/>
+<area shape="rect" id="node44" href="$tensor_8h.html" title="Dataflow tensor object. " alt="" coords="3176,244,3299,271"/>
+<area shape="rect" id="node49" href="$data__layout_8h.html" title="Layout expression to describe the data organization of a tensor. And BijectiveLayout to mapping two d..." alt="" coords="2993,244,3151,271"/>
+<area shape="rect" id="node3" href="$ir_2attrs_8h.html" title="Helpers for attribute objects. " alt="" coords="1683,707,1789,733"/>
+<area shape="rect" id="node5" href="$ir_2expr_8h.html" title="Base expr nodes in TVM. " alt="" coords="2805,781,2912,808"/>
+<area shape="rect" id="node25" href="$ir_2module_8h.html" title="IRModule that holds the functions and type definitions. " alt="" coords="2734,557,2861,584"/>
+<area shape="rect" id="node29" href="$ir_2op_8h.html" title="Primitive operators(builtin intrinsics) and registry for them. " alt="" coords="2581,401,2675,427"/>
+<area shape="rect" id="node33" href="$virtual__device_8h.html" title="A compile time representation for where data is to be stored at runtime, and how to compile code to c..." alt="" coords="981,393,1118,435"/>
+<area shape="rect" id="node38" href="$relay_2base_8h.html" title="Base classes for the Relay IR. " alt="" coords="1193,632,1266,659"/>
+<area shape="rect" id="node8" href="$structural__equal_8h.html" title="Structural equality comparison. " alt="" coords="1739,1080,1890,1121"/>
+<area shape="rect" id="node15" href="$structural__hash_8h.html" title="tvm/node/structural\l_hash.h" alt="" coords="905,1080,1055,1121"/>
+<area shape="rect" id="node18" href="$packed__func_8h.html" title="Type&#45;erased function used across TVM API. " alt="" coords="2827,1080,2981,1121"/>
+<area shape="rect" id="node6" href="$source__map_8h.html" title="A map from source names to source code. " alt="" coords="2545,931,2701,957"/>
+<area shape="rect" id="node7" href="$node_8h.html" title="Definitions and helper macros for IR/AST nodes. " alt="" coords="1883,1005,2015,1032"/>
+<area shape="rect" id="node17" href="$object_8h.html" title="A managed object in the TVM runtime. " alt="" coords="2371,1177,2530,1203"/>
+<area shape="rect" id="node23" href="$ir_2type_8h.html" title="IR/AST nodes for the unified type system in TVM. " alt="" coords="2160,856,2267,883"/>
+<area shape="rect" id="node24" href="$string_8h.html" title="Runtime String container types. " alt="" coords="3309,1080,3477,1121"/>
+<area shape="rect" id="node22" href="$registry_8h.html" title="This file defines the TVM global function registry. " alt="" coords="2497,1005,2666,1032"/>
+<area shape="rect" id="node9" href="$array_8h.html" title="Runtime Array container types. " alt="" coords="3449,1169,3617,1211"/>
+<area shape="rect" id="node19" href="$map_8h.html" title="Runtime Map container types. " alt="" coords="4332,1169,4500,1211"/>
+<area shape="rect" id="node26" href="$ir_2adt_8h.html" title="Algebraic data type definitions. " alt="" coords="2509,707,2608,733"/>
+<area shape="rect" id="node27" href="$ir_2function_8h.html" title="Function nodes. " alt="" coords="2936,632,3067,659"/>
+<area shape="rect" id="node31" href="$type__relation_8h.html" title="Type relation and function for type inference(checking). " alt="" coords="1925,483,2088,509"/>
+<area shape="rect" id="node32" href="$env__func_8h.html" title="Serializable global function used in IR. " alt="" coords="1419,856,1555,883"/>
+<area shape="rect" id="node35" href="$with_8h.html" title="RAII wrapper function to enter and exit a context object similar to python&#39;s with syntax..." alt="" coords="1350,557,1495,584"/>
+<area shape="rect" id="node36" href="$target__kind_8h.html" title="Target kind registry. " alt="" coords="2085,931,2267,957"/>
+<area shape="rect" id="node39" href="$tir_2expr_8h.html" title="TIR expressions. " alt="" coords="4158,707,4269,733"/>
+<area shape="rect" id="node41" href="$tensor__type_8h.html" title="Polymorphic tensor types. " alt="" coords="2179,707,2333,733"/>
+<area shape="rect" id="node47" href="$tensor__intrin_8h.html" title="Tensor intrinsic operations. " alt="" coords="2755,169,2917,196"/>
+<area shape="rect" id="node48" href="$index__map_8h.html" title="Defines a remapping of buffer indices. " alt="" coords="3541,707,3696,733"/>
+<area shape="rect" id="node45" href="$bound_8h.html" title="Bound deducers. " alt="" coords="4403,632,4541,659"/>
+<area shape="rect" id="node46" href="$tir_2op_8h.html" title="Common operators defined for Expr. " alt="" coords="3188,319,3287,345"/>
+</map>

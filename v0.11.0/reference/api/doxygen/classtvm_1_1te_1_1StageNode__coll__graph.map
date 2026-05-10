@@ -1,0 +1,15 @@
+<map id="tvm::te::StageNode" name="tvm::te::StageNode">
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,1164,252,1681"/>
+<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1IterVar.html" title="Iteration Variable, represents an iteration over an integer interval. " alt="" coords="299,945,505,1096"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="981,307,1159,604"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::IntImm \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l}" alt="" coords="572,901,723,1140"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::tir::IndexMap \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l}" alt="" coords="761,901,931,1140"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1Map.html" title="{tvm::runtime::Map\&lt;\l tvm::tir::IterVar,\l tvm::te::IterVarAttr \&gt;\n||+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ operator=()\l+ operator=()\l+ at()\land 12 more...\l}" alt="" coords="857,1296,1021,1549"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::tir::IterVar \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l}" alt="" coords="994,901,1146,1140"/>
+<area shape="rect" id="node10" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::te::IterVarRelation \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l}" alt="" coords="1199,1303,1405,1542"/>
+<area shape="rect" id="node12" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="1282,719,1487,811"/>
+<area shape="rect" id="node13" href="$classtvm_1_1te_1_1Stage.html" title="Stage, contains scheduling for a stage of computation. " alt="" coords="1553,653,1699,877"/>
+<area shape="rect" id="node14" href="$classtvm_1_1te_1_1Operation.html" title="Operation that produces tensors. " alt="" coords="1745,705,1886,826"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="977,5,1163,244"/>
+<area shape="rect" id="node11" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="1429,1355,1634,1491"/>
+</map>

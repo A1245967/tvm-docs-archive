@@ -1,0 +1,30 @@
+<map id="include/tvm/ir/type_functor.h" name="include/tvm/ir/type_functor.h">
+<area shape="rect" id="node2" href="$tensor__type_8h.html" title="Polymorphic tensor types. " alt="" coords="583,393,737,420"/>
+<area shape="rect" id="node8" href="$functor_8h.html" title="Defines the Functor data structures. " alt="" coords="1933,938,2080,965"/>
+<area shape="rect" id="node41" href="$type__relation_8h.html" title="Type relation and function for type inference(checking). " alt="" coords="609,95,772,121"/>
+<area shape="rect" id="node3" href="$ir_2expr_8h.html" title="Base expr nodes in TVM. " alt="" coords="2157,468,2264,495"/>
+<area shape="rect" id="node35" href="$ir_2type_8h.html" title="IR/AST nodes for the unified type system in TVM. " alt="" coords="712,543,819,569"/>
+<area shape="rect" id="node4" href="$source__map_8h.html" title="A map from source names to source code. " alt="" coords="2149,617,2305,644"/>
+<area shape="rect" id="node5" href="$node_8h.html" title="Definitions and helper macros for IR/AST nodes. " alt="" coords="1622,692,1754,719"/>
+<area shape="rect" id="node10" href="$object_8h.html" title="A managed object in the TVM runtime. " alt="" coords="1462,1259,1621,1285"/>
+<area shape="rect" id="node36" href="$string_8h.html" title="Runtime String container types. " alt="" coords="3088,931,3256,972"/>
+<area shape="rect" id="node28" href="$packed__func_8h.html" title="Type&#45;erased function used across TVM API. " alt="" coords="2155,841,2309,883"/>
+<area shape="rect" id="node33" href="$registry_8h.html" title="This file defines the TVM global function registry. " alt="" coords="2250,767,2419,793"/>
+<area shape="rect" id="node6" href="$reflection_8h.html" title="Reflection and serialization of compiler IR/AST nodes. " alt="" coords="1373,767,1536,793"/>
+<area shape="rect" id="node7" href="$structural__equal_8h.html" title="Structural equality comparison. " alt="" coords="1726,841,1877,883"/>
+<area shape="rect" id="node11" href="$c__runtime__api_8h.html" title="tvm/runtime/c_runtime\l_api.h" alt="" coords="999,1333,1171,1375"/>
+<area shape="rect" id="node22" href="$runtime_2memory_8h.html" title="Runtime memory management. " alt="" coords="2289,1184,2463,1211"/>
+<area shape="rect" id="node26" href="$structural__hash_8h.html" title="tvm/node/structural\l_hash.h" alt="" coords="854,841,1005,883"/>
+<area shape="rect" id="node32" href="$repr__printer_8h.html" title="Printer class to print repr string of each AST/IR nodes. " alt="" coords="1475,849,1651,875"/>
+<area shape="rect" id="node25" href="$data__type_8h.html" title="tvm/runtime/data_type.h" alt="" coords="1067,938,1251,965"/>
+<area shape="rect" id="node18" href="$array_8h.html" title="Runtime Array container types. " alt="" coords="2896,931,3064,972"/>
+<area shape="rect" id="node21" href="$runtime_2container_2base_8h.html" title="Base utilities for common POD(plain old data) container types. " alt="" coords="2985,1109,3058,1136"/>
+<area shape="rect" id="node24" href="$optional_8h.html" title="Runtime Optional container types. " alt="" coords="3461,1020,3629,1061"/>
+<area shape="rect" id="node29" href="$map_8h.html" title="Runtime Map container types. " alt="" coords="3689,931,3857,972"/>
+<area shape="rect" id="node42" href="$ir_2attrs_8h.html" title="Helpers for attribute objects. " alt="" coords="2057,393,2164,420"/>
+<area shape="rect" id="node44" href="$diagnostic_8h.html" title="A new diagnostic interface for TVM error reporting. " alt="" coords="728,169,872,196"/>
+<area shape="rect" id="node45" href="$ir_2module_8h.html" title="IRModule that holds the functions and type definitions. " alt="" coords="2850,244,2977,271"/>
+<area shape="rect" id="node50" href="$env__func_8h.html" title="Serializable global function used in IR. " alt="" coords="992,692,1128,719"/>
+<area shape="rect" id="node46" href="$ir_2adt_8h.html" title="Algebraic data type definitions. " alt="" coords="832,393,931,420"/>
+<area shape="rect" id="node47" href="$ir_2function_8h.html" title="Function nodes. " alt="" coords="3127,319,3257,345"/>
+</map>

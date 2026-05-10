@@ -379,20 +379,6 @@ our customized lowering pass to manipulate the IR directly instead of using sche
 <span class="nb">print</span><span class="p">(</span><span class="n">ir</span><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>@main = primfn(a_1: handle, b_1: handle, c_1: handle) -&gt; ()
-  attr = {&quot;from_legacy_te_schedule&quot;: True, &quot;global_symbol&quot;: &quot;main&quot;, &quot;tir.noalias&quot;: True}
-  buffers = {a: Buffer(a_2: Pointer(float32), float32, [128], []),
-             b: Buffer(b_2: Pointer(float32), float32, [128], []),
-             c: Buffer(c_2: Pointer(float32), float32, [128], [])}
-  buffer_map = {a_1: a, b_1: b, c_1: c}
-  preflattened_buffer_map = {a_1: a_3: Buffer(a_2, float32, [128], []), b_1: b_3: Buffer(b_2, float32, [128], []), c_1: c_3: Buffer(c_2, float32, [128], [])} {
-  for (i: int32, 0, 128) {
-    c[i] = (a[i] + b[i])
-  }
-}
-</pre></div>
-</div>
 </section>
 <section id="writing-a-pass">
 <h2>Writing a Pass<a class="headerlink" href="#writing-a-pass" title="Permalink to this headline">¶</a></h2>
@@ -487,21 +473,6 @@ called after each phase is done.</p>
 <p>Thus, a good place to put this transformation pass is just after Phase 1.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">with</span> <span class="n">tvm</span><span class="o">.</span><span class="n">transform</span><span class="o">.</span><span class="n">PassContext</span><span class="p">(</span><span class="n">config</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;tir.add_lower_pass&quot;</span><span class="p">:</span> <span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="n">vectorize</span><span class="p">)]}):</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">tvm</span><span class="o">.</span><span class="n">lower</span><span class="p">(</span><span class="n">sch</span><span class="p">,</span> <span class="p">[</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">]))</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>@main = primfn(a_1: handle, b_1: handle, c_1: handle) -&gt; ()
-  attr = {&quot;from_legacy_te_schedule&quot;: True, &quot;global_symbol&quot;: &quot;main&quot;, &quot;tir.noalias&quot;: True}
-  buffers = {a: Buffer(a_2: Pointer(float32), float32, [128], []),
-             b: Buffer(b_2: Pointer(float32), float32, [128], []),
-             c: Buffer(c_2: Pointer(float32), float32, [128], [])}
-  buffer_map = {a_1: a, b_1: b, c_1: c}
-  preflattened_buffer_map = {a_1: a_3: Buffer(a_2, float32, [128], []), b_1: b_3: Buffer(b_2, float32, [128], []), c_1: c_3: Buffer(c_2, float32, [128], [])} {
-  for (i.outer: int32, 0, 16) {
-    let cse_var_1: int32 = (i.outer*8)
-    c[ramp(cse_var_1, 1, 8)] = (a[ramp(cse_var_1, 1, 8)] + b[ramp(cse_var_1, 1, 8)])
-  }
-}
 </pre></div>
 </div>
 </section>

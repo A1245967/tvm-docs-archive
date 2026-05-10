@@ -1,0 +1,32 @@
+<map id="include/tvm/tir/transform.h" name="include/tvm/tir/transform.h">
+<area shape="rect" id="node2" href="$ir_2transform_8h.html" title="tvm/ir/transform.h" alt="" coords="2295,229,2436,256"/>
+<area shape="rect" id="node42" href="$target_8h.html" title="Compilation target object. " alt="" coords="3909,80,4056,107"/>
+<area shape="rect" id="node44" href="$tir_2expr_8h.html" title="TIR expressions. " alt="" coords="1965,304,2075,331"/>
+<area shape="rect" id="node49" href="$tir_2function_8h.html" title="TIR Function. " alt="" coords="2139,155,2274,181"/>
+<area shape="rect" id="node3" href="$diagnostic_8h.html" title="A new diagnostic interface for TVM error reporting. " alt="" coords="3599,304,3743,331"/>
+<area shape="rect" id="node4" href="$ir_2module_8h.html" title="IRModule that holds the functions and type definitions. " alt="" coords="2613,379,2739,405"/>
+<area shape="rect" id="node24" href="$string_8h.html" title="Runtime String container types. " alt="" coords="1689,1005,1857,1047"/>
+<area shape="rect" id="node33" href="$array_8h.html" title="Runtime Array container types. " alt="" coords="1076,827,1244,868"/>
+<area shape="rect" id="node39" href="$instrument_8h.html" title="tvm/ir/instrument.h" alt="" coords="2850,752,2998,779"/>
+<area shape="rect" id="node40" href="$with_8h.html" title="RAII wrapper function to enter and exit a context object similar to python&#39;s with syntax..." alt="" coords="177,304,322,331"/>
+<area shape="rect" id="node5" href="$ir_2adt_8h.html" title="Algebraic data type definitions. " alt="" coords="2648,453,2747,480"/>
+<area shape="rect" id="node6" href="$ir_2expr_8h.html" title="Base expr nodes in TVM. " alt="" coords="2289,528,2396,555"/>
+<area shape="rect" id="node7" href="$source__map_8h.html" title="A map from source names to source code. " alt="" coords="2786,677,2942,704"/>
+<area shape="rect" id="node32" href="$ir_2type_8h.html" title="IR/AST nodes for the unified type system in TVM. " alt="" coords="2735,603,2841,629"/>
+<area shape="rect" id="node35" href="$ir_2function_8h.html" title="Function nodes. " alt="" coords="1263,453,1393,480"/>
+<area shape="rect" id="node36" href="$map_8h.html" title="Runtime Map container types. " alt="" coords="701,916,869,957"/>
+<area shape="rect" id="node8" href="$node_8h.html" title="Definitions and helper macros for IR/AST nodes. " alt="" coords="2642,752,2774,779"/>
+<area shape="rect" id="node16" href="$object_8h.html" title="A managed object in the TVM runtime. " alt="" coords="2725,1244,2883,1271"/>
+<area shape="rect" id="node9" href="$reflection_8h.html" title="Reflection and serialization of compiler IR/AST nodes. " alt="" coords="2804,834,2967,861"/>
+<area shape="rect" id="node10" href="$c__runtime__api_8h.html" title="tvm/runtime/c_runtime\l_api.h" alt="" coords="3243,1319,3415,1360"/>
+<area shape="rect" id="node15" href="$runtime_2memory_8h.html" title="Runtime memory management. " alt="" coords="1369,1169,1543,1196"/>
+<area shape="rect" id="node11" href="$data__type_8h.html" title="tvm/runtime/data_type.h" alt="" coords="3057,1013,3241,1039"/>
+<area shape="rect" id="node18" href="$ndarray_8h.html" title="A device&#45;independent managed NDArray abstraction. " alt="" coords="2357,923,2526,950"/>
+<area shape="rect" id="node19" href="$optional_8h.html" title="Runtime Optional container types. " alt="" coords="955,1005,1123,1047"/>
+<area shape="rect" id="node20" href="$runtime_2container_2base_8h.html" title="Base utilities for common POD(plain old data) container types. " alt="" coords="1563,1095,1637,1121"/>
+<area shape="rect" id="node43" href="$target__kind_8h.html" title="Target kind registry. " alt="" coords="3369,155,3551,181"/>
+<area shape="rect" id="node45" href="$functor_8h.html" title="Defines the Functor data structures. " alt="" coords="1409,1013,1556,1039"/>
+<area shape="rect" id="node46" href="$buffer_8h.html" title="Symbolic n&#45;dimensional array, to represent a memory buffer. " alt="" coords="2146,379,2267,405"/>
+<area shape="rect" id="node47" href="$var_8h.html" title="Variables in the TIR. " alt="" coords="2938,453,3041,480"/>
+<area shape="rect" id="node50" href="$stmt_8h.html" title="TIR statements. " alt="" coords="2057,229,2169,256"/>
+</map>

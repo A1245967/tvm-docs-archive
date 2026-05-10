@@ -1,0 +1,13 @@
+<map id="tvm::tir::BufferNode" name="tvm::tir::BufferNode">
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,1572,252,2089"/>
+<area shape="rect" id="node3" href="$classtvm_1_1Span.html" title="{tvm::Span\n||+ Span()\l+ Merge()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="285,828,490,949"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="609,307,787,604"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::IntImm \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l}" alt="" coords="439,1309,589,1548"/>
+<area shape="rect" id="node9" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="595,653,801,745"/>
+<area shape="rect" id="node10" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::PrimExpr \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l}" alt="" coords="784,769,935,1008"/>
+<area shape="rect" id="node11" href="$classtvm_1_1runtime_1_1String.html" title="Reference to string objects. " alt="" coords="953,1032,1109,1285"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="605,5,791,244"/>
+<area shape="rect" id="node7" href="$classtvm_1_1tir_1_1Var.html" title="a named variable in TIR " alt="" coords="729,1748,886,1913"/>
+<area shape="rect" id="node8" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="595,1091,801,1227"/>
+<area shape="rect" id="node12" href="$classtvm_1_1runtime_1_1DataType.html" title="Runtime primitive data type. " alt="" coords="1069,1660,1247,2001"/>
+</map>

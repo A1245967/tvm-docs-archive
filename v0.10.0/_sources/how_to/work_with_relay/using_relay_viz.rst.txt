@@ -68,12 +68,6 @@ For more details, please refer to :py:mod:`tvm.contrib.relay_viz`.
     )
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 65-69
 
 Define a Relay IR Module with multiple GlobalVar
@@ -102,12 +96,6 @@ We define an ``add`` function and call it in the main function.
     mod = tvm.IRModule({main_gvar: main_func, add_gvar: add_func})
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 86-90
 
 Render the graph with Relay Visualizer on the terminal
@@ -121,32 +109,6 @@ We should see ``main`` and ``AddFunc`` function. ``AddFunc`` is called twice in 
 
     viz = relay_viz.RelayVisualizer(mod)
     viz.render()
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    @main([Var(input0), Var(input1), Var(input2)])
-    `--Call 
-       |--GlobalVar AddFunc
-       |--Var(Input) name_hint: input2
-       `--Call 
-          |--GlobalVar AddFunc
-          |--Var(Input) name_hint: input0
-          `--Var(Input) name_hint: input1
-    @AddFunc([Var(data), Var(bias)])
-    `--Call 
-       |--add 
-       |--Var(Input) name_hint: data
-       `--Var(Input) name_hint: bias
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 94-100
@@ -183,12 +145,6 @@ We need to implement abstract interface :py:class:`tvm.contrib.relay_viz.interfa
 
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 121-123
 
 Pass the parser and an interested renderer to visualizer.
@@ -200,32 +156,6 @@ Here we just the terminal renderer.
 
     viz = relay_viz.RelayVisualizer(mod, {}, TermPlotter(), YourAwesomeParser())
     viz.render()
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    @main([Var(input0), Var(input1), Var(input2)])
-    `--Call 
-       |--GlobalVar AddFunc
-       |--AwesomeVar name_hint input2
-       `--Call 
-          |--GlobalVar AddFunc
-          |--AwesomeVar name_hint input0
-          `--AwesomeVar name_hint input1
-    @AddFunc([Var(data), Var(bias)])
-    `--Call 
-       |--add 
-       |--AwesomeVar name_hint data
-       `--AwesomeVar name_hint bias
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 127-134
@@ -264,37 +194,6 @@ We add a hook duplicating above ``AwesomeVar``, and make ``TermPlotter`` use the
 
     viz = relay_viz.RelayVisualizer(mod, {}, AwesomePlotter(), YourAwesomeParser())
     viz.render()
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    @main([Var(input0), Var(input1), Var(input2)])
-    `--Call 
-       |--GlobalVar AddFunc
-       |--AwesomeVar name_hint input2
-       |  `--double AwesomeVar 
-       `--Call 
-          |--GlobalVar AddFunc
-          |--AwesomeVar name_hint input0
-          |  `--double AwesomeVar 
-          `--AwesomeVar name_hint input1
-             `--double AwesomeVar 
-    @AddFunc([Var(data), Var(bias)])
-    `--Call 
-       |--add 
-       |--AwesomeVar name_hint data
-       |  `--double AwesomeVar 
-       `--AwesomeVar name_hint bias
-          `--double AwesomeVar 
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 158-168

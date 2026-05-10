@@ -1,0 +1,11 @@
+<map id="tvm::tir::IfThenElseNode" name="tvm::tir::IfThenElseNode">
+<area shape="rect" id="node2" href="$classtvm_1_1tir_1_1StmtNode.html" title="Base node of all statements. " alt="" coords="221,1472,497,1681"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,668,252,1185"/>
+<area shape="rect" id="node4" href="$classtvm_1_1Span.html" title="{tvm::Span\n||+ Span()\l+ Merge()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="370,866,575,987"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="566,307,745,619"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1Optional.html" title="{tvm::runtime::Optional\l\&lt; tvm::tir::Stmt \&gt;\n|+ _type_is_nullable\l|+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ operator=()\l+ operator=()\land 15 more...\l}" alt="" coords="494,1209,665,1448"/>
+<area shape="rect" id="node9" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="650,881,855,973"/>
+<area shape="rect" id="node10" href="$classtvm_1_1tir_1_1Stmt.html" title="Container of all statements. " alt="" coords="798,1283,1003,1375"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="562,5,749,244"/>
+<area shape="rect" id="node8" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="650,1509,855,1645"/>
+</map>

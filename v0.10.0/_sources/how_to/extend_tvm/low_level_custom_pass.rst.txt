@@ -57,12 +57,6 @@ Before reading this tutorial, we assume readers have already known these topics 
     import numpy as np
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 54-57
 
 We first write a very simple vector add and build it with the default schedule. Then, we use
@@ -82,32 +76,6 @@ our customized lowering pass to manipulate the IR directly instead of using sche
     sch = te.create_schedule(c.op)
     ir = tvm.lower(sch, [a, b, c])
     print(ir)
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    @main = primfn(a_1: handle, b_1: handle, c_1: handle) -> ()
-      attr = {"from_legacy_te_schedule": True, "global_symbol": "main", "tir.noalias": True}
-      buffers = {a: Buffer(a_2: Pointer(float32), float32, [128], []),
-                 b: Buffer(b_2: Pointer(float32), float32, [128], []),
-                 c: Buffer(c_2: Pointer(float32), float32, [128], [])}
-      buffer_map = {a_1: a, b_1: b, c_1: c}
-      preflattened_buffer_map = {a_1: a_3: Buffer(a_2, float32, [128], []), b_1: b_3: Buffer(b_2, float32, [128], []), c_1: c_3: Buffer(c_2, float32, [128], [])} {
-      for (i: int32, 0, 128) {
-        c[i] = (a[i] + b[i])
-      }
-    }
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 68-73
@@ -150,12 +118,6 @@ return value of ``func`` will be ignored.
             if isinstance(op.extent, tvm.tir.IntImm):
                 if op.extent.value % 8 == 0:
                     loops.append(op)
-
-
-
-
-
-
 
 
 
@@ -209,12 +171,6 @@ this value.
 
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 146-165
 
 Glue to Lowering
@@ -244,33 +200,6 @@ Thus, a good place to put this transformation pass is just after Phase 1.
 
     with tvm.transform.PassContext(config={"tir.add_lower_pass": [(1, vectorize)]}):
         print(tvm.lower(sch, [a, b, c]))
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    @main = primfn(a_1: handle, b_1: handle, c_1: handle) -> ()
-      attr = {"from_legacy_te_schedule": True, "global_symbol": "main", "tir.noalias": True}
-      buffers = {a: Buffer(a_2: Pointer(float32), float32, [128], []),
-                 b: Buffer(b_2: Pointer(float32), float32, [128], []),
-                 c: Buffer(c_2: Pointer(float32), float32, [128], [])}
-      buffer_map = {a_1: a, b_1: b, c_1: c}
-      preflattened_buffer_map = {a_1: a_3: Buffer(a_2, float32, [128], []), b_1: b_3: Buffer(b_2, float32, [128], []), c_1: c_3: Buffer(c_2, float32, [128], [])} {
-      for (i.outer: int32, 0, 16) {
-        let cse_var_1: int32 = (i.outer*8)
-        c[ramp(cse_var_1, 1, 8)] = (a[ramp(cse_var_1, 1, 8)] + b[ramp(cse_var_1, 1, 8)])
-      }
-    }
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 170-178

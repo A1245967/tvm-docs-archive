@@ -426,13 +426,6 @@ provides a static definition of the input size.</p>
     <span class="p">)</span><span class="o">.</span><span class="n">evaluate</span><span class="p">()</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/root/tvm/python/tvm/relay/frontend/onnx.py:5902: UserWarning: Mismatched attribute type in &#39; : kernel_shape&#39;. Expected: &#39;INTS&#39;, actual: &#39;UNDEFINED&#39;
-
-==&gt; Context: Bad node spec for node. Name:  OpType: Conv
-  warnings.warn(str(e))
-</pre></div>
-</div>
 </section>
 <section id="execute-on-tvm">
 <h2>Execute on TVM<a class="headerlink" href="#execute-on-tvm" title="Permalink to this headline">¶</a></h2>
@@ -459,7 +452,7 @@ bicubic algorithm. The image is then recombined and converted back to <cite>RGB<
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
-<img src="../../_images/sphx_glr_from_onnx_001.png" srcset="../../_images/sphx_glr_from_onnx_001.png" alt="from onnx" class = "sphx-glr-single-img"/></section>
+</section>
 <section id="notes">
 <h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
 <p>By default, ONNX defines models in terms of dynamic shapes. The ONNX importer

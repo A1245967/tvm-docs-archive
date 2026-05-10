@@ -1,0 +1,33 @@
+<map id="include/tvm/topi/nn/group_norm.h" name="include/tvm/topi/nn/group_norm.h">
+<area shape="rect" id="node2" href="$operation_8h.html" title="Operation node can generate one or multiple Tensors. " alt="" coords="2701,95,2843,121"/>
+<area shape="rect" id="node50" href="$tags_8h.html" title="External function interface to rocBLAS libraries. " alt="" coords="4306,169,4427,196"/>
+<area shape="rect" id="node3" href="$analyzer_8h.html" title="Algebra expression simplifications. " alt="" coords="3449,393,3604,420"/>
+<area shape="rect" id="node33" href="$tir_2expr_8h.html" title="TIR expressions. " alt="" coords="1921,543,2031,569"/>
+<area shape="rect" id="node36" href="$buffer_8h.html" title="Symbolic n&#45;dimensional array, to represent a memory buffer. " alt="" coords="2395,617,2517,644"/>
+<area shape="rect" id="node42" href="$te_2schedule_8h.html" title="Define a schedule. " alt="" coords="2416,169,2555,196"/>
+<area shape="rect" id="node43" href="$tensor_8h.html" title="Dataflow tensor object. " alt="" coords="2321,319,2444,345"/>
+<area shape="rect" id="node46" href="$tir_2op_8h.html" title="Common operators defined for Expr. " alt="" coords="2803,393,2901,420"/>
+<area shape="rect" id="node4" href="$int__set_8h.html" title="Integer set. " alt="" coords="2066,468,2209,495"/>
+<area shape="rect" id="node5" href="$ir_2expr_8h.html" title="Base expr nodes in TVM. " alt="" coords="2560,767,2667,793"/>
+<area shape="rect" id="node39" href="$with_8h.html" title="RAII wrapper function to enter and exit a context object similar to python&#39;s with syntax..." alt="" coords="246,468,391,495"/>
+<area shape="rect" id="node6" href="$source__map_8h.html" title="A map from source names to source code. " alt="" coords="2807,923,2963,950"/>
+<area shape="rect" id="node7" href="$node_8h.html" title="Definitions and helper macros for IR/AST nodes. " alt="" coords="2679,1013,2811,1039"/>
+<area shape="rect" id="node15" href="$object_8h.html" title="A managed object in the TVM runtime. " alt="" coords="2127,1244,2286,1271"/>
+<area shape="rect" id="node18" href="$ir_2type_8h.html" title="IR/AST nodes for the unified type system in TVM. " alt="" coords="2832,841,2939,868"/>
+<area shape="rect" id="node26" href="$string_8h.html" title="Runtime String container types. " alt="" coords="1896,916,2064,957"/>
+<area shape="rect" id="node8" href="$reflection_8h.html" title="Reflection and serialization of compiler IR/AST nodes. " alt="" coords="2599,1095,2761,1121"/>
+<area shape="rect" id="node9" href="$c__runtime__api_8h.html" title="tvm/runtime/c_runtime\l_api.h" alt="" coords="2678,1319,2850,1360"/>
+<area shape="rect" id="node14" href="$runtime_2memory_8h.html" title="Runtime memory management. " alt="" coords="1893,1169,2067,1196"/>
+<area shape="rect" id="node10" href="$data__type_8h.html" title="tvm/runtime/data_type.h" alt="" coords="2801,1244,2985,1271"/>
+<area shape="rect" id="node19" href="$array_8h.html" title="Runtime Array container types. " alt="" coords="1501,916,1669,957"/>
+<area shape="rect" id="node22" href="$runtime_2container_2base_8h.html" title="Base utilities for common POD(plain old data) container types. " alt="" coords="1310,1095,1383,1121"/>
+<area shape="rect" id="node25" href="$optional_8h.html" title="Runtime Optional container types. " alt="" coords="975,1005,1143,1047"/>
+<area shape="rect" id="node34" href="$functor_8h.html" title="Defines the Functor data structures. " alt="" coords="1636,1095,1783,1121"/>
+<area shape="rect" id="node35" href="$map_8h.html" title="Runtime Map container types. " alt="" coords="803,916,971,957"/>
+<area shape="rect" id="node37" href="$var_8h.html" title="Variables in the TIR. " alt="" coords="2394,692,2497,719"/>
+<area shape="rect" id="node48" href="$tensor__intrin_8h.html" title="Tensor intrinsic operations. " alt="" coords="2521,244,2684,271"/>
+<area shape="rect" id="node49" href="$index__map_8h.html" title="Defines a remapping of buffer indices. " alt="" coords="2063,617,2217,644"/>
+<area shape="rect" id="node44" href="$bound_8h.html" title="Bound deducers. " alt="" coords="2123,393,2261,420"/>
+<area shape="rect" id="node45" href="$stmt_8h.html" title="TIR statements. " alt="" coords="2284,468,2396,495"/>
+<area shape="rect" id="node47" href="$ir_2op_8h.html" title="Primitive operators(builtin intrinsics) and registry for them. " alt="" coords="3016,692,3109,719"/>
+</map>

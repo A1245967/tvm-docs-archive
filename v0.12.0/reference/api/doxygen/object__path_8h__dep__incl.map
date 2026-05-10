@@ -1,0 +1,51 @@
+<map id="include/tvm/node/object_path.h" name="include/tvm/node/object_path.h">
+<area shape="rect" id="node2" href="$script__printer_8h.html" title="include/tvm/node/script\l_printer.h" alt="" coords="825,259,999,300"/>
+<area shape="rect" id="node49" href="$structural__equal_8h.html" title="Structural equality comparison. " alt="" coords="1018,95,1219,136"/>
+<area shape="rect" id="node3" href="$repr__printer_8h.html" title="Printer class to print repr string of each AST/IR nodes. " alt="" coords="832,348,997,389"/>
+<area shape="rect" id="node4" href="$node_8h.html" title="Definitions and helper macros for IR/AST nodes. " alt="" coords="1075,437,1258,464"/>
+<area shape="rect" id="node5" href="$auto__scheduler_2cost__model_8h.html" title="Cost models that estimate the performance of programs. " alt="" coords="232,512,435,553"/>
+<area shape="rect" id="node6" href="$search__policy_8h.html" title="The base class of search policies, including the abstract definition of search policy and other suppo..." alt="" coords="1271,512,1473,553"/>
+<area shape="rect" id="node7" href="$transform__step_8h.html" title="Transformation steps. These steps are used to manipulate LoopState. They are similar to the schedule ..." alt="" coords="1548,512,1751,553"/>
+<area shape="rect" id="node8" href="$ir_2adt_8h.html" title="Algebraic data type definitions. " alt="" coords="88,802,237,829"/>
+<area shape="rect" id="node10" href="$ir_2expr_8h.html" title="Base expr nodes in TVM. " alt="" coords="1088,713,1245,739"/>
+<area shape="rect" id="node13" href="$script_2ir__builder_2base_8h.html" title="include/tvm/script\l/ir_builder/base.h" alt="" coords="3956,973,4095,1015"/>
+<area shape="rect" id="node14" href="$ir_2frame_8h.html" title="include/tvm/script\l/ir_builder/ir/frame.h" alt="" coords="3833,1063,3988,1104"/>
+<area shape="rect" id="node15" href="$ir_2ir_8h.html" title="include/tvm/script\l/ir_builder/ir/ir.h" alt="" coords="3777,1152,3916,1193"/>
+<area shape="rect" id="node38" href="$doc_8h.html" title="include/tvm/script\l/printer/doc.h" alt="" coords="872,795,1011,836"/>
+<area shape="rect" id="node39" href="$ir__docsifier_8h.html" title="include/tvm/script\l/printer/ir_docsifier.h" alt="" coords="787,884,944,925"/>
+<area shape="rect" id="node40" href="$target_8h.html" title="Compilation target object. " alt="" coords="4254,795,4397,836"/>
+<area shape="rect" id="node41" href="$tag_8h.html" title="Target tag registry. " alt="" coords="4309,884,4451,925"/>
+<area shape="rect" id="node42" href="$tir_2expr_8h.html" title="TIR expressions. " alt="" coords="1085,802,1248,829"/>
+<area shape="rect" id="node43" href="$relay_2base_8h.html" title="Base classes for the Relay IR. " alt="" coords="1323,891,1506,918"/>
+<area shape="rect" id="node44" href="$source__map_8h.html" title="A map from source names to source code. " alt="" coords="1087,512,1246,553"/>
+<area shape="rect" id="node45" href="$ir_2type_8h.html" title="IR/AST nodes for the unified type system in TVM. " alt="" coords="476,616,633,643"/>
+<area shape="rect" id="node46" href="$arg__info_8h.html" title="include/tvm/meta_schedule\l/arg_info.h" alt="" coords="5,512,208,553"/>
+<area shape="rect" id="node47" href="$ir__docsifier__functor_8h.html" title="include/tvm/script\l/printer/ir_docsifier\l_functor.h" alt="" coords="658,601,803,657"/>
+<area shape="rect" id="node48" href="$target__kind_8h.html" title="Target kind registry. " alt="" coords="4279,705,4422,747"/>
+<area shape="rect" id="node9" href="$relay_2adt_8h.html" title="Algebraic data types for Relay. " alt="" coords="840,1159,1013,1186"/>
+<area shape="rect" id="node11" href="$ir_2attrs_8h.html" title="Helpers for attribute objects. " alt="" coords="1743,802,1902,829"/>
+<area shape="rect" id="node12" href="$ir_2function_8h.html" title="Function nodes. " alt="" coords="3820,891,4001,918"/>
+<area shape="rect" id="node16" href="$ir_2op_8h.html" title="Primitive operators(builtin intrinsics) and registry for them. " alt="" coords="631,981,775,1007"/>
+<area shape="rect" id="node17" href="$relay_2expr_8h.html" title="Relay expression language. " alt="" coords="1015,1070,1196,1097"/>
+<area shape="rect" id="node22" href="$executor_8h.html" title="Object representation of Executor configuration and registry. " alt="" coords="397,981,606,1007"/>
+<area shape="rect" id="node24" href="$runtime_8h.html" title="Object representation of Runtime configuration and registry. " alt="" coords="169,981,372,1007"/>
+<area shape="rect" id="node18" href="$algorithm_8h.html" title="include/tvm/relay/attrs\l/algorithm.h" alt="" coords="1319,1152,1489,1193"/>
+<area shape="rect" id="node19" href="$relay_2attrs_2memory_8h.html" title="Attributes for memory operators. " alt="" coords="1839,1152,2009,1193"/>
+<area shape="rect" id="node20" href="$relay_2attrs_2transform_8h.html" title="Transform operators. " alt="" coords="1124,1152,1295,1193"/>
+<area shape="rect" id="node21" href="$type__relation_8h.html" title="Type relation and function for type inference(checking). " alt="" coords="515,884,661,925"/>
+<area shape="rect" id="node23" href="$relay_2type_8h.html" title="Relay typed AST nodes. " alt="" coords="849,981,1031,1007"/>
+<area shape="rect" id="node25" href="$annotation_8h.html" title="Attribute for annotation operators. " alt="" coords="2551,884,2721,925"/>
+<area shape="rect" id="node26" href="$bitserial_8h.html" title="Auxiliary attributes for bitserial operators. " alt="" coords="1308,973,1479,1015"/>
+<area shape="rect" id="node27" href="$call_8h.html" title="Attribute for call_lowered operator. " alt="" coords="2745,884,2916,925"/>
+<area shape="rect" id="node28" href="$relay_2attrs_2debug_8h.html" title="Auxiliary attributes for debug operators. " alt="" coords="2940,884,3111,925"/>
+<area shape="rect" id="node29" href="$device__copy_8h.html" title="Attribute for the device copy operator. " alt="" coords="3135,884,3305,925"/>
+<area shape="rect" id="node30" href="$image_8h.html" title="Auxiliary attributes for image operators. " alt="" coords="1503,973,1673,1015"/>
+<area shape="rect" id="node31" href="$relay_2attrs_2nn_8h.html" title="Auxiliary attributes for nn operators. " alt="" coords="1697,981,1900,1007"/>
+<area shape="rect" id="node32" href="$on__device_8h.html" title="Attribute for the &quot;on_device&quot; annotation (ie operator). " alt="" coords="3329,884,3500,925"/>
+<area shape="rect" id="node33" href="$random_8h.html" title="include/tvm/relay/attrs\l/random.h" alt="" coords="3524,884,3695,925"/>
+<area shape="rect" id="node34" href="$reduce_8h.html" title="Auxiliary attributes for reduce operators. " alt="" coords="1936,884,2107,925"/>
+<area shape="rect" id="node35" href="$vision_8h.html" title="Auxiliary attributes for vision operators. " alt="" coords="1924,973,2095,1015"/>
+<area shape="rect" id="node36" href="$relay_2attrs_2vm_8h.html" title="Attributes for Relay vm operators. " alt="" coords="2131,891,2338,918"/>
+<area shape="rect" id="node37" href="$relay_2qnn_2attrs_8h.html" title="Auxiliary attributes for qnn operators. " alt="" coords="2362,884,2526,925"/>
+<area shape="rect" id="node50" href="$reflection_8h.html" title="Reflection and serialization of compiler IR/AST nodes. " alt="" coords="940,184,1153,211"/>
+</map>

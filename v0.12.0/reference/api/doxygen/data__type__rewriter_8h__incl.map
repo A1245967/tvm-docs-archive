@@ -1,0 +1,31 @@
+<map id="include/tvm/tir/data_type_rewriter.h" name="include/tvm/tir/data_type_rewriter.h">
+<area shape="rect" id="node2" href="$stmt__functor_8h.html" title="Functors for tir stmts utility functions to call common functors. " alt="" coords="547,95,712,121"/>
+<area shape="rect" id="node3" href="$functor_8h.html" title="Defines the Functor data structures. " alt="" coords="2171,1013,2317,1039"/>
+<area shape="rect" id="node16" href="$tir_2expr_8h.html" title="TIR expressions. " alt="" coords="1213,319,1323,345"/>
+<area shape="rect" id="node46" href="$tir_2expr__functor_8h.html" title="Functors for tir expressions. " alt="" coords="663,244,827,271"/>
+<area shape="rect" id="node47" href="$tir_2function_8h.html" title="TIR Function. " alt="" coords="1247,169,1382,196"/>
+<area shape="rect" id="node50" href="$stmt_8h.html" title="TIR statements. " alt="" coords="1165,244,1277,271"/>
+<area shape="rect" id="node5" href="$object_8h.html" title="A managed object in the TVM runtime. " alt="" coords="2105,1333,2263,1360"/>
+<area shape="rect" id="node6" href="$c__runtime__api_8h.html" title="tvm/runtime/c_runtime\l_api.h" alt="" coords="398,1408,570,1449"/>
+<area shape="rect" id="node17" href="$ir_2expr_8h.html" title="Base expr nodes in TVM. " alt="" coords="2369,543,2476,569"/>
+<area shape="rect" id="node19" href="$node_8h.html" title="Definitions and helper macros for IR/AST nodes. " alt="" coords="2235,767,2367,793"/>
+<area shape="rect" id="node22" href="$array_8h.html" title="Runtime Array container types. " alt="" coords="1680,1005,1848,1047"/>
+<area shape="rect" id="node29" href="$data__type_8h.html" title="tvm/runtime/data_type.h" alt="" coords="3000,1102,3184,1129"/>
+<area shape="rect" id="node33" href="$string_8h.html" title="Runtime String container types. " alt="" coords="1349,1095,1517,1136"/>
+<area shape="rect" id="node43" href="$map_8h.html" title="Runtime Map container types. " alt="" coords="701,1005,869,1047"/>
+<area shape="rect" id="node44" href="$buffer_8h.html" title="Symbolic n&#45;dimensional array, to represent a memory buffer. " alt="" coords="2166,393,2287,420"/>
+<area shape="rect" id="node45" href="$var_8h.html" title="Variables in the TIR. " alt="" coords="2501,468,2603,495"/>
+<area shape="rect" id="node18" href="$source__map_8h.html" title="A map from source names to source code. " alt="" coords="2390,692,2546,719"/>
+<area shape="rect" id="node41" href="$ir_2type_8h.html" title="IR/AST nodes for the unified type system in TVM. " alt="" coords="2460,617,2567,644"/>
+<area shape="rect" id="node20" href="$reflection_8h.html" title="Reflection and serialization of compiler IR/AST nodes. " alt="" coords="2443,841,2605,868"/>
+<area shape="rect" id="node21" href="$structural__equal_8h.html" title="Structural equality comparison. " alt="" coords="2821,916,2971,957"/>
+<area shape="rect" id="node26" href="$runtime_2memory_8h.html" title="Runtime memory management. " alt="" coords="2089,1259,2263,1285"/>
+<area shape="rect" id="node30" href="$structural__hash_8h.html" title="tvm/node/structural\l_hash.h" alt="" coords="2646,916,2797,957"/>
+<area shape="rect" id="node39" href="$repr__printer_8h.html" title="Printer class to print repr string of each AST/IR nodes. " alt="" coords="2040,841,2216,868"/>
+<area shape="rect" id="node31" href="$ndarray_8h.html" title="A device&#45;independent managed NDArray abstraction. " alt="" coords="995,1013,1165,1039"/>
+<area shape="rect" id="node25" href="$runtime_2container_2base_8h.html" title="Base utilities for common POD(plain old data) container types. " alt="" coords="1958,1184,2031,1211"/>
+<area shape="rect" id="node28" href="$optional_8h.html" title="Runtime Optional container types. " alt="" coords="1056,1095,1224,1136"/>
+<area shape="rect" id="node32" href="$shape__tuple_8h.html" title="Runtime ShapeTuple container types. " alt="" coords="1643,1095,1811,1136"/>
+<area shape="rect" id="node48" href="$ir_2function_8h.html" title="Function nodes. " alt="" coords="2312,393,2443,420"/>
+<area shape="rect" id="node49" href="$ir_2attrs_8h.html" title="Helpers for attribute objects. " alt="" coords="2369,468,2476,495"/>
+</map>

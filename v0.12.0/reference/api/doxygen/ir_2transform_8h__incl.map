@@ -1,0 +1,29 @@
+<map id="include/tvm/ir/transform.h" name="include/tvm/ir/transform.h">
+<area shape="rect" id="node2" href="$diagnostic_8h.html" title="A new diagnostic interface for TVM error reporting. " alt="" coords="5,80,149,107"/>
+<area shape="rect" id="node3" href="$ir_2module_8h.html" title="IRModule that holds the functions and type definitions. " alt="" coords="2879,155,3006,181"/>
+<area shape="rect" id="node10" href="$array_8h.html" title="Runtime Array container types. " alt="" coords="2783,841,2951,883"/>
+<area shape="rect" id="node30" href="$string_8h.html" title="Runtime String container types. " alt="" coords="3207,931,3375,972"/>
+<area shape="rect" id="node49" href="$instrument_8h.html" title="tvm/ir/instrument.h" alt="" coords="3538,603,3686,629"/>
+<area shape="rect" id="node50" href="$with_8h.html" title="RAII wrapper function to enter and exit a context object similar to python&#39;s with syntax..." alt="" coords="3622,304,3767,331"/>
+<area shape="rect" id="node4" href="$ir_2adt_8h.html" title="Algebraic data type definitions. " alt="" coords="1693,304,1792,331"/>
+<area shape="rect" id="node5" href="$ir_2expr_8h.html" title="Base expr nodes in TVM. " alt="" coords="1689,379,1796,405"/>
+<area shape="rect" id="node6" href="$source__map_8h.html" title="A map from source names to source code. " alt="" coords="1979,528,2135,555"/>
+<area shape="rect" id="node38" href="$map_8h.html" title="Runtime Map container types. " alt="" coords="3844,841,4012,883"/>
+<area shape="rect" id="node42" href="$ir_2type_8h.html" title="IR/AST nodes for the unified type system in TVM. " alt="" coords="644,453,751,480"/>
+<area shape="rect" id="node44" href="$ir_2function_8h.html" title="Function nodes. " alt="" coords="2980,229,3111,256"/>
+<area shape="rect" id="node7" href="$node_8h.html" title="Definitions and helper macros for IR/AST nodes. " alt="" coords="1390,603,1522,629"/>
+<area shape="rect" id="node20" href="$object_8h.html" title="A managed object in the TVM runtime. " alt="" coords="1559,1169,1718,1196"/>
+<area shape="rect" id="node43" href="$runtime_2container_2adt_8h.html" title="Runtime ADT container types. " alt="" coords="3449,931,3617,972"/>
+<area shape="rect" id="node37" href="$packed__func_8h.html" title="Type&#45;erased function used across TVM API. " alt="" coords="1980,752,2135,793"/>
+<area shape="rect" id="node40" href="$registry_8h.html" title="This file defines the TVM global function registry. " alt="" coords="1973,677,2142,704"/>
+<area shape="rect" id="node8" href="$reflection_8h.html" title="Reflection and serialization of compiler IR/AST nodes. " alt="" coords="1721,677,1884,704"/>
+<area shape="rect" id="node9" href="$structural__equal_8h.html" title="Structural equality comparison. " alt="" coords="1122,752,1273,793"/>
+<area shape="rect" id="node19" href="$runtime_2memory_8h.html" title="Runtime memory management. " alt="" coords="3583,1095,3758,1121"/>
+<area shape="rect" id="node21" href="$c__runtime__api_8h.html" title="tvm/runtime/c_runtime\l_api.h" alt="" coords="1249,1244,1421,1285"/>
+<area shape="rect" id="node28" href="$structural__hash_8h.html" title="tvm/node/structural\l_hash.h" alt="" coords="1399,752,1550,793"/>
+<area shape="rect" id="node27" href="$data__type_8h.html" title="tvm/runtime/data_type.h" alt="" coords="1263,938,1447,965"/>
+<area shape="rect" id="node29" href="$ndarray_8h.html" title="A device&#45;independent managed NDArray abstraction. " alt="" coords="2133,849,2302,875"/>
+<area shape="rect" id="node16" href="$runtime_2container_2base_8h.html" title="Base utilities for common POD(plain old data) container types. " alt="" coords="3634,1020,3707,1047"/>
+<area shape="rect" id="node26" href="$optional_8h.html" title="Runtime Optional container types. " alt="" coords="3743,931,3911,972"/>
+<area shape="rect" id="node45" href="$ir_2attrs_8h.html" title="Helpers for attribute objects. " alt="" coords="2661,304,2768,331"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="include/tvm/tir/stmt.h" name="include/tvm/tir/stmt.h">
+<area shape="rect" id="node2" href="$bound_8h.html" title="Bound deducers. " alt="" coords="696,87,885,114"/>
+<area shape="rect" id="node27" href="$tir_2frame_8h.html" title="include/tvm/script\l/ir_builder/tir/frame.h" alt="" coords="1564,80,1724,121"/>
+<area shape="rect" id="node29" href="$tir_2analysis_8h.html" title="Analysis utilities and passes for TIR. " alt="" coords="1703,177,1889,203"/>
+<area shape="rect" id="node30" href="$tir_2function_8h.html" title="TIR Function. " alt="" coords="2161,87,2348,114"/>
+<area shape="rect" id="node39" href="$stmt__functor_8h.html" title="Functors for tir stmts utility functions to call common functors. " alt="" coords="2943,169,3094,211"/>
+<area shape="rect" id="node44" href="$tir_2op_8h.html" title="Common operators defined for Expr. " alt="" coords="1080,87,1229,114"/>
+<area shape="rect" id="node47" href="$block__scope_8h.html" title="Definition of two pillar data structure for TensorIR scheduling: StmtSRef, BlockScope. " alt="" coords="2556,80,2735,121"/>
+<area shape="rect" id="node48" href="$tir_2usmp_2utils_8h.html" title="Utilities for Unified Static Memory Planner. " alt="" coords="3235,80,3392,121"/>
+<area shape="rect" id="node3" href="$tensor_8h.html" title="Dataflow tensor object. " alt="" coords="560,177,733,203"/>
+<area shape="rect" id="node4" href="$relay_2op__attr__types_8h.html" title="The Expr and related elements in DataFlow construction. " alt="" coords="185,437,341,479"/>
+<area shape="rect" id="node5" href="$op__strategy_8h.html" title="The Relay operator Strategy and related data structure. " alt="" coords="43,527,199,568"/>
+<area shape="rect" id="node6" href="$autodiff_8h.html" title="Automatic differentiation of tensor expressions. " alt="" coords="301,266,483,293"/>
+<area shape="rect" id="node7" href="$operation_8h.html" title="Operation node can generate one or multiple Tensors. " alt="" coords="777,445,972,471"/>
+<area shape="rect" id="node23" href="$te_2schedule_8h.html" title="Define a schedule. " alt="" coords="471,355,662,382"/>
+<area shape="rect" id="node26" href="$tensor__intrin_8h.html" title="Tensor intrinsic operations. " alt="" coords="507,259,669,300"/>
+<area shape="rect" id="node8" href="$cuda_2dense_8h.html" title="CUDA schedule for dense operation. " alt="" coords="1057,527,1220,568"/>
+<area shape="rect" id="node9" href="$cuda_2injective_8h.html" title="CUDA schedule for injective operations. " alt="" coords="1244,527,1407,568"/>
+<area shape="rect" id="node10" href="$detail_2broadcast_8h.html" title="Detail broadcast. " alt="" coords="773,616,942,657"/>
+<area shape="rect" id="node13" href="$reduction_8h.html" title="Reduction op constructors. " alt="" coords="1047,869,1252,896"/>
+<area shape="rect" id="node14" href="$topi_2nn_8h.html" title="NN op constructions. " alt="" coords="208,951,368,978"/>
+<area shape="rect" id="node15" href="$reorg_8h.html" title="Reorg op constructions. " alt="" coords="1231,944,1401,985"/>
+<area shape="rect" id="node16" href="$topi_2transform_8h.html" title="Transform op constructors. " alt="" coords="640,795,848,821"/>
+<area shape="rect" id="node17" href="$constant__utils_8h.html" title="Utility functions for handling constants in TVM expressions. " alt="" coords="711,527,881,568"/>
+<area shape="rect" id="node19" href="$einsum_8h.html" title="Einstein summation op. " alt="" coords="1220,623,1412,650"/>
+<area shape="rect" id="node20" href="$nn_2bnn_8h.html" title="Binary op constructions. " alt="" coords="377,616,525,657"/>
+<area shape="rect" id="node21" href="$flatten_8h.html" title="Softmax op constructions. " alt="" coords="549,616,697,657"/>
+<area shape="rect" id="node22" href="$pad__utils_8h.html" title="Padding helpers. " alt="" coords="1431,527,1601,568"/>
+<area shape="rect" id="node11" href="$broadcast_8h.html" title="Broadcast op constructions. " alt="" coords="904,713,1112,739"/>
+<area shape="rect" id="node12" href="$elemwise_8h.html" title="Elementwise op constructions. " alt="" coords="1238,795,1445,821"/>
+<area shape="rect" id="node18" href="$strided__slice_8h.html" title="Utility functions for strided_slice op. " alt="" coords="659,705,829,747"/>
+<area shape="rect" id="node24" href="$schedule__pass_8h.html" title="Collection of Schedule pass functions. " alt="" coords="1243,437,1421,479"/>
+<area shape="rect" id="node25" href="$driver__api_8h.html" title="Compiler driver APIs to drive the compilation. " alt="" coords="1676,527,1817,568"/>
+<area shape="rect" id="node28" href="$tir_2ir_8h.html" title="include/tvm/script\l/ir_builder/tir/ir.h" alt="" coords="1540,169,1679,211"/>
+<area shape="rect" id="node31" href="$auto__scheduler_2feature_8h.html" title="Feature extraction for the cost model. We extract one feature vector per BufferStoreNode statement in..." alt="" coords="2513,169,2716,211"/>
+<area shape="rect" id="node32" href="$arg__info_8h.html" title="include/tvm/meta_schedule\l/arg_info.h" alt="" coords="1964,169,2167,211"/>
+<area shape="rect" id="node38" href="$state_8h.html" title="This file defines ScheduleState, the core data structure of TensorIR scheduling. " alt="" coords="2740,169,2919,211"/>
+<area shape="rect" id="node41" href="$greedy_8h.html" title="This header file contains helper methods used in greedy algorithms for planning memory for USMP..." alt="" coords="3029,259,3187,300"/>
+<area shape="rect" id="node42" href="$tir_2transform_8h.html" title="TIR specific transformation passes. " alt="" coords="2292,177,2489,203"/>
+<area shape="rect" id="node43" href="$tir_2usmp_2analysis_8h.html" title="The analysis passes for TIR&#45;based Unified Static Memory Planner. " alt="" coords="3119,169,3276,211"/>
+<area shape="rect" id="node33" href="$meta__schedule_2cost__model_8h.html" title="include/tvm/meta_schedule\l/cost_model.h" alt="" coords="1641,348,1844,389"/>
+<area shape="rect" id="node34" href="$search__strategy_8h.html" title="include/tvm/meta_schedule\l/search_strategy.h" alt="" coords="1780,437,1983,479"/>
+<area shape="rect" id="node35" href="$database_8h.html" title="include/tvm/meta_schedule\l/database.h" alt="" coords="1919,348,2121,389"/>
+<area shape="rect" id="node36" href="$measure__candidate_8h.html" title="include/tvm/meta_schedule\l/measure_candidate.h" alt="" coords="1591,259,1793,300"/>
+<area shape="rect" id="node37" href="$runner_8h.html" title="include/tvm/meta_schedule\l/runner.h" alt="" coords="1868,259,2071,300"/>
+<area shape="rect" id="node40" href="$data__type__rewriter_8h.html" title="Rewrite the data type of expressions. " alt="" coords="2854,259,3005,300"/>
+<area shape="rect" id="node45" href="$int__solver_8h.html" title="integer constraints data structures and solvers " alt="" coords="963,169,1117,211"/>
+<area shape="rect" id="node46" href="$data__layout_8h.html" title="Layout expression to describe the data organization of a tensor. And BijectiveLayout to mapping two d..." alt="" coords="686,348,837,389"/>
+<area shape="rect" id="node49" href="$algorithms_8h.html" title="The memory planning algorithm for USMP. " alt="" coords="3351,169,3508,211"/>
+<area shape="rect" id="node50" href="$tir_2usmp_2transform_8h.html" title="The transform passes for TIR&#45;based Unified Static Memory Planner. " alt="" coords="3532,169,3689,211"/>
+</map>

@@ -53,12 +53,6 @@ https://github.com/onnx/onnx
     from tvm.contrib.download import download_testdata
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 49-54
 
 Load pretrained ONNX model
@@ -84,12 +78,6 @@ we skip the pytorch model construction part, and download the saved onnx model
     onnx_model = onnx.load(model_path)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 67-74
 
 Load a test image
@@ -112,12 +100,6 @@ luminance (`Y`) channel.
     img_ycbcr = img.convert("YCbCr")  # convert to YCbCr
     img_y, img_cb, img_cr = img_ycbcr.split()
     x = np.array(img_y)[np.newaxis, np.newaxis, :, :]
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 84-94
@@ -149,23 +131,6 @@ provides a static definition of the input size.
         ).evaluate()
 
 
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /root/tvm/python/tvm/relay/frontend/onnx.py:5902: UserWarning: Mismatched attribute type in ' : kernel_shape'. Expected: 'INTS', actual: 'UNDEFINED'
-
-    ==> Context: Bad node spec for node. Name:  OpType: Conv
-      warnings.warn(str(e))
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 106-108
 
 Execute on TVM
@@ -177,12 +142,6 @@ Execute on TVM
 
     dtype = "float32"
     tvm_output = executor(tvm.nd.array(x.astype(dtype))).numpy()
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 112-117
@@ -208,17 +167,6 @@ bicubic algorithm. The image is then recombined and converted back to `RGB`.
     canvas[:, 672:, :] = np.asarray(result)
     plt.imshow(canvas.astype(np.uint8))
     plt.show()
-
-
-
-
-.. image-sg:: /how_to/compile_models/images/sphx_glr_from_onnx_001.png
-   :alt: from onnx
-   :srcset: /how_to/compile_models/images/sphx_glr_from_onnx_001.png
-   :class: sphx-glr-single-img
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 130-142

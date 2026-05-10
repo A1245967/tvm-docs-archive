@@ -52,12 +52,6 @@ __name__ == "__main__":` block.
     import tvm.contrib.graph_executor as runtime
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 48-56
 
 Define network
@@ -137,12 +131,6 @@ In this tutorial, we choose resnet-18 as tuning example.
     # physical CPU cores on your machine.
     num_threads = 1
     os.environ["TVM_NUM_THREADS"] = str(num_threads)
-
-
-
-
-
-
 
 
 
@@ -230,12 +218,6 @@ latency of one operator closer to its actual latency during end-to-end inference
 
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 200-201
 
 Finally, we launch tuning jobs and evaluate the end-to-end performance.
@@ -298,12 +280,6 @@ Finally, we launch tuning jobs and evaluate the end-to-end performance.
     # Uncomment the following line to run it by yourself.
 
     # tune_and_evaluate(tuning_option)
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 257-305

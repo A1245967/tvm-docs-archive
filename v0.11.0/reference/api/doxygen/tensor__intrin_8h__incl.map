@@ -1,0 +1,32 @@
+<map id="include/tvm/te/tensor_intrin.h" name="include/tvm/te/tensor_intrin.h">
+<area shape="rect" id="node2" href="$tensor_8h.html" title="Dataflow tensor object. " alt="" coords="2923,95,3046,121"/>
+<area shape="rect" id="node42" href="$buffer_8h.html" title="Symbolic n&#45;dimensional array, to represent a memory buffer. " alt="" coords="2493,393,2615,420"/>
+<area shape="rect" id="node3" href="$bound_8h.html" title="Bound deducers. " alt="" coords="3059,169,3198,196"/>
+<area shape="rect" id="node40" href="$tir_2expr_8h.html" title="TIR expressions. " alt="" coords="3136,319,3247,345"/>
+<area shape="rect" id="node45" href="$tir_2op_8h.html" title="Common operators defined for Expr. " alt="" coords="2838,169,2937,196"/>
+<area shape="rect" id="node4" href="$int__set_8h.html" title="Integer set. " alt="" coords="3213,244,3356,271"/>
+<area shape="rect" id="node5" href="$ir_2expr_8h.html" title="Base expr nodes in TVM. " alt="" coords="2730,543,2837,569"/>
+<area shape="rect" id="node44" href="$stmt_8h.html" title="TIR statements. " alt="" coords="3026,244,3138,271"/>
+<area shape="rect" id="node6" href="$ir_2span_8h.html" title="Span information for debugging purposes. " alt="" coords="2361,692,2469,719"/>
+<area shape="rect" id="node7" href="$node_8h.html" title="Definitions and helper macros for IR/AST nodes. " alt="" coords="2596,767,2728,793"/>
+<area shape="rect" id="node12" href="$object_8h.html" title="A managed object in the TVM runtime. " alt="" coords="2111,1333,2269,1360"/>
+<area shape="rect" id="node33" href="$ir_2type_8h.html" title="IR/AST nodes for the unified type system in TVM. " alt="" coords="1661,617,1767,644"/>
+<area shape="rect" id="node34" href="$string_8h.html" title="Runtime String container types. " alt="" coords="1881,1005,2049,1047"/>
+<area shape="rect" id="node8" href="$reflection_8h.html" title="Reflection and serialization of compiler IR/AST nodes. " alt="" coords="2087,841,2250,868"/>
+<area shape="rect" id="node9" href="$structural__equal_8h.html" title="Structural equality comparison. " alt="" coords="1517,916,1668,957"/>
+<area shape="rect" id="node13" href="$c__runtime__api_8h.html" title="tvm/runtime/c_runtime\l_api.h" alt="" coords="3728,1408,3900,1449"/>
+<area shape="rect" id="node26" href="$runtime_2memory_8h.html" title="Runtime memory management. " alt="" coords="2396,1259,2571,1285"/>
+<area shape="rect" id="node30" href="$structural__hash_8h.html" title="tvm/node/structural\l_hash.h" alt="" coords="1291,916,1441,957"/>
+<area shape="rect" id="node31" href="$repr__printer_8h.html" title="Printer class to print repr string of each AST/IR nodes. " alt="" coords="2725,841,2901,868"/>
+<area shape="rect" id="node29" href="$data__type_8h.html" title="tvm/runtime/data_type.h" alt="" coords="1147,1013,1331,1039"/>
+<area shape="rect" id="node10" href="$functor_8h.html" title="Defines the Functor data structures. " alt="" coords="1633,1013,1779,1039"/>
+<area shape="rect" id="node22" href="$array_8h.html" title="Runtime Array container types. " alt="" coords="2505,1005,2673,1047"/>
+<area shape="rect" id="node25" href="$runtime_2container_2base_8h.html" title="Base utilities for common POD(plain old data) container types. " alt="" coords="2345,1184,2419,1211"/>
+<area shape="rect" id="node28" href="$optional_8h.html" title="Runtime Optional container types. " alt="" coords="2899,1095,3067,1136"/>
+<area shape="rect" id="node41" href="$map_8h.html" title="Runtime Map container types. " alt="" coords="3251,1005,3419,1047"/>
+<area shape="rect" id="node43" href="$var_8h.html" title="Variables in the TIR. " alt="" coords="2592,468,2695,495"/>
+<area shape="rect" id="node46" href="$ir_2op_8h.html" title="Primitive operators(builtin intrinsics) and registry for them. " alt="" coords="935,319,1029,345"/>
+<area shape="rect" id="node48" href="$ir_2attrs_8h.html" title="Helpers for attribute objects. " alt="" coords="1047,468,1154,495"/>
+<area shape="rect" id="node49" href="$type__relation_8h.html" title="Type relation and function for type inference(checking). " alt="" coords="1019,393,1182,420"/>
+<area shape="rect" id="node50" href="$attr__registry__map_8h.html" title="Attribute map used in registry. " alt="" coords="1845,916,2013,957"/>
+</map>

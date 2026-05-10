@@ -50,12 +50,6 @@ This tutorial explains how to autotune a model using the C runtime.
     use_physical_hw = bool(os.getenv("TVM_MICRO_USE_HW"))
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 47-53
 
 Defining the model
@@ -95,12 +89,6 @@ Defining the model
     params = {"weight": weight_sample}
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 79-90
 
 Defining the target
@@ -137,12 +125,6 @@ Defining the target
 
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 108-117
 
 Extracting tuning tasks
@@ -164,12 +146,6 @@ Extracting tuning tasks
     with pass_context:
         tasks = tvm.autotvm.task.extract_from_program(relay_mod["main"], {}, TARGET)
     assert len(tasks) > 0
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 124-134
@@ -228,12 +204,6 @@ Configuring microTVM
         measure_option = tvm.autotvm.measure_option(builder=builder, runner=runner)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 173-177
 
 Run Autotuning
@@ -262,12 +232,6 @@ Run Autotuning
             ],
             si_prefix="M",
         )
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 196-202
@@ -322,26 +286,6 @@ Timing the untuned program
         del debug_module
 
 
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    ########## Build without Autotuning ##########
-    Node Name                                     Ops                                           Time(us)  Time(%)  Shape              Inputs  Outputs  Measurements(us)  
-    ---------                                     ---                                           --------  -------  -----              ------  -------  ----------------  
-    tvmgen_default_fused_nn_contrib_conv2d_NCHWc  tvmgen_default_fused_nn_contrib_conv2d_NCHWc  251.0     97.944   (1, 2, 10, 10, 3)  2       1        [251.0]           
-    tvmgen_default_fused_layout_transform_1       tvmgen_default_fused_layout_transform_1       3.626     1.415    (1, 6, 10, 10)     1       1        [3.626]           
-    tvmgen_default_fused_layout_transform         tvmgen_default_fused_layout_transform         1.644     0.641    (1, 1, 10, 10, 3)  1       1        [1.644]           
-    Total_time                                    -                                             256.27    -        -                  -       -        -                 
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 241-244
 
 Timing the tuned program
@@ -390,26 +334,6 @@ Timing the tuned program
         print("########## Build with Autotuning ##########")
         debug_module.run()
         del debug_module
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    ########## Build with Autotuning ##########
-    Node Name                                     Ops                                           Time(us)  Time(%)  Shape              Inputs  Outputs  Measurements(us)  
-    ---------                                     ---                                           --------  -------  -----              ------  -------  ----------------  
-    tvmgen_default_fused_nn_contrib_conv2d_NCHWc  tvmgen_default_fused_nn_contrib_conv2d_NCHWc  50.864    90.097   (1, 6, 10, 10, 1)  2       1        [50.864]          
-    tvmgen_default_fused_layout_transform_1       tvmgen_default_fused_layout_transform_1       3.959     7.014    (1, 6, 10, 10)     1       1        [3.959]           
-    tvmgen_default_fused_layout_transform         tvmgen_default_fused_layout_transform         1.631     2.889    (1, 1, 10, 10, 3)  1       1        [1.631]           
-    Total_time                                    -                                             56.454    -        -                  -       -        -                 
-
-
-
 
 
 .. _sphx_glr_download_how_to_work_with_microtvm_micro_autotune.py:

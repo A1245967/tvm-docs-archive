@@ -45,12 +45,6 @@ and the Firefly-RK3399 for an OpenCL example.
     # sphinx_gallery_end_ignore
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 41-72
 
 Build TVM Runtime on Device
@@ -134,12 +128,6 @@ Here we will declare a simple kernel on the local machine:
     s = te.create_schedule(B.op)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 115-119
 
 Then we cross compile the kernel.
@@ -164,12 +152,6 @@ on our webpage building server. See the detailed note in the following block.
     temp = utils.tempdir()
     path = temp.relpath("lib.tar")
     func.export_library(path)
-
-
-
-
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 134-166
@@ -228,12 +210,6 @@ First we obtain an RPC session from remote device.
         remote = rpc.connect(host, port)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 182-184
 
 Upload the lib to the remote device, then invoke a device local
@@ -256,12 +232,6 @@ compiler to relink them. Now `func` is a remote module object.
     np.testing.assert_equal(b.numpy(), a.numpy() + 1)
 
 
-
-
-
-
-
-
 .. GENERATED FROM PYTHON SOURCE LINES 197-202
 
 When you want to evaluate the performance of the kernel on the remote
@@ -278,20 +248,6 @@ device and returns the measured cost. Network overhead is excluded.
     time_f = func.time_evaluator(func.entry_name, dev, number=10)
     cost = time_f(a, b).mean
     print("%g secs/op" % cost)
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    9.32e-08 secs/op
-
-
 
 
 .. GENERATED FROM PYTHON SOURCE LINES 208-229
@@ -353,12 +309,6 @@ The following function shows how we run an OpenCL kernel remotely
         func(a, b)
         np.testing.assert_equal(b.numpy(), a.numpy() + 1)
         print("OpenCL test passed!")
-
-
-
-
-
-
 
 
 

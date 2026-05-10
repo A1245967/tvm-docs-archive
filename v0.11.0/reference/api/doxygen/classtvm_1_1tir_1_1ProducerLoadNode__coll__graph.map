@@ -1,0 +1,11 @@
+<map id="tvm::tir::ProducerLoadNode" name="tvm::tir::ProducerLoadNode">
+<area shape="rect" id="node2" href="$classtvm_1_1PrimExprNode.html" title="Base node of all primitive expressions. " alt="" coords="167,1939,443,2031"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseExprNode.html" title="Base type of all the expressions. " alt="" coords="390,1406,666,1557"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="117,653,363,1171"/>
+<area shape="rect" id="node5" href="$classtvm_1_1Span.html" title="{tvm::Span\n||+ Span()\l+ Merge()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="481,851,687,973"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="495,307,673,604"/>
+<area shape="rect" id="node9" href="$classtvm_1_1tir_1_1DataProducer.html" title="Managed reference to DataProducerNode. " alt="" coords="5,1195,211,1287"/>
+<area shape="rect" id="node10" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::PrimExpr \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 25 more...\l}" alt="" coords="546,1676,697,1915"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 11 more...\l}" alt="" coords="491,5,677,244"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1DataType.html" title="Runtime primitive data type. " alt="" coords="187,1311,365,1652"/>
+</map>
