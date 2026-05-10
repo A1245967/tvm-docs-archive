@@ -1,0 +1,18 @@
+<map id="include/tvm/tir/data_layout.h" name="include/tvm/tir/data_layout.h">
+<area shape="rect" id="node1" title="Layout expression to describe the data organization of a tensor. And BijectiveLayout to mapping two d..." alt="" coords="517,5,668,47"/>
+<area shape="rect" id="node2" href="$relay_2op__attr__types_8h.html" title="The Expr and related elements in DataFlow construction." alt="" coords="263,95,419,136"/>
+<area shape="rect" id="node8" href="$einsum_8h.html" title="Einstein summation op." alt="" coords="497,102,689,129"/>
+<area shape="rect" id="node9" href="$topi_2transform_8h.html" title="Transform op constructors." alt="" coords="739,102,947,129"/>
+<area shape="rect" id="node3" href="$relax_2analysis_8h.html" title="The set of Relax specific analysis on IR." alt="" coords="5,191,212,218"/>
+<area shape="rect" id="node5" href="$op__strategy_8h.html" title="The Relay operator Strategy and related data structure." alt="" coords="236,184,392,225"/>
+<area shape="rect" id="node6" href="$relay_2transform_8h.html" title="Relay specific transformation passes." alt="" coords="417,191,633,218"/>
+<area shape="rect" id="node4" href="$binding__rewrite_8h.html" title="An IR rewriter to easily add/remove/replace bindings (statements)." alt="" coords="15,273,203,315"/>
+<area shape="rect" id="node7" href="$relay_2qnn_2transform_8h.html" title=" " alt="" coords="443,273,607,315"/>
+<area shape="rect" id="node10" href="$bias__add_8h.html" title="bias_add op constructions" alt="" coords="657,184,805,225"/>
+<area shape="rect" id="node11" href="$topi_2nn_8h.html" title="NN op constructions." alt="" coords="674,281,834,307"/>
+<area shape="rect" id="node13" href="$reduction_8h.html" title="Reduction op constructors." alt="" coords="881,191,1086,218"/>
+<area shape="rect" id="node16" href="$reorg_8h.html" title="Reorg op constructions." alt="" coords="1254,273,1425,315"/>
+<area shape="rect" id="node12" href="$nn_2pooling_8h.html" title="Pooling op constructions." alt="" coords="739,363,887,404"/>
+<area shape="rect" id="node14" href="$rms__norm_8h.html" title="root mean square normalization op constructions" alt="" coords="909,273,1057,315"/>
+<area shape="rect" id="node15" href="$nn_2softmax_8h.html" title="Softmax op constructions." alt="" coords="1081,273,1229,315"/>
+</map>

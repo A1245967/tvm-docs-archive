@@ -1,0 +1,11 @@
+<map id="tvm::tir::ShuffleNode" name="tvm::tir::ShuffleNode">
+<area shape="rect" id="node1" title="Shuffle instruction. vec = concat(vectors) result = (vec[indices[0]], vec[indices[1]] ...." alt="" coords="419,2223,653,2359"/>
+<area shape="rect" id="node2" href="$classtvm_1_1PrimExprNode.html" title="Base node of all primitive expressions." alt="" coords="344,2037,576,2173"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseExprNode.html" title="Base type of all the expressions." alt="" coords="131,1685,362,1850"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="237,668,483,1185"/>
+<area shape="rect" id="node5" href="$classtvm_1_1Span.html" title=" " alt="" coords="5,866,213,987"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="272,307,451,619"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1Array.html" title=" " alt="" coords="533,1209,694,1551"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="268,5,455,244"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1DataType.html" title="Runtime primitive data type." alt="" coords="387,1575,563,1960"/>
+</map>

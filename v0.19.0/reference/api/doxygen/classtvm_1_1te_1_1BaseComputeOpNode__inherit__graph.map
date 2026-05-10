@@ -1,0 +1,7 @@
+<map id="tvm::te::BaseComputeOpNode" name="tvm::te::BaseComputeOpNode">
+<area shape="rect" id="node1" title="A Compute op that compute a tensor on certain domain. This is the base class for ComputeOp (operating..." alt="" coords="137,931,367,1125"/>
+<area shape="rect" id="node4" href="$classtvm_1_1te_1_1ComputeOpNode.html" title="A Compute op that compute a tensor on certain domain." alt="" coords="5,1203,240,1441"/>
+<area shape="rect" id="node5" href="$classtvm_1_1te_1_1TensorComputeOpNode.html" title="A TenorCompute op that compute a tensor with an tensor intrinsic." alt="" coords="264,1173,499,1471"/>
+<area shape="rect" id="node2" href="$classtvm_1_1te_1_1OperationNode.html" title="Base class of all operation nodes." alt="" coords="137,585,367,883"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="129,5,375,537"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="tvm::runtime::TVMRetValue" name="tvm::runtime::TVMRetValue">
+<area shape="rect" id="node1" title="Return Value container, Unlike TVMArgValue, which only holds reference and do not delete the underlyi..." alt="" coords="8,780,217,1033"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1TVMPODValue__CRTP__.html" title=" " alt="" coords="9,521,217,731"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1TVMPODValue__.html" title="Internal base class to handle conversion to POD values." alt="" coords="5,219,220,472"/>
+<area shape="rect" id="node4" href="$unionTVMValue.html" title="Union type of values being passed through API and function calls." alt="" coords="64,5,161,156"/>
+</map>

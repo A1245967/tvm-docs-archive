@@ -1,0 +1,8 @@
+<map id="include/tvm/auto_scheduler/measure.h" name="include/tvm/auto_scheduler/measure.h">
+<area shape="rect" id="node1" title="Distributed measurement infrastructure to measure the runtime costs of tensor programs...." alt="" coords="259,5,462,47"/>
+<area shape="rect" id="node2" href="$auto__schedule_8h.html" title="The user interface of the auto scheduler." alt="" coords="303,184,506,225"/>
+<area shape="rect" id="node3" href="$auto__scheduler_2cost__model_8h.html" title="Cost models that estimate the performance of programs." alt="" coords="33,95,235,136"/>
+<area shape="rect" id="node4" href="$auto__scheduler_2feature_8h.html" title="Feature extraction for the cost model. We extract one feature vector per BufferStoreNode statement in..." alt="" coords="259,95,462,136"/>
+<area shape="rect" id="node5" href="$measure__record_8h.html" title="Json serialization format for dumping and loading measurement records." alt="" coords="486,95,689,136"/>
+<area shape="rect" id="node6" href="$search__policy_8h.html" title="The base class of search policies, including the abstract definition of search policy and other suppo..." alt="" coords="713,95,915,136"/>
+</map>

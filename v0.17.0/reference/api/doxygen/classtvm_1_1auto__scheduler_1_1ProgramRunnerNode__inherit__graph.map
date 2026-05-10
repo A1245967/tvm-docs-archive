@@ -1,0 +1,6 @@
+<map id="tvm::auto_scheduler::ProgramRunnerNode" name="tvm::auto_scheduler::ProgramRunnerNode">
+<area shape="rect" id="node1" title="ProgramRunner that runs the built programs and measure the time cost." alt="" coords="137,585,367,809"/>
+<area shape="rect" id="node3" href="$classtvm_1_1auto__scheduler_1_1LocalRunnerNode.html" title="LocalRunner that uses local CPU/GPU to measure the time cost of programs." alt="" coords="5,894,240,1015"/>
+<area shape="rect" id="node4" href="$classtvm_1_1auto__scheduler_1_1RPCRunnerNode.html" title="RPCRunner that uses RPC call to measures the time cost of programs on remote devices...." alt="" coords="264,857,499,1052"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="129,5,375,537"/>
+</map>

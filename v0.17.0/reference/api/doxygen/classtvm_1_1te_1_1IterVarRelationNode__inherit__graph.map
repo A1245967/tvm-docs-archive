@@ -1,0 +1,9 @@
+<map id="tvm::te::IterVarRelationNode" name="tvm::te::IterVarRelationNode">
+<area shape="rect" id="node1" title="base node of iteration var" alt="" coords="525,585,755,677"/>
+<area shape="rect" id="node3" href="$classtvm_1_1te_1_1FuseNode.html" title="Fuse two domains into one domain." alt="" coords="5,747,240,898"/>
+<area shape="rect" id="node4" href="$classtvm_1_1te_1_1RebaseNode.html" title="Rebase the iteration to make min to be 0. This is useful to normalize the Schedule to make every leaf..." alt="" coords="264,755,499,891"/>
+<area shape="rect" id="node5" href="$classtvm_1_1te_1_1SingletonNode.html" title="Singleton iterator [0, 1)" alt="" coords="523,762,757,883"/>
+<area shape="rect" id="node6" href="$classtvm_1_1te_1_1SplitNode.html" title="Split the parent domain into product of outer and iter." alt="" coords="781,725,1016,920"/>
+<area shape="rect" id="node7" href="$classtvm_1_1te_1_1TransformNode.html" title="Transform iterator according to some arbitrary expression." alt="" coords="1040,740,1275,905"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="517,5,763,537"/>
+</map>

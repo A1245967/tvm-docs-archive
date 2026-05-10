@@ -1,0 +1,9 @@
+<map id="tvm::auto_scheduler::SplitStepNode" name="tvm::auto_scheduler::SplitStepNode">
+<area shape="rect" id="node1" title="Split step that corresponds to te::Stage::split with additional support of multiple&#45;level of factors." alt="" coords="236,1292,471,1501"/>
+<area shape="rect" id="node2" href="$classtvm_1_1auto__scheduler_1_1StepNode.html" title="The base class of transformation steps. Each step has its corresponding tvm.te schedule primitives." alt="" coords="13,983,243,1119"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="5,307,251,824"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Optional.html" title=" " alt="" coords="268,932,439,1171"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="417,409,596,721"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1Array.html" title=" " alt="" coords="463,873,649,1229"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="413,5,600,244"/>
+</map>

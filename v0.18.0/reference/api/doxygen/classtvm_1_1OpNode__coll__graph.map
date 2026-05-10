@@ -1,0 +1,14 @@
+<map id="tvm::OpNode" name="tvm::OpNode">
+<area shape="rect" id="node1" title="Primitive Op(builtin intrinsics)" alt="" coords="780,2255,1015,2449"/>
+<area shape="rect" id="node2" href="$classtvm_1_1RelayExprNode.html" title="Base node of all non&#45;primitive expressions." alt="" coords="430,2041,661,2192"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseExprNode.html" title="Base type of all the expressions." alt="" coords="250,1487,481,1652"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="5,668,251,1185"/>
+<area shape="rect" id="node5" href="$classtvm_1_1Span.html" title=" " alt="" coords="368,866,576,987"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="641,307,820,619"/>
+<area shape="rect" id="node8" href="$classtvm_1_1Type.html" title="Managed reference to TypeNode." alt="" coords="696,1523,904,1615"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1Optional.html" title=" " alt="" coords="423,1217,633,1455"/>
+<area shape="rect" id="node11" href="$classtvm_1_1runtime_1_1Array.html" title=" " alt="" coords="858,1676,1025,2017"/>
+<area shape="rect" id="node12" href="$classtvm_1_1runtime_1_1String.html" title="Reference to string objects." alt="" coords="973,1209,1131,1463"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="637,5,824,244"/>
+<area shape="rect" id="node10" href="$classtvm_1_1FuncType.html" title="Managed reference to FuncTypeNode." alt="" coords="685,2063,893,2170"/>
+</map>

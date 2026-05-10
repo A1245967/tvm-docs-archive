@@ -1,0 +1,22 @@
+<map id="tvm::TypeNode" name="tvm::TypeNode">
+<area shape="rect" id="node1" title="Type is the base type of all types." alt="" coords="1946,585,2177,765"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseTensorTypeNode.html" title="Base of all Tensor types This container can hold TensorType or GenericTensorType." alt="" coords="137,857,367,964"/>
+<area shape="rect" id="node6" href="$classtvm_1_1FuncTypeNode.html" title="Function type." alt="" coords="392,813,627,1008"/>
+<area shape="rect" id="node7" href="$classtvm_1_1GlobalTypeVarNode.html" title="A global type variable that is used for defining new types or type aliases." alt="" coords="651,828,885,993"/>
+<area shape="rect" id="node8" href="$classtvm_1_1IncompleteTypeNode.html" title="Intermediate values that is used to indicate incomplete type during type inference." alt="" coords="909,835,1144,986"/>
+<area shape="rect" id="node9" href="$classtvm_1_1PointerTypeNode.html" title="Low&#45;level raw pointer type." alt="" coords="1168,828,1403,993"/>
+<area shape="rect" id="node10" href="$classtvm_1_1PrimTypeNode.html" title="Primitive data types used in the low&#45;level IR." alt="" coords="1427,835,1661,986"/>
+<area shape="rect" id="node11" href="$classtvm_1_1RelayRefTypeNode.html" title="Reference Type High&#45;level Relay IR." alt="" coords="1685,828,1920,993"/>
+<area shape="rect" id="node12" href="$classtvm_1_1TupleTypeNode.html" title="The type of tuple values." alt="" coords="1944,828,2179,993"/>
+<area shape="rect" id="node13" href="$classtvm_1_1TypeCallNode.html" title="Type function application." alt="" coords="2203,828,2437,993"/>
+<area shape="rect" id="node14" href="$classtvm_1_1TypeConstraintNode.html" title="Potential Constraints in a function." alt="" coords="2462,857,2693,964"/>
+<area shape="rect" id="node16" href="$classtvm_1_1TypeDataNode.html" title="TypeData container node." alt="" coords="2717,821,2952,1001"/>
+<area shape="rect" id="node17" href="$classtvm_1_1TypeVarNode.html" title="Type parameter in functions." alt="" coords="2976,828,3211,993"/>
+<area shape="rect" id="node18" href="$classtvm_1_1relax_1_1ObjectTypeNode.html" title=" " alt="" coords="3235,843,3469,979"/>
+<area shape="rect" id="node19" href="$classtvm_1_1relax_1_1PackedFuncTypeNode.html" title=" " alt="" coords="3493,843,3729,979"/>
+<area shape="rect" id="node20" href="$classtvm_1_1relax_1_1ShapeTypeNode.html" title=" " alt="" coords="3752,835,3987,986"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="1939,5,2184,537"/>
+<area shape="rect" id="node4" href="$classtvm_1_1TensorTypeNode.html" title="This is the most commonly used type in relay. TensorType have a fixed dimension, data type." alt="" coords="5,1063,240,1243"/>
+<area shape="rect" id="node5" href="$classtvm_1_1relax_1_1DynTensorTypeNode.html" title=" " alt="" coords="264,1056,499,1251"/>
+<area shape="rect" id="node15" href="$classtvm_1_1TypeRelationNode.html" title="User defined type relation, it is an input&#45;output relation on types." alt="" coords="2460,1056,2695,1251"/>
+</map>

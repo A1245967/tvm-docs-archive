@@ -1,0 +1,12 @@
+<map id="tvm::tir::ProducerStoreNode" name="tvm::tir::ProducerStoreNode">
+<area shape="rect" id="node1" title="Store value into mult&#45;dimensional array that will be read by the consumer of the producer." alt="" coords="437,1861,672,1997"/>
+<area shape="rect" id="node2" href="$classtvm_1_1tir_1_1StmtNode.html" title="Base node of all statements." alt="" coords="215,1575,447,1799"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="5,668,251,1185"/>
+<area shape="rect" id="node4" href="$classtvm_1_1Span.html" title=" " alt="" coords="368,866,576,987"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="549,307,728,619"/>
+<area shape="rect" id="node7" href="$classtvm_1_1tir_1_1DataProducer.html" title="Managed reference to DataProducerNode." alt="" coords="388,1334,596,1426"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1Array.html" title=" " alt="" coords="603,1209,765,1551"/>
+<area shape="rect" id="node10" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode." alt="" coords="701,881,909,973"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="545,5,732,244"/>
+<area shape="rect" id="node9" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode." alt="" coords="701,1619,909,1755"/>
+</map>

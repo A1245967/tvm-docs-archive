@@ -1,0 +1,12 @@
+<map id="tvm::relay::InterpreterClosureObj" name="tvm::relay::InterpreterClosureObj">
+<area shape="rect" id="node1" title="The container type of Closures used by the interpreter." alt="" coords="274,1968,510,2089"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1ClosureObj.html" title="An object representing a closure. This object is used by both the Relay VM and interpreter." alt="" coords="95,1784,326,1891"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="5,1203,251,1720"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Map.html" title=" " alt="" coords="308,784,476,1037"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="319,307,497,619"/>
+<area shape="rect" id="node10" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode." alt="" coords="436,668,644,760"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="315,5,501,244"/>
+<area shape="rect" id="node7" href="$classtvm_1_1relay_1_1Function.html" title="Managed reference to FunctionNode." alt="" coords="443,1769,651,1905"/>
+<area shape="rect" id="node8" href="$classtvm_1_1BaseFunc.html" title="Managed reference to BaseFuncNode." alt="" coords="456,1415,664,1507"/>
+<area shape="rect" id="node9" href="$classtvm_1_1RelayExpr.html" title="Managed reference to RelayExprNode." alt="" coords="443,1061,651,1153"/>
+</map>

@@ -1,0 +1,61 @@
+
+:orphan:
+
+.. _sphx_glr_how_to_deploy_models_sg_execution_times:
+
+
+Computation times
+=================
+**00:00.000** total execution time for 9 files **from how_to/deploy_models**:
+
+.. container::
+
+  .. raw:: html
+
+    <style scoped>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script type="text/javascript" class="init">
+    $(document).ready( function () {
+        $('table.sg-datatable').DataTable({order: [[1, 'desc']]});
+    } );
+    </script>
+
+  .. list-table::
+   :header-rows: 1
+   :class: table table-striped sg-datatable
+
+   * - Example
+     - Time
+     - Mem (MB)
+   * - :ref:`sphx_glr_how_to_deploy_models_deploy_model_on_adreno.py` (``deploy_model_on_adreno.py``)
+     - 00:00.000
+     - 0.0
+   * - :ref:`sphx_glr_how_to_deploy_models_deploy_model_on_adreno_tvmc.py` (``deploy_model_on_adreno_tvmc.py``)
+     - 00:00.000
+     - 0.0
+   * - :ref:`sphx_glr_how_to_deploy_models_deploy_model_on_android.py` (``deploy_model_on_android.py``)
+     - 00:00.000
+     - 0.0
+   * - :ref:`sphx_glr_how_to_deploy_models_deploy_model_on_nano.py` (``deploy_model_on_nano.py``)
+     - 00:00.000
+     - 0.0
+   * - :ref:`sphx_glr_how_to_deploy_models_deploy_model_on_rasp.py` (``deploy_model_on_rasp.py``)
+     - 00:00.000
+     - 0.0
+   * - :ref:`sphx_glr_how_to_deploy_models_deploy_object_detection_pytorch.py` (``deploy_object_detection_pytorch.py``)
+     - 00:00.000
+     - 0.0
+   * - :ref:`sphx_glr_how_to_deploy_models_deploy_prequantized.py` (``deploy_prequantized.py``)
+     - 00:00.000
+     - 0.0
+   * - :ref:`sphx_glr_how_to_deploy_models_deploy_prequantized_tflite.py` (``deploy_prequantized_tflite.py``)
+     - 00:00.000
+     - 0.0
+   * - :ref:`sphx_glr_how_to_deploy_models_deploy_sparse.py` (``deploy_sparse.py``)
+     - 00:00.000
+     - 0.0

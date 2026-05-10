@@ -1,0 +1,8 @@
+<map id="tvm::tir::BufferAxisGraphExtractor" name="tvm::tir::BufferAxisGraphExtractor">
+<area shape="rect" id="node1" title="Construct an axis group graph from a PrimFunc. Two buffer axis are connected if they are accessed by ..." alt="" coords="103,543,287,649"/>
+<area shape="rect" id="node2" href="$classtvm_1_1tir_1_1StmtExprVisitor.html" title="Visitor that recursively visit stmts and exprs on them." alt="" coords="105,417,285,495"/>
+<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1StmtVisitor.html" title="StmtVisitor." alt="" coords="33,145,183,369"/>
+<area shape="rect" id="node4" href="$classtvm_1_1tir_1_1StmtFunctor.html" title=" " alt="" coords="5,5,176,97"/>
+<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1ExprVisitor.html" title="ExprVisitor." alt="" coords="216,145,365,369"/>
+<area shape="rect" id="node6" href="$classtvm_1_1tir_1_1ExprFunctor.html" title=" " alt="" coords="201,5,399,97"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="tvm::relax::DFPattern" name="tvm::relax::DFPattern">
+<area shape="rect" id="node1" title="Managed reference to dataflow patterns." alt="" coords="2349,380,2557,677"/>
+<area shape="rect" id="node3" href="$classtvm_1_1relax_1_1AndPattern.html" title="Managed reference to AndPatternNode." alt="" coords="5,733,213,839"/>
+<area shape="rect" id="node4" href="$classtvm_1_1relax_1_1AttrPattern.html" title="Managed reference to AttrPatternNode." alt="" coords="237,733,445,839"/>
+<area shape="rect" id="node5" href="$classtvm_1_1relax_1_1CallPattern.html" title=" " alt="" coords="469,733,677,839"/>
+<area shape="rect" id="node6" href="$classtvm_1_1relax_1_1ConstantPattern.html" title="Managed reference to a ConstantPattern." alt="" coords="701,740,909,832"/>
+<area shape="rect" id="node7" href="$classtvm_1_1relax_1_1DataTypePattern.html" title="Managed reference to DataTypePatternNode." alt="" coords="933,733,1141,839"/>
+<area shape="rect" id="node8" href="$classtvm_1_1relax_1_1DataflowVarPattern.html" title="Managed reference to a DataflowVarPattern." alt="" coords="1166,733,1389,839"/>
+<area shape="rect" id="node9" href="$classtvm_1_1relax_1_1ExprPattern.html" title="Managed reference to an ExprPattern." alt="" coords="1413,733,1621,839"/>
+<area shape="rect" id="node10" href="$classtvm_1_1relax_1_1ExternFuncPattern.html" title="Managed reference to ExternFuncPatternNode." alt="" coords="1646,733,1861,839"/>
+<area shape="rect" id="node11" href="$classtvm_1_1relax_1_1FunctionPattern.html" title="Managed reference to FunctionPatternNode." alt="" coords="1885,733,2093,839"/>
+<area shape="rect" id="node12" href="$classtvm_1_1relax_1_1GlobalVarPattern.html" title="Managed reference to a GlobalVarPattern." alt="" coords="2117,733,2325,839"/>
+<area shape="rect" id="node13" href="$classtvm_1_1relax_1_1NotPattern.html" title="Managed reference to NotPatternNode." alt="" coords="2349,733,2557,839"/>
+<area shape="rect" id="node14" href="$classtvm_1_1relax_1_1OrPattern.html" title="Managed reference to OrPatternNode." alt="" coords="2581,733,2789,839"/>
+<area shape="rect" id="node15" href="$classtvm_1_1relax_1_1PrimArrPattern.html" title="Managed reference to a PrimArrPattern." alt="" coords="2813,733,3021,839"/>
+<area shape="rect" id="node16" href="$classtvm_1_1relax_1_1ShapePattern.html" title="Managed reference to ShapePatternNode." alt="" coords="3045,733,3253,839"/>
+<area shape="rect" id="node17" href="$classtvm_1_1relax_1_1StructInfoPattern.html" title=" " alt="" coords="3277,733,3485,839"/>
+<area shape="rect" id="node18" href="$classtvm_1_1relax_1_1TupleGetItemPattern.html" title="Managed reference to TupleGetItemPatternNode." alt="" coords="3509,725,3717,847"/>
+<area shape="rect" id="node19" href="$classtvm_1_1relax_1_1TuplePattern.html" title="Managed reference to TuplePatternNode." alt="" coords="3741,733,3949,839"/>
+<area shape="rect" id="node20" href="$classtvm_1_1relax_1_1TypePattern.html" title="Managed reference to TypePatternNode." alt="" coords="3973,733,4181,839"/>
+<area shape="rect" id="node21" href="$classtvm_1_1relax_1_1UnorderedTuplePattern.html" title="Managed reference to UnorderedTuplePatternNode." alt="" coords="4205,725,4413,847"/>
+<area shape="rect" id="node22" href="$classtvm_1_1relax_1_1VarPattern.html" title="Managed reference to a VarPattern." alt="" coords="4437,733,4645,839"/>
+<area shape="rect" id="node23" href="$classtvm_1_1relax_1_1WildcardPattern.html" title="Managed reference to WildcardPatternNode." alt="" coords="4669,733,4893,839"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="2364,5,2543,332"/>
+</map>

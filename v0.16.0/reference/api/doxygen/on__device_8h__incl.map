@@ -1,0 +1,75 @@
+<map id="include/tvm/relay/attrs/on_device.h" name="include/tvm/relay/attrs/on_device.h">
+<area shape="rect" id="node1" title="Attribute for the &quot;on_device&quot; annotation (ie operator)." alt="" coords="224,5,395,47"/>
+<area shape="rect" id="node2" href="$ir_2attrs_8h.html" title="Helpers for attribute objects." alt="" coords="1237,483,1344,509"/>
+<area shape="rect" id="node17" title=" " alt="" coords="559,1594,617,1621"/>
+<area shape="rect" id="node59" href="$virtual__device_8h.html" title="A compile time representation for where data is to be stored at runtime, and how to compile code to c..." alt="" coords="3434,95,3571,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="905,632,1031,659"/>
+<area shape="rect" id="node4" href="$ir_2expr_8h.html" title="Base expr nodes in TVM." alt="" coords="3041,557,3146,584"/>
+<area shape="rect" id="node8" href="$structural__equal_8h.html" title="Structural equality comparison." alt="" coords="2493,1080,2643,1121"/>
+<area shape="rect" id="node18" title=" " alt="" coords="1769,1594,1861,1621"/>
+<area shape="rect" id="node19" title=" " alt="" coords="5451,1594,5511,1621"/>
+<area shape="rect" id="node21" title=" " alt="" coords="3199,1348,3262,1375"/>
+<area shape="rect" id="node35" title=" " alt="" coords="5393,1348,5517,1375"/>
+<area shape="rect" id="node38" href="$structural__hash_8h.html" title=" " alt="" coords="1677,1080,1827,1121"/>
+<area shape="rect" id="node45" title=" " alt="" coords="1310,1266,1397,1293"/>
+<area shape="rect" id="node46" href="$packed__func_8h.html" title="Type&#45;erased function used across TVM API." alt="" coords="3477,1080,3630,1121"/>
+<area shape="rect" id="node5" href="$source__map_8h.html" title="A map from source names to source code." alt="" coords="3226,707,3382,733"/>
+<area shape="rect" id="node6" href="$node_8h.html" title="Definitions and helper macros for IR/AST nodes." alt="" coords="2643,781,2775,808"/>
+<area shape="rect" id="node11" href="$object_8h.html" title="A managed object in the TVM runtime." alt="" coords="2171,1512,2330,1539"/>
+<area shape="rect" id="node27" title=" " alt="" coords="5160,1430,5245,1457"/>
+<area shape="rect" id="node29" href="$string_8h.html" title="Runtime String container types." alt="" coords="4157,1259,4325,1300"/>
+<area shape="rect" id="node52" title=" " alt="" coords="3308,1177,3367,1203"/>
+<area shape="rect" id="node58" href="$ir_2type_8h.html" title="IR/AST nodes for the unified type system in TVM." alt="" coords="2899,632,3005,659"/>
+<area shape="rect" id="node56" href="$registry_8h.html" title="This file defines the TVM global function registry." alt="" coords="3383,1005,3550,1032"/>
+<area shape="rect" id="node57" title=" " alt="" coords="3383,781,3457,808"/>
+<area shape="rect" id="node7" href="$reflection_8h.html" title="Reflection and serialization of compiler IR/AST nodes." alt="" coords="2139,1005,2301,1032"/>
+<area shape="rect" id="node12" href="$c__runtime__api_8h.html" title=" " alt="" coords="3291,1587,3463,1628"/>
+<area shape="rect" id="node25" href="$runtime_2memory_8h.html" title="Runtime memory management." alt="" coords="3293,1430,3465,1457"/>
+<area shape="rect" id="node53" href="$repr__printer_8h.html" title="Printer class to print repr string of each AST/IR nodes." alt="" coords="2414,856,2589,883"/>
+<area shape="rect" id="node37" href="$data__type_8h.html" title=" " alt="" coords="1675,1266,1859,1293"/>
+<area shape="rect" id="node39" href="$ndarray_8h.html" title="A device&#45;independent managed NDArray abstraction." alt="" coords="2813,1177,2979,1203"/>
+<area shape="rect" id="node9" href="$functor_8h.html" title="Defines the Functor data structures." alt="" coords="2745,1266,2890,1293"/>
+<area shape="rect" id="node22" href="$object__path_8h.html" title=" " alt="" coords="2511,1177,2687,1203"/>
+<area shape="rect" id="node36" href="$array_8h.html" title="Runtime Array container types." alt="" coords="4952,1169,5120,1211"/>
+<area shape="rect" id="node10" title=" " alt="" coords="3929,1430,4047,1457"/>
+<area shape="rect" id="node16" title=" " alt="" coords="4002,1594,4169,1621"/>
+<area shape="rect" id="node20" title=" " alt="" coords="2444,1594,2511,1621"/>
+<area shape="rect" id="node13" title=" " alt="" coords="3191,1676,3315,1703"/>
+<area shape="rect" id="node14" title=" " alt="" coords="3340,1676,3415,1703"/>
+<area shape="rect" id="node15" title=" " alt="" coords="3439,1676,3510,1703"/>
+<area shape="rect" id="node23" href="$optional_8h.html" title="Runtime Optional container types." alt="" coords="4592,1259,4760,1300"/>
+<area shape="rect" id="node24" href="$runtime_2container_2base_8h.html" title="Base utilities for common POD(plain old data) container types." alt="" coords="4505,1348,4578,1375"/>
+<area shape="rect" id="node28" title=" " alt="" coords="4123,1430,4234,1457"/>
+<area shape="rect" id="node26" title=" " alt="" coords="3346,1512,3411,1539"/>
+<area shape="rect" id="node30" title=" " alt="" coords="4365,1348,4480,1375"/>
+<area shape="rect" id="node31" title=" " alt="" coords="4098,1348,4169,1375"/>
+<area shape="rect" id="node32" title=" " alt="" coords="2339,1348,2405,1375"/>
+<area shape="rect" id="node33" title=" " alt="" coords="5037,1348,5115,1375"/>
+<area shape="rect" id="node34" title=" " alt="" coords="4193,1348,4290,1375"/>
+<area shape="rect" id="node40" href="$shape__tuple_8h.html" title="Runtime ShapeTuple container types." alt="" coords="3523,1259,3691,1300"/>
+<area shape="rect" id="node42" href="$serializer_8h.html" title="Serializer extension to support TVM data types Include this file to enable serialization of DLDataTyp..." alt="" coords="2339,1266,2517,1293"/>
+<area shape="rect" id="node41" title=" " alt="" coords="3389,1348,3465,1375"/>
+<area shape="rect" id="node43" title=" " alt="" coords="2685,1348,2768,1375"/>
+<area shape="rect" id="node44" title=" " alt="" coords="2430,1348,2559,1375"/>
+<area shape="rect" id="node47" href="$map_8h.html" title="Runtime Map container types." alt="" coords="5388,1169,5556,1211"/>
+<area shape="rect" id="node48" href="$variant_8h.html" title="Runtime Variant container types." alt="" coords="4360,1423,4528,1464"/>
+<area shape="rect" id="node49" title=" " alt="" coords="4857,1512,4911,1539"/>
+<area shape="rect" id="node50" href="$runtime_2module_8h.html" title="Runtime container of the functions generated by TVM, This is used to support dynamically link,..." alt="" coords="3543,1177,3711,1203"/>
+<area shape="rect" id="node51" title=" " alt="" coords="3816,1266,3880,1293"/>
+<area shape="rect" id="node54" href="$script__printer_8h.html" title=" " alt="" coords="2278,931,2463,957"/>
+<area shape="rect" id="node55" title=" " alt="" coords="2460,1005,2540,1032"/>
+<area shape="rect" id="node60" href="$ir_2transform_8h.html" title=" " alt="" coords="4423,184,4564,211"/>
+<area shape="rect" id="node67" href="$target_8h.html" title="Compilation target object." alt="" coords="2655,483,2801,509"/>
+<area shape="rect" id="node71" title=" " alt="" coords="5175,557,5289,584"/>
+<area shape="rect" id="node61" href="$diagnostic_8h.html" title="A new diagnostic interface for TVM error reporting." alt="" coords="4304,259,4448,285"/>
+<area shape="rect" id="node62" href="$ir_2module_8h.html" title="IRModule that holds the functions and type definitions." alt="" coords="4430,333,4557,360"/>
+<area shape="rect" id="node68" href="$with_8h.html" title="RAII wrapper function to enter and exit a context object similar to python&#39;s with syntax." alt="" coords="1006,557,1151,584"/>
+<area shape="rect" id="node73" href="$instrument_8h.html" title=" " alt="" coords="4293,931,4441,957"/>
+<area shape="rect" id="node72" title=" " alt="" coords="4331,333,4405,360"/>
+<area shape="rect" id="node63" href="$ir_2adt_8h.html" title="Algebraic data type definitions." alt="" coords="3597,483,3696,509"/>
+<area shape="rect" id="node65" href="$ir_2function_8h.html" title="Function nodes." alt="" coords="3540,408,3671,435"/>
+<area shape="rect" id="node66" href="$ir_2global__info_8h.html" title="GlobalInfo are globally static object that are referred by the IR itself." alt="" coords="2765,408,2915,435"/>
+<area shape="rect" id="node64" href="$runtime_2container_2adt_8h.html" title="Runtime ADT container types." alt="" coords="4400,1259,4568,1300"/>
+<area shape="rect" id="node69" href="$target__kind_8h.html" title="Target kind registry." alt="" coords="4463,707,4644,733"/>
+<area shape="rect" id="node70" href="$attr__registry__map_8h.html" title="Attribute map used in registry." alt="" coords="4451,1169,4619,1211"/>
+</map>

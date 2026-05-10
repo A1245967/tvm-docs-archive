@@ -1,0 +1,29 @@
+<map id="tvm::script::ir_builder::IRBuilderFrameNode" name="tvm::script::ir_builder::IRBuilderFrameNode">
+<area shape="rect" id="node1" title=" " alt="" coords="394,585,625,780"/>
+<area shape="rect" id="node3" href="$classtvm_1_1script_1_1ir__builder_1_1ir_1_1IRModuleFrameNode.html" title="A frame that represents the IRModule frame with functions and global variables." alt="" coords="135,828,369,1023"/>
+<area shape="rect" id="node4" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1RelaxFrameNode.html" title="The base ir_builder frame for the relax dialect." alt="" coords="394,865,625,986"/>
+<area shape="rect" id="node11" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1TIRFrameNode.html" title="A base frame that represents the TIR fame with body of statements." alt="" coords="2591,857,2822,993"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="387,5,632,537"/>
+<area shape="rect" id="node5" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1BlockFrameNode.html" title="The ir_builder frame for relax binding blocks." alt="" coords="5,1115,240,1324"/>
+<area shape="rect" id="node6" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1IfFrameNode.html" title="A frame that represents if statement." alt="" coords="264,1107,499,1331"/>
+<area shape="rect" id="node7" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1SeqExprFrameNode.html" title="The base ir_builder frame for frames with SeqExpr i.e. Functions, If branches." alt="" coords="523,1129,754,1309"/>
+<area shape="rect" id="node8" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1ElseFrameNode.html" title="A frame that represents else." alt="" coords="263,1467,497,1603"/>
+<area shape="rect" id="node9" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1FunctionFrameNode.html" title="The ir_builder frame for the relax function." alt="" coords="521,1416,756,1655"/>
+<area shape="rect" id="node10" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1ThenFrameNode.html" title="A frame that represents then." alt="" coords="780,1467,1015,1603"/>
+<area shape="rect" id="node12" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1AllocateConstFrameNode.html" title="A frame represents the allocate constant." alt="" coords="779,1115,1013,1324"/>
+<area shape="rect" id="node13" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1AllocateFrameNode.html" title="A frame represents the allocate." alt="" coords="1037,1107,1272,1331"/>
+<area shape="rect" id="node14" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1AssertFrameNode.html" title="A frame that represents the assert statement. Proceeds if the condition is true, otherwise aborts wit..." alt="" coords="1296,1137,1531,1302"/>
+<area shape="rect" id="node15" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1AttrFrameNode.html" title="A frame that represents attribute node." alt="" coords="1555,1129,1789,1309"/>
+<area shape="rect" id="node16" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1BlockFrameNode.html" title="A frame that represents the block." alt="" coords="1813,1071,2048,1368"/>
+<area shape="rect" id="node17" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1BlockInitFrameNode.html" title="A frame that represents the block initialization statment." alt="" coords="2072,1144,2307,1295"/>
+<area shape="rect" id="node18" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1DeclBufferFrameNode.html" title=" " alt="" coords="2331,1137,2565,1302"/>
+<area shape="rect" id="node19" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1ElseFrameNode.html" title="A frame that represents else." alt="" coords="2589,1151,2824,1287"/>
+<area shape="rect" id="node20" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1ForFrameNode.html" title="A frame that represents the for loop." alt="" coords="2848,1129,3083,1309"/>
+<area shape="rect" id="node21" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1IfFrameNode.html" title="A frame that represents if statement." alt="" coords="3107,1129,3341,1309"/>
+<area shape="rect" id="node22" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1LaunchThreadFrameNode.html" title="The LaunchThreadFrameNode." alt="" coords="3365,1129,3600,1309"/>
+<area shape="rect" id="node23" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1LetFrameNode.html" title="A frame represents the let binding expression, which binds a var." alt="" coords="3624,1137,3859,1302"/>
+<area shape="rect" id="node24" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1PrimFuncFrameNode.html" title="A frame that represents the PrimFunc containing TIR statements." alt="" coords="3883,1093,4117,1346"/>
+<area shape="rect" id="node25" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1RealizeFrameNode.html" title="A frame that represents realization." alt="" coords="4141,1129,4376,1309"/>
+<area shape="rect" id="node26" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1ThenFrameNode.html" title="A frame that represents then." alt="" coords="4400,1151,4635,1287"/>
+<area shape="rect" id="node27" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1WhileFrameNode.html" title="A frame that represents while loop." alt="" coords="4659,1144,4893,1295"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="tvm::tir::ProducerLoadNode" name="tvm::tir::ProducerLoadNode">
+<area shape="rect" id="node1" title="Load value from the result produced by the producer." alt="" coords="209,2285,444,2421"/>
+<area shape="rect" id="node2" href="$classtvm_1_1PrimExprNode.html" title="Base node of all primitive expressions." alt="" coords="211,2100,443,2236"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseExprNode.html" title="Base type of all the expressions." alt="" coords="391,1435,622,1601"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="103,668,348,1185"/>
+<area shape="rect" id="node5" href="$classtvm_1_1Span.html" title=" " alt="" coords="465,866,673,987"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="480,307,659,619"/>
+<area shape="rect" id="node9" href="$classtvm_1_1tir_1_1DataProducer.html" title="Managed reference to DataProducerNode." alt="" coords="5,1209,213,1301"/>
+<area shape="rect" id="node10" href="$classtvm_1_1runtime_1_1Array.html" title=" " alt="" coords="427,1735,589,2076"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="476,5,663,244"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1DataType.html" title="Runtime primitive data type." alt="" coords="191,1325,367,1711"/>
+</map>

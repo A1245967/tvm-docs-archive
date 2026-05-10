@@ -1,0 +1,93 @@
+<map id="tvm::BaseExprNode" name="tvm::BaseExprNode">
+<area shape="rect" id="node1" title="Base type of all the expressions." alt="" coords="8277,585,8507,765"/>
+<area shape="rect" id="node3" href="$classtvm_1_1PrimExprNode.html" title="Base node of all primitive expressions." alt="" coords="4660,835,4892,986"/>
+<area shape="rect" id="node58" href="$classtvm_1_1RelayExprNode.html" title="Base node of all non&#45;primitive expressions." alt="" coords="12025,813,12255,1008"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="8269,5,8515,537"/>
+<area shape="rect" id="node4" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="5,1107,240,1273"/>
+<area shape="rect" id="node6" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="264,1107,499,1273"/>
+<area shape="rect" id="node8" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="523,1107,757,1273"/>
+<area shape="rect" id="node10" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="781,1107,1016,1273"/>
+<area shape="rect" id="node12" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="1040,1107,1275,1273"/>
+<area shape="rect" id="node14" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="1299,1107,1533,1273"/>
+<area shape="rect" id="node16" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="1557,1107,1792,1273"/>
+<area shape="rect" id="node18" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="1816,1107,2051,1273"/>
+<area shape="rect" id="node20" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="2075,1107,2309,1273"/>
+<area shape="rect" id="node22" href="$classtvm_1_1tir_1_1CmpOpNode.html" title=" " alt="" coords="2333,1107,2568,1273"/>
+<area shape="rect" id="node24" href="$classtvm_1_1tir_1_1CmpOpNode.html" title=" " alt="" coords="2592,1107,2827,1273"/>
+<area shape="rect" id="node26" href="$classtvm_1_1tir_1_1CmpOpNode.html" title=" " alt="" coords="2851,1107,3085,1273"/>
+<area shape="rect" id="node28" href="$classtvm_1_1tir_1_1CmpOpNode.html" title=" " alt="" coords="3109,1107,3344,1273"/>
+<area shape="rect" id="node30" href="$classtvm_1_1tir_1_1CmpOpNode.html" title=" " alt="" coords="3368,1107,3603,1273"/>
+<area shape="rect" id="node32" href="$classtvm_1_1tir_1_1CmpOpNode.html" title=" " alt="" coords="3627,1107,3861,1273"/>
+<area shape="rect" id="node34" href="$classtvm_1_1FloatImmNode.html" title="Constant floating point literals in the program." alt="" coords="3885,1115,4120,1265"/>
+<area shape="rect" id="node35" href="$classtvm_1_1IntImmNode.html" title="Constant integer literals in the program." alt="" coords="4144,1115,4379,1265"/>
+<area shape="rect" id="node36" href="$classtvm_1_1arith_1_1IterMapExprNode.html" title="Base class of all iter map expressions." alt="" coords="4403,1129,4634,1251"/>
+<area shape="rect" id="node39" href="$classtvm_1_1tir_1_1AndNode.html" title="a &amp;&amp; b" alt="" coords="4659,1107,4893,1273"/>
+<area shape="rect" id="node40" href="$classtvm_1_1tir_1_1AnyNode.html" title="Any shape." alt="" coords="4917,1107,5152,1273"/>
+<area shape="rect" id="node41" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title="Base template to implement binary ops." alt="" coords="5176,1115,5411,1265"/>
+<area shape="rect" id="node42" href="$classtvm_1_1tir_1_1BroadcastNode.html" title="Create a vector where all the elements are value." alt="" coords="5435,1107,5669,1273"/>
+<area shape="rect" id="node43" href="$classtvm_1_1tir_1_1BufferLoadNode.html" title="Load value from the high dimension buffer." alt="" coords="5693,1100,5928,1280"/>
+<area shape="rect" id="node44" href="$classtvm_1_1tir_1_1CallNode.html" title="Call node." alt="" coords="5952,1107,6187,1273"/>
+<area shape="rect" id="node45" href="$classtvm_1_1tir_1_1CastNode.html" title="Cast value from one data type to another." alt="" coords="6211,1115,6445,1265"/>
+<area shape="rect" id="node46" href="$classtvm_1_1tir_1_1CmpOpNode.html" title="Base template to implement comparison ops." alt="" coords="6469,1115,6704,1265"/>
+<area shape="rect" id="node47" href="$classtvm_1_1tir_1_1LetNode.html" title="Let binding. Bind var to value then evaluate body." alt="" coords="6728,1100,6963,1280"/>
+<area shape="rect" id="node48" href="$classtvm_1_1tir_1_1NotNode.html" title="!a" alt="" coords="6987,1115,7221,1265"/>
+<area shape="rect" id="node49" href="$classtvm_1_1tir_1_1OrNode.html" title="a || b" alt="" coords="7245,1107,7480,1273"/>
+<area shape="rect" id="node50" href="$classtvm_1_1tir_1_1ProducerLoadNode.html" title="Load value from the result produced by the producer." alt="" coords="7504,1107,7739,1273"/>
+<area shape="rect" id="node51" href="$classtvm_1_1tir_1_1RampNode.html" title="Construct a vector with lanes elements where its i&#45;th element equals base + i * stride...." alt="" coords="7763,1100,7997,1280"/>
+<area shape="rect" id="node52" href="$classtvm_1_1tir_1_1ReduceNode.html" title="Reduction operator." alt="" coords="8021,1078,8256,1302"/>
+<area shape="rect" id="node53" href="$classtvm_1_1tir_1_1SelectNode.html" title="return true_value if condition is true, otherwise return false_value." alt="" coords="8280,1100,8515,1280"/>
+<area shape="rect" id="node54" href="$classtvm_1_1tir_1_1ShuffleNode.html" title="Shuffle instruction. vec = concat(vectors) result = (vec[indices[0]], vec[indices[1]] ...." alt="" coords="8539,1107,8773,1273"/>
+<area shape="rect" id="node55" href="$classtvm_1_1tir_1_1StringImmNode.html" title="String constants, only used in asserts." alt="" coords="8797,1115,9032,1265"/>
+<area shape="rect" id="node56" href="$classtvm_1_1tir_1_1VarNode.html" title="A variable node in the IR." alt="" coords="9057,1100,9287,1280"/>
+<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1AddNode.html" title="a + b" alt="" coords="54,1460,191,1537"/>
+<area shape="rect" id="node7" href="$classtvm_1_1tir_1_1MinNode.html" title="min(a, b)" alt="" coords="313,1460,449,1537"/>
+<area shape="rect" id="node9" href="$classtvm_1_1tir_1_1DivNode.html" title="a / b in the C semnatics." alt="" coords="573,1460,707,1537"/>
+<area shape="rect" id="node11" href="$classtvm_1_1tir_1_1FloorModNode.html" title="The remainder of the floordiv." alt="" coords="812,1460,985,1537"/>
+<area shape="rect" id="node13" href="$classtvm_1_1tir_1_1MulNode.html" title="a * b" alt="" coords="1089,1460,1225,1537"/>
+<area shape="rect" id="node15" href="$classtvm_1_1tir_1_1ModNode.html" title="a % b in the C semnatics." alt="" coords="1346,1460,1486,1537"/>
+<area shape="rect" id="node17" href="$classtvm_1_1tir_1_1MaxNode.html" title="max(a, b)" alt="" coords="1605,1460,1745,1537"/>
+<area shape="rect" id="node19" href="$classtvm_1_1tir_1_1FloorDivNode.html" title="Floor division, floor(a/b)" alt="" coords="1850,1460,2017,1537"/>
+<area shape="rect" id="node21" href="$classtvm_1_1tir_1_1SubNode.html" title="a &#45; b" alt="" coords="2124,1460,2260,1537"/>
+<area shape="rect" id="node23" href="$classtvm_1_1tir_1_1LTNode.html" title="a &lt; b" alt="" coords="2387,1460,2514,1537"/>
+<area shape="rect" id="node25" href="$structtvm_1_1tir_1_1LENode.html" title="a &lt;= b" alt="" coords="2646,1460,2773,1537"/>
+<area shape="rect" id="node27" href="$classtvm_1_1tir_1_1NENode.html" title="a != b" alt="" coords="2903,1460,3033,1537"/>
+<area shape="rect" id="node29" href="$classtvm_1_1tir_1_1GTNode.html" title="a &gt; b" alt="" coords="3161,1460,3292,1537"/>
+<area shape="rect" id="node31" href="$classtvm_1_1tir_1_1EQNode.html" title="a == b" alt="" coords="3420,1460,3551,1537"/>
+<area shape="rect" id="node33" href="$classtvm_1_1tir_1_1GENode.html" title="a &gt;= b" alt="" coords="3679,1460,3809,1537"/>
+<area shape="rect" id="node37" href="$classtvm_1_1arith_1_1IterSplitExprNode.html" title="Split of an iterator." alt="" coords="4272,1401,4507,1596"/>
+<area shape="rect" id="node38" href="$classtvm_1_1arith_1_1IterSumExprNode.html" title="Fuse multiple iterators by summing them with scaling." alt="" coords="4531,1416,4765,1581"/>
+<area shape="rect" id="node57" href="$classtvm_1_1tir_1_1SizeVarNode.html" title="A variable node represent a tensor index size, whose value must be non&#45;negative." alt="" coords="8923,1453,9157,1545"/>
+<area shape="rect" id="node59" href="$classtvm_1_1BaseFuncNode.html" title="Base node of all functions." alt="" coords="9442,1100,9673,1280"/>
+<area shape="rect" id="node64" href="$classtvm_1_1ConstructorNode.html" title="ADT constructor. Constructors compare by pointer equality." alt="" coords="9697,1085,9932,1295"/>
+<area shape="rect" id="node65" href="$classtvm_1_1GlobalVarNode.html" title="Global variable that lives in the top&#45;level module." alt="" coords="9956,1115,10191,1265"/>
+<area shape="rect" id="node66" href="$classtvm_1_1OpNode.html" title="Primitive Op(builtin intrinsics)" alt="" coords="10215,1056,10449,1324"/>
+<area shape="rect" id="node67" href="$classtvm_1_1relax_1_1CallNode.html" title="Call corresponds to callable invocation. Corresponds to operation in computational graph terminology." alt="" coords="10473,1093,10708,1287"/>
+<area shape="rect" id="node68" href="$classtvm_1_1relax_1_1IfNode.html" title="Condition expression." alt="" coords="10732,1100,10967,1280"/>
+<area shape="rect" id="node69" href="$classtvm_1_1relax_1_1LeafExprNode.html" title="Base type of all (non&#45;function) leaf Exprs." alt="" coords="10991,1137,11222,1243"/>
+<area shape="rect" id="node77" href="$classtvm_1_1relax_1_1SeqExprNode.html" title="A sequence of blocks followed by an expression." alt="" coords="11247,1078,11481,1302"/>
+<area shape="rect" id="node78" href="$classtvm_1_1relax_1_1TupleGetItemNode.html" title="Get index&#45;th field out of a tuple." alt="" coords="11505,1107,11740,1273"/>
+<area shape="rect" id="node79" href="$classtvm_1_1relax_1_1TupleNode.html" title="Tuple container." alt="" coords="11764,1115,11999,1265"/>
+<area shape="rect" id="node80" href="$classtvm_1_1relay_1_1CallNode.html" title="Call container." alt="" coords="12023,1078,12257,1302"/>
+<area shape="rect" id="node81" href="$classtvm_1_1relay_1_1ConstantNode.html" title="Constant tensor type." alt="" coords="12281,1100,12516,1280"/>
+<area shape="rect" id="node82" href="$classtvm_1_1relay_1_1IfNode.html" title="container of If" alt="" coords="12540,1100,12775,1280"/>
+<area shape="rect" id="node83" href="$classtvm_1_1relay_1_1LetNode.html" title="A binding of a sub&#45;network." alt="" coords="12799,1085,13033,1295"/>
+<area shape="rect" id="node84" href="$classtvm_1_1relay_1_1MatchNode.html" title="Match container node." alt="" coords="13057,1100,13292,1280"/>
+<area shape="rect" id="node85" href="$classtvm_1_1relay_1_1RefCreateNode.html" title=" " alt="" coords="13316,1115,13551,1265"/>
+<area shape="rect" id="node86" href="$classtvm_1_1relay_1_1RefReadNode.html" title=" " alt="" coords="13575,1115,13809,1265"/>
+<area shape="rect" id="node87" href="$classtvm_1_1relay_1_1RefWriteNode.html" title=" " alt="" coords="13833,1107,14068,1273"/>
+<area shape="rect" id="node88" href="$classtvm_1_1relay_1_1TempExprNode.html" title="Base class of the temporary expression." alt="" coords="14093,1093,14323,1287"/>
+<area shape="rect" id="node89" href="$classtvm_1_1relay_1_1TupleGetItemNode.html" title=" " alt="" coords="14348,1107,14583,1273"/>
+<area shape="rect" id="node90" href="$classtvm_1_1relay_1_1TupleNode.html" title="Tuple container." alt="" coords="14607,1115,14841,1265"/>
+<area shape="rect" id="node91" href="$classtvm_1_1relay_1_1VarNode.html" title="Container for Var." alt="" coords="14865,1100,15100,1280"/>
+<area shape="rect" id="node60" href="$classtvm_1_1relax_1_1ExternFuncNode.html" title="The extern function, which can represent packed function." alt="" coords="9181,1394,9416,1603"/>
+<area shape="rect" id="node61" href="$classtvm_1_1relax_1_1FunctionNode.html" title="A Relax function." alt="" coords="9440,1372,9675,1625"/>
+<area shape="rect" id="node62" href="$classtvm_1_1relay_1_1FunctionNode.html" title="Relay Function container." alt="" coords="9699,1394,9933,1603"/>
+<area shape="rect" id="node63" href="$classtvm_1_1tir_1_1PrimFuncNode.html" title="Primitive functions that contains TIR statements." alt="" coords="9957,1379,10192,1618"/>
+<area shape="rect" id="node70" href="$classtvm_1_1relax_1_1ConstantNode.html" title="Constant tensor." alt="" coords="10344,1409,10579,1589"/>
+<area shape="rect" id="node71" href="$classtvm_1_1relax_1_1DataTypeImmNode.html" title="Represent a data type constant." alt="" coords="10603,1423,10837,1574"/>
+<area shape="rect" id="node72" href="$classtvm_1_1relax_1_1PrimValueNode.html" title="PrimValue." alt="" coords="10861,1423,11096,1574"/>
+<area shape="rect" id="node73" href="$classtvm_1_1relax_1_1ShapeExprNode.html" title="A shape expression which allows users to construct a shape containing PrimExpr." alt="" coords="11120,1394,11355,1603"/>
+<area shape="rect" id="node74" href="$classtvm_1_1relax_1_1StringImmNode.html" title="Represent a string literal constant." alt="" coords="11379,1423,11613,1574"/>
+<area shape="rect" id="node75" href="$classtvm_1_1relax_1_1VarNode.html" title="The variable class for all Relax bindings." alt="" coords="11638,1379,11869,1618"/>
+<area shape="rect" id="node76" href="$classtvm_1_1relax_1_1DataflowVarNode.html" title="A sub&#45;type of the variable node used to mark dataflow variables from normal visible &quot;function local&quot; ..." alt="" coords="11636,1673,11871,1868"/>
+</map>

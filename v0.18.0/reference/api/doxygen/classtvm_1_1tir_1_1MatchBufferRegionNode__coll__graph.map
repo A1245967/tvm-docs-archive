@@ -1,0 +1,8 @@
+<map id="tvm::tir::MatchBufferRegionNode" name="tvm::tir::MatchBufferRegionNode">
+<area shape="rect" id="node1" title="Match introduces a constraint that the source buffer region can be remapped to the data layout specif..." alt="" coords="354,1248,590,1443"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="5,668,251,1185"/>
+<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1Buffer.html" title="Buffer is a symbolic n&#45;darray structure. It is a composition of primitive symbolic types,..." alt="" coords="368,800,576,1053"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="497,307,676,619"/>
+<area shape="rect" id="node6" href="$classtvm_1_1tir_1_1BufferRegion.html" title="Managed reference to BufferRegionNode." alt="" coords="600,844,808,1009"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="493,5,680,244"/>
+</map>

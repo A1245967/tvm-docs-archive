@@ -1,0 +1,5 @@
+<map id="tvm::transform::PassNode" name="tvm::transform::PassNode">
+<area shape="rect" id="node1" title="PassNode is the base type of differnt types of optimization passes. It is designed as a pure class an..." alt="" coords="13,585,243,751"/>
+<area shape="rect" id="node3" href="$classtvm_1_1transform_1_1SequentialNode.html" title="The SequentialNode contains a set of passes that transform Relay/Relax programs from one AST to anoth..." alt="" coords="11,799,245,979"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="5,5,251,537"/>
+</map>

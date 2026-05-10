@@ -1,0 +1,13 @@
+<map id="include/tvm/relax/struct_info.h" name="include/tvm/relax/struct_info.h">
+<area shape="rect" id="node1" title=" " alt="" coords="775,5,952,47"/>
+<area shape="rect" id="node2" href="$relax_2analysis_8h.html" title="The set of Relax specific analysis on IR." alt="" coords="145,102,352,129"/>
+<area shape="rect" id="node4" href="$distributed_2struct__info_8h.html" title="Struct info for DTensor (Distributed Tensor)" alt="" coords="469,95,679,136"/>
+<area shape="rect" id="node7" href="$struct__info__functor_8h.html" title="Functors and visitors for struct info." alt="" coords="648,184,825,225"/>
+<area shape="rect" id="node8" href="$relax_2expr__functor_8h.html" title="A more powerful visitor which enables defining arbitrary function signatures with type based dispatch..." alt="" coords="715,273,884,315"/>
+<area shape="rect" id="node9" href="$nested__msg_8h.html" title="Helper container to store nested message for robust tuple&#45;aware analysis." alt="" coords="901,95,1085,136"/>
+<area shape="rect" id="node10" href="$relax_2op__attr__types_8h.html" title="Data structures that can appear in operator attributes." alt="" coords="1109,95,1265,136"/>
+<area shape="rect" id="node11" href="$relax_2ir_8h.html" title=" " alt="" coords="1289,95,1437,136"/>
+<area shape="rect" id="node3" href="$binding__rewrite_8h.html" title="An IR rewriter to easily add/remove/replace bindings (statements)." alt="" coords="5,184,193,225"/>
+<area shape="rect" id="node5" href="$distributed_8h.html" title="Attributes for redistribute and annotate_sharding operators." alt="" coords="218,184,389,225"/>
+<area shape="rect" id="node6" href="$axis__group__graph_8h.html" title=" " alt="" coords="413,184,623,225"/>
+</map>

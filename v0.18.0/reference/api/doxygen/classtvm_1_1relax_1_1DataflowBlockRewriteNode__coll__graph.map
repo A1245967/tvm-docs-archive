@@ -1,0 +1,24 @@
+<map id="tvm::relax::DataflowBlockRewriteNode" name="tvm::relax::DataflowBlockRewriteNode">
+<area shape="rect" id="node1" title="Statement rewriter for relax.DataflowBlock." alt="" coords="1239,3144,1473,3397"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="5,668,251,1185"/>
+<area shape="rect" id="node9" href="$classtvm_1_1BaseExprNode.html" title="Base type of all the expressions." alt="" coords="486,1501,717,1667"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Map.html" title=" " alt="" coords="236,1209,401,1477"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="929,307,1108,619"/>
+<area shape="rect" id="node8" href="$classtvm_1_1RelayExprNode.html" title="Base node of all non&#45;primitive expressions." alt="" coords="650,1909,881,2060"/>
+<area shape="rect" id="node10" href="$classtvm_1_1Span.html" title=" " alt="" coords="529,866,737,987"/>
+<area shape="rect" id="node11" href="$classtvm_1_1Type.html" title="Managed reference to TypeNode." alt="" coords="664,1297,872,1389"/>
+<area shape="rect" id="node12" href="$classtvm_1_1runtime_1_1Optional.html" title=" " alt="" coords="879,1224,1089,1463"/>
+<area shape="rect" id="node14" href="$classtvm_1_1Attrs.html" title="Managed reference to BaseAttrsNode." alt="" coords="915,881,1123,973"/>
+<area shape="rect" id="node17" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode." alt="" coords="1147,881,1355,973"/>
+<area shape="rect" id="node18" href="$classtvm_1_1relax_1_1StructInfo.html" title="Managed reference to StructInfoNode." alt="" coords="1215,1742,1423,1834"/>
+<area shape="rect" id="node19" href="$classtvm_1_1runtime_1_1Array.html" title=" " alt="" coords="1345,2347,1506,2688"/>
+<area shape="rect" id="node20" href="$classtvm_1_1runtime_1_1Optional.html" title=" " alt="" coords="1463,2084,1646,2323"/>
+<area shape="rect" id="node22" href="$classtvm_1_1relax_1_1BindingBlock.html" title=" " alt="" coords="1555,866,1763,987"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="925,5,1112,244"/>
+<area shape="rect" id="node6" href="$classtvm_1_1relax_1_1FunctionNode.html" title="A Relax function." alt="" coords="1143,2872,1377,3081"/>
+<area shape="rect" id="node7" href="$classtvm_1_1BaseFuncNode.html" title="Base node of all functions." alt="" coords="930,2435,1161,2600"/>
+<area shape="rect" id="node13" href="$classtvm_1_1DictAttrs.html" title="Managed reference to DictAttrsNode." alt="" coords="945,1691,1175,1885"/>
+<area shape="rect" id="node15" href="$classtvm_1_1relax_1_1SeqExpr.html" title=" " alt="" coords="1065,2128,1273,2279"/>
+<area shape="rect" id="node16" href="$classtvm_1_1RelayExpr.html" title="Managed reference to RelayExprNode." alt="" coords="1147,1538,1355,1630"/>
+<area shape="rect" id="node21" href="$classtvm_1_1relax_1_1DataflowBlock.html" title=" " alt="" coords="1631,2712,1839,2848"/>
+</map>

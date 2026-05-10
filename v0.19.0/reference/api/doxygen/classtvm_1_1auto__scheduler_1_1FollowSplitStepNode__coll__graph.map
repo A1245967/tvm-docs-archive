@@ -1,0 +1,5 @@
+<map id="tvm::auto_scheduler::FollowSplitStepNode" name="tvm::auto_scheduler::FollowSplitStepNode">
+<area shape="rect" id="node1" title="Similar to SplitStepNode, but uses split factors from another step (i.e. Follow another split step)" alt="" coords="11,757,245,996"/>
+<area shape="rect" id="node2" href="$classtvm_1_1auto__scheduler_1_1StepNode.html" title="The base class of transformation steps. Each step has its corresponding tvm.te schedule primitives." alt="" coords="13,572,243,708"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="5,5,251,523"/>
+</map>

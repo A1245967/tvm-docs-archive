@@ -1,0 +1,12 @@
+<map id="tvm::tir::RampNode" name="tvm::tir::RampNode">
+<area shape="rect" id="node1" title="Construct a vector with lanes elements where its i&#45;th element equals base + i * stride...." alt="" coords="504,2003,739,2139"/>
+<area shape="rect" id="node2" href="$classtvm_1_1PrimExprNode.html" title="Base node of all primitive expressions." alt="" coords="424,1817,656,1953"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseExprNode.html" title="Base type of all the expressions." alt="" coords="197,1358,427,1523"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="237,668,483,1185"/>
+<area shape="rect" id="node5" href="$classtvm_1_1Span.html" title=" " alt="" coords="5,866,213,987"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="316,307,495,619"/>
+<area shape="rect" id="node10" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode." alt="" coords="600,881,808,973"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="312,5,499,244"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1DataType.html" title="Runtime primitive data type." alt="" coords="452,1248,628,1633"/>
+<area shape="rect" id="node9" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode." alt="" coords="600,1657,808,1793"/>
+</map>
