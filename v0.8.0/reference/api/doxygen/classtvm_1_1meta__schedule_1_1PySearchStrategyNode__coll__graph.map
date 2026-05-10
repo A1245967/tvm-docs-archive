@@ -1,0 +1,9 @@
+<map id="tvm::meta_schedule::PySearchStrategyNode" name="tvm::meta_schedule::PySearchStrategyNode">
+<area shape="rect" id="node2" href="$classtvm_1_1meta__schedule_1_1SearchStrategyNode.html" title="The search strategy for measure candidates generation. " alt="" coords="5,572,281,752"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="20,5,267,523"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1TypedPackedFunc.html" title="{tvm::runtime::TypedPacked\lFunc\&lt; Optional\&lt; Array\&lt;\l MeasureCandidate \&gt; \&gt;()\&gt;\n||}" alt="" coords="306,609,509,715"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1TypedPackedFunc.html" title="{tvm::runtime::TypedPacked\lFunc\&lt; void()\&gt;\n||}" alt="" coords="533,616,735,708"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1TypedPackedFunc.html" title="{tvm::runtime::TypedPacked\lFunc\&lt; void(const Array\l\&lt; tir::Schedule \&gt; &amp;)\&gt;\n||}" alt="" coords="759,609,962,715"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1TypedPackedFunc.html" title="{tvm::runtime::TypedPacked\lFunc\&lt; void(const TuneContext &amp;)\&gt;\n||}" alt="" coords="987,616,1239,708"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1TypedPackedFunc.html" title="{tvm::runtime::TypedPacked\lFunc\&lt; void(const Array\l\&lt; RunnerResult \&gt; &amp;)\&gt;\n||}" alt="" coords="1263,609,1466,715"/>
+</map>

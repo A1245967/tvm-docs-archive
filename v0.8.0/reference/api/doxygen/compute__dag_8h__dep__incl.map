@@ -1,0 +1,9 @@
+<map id="include/tvm/auto_scheduler/compute_dag.h" name="include/tvm/auto_scheduler/compute_dag.h">
+<area shape="rect" id="node2" href="$cost__model_8h.html" title="Cost models that estimate the performance of programs. " alt="" coords="5,273,208,315"/>
+<area shape="rect" id="node3" href="$auto__scheduler_2feature_8h.html" title="Feature extraction for the cost model. We extract one feature vector per BufferStoreNode statement in..." alt="" coords="232,273,435,315"/>
+<area shape="rect" id="node4" href="$search__task_8h.html" title="Meta information and hardware parameters for a search task. " alt="" coords="459,95,661,136"/>
+<area shape="rect" id="node5" href="$measure_8h.html" title="Distributed measurement infrastructure to measure the runtime costs of tensor programs. These functions are responsible for building the tvm module, uploading it to remote devices, recording the running time costs, and checking the correctness of the output. " alt="" coords="459,184,661,225"/>
+<area shape="rect" id="node8" href="$search__policy_8h.html" title="The base class of search policies, including the abstract definition of search policy and other suppo..." alt="" coords="736,273,939,315"/>
+<area shape="rect" id="node6" href="$auto__schedule_8h.html" title="The user interface of the auto scheduler. " alt="" coords="667,363,869,404"/>
+<area shape="rect" id="node7" href="$measure__record_8h.html" title="Json serialization format for dumping and loading measurement records. " alt="" coords="459,273,661,315"/>
+</map>

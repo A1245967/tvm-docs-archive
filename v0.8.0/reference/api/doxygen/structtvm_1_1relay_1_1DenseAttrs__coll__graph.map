@@ -1,0 +1,11 @@
+<map id="tvm::relay::DenseAttrs" name="tvm::relay::DenseAttrs">
+<area shape="rect" id="node2" href="$classtvm_1_1AttrsNode.html" title="{tvm::AttrsNode\&lt; DenseAttrs \&gt;\n||+ VisitAttrs()\l+ VisitNonDefaultAttrs()\l+ InitByPackedArgs()\l+ SEqualReduce()\l+ SHashReduce()\l+ ListFieldInfo()\l}" alt="" coords="44,1509,267,1659"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseAttrsNode.html" title="Base class of all attribute class. " alt="" coords="5,873,281,1112"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="20,307,267,824"/>
+<area shape="rect" id="node5" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="295,1516,501,1652"/>
+<area shape="rect" id="node6" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="306,947,511,1039"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="422,417,601,714"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1String.html" title="Reference to string objects. " alt="" coords="471,1136,627,1389"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 10 more...\l}" alt="" coords="418,5,605,244"/>
+<area shape="rect" id="node10" href="$classtvm_1_1runtime_1_1DataType.html" title="Runtime primitive data type. " alt="" coords="754,1413,933,1755"/>
+</map>

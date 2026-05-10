@@ -1,0 +1,15 @@
+<map id="include/tvm/runtime/module.h" name="include/tvm/runtime/module.h">
+<area shape="rect" id="node3" href="$c__runtime__api_8h.html" title="tvm/runtime/c_runtime\l_api.h" alt="" coords="2199,587,2371,628"/>
+<area shape="rect" id="node7" href="$runtime_2memory_8h.html" title="Runtime memory management. " alt="" coords="1141,437,1315,464"/>
+<area shape="rect" id="node8" href="$object_8h.html" title="A managed object in the TVM runtime. " alt="" coords="1391,512,1550,539"/>
+<area shape="rect" id="node18" href="$packed__func_8h.html" title="Type&#45;erased function used across TVM API. " alt="" coords="913,95,1068,136"/>
+<area shape="rect" id="node19" href="$array_8h.html" title="Runtime Array container types. " alt="" coords="568,273,736,315"/>
+<area shape="rect" id="node24" href="$map_8h.html" title="Runtime Map container types. " alt="" coords="275,184,443,225"/>
+<area shape="rect" id="node26" href="$data__type_8h.html" title="tvm/runtime/data_type.h" alt="" coords="1807,512,1991,539"/>
+<area shape="rect" id="node27" href="$ndarray_8h.html" title="A device&#45;independent managed NDArray abstraction. " alt="" coords="1266,191,1435,218"/>
+<area shape="rect" id="node21" href="$runtime_2container_2base_8h.html" title="Base utilities for common POD(plain old data) container types. " alt="" coords="753,363,826,389"/>
+<area shape="rect" id="node25" href="$optional_8h.html" title="Runtime Optional container types. " alt="" coords="347,281,442,307"/>
+<area shape="rect" id="node28" href="$shape__tuple_8h.html" title="Runtime ShapeTuple container types. " alt="" coords="811,273,979,315"/>
+<area shape="rect" id="node29" href="$string_8h.html" title="Runtime String container types. " alt="" coords="1267,273,1435,315"/>
+<area shape="rect" id="node32" href="$serializer_8h.html" title="Serializer extension to support TVM data types Include this file to enable serialization of DLDataTyp..." alt="" coords="1884,281,2063,307"/>
+</map>

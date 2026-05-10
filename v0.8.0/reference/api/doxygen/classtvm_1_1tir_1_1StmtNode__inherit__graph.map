@@ -1,0 +1,20 @@
+<map id="tvm::tir::StmtNode" name="tvm::tir::StmtNode">
+<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1AllocateNode.html" title="Allocate a buffer that can be used in body. " alt="" coords="5,835,284,1074"/>
+<area shape="rect" id="node4" href="$classtvm_1_1tir_1_1AssertStmtNode.html" title="Assert condition, if an error occurs, return the error message. " alt="" coords="308,872,587,1037"/>
+<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1AttrStmtNode.html" title="Define certain auxiliary attribute for the body to be a symbolic value. This provide auxiliary inform..." alt="" coords="611,865,889,1045"/>
+<area shape="rect" id="node6" href="$classtvm_1_1tir_1_1BlockNode.html" title="A block is a basic schedule unit in TIR. " alt="" coords="913,828,1192,1081"/>
+<area shape="rect" id="node7" href="$classtvm_1_1tir_1_1BlockRealizeNode.html" title="A block realization node represents execution of the block at the binding values. ..." alt="" coords="1216,872,1495,1037"/>
+<area shape="rect" id="node8" href="$classtvm_1_1tir_1_1BufferRealizeNode.html" title="Annotate the region where the buffer need to be read and write in the body. We only need to allocate ..." alt="" coords="1519,850,1797,1059"/>
+<area shape="rect" id="node9" href="$classtvm_1_1tir_1_1BufferStoreNode.html" title="Store value to the high dimension buffer. " alt="" coords="1821,872,2100,1037"/>
+<area shape="rect" id="node10" href="$classtvm_1_1tir_1_1EvaluateNode.html" title="Evaluates an expression. This is mostly used for putting a Call node into Stmt. " alt="" coords="2124,887,2403,1023"/>
+<area shape="rect" id="node11" href="$classtvm_1_1tir_1_1ForNode.html" title="A for loop, with poissible type annotations. " alt="" coords="2427,843,2705,1067"/>
+<area shape="rect" id="node12" href="$classtvm_1_1tir_1_1IfThenElseNode.html" title="IfThenElse statment. " alt="" coords="2729,872,3008,1037"/>
+<area shape="rect" id="node13" href="$classtvm_1_1tir_1_1LetStmtNode.html" title="Let binding, bind var to value, then run body. " alt="" coords="3032,872,3311,1037"/>
+<area shape="rect" id="node14" href="$classtvm_1_1tir_1_1PrefetchNode.html" title="A prefetch hint for a buffer. " alt="" coords="3335,865,3613,1045"/>
+<area shape="rect" id="node15" href="$classtvm_1_1tir_1_1ProducerRealizeNode.html" title="Annotate the bounds where the data produced by the producer need to be written and read in body..." alt="" coords="3637,857,3916,1052"/>
+<area shape="rect" id="node16" href="$classtvm_1_1tir_1_1ProducerStoreNode.html" title="Store value into mult&#45;dimensional array that will be read by the consumer of the producer. " alt="" coords="3940,872,4219,1037"/>
+<area shape="rect" id="node17" href="$classtvm_1_1tir_1_1SeqStmtNode.html" title="The container of seq statement. Represent a sequence of statements. " alt="" coords="4243,872,4521,1037"/>
+<area shape="rect" id="node18" href="$classtvm_1_1tir_1_1StoreNode.html" title="Store value to the buffer. " alt="" coords="4545,865,4824,1045"/>
+<area shape="rect" id="node19" href="$classtvm_1_1tir_1_1WhileNode.html" title="A While loop. " alt="" coords="4848,879,5127,1030"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="2443,5,2689,537"/>
+</map>

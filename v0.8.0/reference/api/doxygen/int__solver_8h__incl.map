@@ -1,0 +1,32 @@
+<map id="include/tvm/arith/int_solver.h" name="include/tvm/arith/int_solver.h">
+<area shape="rect" id="node2" href="$ir_2expr_8h.html" title="Base expr nodes in TVM. " alt="" coords="1920,468,2027,495"/>
+<area shape="rect" id="node36" href="$tir_2expr_8h.html" title="TIR expressions. " alt="" coords="1178,244,1289,271"/>
+<area shape="rect" id="node41" href="$tir_2op_8h.html" title="Common operators defined for Expr. " alt="" coords="1601,95,1700,121"/>
+<area shape="rect" id="node48" href="$analyzer_8h.html" title="Algebra expression simplifications. " alt="" coords="732,95,823,121"/>
+<area shape="rect" id="node3" href="$span_8h.html" title="Span information for debugging purposes. " alt="" coords="2317,617,2425,644"/>
+<area shape="rect" id="node4" href="$node_8h.html" title="Definitions and helper macros for IR/AST nodes. " alt="" coords="2201,692,2333,719"/>
+<area shape="rect" id="node9" href="$object_8h.html" title="A managed object in the TVM runtime. " alt="" coords="2246,1169,2405,1196"/>
+<area shape="rect" id="node30" href="$ir_2type_8h.html" title="IR/AST nodes for the unified type system in TVM. " alt="" coords="2939,543,3045,569"/>
+<area shape="rect" id="node31" href="$string_8h.html" title="Runtime String container types. " alt="" coords="1256,931,1424,972"/>
+<area shape="rect" id="node5" href="$reflection_8h.html" title="Reflection and serialization of compiler IR/AST nodes. " alt="" coords="2707,767,2869,793"/>
+<area shape="rect" id="node6" href="$structural__equal_8h.html" title="Structural equality comparison. " alt="" coords="2515,841,2666,883"/>
+<area shape="rect" id="node10" href="$c__runtime__api_8h.html" title="tvm/runtime/c_runtime\l_api.h" alt="" coords="3023,1244,3195,1285"/>
+<area shape="rect" id="node24" href="$runtime_2memory_8h.html" title="Runtime memory management. " alt="" coords="1817,1095,1991,1121"/>
+<area shape="rect" id="node27" href="$structural__hash_8h.html" title="tvm/node/structural\l_hash.h" alt="" coords="2995,841,3146,883"/>
+<area shape="rect" id="node28" href="$repr__printer_8h.html" title="Printer class to print repr string of each AST/IR nodes. " alt="" coords="1955,767,2131,793"/>
+<area shape="rect" id="node26" href="$data__type_8h.html" title="tvm/runtime/data_type.h" alt="" coords="3005,938,3189,965"/>
+<area shape="rect" id="node7" href="$functor_8h.html" title="Defines the Functor data structures. " alt="" coords="2157,938,2304,965"/>
+<area shape="rect" id="node20" href="$array_8h.html" title="Runtime Array container types. " alt="" coords="1013,931,1181,972"/>
+<area shape="rect" id="node23" href="$runtime_2container_2base_8h.html" title="Base utilities for common POD(plain old data) container types. " alt="" coords="1313,1020,1386,1047"/>
+<area shape="rect" id="node37" href="$map_8h.html" title="Runtime Map container types. " alt="" coords="532,841,700,883"/>
+<area shape="rect" id="node39" href="$buffer_8h.html" title="Symbolic n&#45;dimensional array, to represent a memory buffer. " alt="" coords="1449,319,1570,345"/>
+<area shape="rect" id="node40" href="$var_8h.html" title="Variables in the TIR. " alt="" coords="2981,393,3083,420"/>
+<area shape="rect" id="node38" href="$optional_8h.html" title="Runtime Optional container types. " alt="" coords="619,931,787,972"/>
+<area shape="rect" id="node42" href="$ir_2op_8h.html" title="Primitive operators(builtin intrinsics) and registry for them. " alt="" coords="2235,244,2328,271"/>
+<area shape="rect" id="node47" href="$stmt_8h.html" title="TIR statements. " alt="" coords="1595,169,1707,196"/>
+<area shape="rect" id="node44" href="$ir_2attrs_8h.html" title="Helpers for attribute objects. " alt="" coords="3171,393,3277,420"/>
+<area shape="rect" id="node45" href="$type__relation_8h.html" title="Type relation and function for type inference(checking). " alt="" coords="2435,319,2597,345"/>
+<area shape="rect" id="node46" href="$attr__registry__map_8h.html" title="Attribute map used in registry. " alt="" coords="1357,841,1525,883"/>
+<area shape="rect" id="node49" href="$int__set_8h.html" title="Integer set. " alt="" coords="913,169,1055,196"/>
+<area shape="rect" id="node50" href="$with_8h.html" title="RAII wrapper function to enter and exit a context object similar to python&#39;s with syntax..." alt="" coords="43,468,189,495"/>
+</map>

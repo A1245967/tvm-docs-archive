@@ -1,0 +1,10 @@
+<map id="tvm::relay::RecClosureObj" name="tvm::relay::RecClosureObj">
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,1041,252,1559"/>
+<area shape="rect" id="node3" href="$classtvm_1_1relay_1_1Var.html" title="{tvm::relay::Var\n||+ Var()\l+ Var()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="370,1239,575,1361"/>
+<area shape="rect" id="node4" href="$classtvm_1_1RelayExpr.html" title="Managed reference to RelayExprNode. " alt="" coords="361,795,566,887"/>
+<area shape="rect" id="node5" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="302,653,507,745"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="429,307,607,604"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1Closure.html" title="reference to closure. " alt="" coords="531,653,737,745"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 10 more...\l}" alt="" coords="425,5,611,244"/>
+<area shape="rect" id="node8" href="$classtvm_1_1relay_1_1InterpreterClosure.html" title="{tvm::relay::InterpreterClosure\n||+ InterpreterClosure()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="520,911,735,1017"/>
+</map>

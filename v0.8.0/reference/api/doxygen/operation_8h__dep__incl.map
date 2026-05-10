@@ -1,0 +1,45 @@
+<map id="include/tvm/te/operation.h" name="include/tvm/te/operation.h">
+<area shape="rect" id="node2" href="$cublas_8h.html" title="External function interface to cuBLAS libraries. " alt="" coords="213,169,391,211"/>
+<area shape="rect" id="node3" href="$cuda_2dense_8h.html" title="CUDA schedule for dense operation. " alt="" coords="226,348,389,389"/>
+<area shape="rect" id="node4" href="$rocm_2dense_8h.html" title="rocm schedule for dense operation " alt="" coords="473,437,638,479"/>
+<area shape="rect" id="node5" href="$rocblas_8h.html" title="include/tvm/topi/contrib\l/rocblas.h" alt="" coords="467,169,644,211"/>
+<area shape="rect" id="node6" href="$cuda_2injective_8h.html" title="CUDA schedule for injective operations. " alt="" coords="1415,169,1578,211"/>
+<area shape="rect" id="node7" href="$rocm_2injective_8h.html" title="rocm schedule for injective operations " alt="" coords="1414,259,1579,300"/>
+<area shape="rect" id="node8" href="$cuda_2pooling_8h.html" title="CUDA schedule for pooling operations. " alt="" coords="871,169,1034,211"/>
+<area shape="rect" id="node9" href="$rocm_2pooling_8h.html" title="rocm schedule for pooling operations " alt="" coords="781,259,946,300"/>
+<area shape="rect" id="node10" href="$cuda_2reduction_8h.html" title="CUDA schedule for reduction operations. " alt="" coords="1805,169,1967,211"/>
+<area shape="rect" id="node11" href="$rocm_2reduction_8h.html" title="rocm schedule for reduction operations " alt="" coords="1685,259,1850,300"/>
+<area shape="rect" id="node12" href="$cuda_2softmax_8h.html" title="include/tvm/topi/cuda\l/softmax.h" alt="" coords="2042,169,2205,211"/>
+<area shape="rect" id="node13" href="$rocm_2softmax_8h.html" title="include/tvm/topi/rocm\l/softmax.h" alt="" coords="2041,259,2206,300"/>
+<area shape="rect" id="node14" href="$array__utils_8h.html" title="Utility functions for handling arrays. " alt="" coords="712,80,881,121"/>
+<area shape="rect" id="node15" href="$detail_2broadcast_8h.html" title="Detail broadcast. " alt="" coords="3596,169,3765,211"/>
+<area shape="rect" id="node18" href="$reduction_8h.html" title="Reduction op constructors. " alt="" coords="3654,445,3859,471"/>
+<area shape="rect" id="node20" href="$nn_2softmax_8h.html" title="Softmax op constructions. " alt="" coords="4203,527,4351,568"/>
+<area shape="rect" id="node21" href="$topi_2nn_8h.html" title="NN op constructions. " alt="" coords="3699,534,3859,561"/>
+<area shape="rect" id="node22" href="$reorg_8h.html" title="Reorg op constructions. " alt="" coords="3411,527,3582,568"/>
+<area shape="rect" id="node23" href="$bias__add_8h.html" title="bias_add op constructions " alt="" coords="3268,437,3416,479"/>
+<area shape="rect" id="node24" href="$topi_2transform_8h.html" title="Transform op constructors. " alt="" coords="3238,355,3446,382"/>
+<area shape="rect" id="node25" href="$constant__utils_8h.html" title="Utility functions for handling constants in TVM expressions. " alt="" coords="3820,80,3989,121"/>
+<area shape="rect" id="node27" href="$einsum_8h.html" title="Einstein summation op. " alt="" coords="3379,177,3571,203"/>
+<area shape="rect" id="node28" href="$nn_2bnn_8h.html" title="Binary op constructions. " alt="" coords="4095,169,4243,211"/>
+<area shape="rect" id="node29" href="$flatten_8h.html" title="Softmax op constructions. " alt="" coords="4267,169,4415,211"/>
+<area shape="rect" id="node30" href="$detail_2extern_8h.html" title="Helpers for using external functions. " alt="" coords="467,80,636,121"/>
+<area shape="rect" id="node31" href="$fuse_8h.html" title="Fuse operation. " alt="" coords="1801,80,1971,121"/>
+<area shape="rect" id="node32" href="$generic_2default_8h.html" title="Generic default schedule. " alt="" coords="2229,169,2409,211"/>
+<area shape="rect" id="node33" href="$generic_2extern_8h.html" title="Schedule for extern followed by injective ops. " alt="" coords="981,259,1161,300"/>
+<area shape="rect" id="node34" href="$generic_2injective_8h.html" title="Generic schedule for injective operations. " alt="" coords="1109,169,1289,211"/>
+<area shape="rect" id="node35" href="$x86_2bnn_8h.html" title="x86 schedule for binary operations " alt="" coords="2433,169,2589,211"/>
+<area shape="rect" id="node36" href="$x86_2default_8h.html" title="default x86 schedule " alt="" coords="2613,169,2769,211"/>
+<area shape="rect" id="node37" href="$x86_2injective_8h.html" title="x86 schedule for injective ops " alt="" coords="2793,169,2949,211"/>
+<area shape="rect" id="node38" href="$pad__utils_8h.html" title="Padding helpers. " alt="" coords="2881,348,3051,389"/>
+<area shape="rect" id="node39" href="$ravel__unravel_8h.html" title="Index ravel and unraval operations. " alt="" coords="3421,80,3591,121"/>
+<area shape="rect" id="node40" href="$tensor__utils_8h.html" title="Utility functions for handling tensor. " alt="" coords="3228,80,3397,121"/>
+<area shape="rect" id="node41" href="$nn_2dense_8h.html" title="Dense op constructions. " alt="" coords="5,259,153,300"/>
+<area shape="rect" id="node42" href="$dilate_8h.html" title="Dilate op constructions. " alt="" coords="4592,80,4740,121"/>
+<area shape="rect" id="node43" href="$local__response__norm_8h.html" title="local response normalization op constructions " alt="" coords="4765,80,4941,121"/>
+<area shape="rect" id="node44" href="$mapping_8h.html" title="Mapping op constructions. " alt="" coords="4965,80,5113,121"/>
+<area shape="rect" id="node16" href="$broadcast_8h.html" title="Broadcast op constructions. " alt="" coords="3675,266,3883,293"/>
+<area shape="rect" id="node17" href="$elemwise_8h.html" title="Elementwise op constructions. " alt="" coords="3676,355,3883,382"/>
+<area shape="rect" id="node19" href="$nn_2pooling_8h.html" title="Pooling op constructions. " alt="" coords="3588,616,3736,657"/>
+<area shape="rect" id="node26" href="$strided__slice_8h.html" title="Utility functions for strided_slice op. " alt="" coords="3481,259,3651,300"/>
+</map>

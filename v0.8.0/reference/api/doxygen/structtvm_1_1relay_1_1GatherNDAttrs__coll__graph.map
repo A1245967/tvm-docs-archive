@@ -1,0 +1,12 @@
+<map id="tvm::relay::GatherNDAttrs" name="tvm::relay::GatherNDAttrs">
+<area shape="rect" id="node2" href="$classtvm_1_1AttrsNode.html" title="{tvm::AttrsNode\&lt; GatherNDAttrs \&gt;\n||+ VisitAttrs()\l+ VisitNonDefaultAttrs()\l+ InitByPackedArgs()\l+ SEqualReduce()\l+ SHashReduce()\l+ ListFieldInfo()\l}" alt="" coords="97,1923,344,2074"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseAttrsNode.html" title="Base class of all attribute class. " alt="" coords="41,1599,317,1837"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,1032,252,1549"/>
+<area shape="rect" id="node5" href="$classtvm_1_1Integer.html" title="Container of constant int that adds more constructors. " alt="" coords="387,1887,537,2111"/>
+<area shape="rect" id="node6" href="$classtvm_1_1IntImm.html" title="Managed reference class to IntImmNode. " alt="" coords="359,1665,565,1771"/>
+<area shape="rect" id="node7" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="370,1223,575,1359"/>
+<area shape="rect" id="node8" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="370,653,575,745"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="453,307,631,604"/>
+<area shape="rect" id="node11" href="$classtvm_1_1runtime_1_1Optional.html" title="{tvm::runtime::Optional\l\&lt; tvm::Integer \&gt;\n|+ _type_is_nullable\l|+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ Optional()\l+ operator=()\l+ operator=()\land 14 more...\l}" alt="" coords="527,769,698,1008"/>
+<area shape="rect" id="node10" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 10 more...\l}" alt="" coords="449,5,635,244"/>
+</map>

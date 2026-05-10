@@ -1,0 +1,14 @@
+<map id="tvm::tir::AllocateNode" name="tvm::tir::AllocateNode">
+<area shape="rect" id="node2" href="$classtvm_1_1tir_1_1StmtNode.html" title="Base node of all statements. " alt="" coords="252,1457,528,1637"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers. " alt="" coords="5,653,252,1171"/>
+<area shape="rect" id="node4" href="$classtvm_1_1Span.html" title="{tvm::Span\n||+ Span()\l+ Merge()\l+ TVM_DEFINE_OBJECT_REF\l_METHODS()\l}" alt="" coords="370,851,575,973"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference. " alt="" coords="753,307,931,604"/>
+<area shape="rect" id="node9" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode. " alt="" coords="599,866,805,958"/>
+<area shape="rect" id="node10" href="$classtvm_1_1runtime_1_1Array.html" title="{tvm::runtime::Array\l\&lt; tvm::PrimExpr \&gt;\n||+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ Array()\l+ operator=()\l+ operator=()\land 24 more...\l}" alt="" coords="751,1195,901,1433"/>
+<area shape="rect" id="node11" href="$classtvm_1_1runtime_1_1Map.html" title="{tvm::runtime::Map\&lt;\l tvm::runtime::String,\l tvm::runtime::ObjectRef \&gt;\n||+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ Map()\l+ operator=()\l+ operator=()\l+ at()\land 12 more...\l}" alt="" coords="868,1661,1067,1915"/>
+<area shape="rect" id="node12" href="$classtvm_1_1tir_1_1Stmt.html" title="Container of all statements. " alt="" coords="975,1268,1181,1360"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title="{tvm::runtime::ObjectPtr\l\&lt; tvm::runtime::Object \&gt;\n||+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ObjectPtr()\l+ ~ObjectPtr()\l+ swap()\l+ get()\l+ operator&#45;\&gt;()\land 10 more...\l}" alt="" coords="749,5,935,244"/>
+<area shape="rect" id="node7" href="$classtvm_1_1tir_1_1Var.html" title="a named variable in TIR " alt="" coords="601,2027,758,2192"/>
+<area shape="rect" id="node8" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode. " alt="" coords="553,1479,758,1615"/>
+<area shape="rect" id="node13" href="$classtvm_1_1runtime_1_1DataType.html" title="Runtime primitive data type. " alt="" coords="1134,1939,1313,2280"/>
+</map>
