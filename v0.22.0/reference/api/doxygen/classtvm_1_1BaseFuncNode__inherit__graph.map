@@ -1,0 +1,9 @@
+<map id="tvm::BaseFuncNode" name="tvm::BaseFuncNode">
+<area shape="rect" id="node1" title="Base node of all functions." alt="" coords="245,484,461,664"/>
+<area shape="rect" id="node5" href="$classtvm_1_1relax_1_1ExternFuncNode.html" title="The extern function, which can represent packed function." alt="" coords="5,756,221,863"/>
+<area shape="rect" id="node6" href="$classtvm_1_1relax_1_1FunctionNode.html" title="A Relax function." alt="" coords="245,727,461,892"/>
+<area shape="rect" id="node7" href="$classtvm_1_1tir_1_1PrimFuncNode.html" title="Primitive functions that contains TIR statements." alt="" coords="485,712,717,907"/>
+<area shape="rect" id="node2" href="$classtvm_1_1RelaxExprNode.html" title="Base node of all non&#45;primitive expressions." alt="" coords="245,315,461,436"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseExprNode.html" title="Base type of all the expressions." alt="" coords="245,131,461,267"/>
+<area shape="rect" id="node4" title=" " alt="" coords="321,5,385,83"/>
+</map>

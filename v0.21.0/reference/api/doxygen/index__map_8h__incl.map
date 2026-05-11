@@ -1,0 +1,50 @@
+<map id="include/tvm/tir/index_map.h" name="include/tvm/tir/index_map.h">
+<area shape="rect" id="node1" title="Defines a remapping of buffer indices." alt="" coords="732,5,889,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="1208,796,1387,823"/>
+<area shape="rect" id="node3" href="$ir_2expr_8h.html" title="Base expr nodes in TVM." alt="" coords="758,169,863,196"/>
+<area shape="rect" id="node15" href="$object_8h.html" title="A managed object in the TVM runtime." alt="" coords="405,878,563,905"/>
+<area shape="rect" id="node21" title=" " alt="" coords="609,960,669,987"/>
+<area shape="rect" id="node48" href="$var_8h.html" title="Variables in the TIR." alt="" coords="2930,95,3033,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="245,617,376,659"/>
+<area shape="rect" id="node5" title=" " alt="" coords="2647,878,2766,905"/>
+<area shape="rect" id="node6" href="$source__map_8h.html" title="A map from source names to source code." alt="" coords="482,319,638,345"/>
+<area shape="rect" id="node8" href="$node_8h.html" title="Definitions and helper macros for IR/AST nodes." alt="" coords="1057,393,1189,420"/>
+<area shape="rect" id="node23" title=" " alt="" coords="733,960,825,987"/>
+<area shape="rect" id="node26" title=" " alt="" coords="2825,960,2884,987"/>
+<area shape="rect" id="node40" title=" " alt="" coords="2485,878,2571,905"/>
+<area shape="rect" id="node41" title=" " alt="" coords="740,796,799,823"/>
+<area shape="rect" id="node46" href="$ir_2type_8h.html" title="IR/AST nodes for the unified type system in TVM." alt="" coords="803,244,909,271"/>
+<area shape="rect" id="node47" title=" " alt="" coords="592,244,677,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="1059,714,1194,741"/>
+<area shape="rect" id="node24" title=" " alt="" coords="943,878,1006,905"/>
+<area shape="rect" id="node45" title=" " alt="" coords="603,393,677,420"/>
+<area shape="rect" id="node9" title=" " alt="" coords="2077,714,2211,741"/>
+<area shape="rect" id="node10" href="$reflection_8h.html" title="Reflection and serialization of compiler IR/AST nodes." alt="" coords="1583,625,1745,651"/>
+<area shape="rect" id="node12" href="$structural__equal_8h.html" title="Structural equality comparison." alt="" coords="1749,707,1899,748"/>
+<area shape="rect" id="node19" href="$runtime_2base_8h.html" title=" " alt="" coords="941,960,1091,987"/>
+<area shape="rect" id="node31" href="$structural__hash_8h.html" title=" " alt="" coords="1574,707,1725,748"/>
+<area shape="rect" id="node42" href="$repr__printer_8h.html" title="Printer class to print repr string of each AST/IR nodes." alt="" coords="2309,468,2483,495"/>
+<area shape="rect" id="node11" title=" " alt="" coords="2287,714,2462,741"/>
+<area shape="rect" id="node27" href="$data__type_8h.html" title=" " alt="" coords="1233,878,1417,905"/>
+<area shape="rect" id="node32" href="$ndarray_8h.html" title="A device&#45;independent managed NDArray abstraction." alt="" coords="1994,796,2161,823"/>
+<area shape="rect" id="node13" href="$functor_8h.html" title="Defines the Functor data structures." alt="" coords="975,796,1121,823"/>
+<area shape="rect" id="node25" href="$object__path_8h.html" title=" " alt="" coords="2287,796,2463,823"/>
+<area shape="rect" id="node30" title=" " alt="" coords="1679,796,1742,823"/>
+<area shape="rect" id="node14" title=" " alt="" coords="1115,960,1282,987"/>
+<area shape="rect" id="node22" title=" " alt="" coords="849,960,916,987"/>
+<area shape="rect" id="node16" title=" " alt="" coords="318,960,426,987"/>
+<area shape="rect" id="node17" title=" " alt="" coords="450,960,571,987"/>
+<area shape="rect" id="node18" title=" " alt="" coords="1658,960,1793,987"/>
+<area shape="rect" id="node20" title=" " alt="" coords="959,1035,1073,1061"/>
+<area shape="rect" id="node28" title=" " alt="" coords="1449,960,1634,987"/>
+<area shape="rect" id="node29" title=" " alt="" coords="1306,960,1425,987"/>
+<area shape="rect" id="node33" title=" " alt="" coords="1769,878,1964,905"/>
+<area shape="rect" id="node34" href="$device__api_8h.html" title="Abstract device memory management API." alt="" coords="1594,871,1745,912"/>
+<area shape="rect" id="node36" href="$serializer_8h.html" title="Serializer extension to support TVM data types Include this file to enable serialization of DLDataTyp..." alt="" coords="2079,878,2257,905"/>
+<area shape="rect" id="node39" title=" " alt="" coords="1988,878,2055,905"/>
+<area shape="rect" id="node35" title=" " alt="" coords="2127,960,2230,987"/>
+<area shape="rect" id="node37" title=" " alt="" coords="2255,960,2337,987"/>
+<area shape="rect" id="node38" title=" " alt="" coords="1974,960,2103,987"/>
+<area shape="rect" id="node43" href="$script__printer_8h.html" title=" " alt="" coords="2303,543,2489,569"/>
+<area shape="rect" id="node44" title=" " alt="" coords="2636,625,2716,651"/>
+</map>

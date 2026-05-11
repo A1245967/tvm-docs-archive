@@ -1,0 +1,6 @@
+<map id="tvm::auto_scheduler::CostModelNode" name="tvm::auto_scheduler::CostModelNode">
+<area shape="rect" id="node1" title="The base class for cost model." alt="" coords="137,585,367,751"/>
+<area shape="rect" id="node3" href="$classtvm_1_1auto__scheduler_1_1PythonBasedModelNode.html" title="A wrapper for cost model defined by python code This class will call functions defined in the python." alt="" coords="5,799,240,993"/>
+<area shape="rect" id="node4" href="$classtvm_1_1auto__scheduler_1_1RandomModelNode.html" title="The cost model returning random value for all predictions." alt="" coords="264,821,499,971"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="129,5,375,537"/>
+</map>

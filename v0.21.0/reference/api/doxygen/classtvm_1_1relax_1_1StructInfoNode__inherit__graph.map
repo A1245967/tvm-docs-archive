@@ -1,0 +1,11 @@
+<map id="tvm::relax::StructInfoNode" name="tvm::relax::StructInfoNode">
+<area shape="rect" id="node1" title="Base type of all structure information." alt="" coords="783,131,1014,311"/>
+<area shape="rect" id="node3" href="$classtvm_1_1relax_1_1FuncStructInfoNode.html" title="Structure information about function." alt="" coords="5,381,240,590"/>
+<area shape="rect" id="node4" href="$classtvm_1_1relax_1_1ObjectStructInfoNode.html" title="Opaque object." alt="" coords="264,410,499,561"/>
+<area shape="rect" id="node5" href="$classtvm_1_1relax_1_1PrimStructInfoNode.html" title="Primitive value." alt="" coords="523,403,757,568"/>
+<area shape="rect" id="node6" href="$classtvm_1_1relax_1_1ShapeStructInfoNode.html" title="StructInfo of shape value." alt="" coords="781,395,1016,575"/>
+<area shape="rect" id="node7" href="$classtvm_1_1relax_1_1TensorStructInfoNode.html" title="StructInfo of Tensor." alt="" coords="1040,359,1275,612"/>
+<area shape="rect" id="node8" href="$classtvm_1_1relax_1_1TupleStructInfoNode.html" title="StructInfo of Tuple." alt="" coords="1299,410,1533,561"/>
+<area shape="rect" id="node9" href="$classtvm_1_1relax_1_1distributed_1_1DTensorStructInfoNode.html" title="StructInfo of DTensor (Distributed Tensor)." alt="" coords="1557,388,1792,583"/>
+<area shape="rect" id="node2" title=" " alt="" coords="867,5,931,83"/>
+</map>

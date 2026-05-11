@@ -1,0 +1,7 @@
+<map id="tvm::BaseTensorTypeNode" name="tvm::BaseTensorTypeNode">
+<area shape="rect" id="node1" title="Base of all Tensor types This container can hold TensorType or GenericTensorType." alt="" coords="137,813,367,920"/>
+<area shape="rect" id="node4" href="$classtvm_1_1TensorTypeNode.html" title="This is the most commonly used type in relay. TensorType have a fixed dimension, data type." alt="" coords="5,975,240,1155"/>
+<area shape="rect" id="node5" href="$classtvm_1_1relax_1_1DynTensorTypeNode.html" title=" " alt="" coords="264,968,499,1163"/>
+<area shape="rect" id="node2" href="$classtvm_1_1TypeNode.html" title="Type is the base type of all types." alt="" coords="137,585,367,765"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="129,5,375,537"/>
+</map>

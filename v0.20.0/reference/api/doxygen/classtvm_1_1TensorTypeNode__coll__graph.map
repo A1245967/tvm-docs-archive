@@ -1,0 +1,11 @@
+<map id="tvm::TensorTypeNode" name="tvm::TensorTypeNode">
+<area shape="rect" id="node1" title="This is the most commonly used type in relay. TensorType have a fixed dimension, data type." alt="" coords="496,2251,731,2401"/>
+<area shape="rect" id="node2" href="$classtvm_1_1BaseTensorTypeNode.html" title="Base of all Tensor types This container can hold TensorType or GenericTensorType." alt="" coords="345,1942,575,2049"/>
+<area shape="rect" id="node3" href="$classtvm_1_1TypeNode.html" title="Type is the base type of all types." alt="" coords="345,1575,575,1740"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="5,668,251,1185"/>
+<area shape="rect" id="node5" href="$classtvm_1_1Span.html" title=" " alt="" coords="368,866,576,987"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="453,307,632,619"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1Array.html" title=" " alt="" coords="533,1209,694,1551"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="449,5,636,244"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1DataType.html" title="Runtime primitive data type." alt="" coords="651,1803,827,2188"/>
+</map>

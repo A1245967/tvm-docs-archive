@@ -1,0 +1,8 @@
+<map id="tvm::te::Operation" name="tvm::te::Operation">
+<area shape="rect" id="node1" title="Operation that produces tensors." alt="" coords="387,380,528,501"/>
+<area shape="rect" id="node3" href="$classtvm_1_1te_1_1ComputeOp.html" title="Managed reference to ComputeOpNode." alt="" coords="5,549,213,685"/>
+<area shape="rect" id="node4" href="$classtvm_1_1te_1_1ExternOp.html" title="Managed reference to ExternOpNode." alt="" coords="237,564,445,671"/>
+<area shape="rect" id="node5" href="$classtvm_1_1te_1_1PlaceholderOp.html" title="Managed reference to PlaceholderOpNode." alt="" coords="469,564,677,671"/>
+<area shape="rect" id="node6" href="$classtvm_1_1te_1_1ScanOp.html" title="Managed reference to ScanOpNode." alt="" coords="701,564,909,671"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="368,5,547,332"/>
+</map>

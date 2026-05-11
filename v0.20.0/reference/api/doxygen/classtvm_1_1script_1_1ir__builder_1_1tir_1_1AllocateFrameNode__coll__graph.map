@@ -1,0 +1,16 @@
+<map id="tvm::script::ir_builder::tir::AllocateFrameNode" name="tvm::script::ir_builder::tir::AllocateFrameNode">
+<area shape="rect" id="node1" title="A frame represents the allocate." alt="" coords="516,2504,751,2640"/>
+<area shape="rect" id="node2" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1TIRFrameNode.html" title="A base frame that represents the TIR fame with body of statements." alt="" coords="133,1611,363,1733"/>
+<area shape="rect" id="node3" href="$classtvm_1_1script_1_1ir__builder_1_1IRBuilderFrameNode.html" title=" " alt="" coords="13,947,243,1141"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="5,307,251,824"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1Array.html" title=" " alt="" coords="267,873,429,1215"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="609,409,788,721"/>
+<area shape="rect" id="node10" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode." alt="" coords="453,998,661,1090"/>
+<area shape="rect" id="node11" href="$classtvm_1_1runtime_1_1Array.html" title=" " alt="" coords="587,1239,749,1580"/>
+<area shape="rect" id="node12" href="$classtvm_1_1runtime_1_1Map.html" title=" " alt="" coords="706,1764,905,2017"/>
+<area shape="rect" id="node13" href="$classtvm_1_1runtime_1_1String.html" title="Reference to string objects." alt="" coords="823,1283,982,1536"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="605,5,792,244"/>
+<area shape="rect" id="node8" href="$classtvm_1_1tir_1_1Var.html" title="a named variable in TIR" alt="" coords="439,2151,596,2331"/>
+<area shape="rect" id="node9" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode." alt="" coords="388,1604,596,1740"/>
+<area shape="rect" id="node14" href="$classtvm_1_1runtime_1_1DataType.html" title="Runtime primitive data type." alt="" coords="972,2041,1148,2441"/>
+</map>

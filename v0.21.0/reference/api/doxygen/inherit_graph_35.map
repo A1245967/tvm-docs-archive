@@ -1,0 +1,91 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1549,69,1575"/>
+<area shape="rect" id="node2" href="$classtvm_1_1meta__schedule_1_1ArgInfoNode.html" title="The argument information." alt="" coords="171,5,326,47"/>
+<area shape="rect" id="node4" href="$classtvm_1_1meta__schedule_1_1BuilderInputNode.html" title="The builder&#39;s input, containing an IRModule and the target." alt="" coords="171,71,326,112"/>
+<area shape="rect" id="node5" href="$classtvm_1_1meta__schedule_1_1BuilderNode.html" title="The abstract builder interface." alt="" coords="171,136,326,177"/>
+<area shape="rect" id="node7" href="$classtvm_1_1meta__schedule_1_1BuilderResultNode.html" title="The builder&#39;s output, containing the artifact path or error message if any." alt="" coords="171,201,326,243"/>
+<area shape="rect" id="node8" href="$classtvm_1_1meta__schedule_1_1CostModelNode.html" title="Cost model." alt="" coords="171,267,326,308"/>
+<area shape="rect" id="node10" href="$classtvm_1_1meta__schedule_1_1DatabaseNode.html" title=" " alt="" coords="171,332,326,373"/>
+<area shape="rect" id="node12" href="$classtvm_1_1meta__schedule_1_1ExtractedTaskNode.html" title="A tuning task extracted from the high&#45;level IR." alt="" coords="171,397,326,439"/>
+<area shape="rect" id="node13" href="$classtvm_1_1meta__schedule_1_1FeatureExtractorNode.html" title="Extractor for features from measure candidates for use in cost model." alt="" coords="163,463,335,504"/>
+<area shape="rect" id="node15" href="$classtvm_1_1meta__schedule_1_1MeasureCallbackNode.html" title="Rules to apply after measure results is available." alt="" coords="161,528,337,569"/>
+<area shape="rect" id="node17" href="$classtvm_1_1meta__schedule_1_1MeasureCandidateNode.html" title="The schedule (with input shapes) to be measured." alt="" coords="155,593,342,635"/>
+<area shape="rect" id="node18" href="$classtvm_1_1meta__schedule_1_1MutatorNode.html" title="Mutator is designed to mutate the trace to explore the design space." alt="" coords="171,659,326,700"/>
+<area shape="rect" id="node20" href="$classtvm_1_1meta__schedule_1_1PostprocNode.html" title="Rules to apply a postprocessor to a schedule." alt="" coords="171,724,326,765"/>
+<area shape="rect" id="node22" href="$classtvm_1_1meta__schedule_1_1ProfilerNode.html" title="A generic profiler." alt="" coords="171,789,326,831"/>
+<area shape="rect" id="node23" href="$classtvm_1_1meta__schedule_1_1RunnerFutureNode.html" title="A class to asynchronously fetch runner&#39;s output." alt="" coords="171,855,326,896"/>
+<area shape="rect" id="node24" href="$classtvm_1_1meta__schedule_1_1RunnerInputNode.html" title="Runner&#39;s input containing path of artifact, type of device and argument info." alt="" coords="171,920,326,961"/>
+<area shape="rect" id="node25" href="$classtvm_1_1meta__schedule_1_1RunnerNode.html" title="The abstract runner interface." alt="" coords="171,985,326,1027"/>
+<area shape="rect" id="node27" href="$classtvm_1_1meta__schedule_1_1RunnerResultNode.html" title="Runner&#39;s output containing measurement result of MeasureCandidate or error msg if any." alt="" coords="171,1051,326,1092"/>
+<area shape="rect" id="node28" href="$classtvm_1_1meta__schedule_1_1ScheduleRuleNode.html" title="Rules to modify a block in a schedule." alt="" coords="171,1116,326,1157"/>
+<area shape="rect" id="node30" href="$classtvm_1_1meta__schedule_1_1SearchStrategyNode.html" title="The search strategy for measure candidates generation." alt="" coords="167,1181,330,1223"/>
+<area shape="rect" id="node32" href="$classtvm_1_1meta__schedule_1_1SpaceGeneratorNode.html" title="The abstract class for design space generation." alt="" coords="165,1247,333,1288"/>
+<area shape="rect" id="node34" href="$classtvm_1_1meta__schedule_1_1TaskRecordNode.html" title=" " alt="" coords="171,1312,326,1353"/>
+<area shape="rect" id="node35" href="$classtvm_1_1meta__schedule_1_1TaskSchedulerNode.html" title="The abstract interface of task schedulers." alt="" coords="170,1377,327,1419"/>
+<area shape="rect" id="node37" href="$classtvm_1_1meta__schedule_1_1TuneContextNode.html" title="The auto tuning context." alt="" coords="171,1443,326,1484"/>
+<area shape="rect" id="node38" href="$classtvm_1_1meta__schedule_1_1TuningRecordNode.html" title="The class of tuning records." alt="" coords="171,1508,326,1549"/>
+<area shape="rect" id="node39" href="$classtvm_1_1meta__schedule_1_1WorkloadNode.html" title="A workload, i.e. an IRModule and its structural hash." alt="" coords="171,1573,326,1615"/>
+<area shape="rect" id="node40" href="$classtvm_1_1runtime_1_1DRefObj.html" title="An object that exists on all workers." alt="" coords="164,1639,333,1666"/>
+<area shape="rect" id="node41" href="$classtvm_1_1runtime_1_1ModuleNode.html" title="Base container of module." alt="" coords="150,1690,347,1717"/>
+<area shape="rect" id="node44" href="$classtvm_1_1runtime_1_1SessionObj.html" title="A Disco interactive session. It allows users to interact with the Disco command queue with various ff..." alt="" coords="155,1741,342,1767"/>
+<area shape="rect" id="node45" href="$classtvm_1_1runtime_1_1TimerNode.html" title="Base class for all implementations." alt="" coords="155,1791,342,1818"/>
+<area shape="rect" id="node46" href="$classtvm_1_1runtime_1_1cuda__ipc_1_1CUDAIPCMemoryObj.html" title="The CUDA IPC (interprocess communication) memory object, which internally contains data pointers to C..." alt="" coords="153,1843,344,1884"/>
+<area shape="rect" id="node47" href="$classtvm_1_1runtime_1_1memory_1_1StorageObj.html" title="An object representing a storage allocation." alt="" coords="163,1908,334,1949"/>
+<area shape="rect" id="node48" href="$classtvm_1_1runtime_1_1profiling_1_1CountNode.html" title=" " alt="" coords="165,1973,333,2015"/>
+<area shape="rect" id="node49" href="$structtvm_1_1runtime_1_1profiling_1_1DeviceWrapperNode.html" title="Wrapper for Device because Device is not passable across the ffi::Function interface." alt="" coords="165,2039,333,2080"/>
+<area shape="rect" id="node50" href="$classtvm_1_1runtime_1_1profiling_1_1DurationNode.html" title=" " alt="" coords="165,2104,333,2145"/>
+<area shape="rect" id="node51" href="$classtvm_1_1runtime_1_1profiling_1_1MetricCollectorNode.html" title="Interface for user defined profiling metric collection." alt="" coords="165,2169,333,2211"/>
+<area shape="rect" id="node52" href="$classtvm_1_1runtime_1_1profiling_1_1PercentNode.html" title=" " alt="" coords="165,2235,333,2276"/>
+<area shape="rect" id="node53" href="$classtvm_1_1runtime_1_1profiling_1_1RatioNode.html" title=" " alt="" coords="165,2300,333,2341"/>
+<area shape="rect" id="node54" href="$classtvm_1_1runtime_1_1profiling_1_1ReportNode.html" title="Data collected from a profiling run. Includes per&#45;call metrics and per&#45;device metrics." alt="" coords="165,2365,333,2407"/>
+<area shape="rect" id="node55" href="$classtvm_1_1runtime_1_1vm_1_1VMClosureObj.html" title="An object representing a vm closure." alt="" coords="131,2431,367,2458"/>
+<area shape="rect" id="node56" href="$classtvm_1_1runtime_1_1vm_1_1VMExtensionNode.html" title="Represent a VM extension. A VM extension allows the user to extend the VM with target specific functi..." alt="" coords="117,2482,380,2509"/>
+<area shape="rect" id="node57" href="$classtvm_1_1script_1_1ir__builder_1_1IRBuilderFrameNode.html" title=" " alt="" coords="167,2533,331,2575"/>
+<area shape="rect" id="node83" href="$classtvm_1_1script_1_1ir__builder_1_1IRBuilderNode.html" title="A dialect&#45;agnostic IRBuilder that constructs any IR of TVM. An idiomatic use of this class is to put ..." alt="" coords="168,2599,329,2640"/>
+<area shape="rect" id="node84" href="$classtvm_1_1tir_1_1BlockRVNode.html" title="A random variable that evaluates to a TensorIR block." alt="" coords="165,2665,332,2691"/>
+<area shape="rect" id="node85" href="$classtvm_1_1tir_1_1InstructionKindNode.html" title="Kind of an instruction, e.g. Split, Reorder, etc. Besides the name, every kind of instruction has its..." alt="" coords="143,2715,354,2742"/>
+<area shape="rect" id="node86" href="$classtvm_1_1tir_1_1InstructionNode.html" title="Schedule instructions each corresponds to a schedule primitive." alt="" coords="158,2766,339,2793"/>
+<area shape="rect" id="node87" href="$classtvm_1_1tir_1_1LoopRVNode.html" title="A random variable that evaluates to a TensorIR for loop." alt="" coords="168,2817,329,2843"/>
+<area shape="rect" id="node88" href="$classtvm_1_1tir_1_1ScheduleNode.html" title="The user&#45;facing schedule class." alt="" coords="163,2867,334,2894"/>
+<area shape="rect" id="node89" href="$classtvm_1_1tir_1_1TraceNode.html" title="An execution trace of a scheduling program." alt="" coords="175,2918,322,2945"/>
+<area shape="rect" id="node3" href="$classtvm_1_1meta__schedule_1_1TensorInfoNode.html" title="The tensor argument information." alt="" coords="469,5,623,47"/>
+<area shape="rect" id="node6" href="$classtvm_1_1meta__schedule_1_1PyBuilderNode.html" title="An abstract builder with customized build method on the python&#45;side." alt="" coords="469,136,623,177"/>
+<area shape="rect" id="node9" href="$classtvm_1_1meta__schedule_1_1PyCostModelNode.html" title="The cost model with customized methods on the python&#45;side." alt="" coords="469,267,623,308"/>
+<area shape="rect" id="node11" href="$classtvm_1_1meta__schedule_1_1PyDatabaseNode.html" title="The database with customized methods on the python&#45;side." alt="" coords="469,332,623,373"/>
+<area shape="rect" id="node14" href="$classtvm_1_1meta__schedule_1_1PyFeatureExtractorNode.html" title="The feature extractor with customized methods on the python&#45;side." alt="" coords="452,463,640,504"/>
+<area shape="rect" id="node16" href="$classtvm_1_1meta__schedule_1_1PyMeasureCallbackNode.html" title="The measure callback with customized methods on the python&#45;side." alt="" coords="450,528,642,569"/>
+<area shape="rect" id="node19" href="$classtvm_1_1meta__schedule_1_1PyMutatorNode.html" title="The mutator with customized methods on the python&#45;side." alt="" coords="469,659,623,700"/>
+<area shape="rect" id="node21" href="$classtvm_1_1meta__schedule_1_1PyPostprocNode.html" title="The postprocessor with customized methods on the python&#45;side." alt="" coords="469,724,623,765"/>
+<area shape="rect" id="node26" href="$classtvm_1_1meta__schedule_1_1PyRunnerNode.html" title="An abstract runner with customized build method on the python&#45;side." alt="" coords="469,985,623,1027"/>
+<area shape="rect" id="node29" href="$classtvm_1_1meta__schedule_1_1PyScheduleRuleNode.html" title="The schedule rule with customized methods on the python&#45;side." alt="" coords="462,1116,630,1157"/>
+<area shape="rect" id="node31" href="$classtvm_1_1meta__schedule_1_1PySearchStrategyNode.html" title="The python side customizable class for measure candidate generation." alt="" coords="457,1181,635,1223"/>
+<area shape="rect" id="node33" href="$classtvm_1_1meta__schedule_1_1PySpaceGeneratorNode.html" title="The design space generator with customized methods on the python&#45;side." alt="" coords="454,1247,638,1288"/>
+<area shape="rect" id="node36" href="$classtvm_1_1meta__schedule_1_1PyTaskSchedulerNode.html" title="The task scheduler with customized methods on the python&#45;side." alt="" coords="459,1377,633,1419"/>
+<area shape="rect" id="node42" href="$classtvm_1_1runtime_1_1vm_1_1VMExecutable.html" title="The virtual machine executable emitted by the VM compiler." alt="" coords="428,1661,664,1687"/>
+<area shape="rect" id="node43" href="$classtvm_1_1runtime_1_1vm_1_1VirtualMachine.html" title="The virtual machine." alt="" coords="453,1712,639,1753"/>
+<area shape="rect" id="node58" href="$classtvm_1_1script_1_1ir__builder_1_1ir_1_1IRModuleFrameNode.html" title="A frame that represents the IRModule frame with functions and global variables." alt="" coords="455,2468,637,2509"/>
+<area shape="rect" id="node59" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1RelaxFrameNode.html" title="The base ir_builder frame for the relax dialect." alt="" coords="455,2533,637,2575"/>
+<area shape="rect" id="node66" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1TIRFrameNode.html" title="A base frame that represents the TIR fame with body of statements." alt="" coords="465,3088,627,3129"/>
+<area shape="rect" id="node60" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1BlockFrameNode.html" title="The ir_builder frame for relax binding blocks." alt="" coords="730,2435,913,2476"/>
+<area shape="rect" id="node61" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1IfFrameNode.html" title="A frame that represents if statement." alt="" coords="741,2500,902,2541"/>
+<area shape="rect" id="node62" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1SeqExprFrameNode.html" title="The base ir_builder frame for frames with SeqExpr i.e. Functions, If branches." alt="" coords="722,2565,921,2607"/>
+<area shape="rect" id="node63" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1ElseFrameNode.html" title="A frame that represents else." alt="" coords="993,2500,1166,2541"/>
+<area shape="rect" id="node64" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1FunctionFrameNode.html" title="The ir_builder frame for the relax function." alt="" coords="979,2565,1180,2607"/>
+<area shape="rect" id="node65" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1ThenFrameNode.html" title="A frame that represents then." alt="" coords="990,2631,1169,2672"/>
+<area shape="rect" id="node67" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1AllocateConstFrameNode.html" title="A frame represents the allocate constant." alt="" coords="713,2631,930,2672"/>
+<area shape="rect" id="node68" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1AllocateFrameNode.html" title="A frame represents the allocate." alt="" coords="731,2696,911,2737"/>
+<area shape="rect" id="node69" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1AssertFrameNode.html" title="A frame that represents the assert statement. Proceeds if the condition is true, otherwise aborts wit..." alt="" coords="737,2761,905,2803"/>
+<area shape="rect" id="node70" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1AttrFrameNode.html" title="A frame that represents attribute node." alt="" coords="741,2827,902,2868"/>
+<area shape="rect" id="node71" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1BlockFrameNode.html" title="A frame that represents the block." alt="" coords="740,2892,903,2933"/>
+<area shape="rect" id="node72" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1BlockInitFrameNode.html" title="A frame that represents the block initialization statment." alt="" coords="729,2957,913,2999"/>
+<area shape="rect" id="node73" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1DeclBufferFrameNode.html" title=" " alt="" coords="724,3023,919,3064"/>
+<area shape="rect" id="node74" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1ElseFrameNode.html" title="A frame that represents else." alt="" coords="741,3088,902,3129"/>
+<area shape="rect" id="node75" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1ForFrameNode.html" title="A frame that represents the for loop." alt="" coords="741,3153,902,3195"/>
+<area shape="rect" id="node76" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1IfFrameNode.html" title="A frame that represents if statement." alt="" coords="741,3219,902,3260"/>
+<area shape="rect" id="node77" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1LaunchThreadFrameNode.html" title="The LaunchThreadFrameNode." alt="" coords="712,3284,931,3325"/>
+<area shape="rect" id="node78" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1LetFrameNode.html" title="A frame represents the let binding expression, which binds a var." alt="" coords="741,3349,902,3391"/>
+<area shape="rect" id="node79" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1PrimFuncFrameNode.html" title="A frame that represents the PrimFunc containing TIR statements." alt="" coords="728,3415,915,3456"/>
+<area shape="rect" id="node80" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1RealizeFrameNode.html" title="A frame that represents realization." alt="" coords="734,3480,909,3521"/>
+<area shape="rect" id="node81" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1ThenFrameNode.html" title="A frame that represents then." alt="" coords="741,3545,902,3587"/>
+<area shape="rect" id="node82" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1WhileFrameNode.html" title="A frame that represents while loop." alt="" coords="739,3611,903,3652"/>
+</map>

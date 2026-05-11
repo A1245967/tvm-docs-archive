@@ -1,0 +1,9 @@
+<map id="tvm::tir::IndexDataTypeRewriter" name="tvm::tir::IndexDataTypeRewriter">
+<area shape="rect" id="node1" title="Data type rewriter for buffer indices." alt="" coords="89,859,319,1112"/>
+<area shape="rect" id="node2" href="$classtvm_1_1tir_1_1DataTypeLegalizer.html" title="Legalize the data types of expressions to make sure they are consistent with other parts of the progr..." alt="" coords="105,572,303,811"/>
+<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1StmtExprMutator.html" title="Mutator that recursively mutates stmts and exprs on them." alt="" coords="109,432,299,524"/>
+<area shape="rect" id="node4" href="$classtvm_1_1tir_1_1StmtMutator.html" title="StmtMutator that mutates the statements." alt="" coords="10,145,190,384"/>
+<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1StmtFunctor.html" title=" " alt="" coords="5,5,179,97"/>
+<area shape="rect" id="node6" href="$classtvm_1_1tir_1_1ExprMutator.html" title="ExprMutator that mutates expressions." alt="" coords="230,153,389,377"/>
+<area shape="rect" id="node7" href="$classtvm_1_1tir_1_1ExprFunctor.html" title=" " alt="" coords="203,5,432,97"/>
+</map>

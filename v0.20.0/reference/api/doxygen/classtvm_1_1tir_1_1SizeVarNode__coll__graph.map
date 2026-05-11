@@ -1,0 +1,13 @@
+<map id="tvm::tir::SizeVarNode" name="tvm::tir::SizeVarNode">
+<area shape="rect" id="node1" title="A variable node represent a tensor index size, whose value must be non&#45;negative." alt="" coords="172,2412,407,2504"/>
+<area shape="rect" id="node2" href="$classtvm_1_1tir_1_1VarNode.html" title="A variable node in the IR." alt="" coords="174,2212,405,2363"/>
+<area shape="rect" id="node3" href="$classtvm_1_1PrimExprNode.html" title="Base node of all primitive expressions." alt="" coords="173,2027,405,2163"/>
+<area shape="rect" id="node4" href="$classtvm_1_1BaseExprNode.html" title="Base type of all the expressions." alt="" coords="399,1443,630,1608"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="105,668,351,1185"/>
+<area shape="rect" id="node6" href="$classtvm_1_1Span.html" title=" " alt="" coords="468,866,676,987"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="483,307,661,619"/>
+<area shape="rect" id="node10" href="$classtvm_1_1Type.html" title="Managed reference to TypeNode." alt="" coords="5,1209,213,1301"/>
+<area shape="rect" id="node11" href="$classtvm_1_1runtime_1_1String.html" title="Reference to string objects." alt="" coords="523,1749,682,2003"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="479,5,665,244"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1DataType.html" title="Runtime primitive data type." alt="" coords="199,1325,375,1725"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="tvm::PrimExprConvertibleNode" name="tvm::PrimExprConvertibleNode">
+<area shape="rect" id="node1" title="Base class for other IR constructs that can be converted to PrimExpr. This is useful for the FFI to c..." alt="" coords="265,131,495,252"/>
+<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1BufferRegionNode.html" title="Representing the region of multi&#45;dimensional buffer access." alt="" coords="5,322,240,561"/>
+<area shape="rect" id="node4" href="$classtvm_1_1tir_1_1DataProducerNode.html" title="Base node for data producers." alt="" coords="265,322,495,561"/>
+<area shape="rect" id="node6" href="$classtvm_1_1tir_1_1IterVarNode.html" title="An iteration variable representing an iteration over a one dimensional interval." alt="" coords="520,300,755,583"/>
+<area shape="rect" id="node2" title=" " alt="" coords="348,5,412,83"/>
+<area shape="rect" id="node5" href="$classtvm_1_1te_1_1TensorNode.html" title="Node to represent a tensor." alt="" coords="263,631,497,855"/>
+</map>

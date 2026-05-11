@@ -1,0 +1,7 @@
+<map id="tvm::runtime::ClosureObj" name="tvm::runtime::ClosureObj">
+<area shape="rect" id="node1" title="An object representing a closure. This object is used by both the Relay VM and interpreter." alt="" coords="267,585,497,692"/>
+<area shape="rect" id="node3" href="$classtvm_1_1relay_1_1InterpreterClosureObj.html" title="The container type of Closures used by the interpreter." alt="" coords="5,740,241,891"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1relax__vm_1_1VMClosureObj.html" title="An object representing a vm closure." alt="" coords="265,740,499,891"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1vm_1_1VMClosureObj.html" title="An object representing a vm closure." alt="" coords="523,747,759,883"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="259,5,505,537"/>
+</map>

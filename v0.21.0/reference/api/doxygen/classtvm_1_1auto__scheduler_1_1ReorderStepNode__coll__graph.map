@@ -1,0 +1,8 @@
+<map id="tvm::auto_scheduler::ReorderStepNode" name="tvm::auto_scheduler::ReorderStepNode">
+<area shape="rect" id="node1" title="Reorder step that corresponds to te::Stage::reorder." alt="" coords="188,1277,423,1457"/>
+<area shape="rect" id="node2" href="$classtvm_1_1auto__scheduler_1_1StepNode.html" title="The base class of transformation steps. Each step has its corresponding tvm.te schedule primitives." alt="" coords="81,976,311,1112"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="5,307,251,824"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Array.html" title=" " alt="" coords="362,873,523,1215"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="368,409,547,721"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="364,5,551,244"/>
+</map>

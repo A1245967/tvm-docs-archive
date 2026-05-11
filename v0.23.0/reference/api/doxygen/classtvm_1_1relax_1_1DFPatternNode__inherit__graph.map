@@ -1,0 +1,24 @@
+<map id="tvm::relax::DFPatternNode" name="tvm::relax::DFPatternNode">
+<area shape="rect" id="node1" title="Base type of all dataflow patterns." alt="" coords="2139,131,2355,223"/>
+<area shape="rect" id="node3" href="$classtvm_1_1relax_1_1AndPatternNode.html" title="Match a conjunction of other patterns." alt="" coords="5,278,221,399"/>
+<area shape="rect" id="node4" href="$classtvm_1_1relax_1_1AttrPatternNode.html" title="A pattern that asserting a root pattern has certain attributes." alt="" coords="245,278,461,399"/>
+<area shape="rect" id="node5" href="$classtvm_1_1relax_1_1CallPatternNode.html" title="A pattern to match a callable node in Relax." alt="" coords="485,271,701,407"/>
+<area shape="rect" id="node6" href="$classtvm_1_1relax_1_1ConstantPatternNode.html" title="A Pattern to Match a Relax Constant." alt="" coords="725,285,960,392"/>
+<area shape="rect" id="node7" href="$classtvm_1_1relax_1_1DataTypePatternNode.html" title="A pattern that asserting a root pattern has a certain data type." alt="" coords="985,278,1223,399"/>
+<area shape="rect" id="node8" href="$classtvm_1_1relax_1_1ExprPatternNode.html" title="Pattern for Relax Expression." alt="" coords="1248,285,1464,392"/>
+<area shape="rect" id="node9" href="$classtvm_1_1relax_1_1ExternFuncPatternNode.html" title="A pattern of external function." alt="" coords="1489,278,1738,399"/>
+<area shape="rect" id="node10" href="$classtvm_1_1relax_1_1FunctionPatternNode.html" title="A pattern to match a Relax Function." alt="" coords="1763,278,1995,399"/>
+<area shape="rect" id="node11" href="$classtvm_1_1relax_1_1NotPatternNode.html" title="Pattern for rejecting a certain pattern." alt="" coords="2019,285,2235,392"/>
+<area shape="rect" id="node12" href="$classtvm_1_1relax_1_1OrPatternNode.html" title="Match a disjunction of other patterns." alt="" coords="2259,278,2475,399"/>
+<area shape="rect" id="node13" href="$classtvm_1_1relax_1_1PrimArrPatternNode.html" title="A pattern to match an array of PrimExpr." alt="" coords="2499,285,2725,392"/>
+<area shape="rect" id="node14" href="$classtvm_1_1relax_1_1ShapePatternNode.html" title="A pattern that asserting a root pattern has a certain shape." alt="" coords="2750,278,2967,399"/>
+<area shape="rect" id="node15" href="$classtvm_1_1relax_1_1StructInfoPatternNode.html" title="Pattern for matching a certain struct info." alt="" coords="2992,278,3232,399"/>
+<area shape="rect" id="node16" href="$classtvm_1_1relax_1_1TupleGetItemPatternNode.html" title="A pattern to match n&#39;th indexing to a tuple." alt="" coords="3256,271,3472,407"/>
+<area shape="rect" id="node17" href="$classtvm_1_1relax_1_1TuplePatternNode.html" title="Pattern to match a tuple of ordered expressions." alt="" coords="3496,285,3712,392"/>
+<area shape="rect" id="node18" href="$classtvm_1_1relax_1_1UnorderedTuplePatternNode.html" title="A pattern to match multiple expressions unorderedly." alt="" coords="3736,278,3952,399"/>
+<area shape="rect" id="node19" href="$classtvm_1_1relax_1_1VarPatternNode.html" title="A Pattern to Match a Relax Variable." alt="" coords="3976,271,4192,407"/>
+<area shape="rect" id="node22" href="$classtvm_1_1relax_1_1WildcardPatternNode.html" title="Wildcard Pattern is a pattern that can match anything." alt="" coords="4216,285,4451,392"/>
+<area shape="rect" id="node2" title=" " alt="" coords="2215,5,2279,83"/>
+<area shape="rect" id="node20" href="$classtvm_1_1relax_1_1DataflowVarPatternNode.html" title="A Pattern to Match a Relax Dataflow Variable." alt="" coords="3820,455,4076,561"/>
+<area shape="rect" id="node21" href="$classtvm_1_1relax_1_1GlobalVarPatternNode.html" title="A Pattern to Match a Relax Global Variable." alt="" coords="4100,462,4340,554"/>
+</map>

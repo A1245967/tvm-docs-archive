@@ -1,0 +1,13 @@
+<map id="tvm::script::ir_builder::tir::AllocateConstFrameNode" name="tvm::script::ir_builder::tir::AllocateConstFrameNode">
+<area shape="rect" id="node1" title="A frame represents the allocate constant." alt="" coords="343,980,578,1145"/>
+<area shape="rect" id="node2" href="$classtvm_1_1script_1_1ir__builder_1_1tir_1_1TIRFrameNode.html" title="A base frame that represents the TIR fame with body of statements." alt="" coords="23,649,253,785"/>
+<area shape="rect" id="node3" href="$classtvm_1_1script_1_1ir__builder_1_1IRBuilderFrameNode.html" title=" " alt="" coords="5,273,236,468"/>
+<area shape="rect" id="node4" title=" " alt="" coords="89,139,153,217"/>
+<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1Var.html" title="a named variable in TIR" alt="" coords="283,627,441,807"/>
+<area shape="rect" id="node6" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode." alt="" coords="261,295,469,446"/>
+<area shape="rect" id="node7" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode." alt="" coords="261,132,469,224"/>
+<area shape="rect" id="node8" title=" " alt="" coords="321,5,408,83"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1NDArray.html" title="Managed NDArray. The array is backed by reference counted blocks." alt="" coords="465,569,656,866"/>
+<area shape="rect" id="node10" title=" " alt="" coords="495,332,627,409"/>
+<area shape="rect" id="node11" href="$classtvm_1_1runtime_1_1DataType.html" title="Runtime primitive data type." alt="" coords="681,517,867,917"/>
+</map>

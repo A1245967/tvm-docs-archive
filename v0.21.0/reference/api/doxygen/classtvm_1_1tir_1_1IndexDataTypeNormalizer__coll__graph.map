@@ -1,0 +1,11 @@
+<map id="tvm::tir::IndexDataTypeNormalizer" name="tvm::tir::IndexDataTypeNormalizer">
+<area shape="rect" id="node1" title="Normalize the data types of buffer shapes and indices to the same data type." alt="" coords="189,1327,435,1580"/>
+<area shape="rect" id="node2" href="$classtvm_1_1tir_1_1IndexDataTypeRewriter.html" title="Data type rewriter for buffer indices." alt="" coords="81,937,311,1191"/>
+<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1DataTypeLegalizer.html" title="Legalize the data types of expressions to make sure they are consistent with other parts of the progr..." alt="" coords="97,576,295,815"/>
+<area shape="rect" id="node4" href="$classtvm_1_1tir_1_1StmtExprMutator.html" title="Mutator that recursively mutates stmts and exprs on them." alt="" coords="101,435,291,527"/>
+<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1StmtMutator.html" title="StmtMutator that mutates the statements." alt="" coords="10,147,190,385"/>
+<area shape="rect" id="node6" href="$classtvm_1_1tir_1_1StmtFunctor.html" title=" " alt="" coords="5,5,179,97"/>
+<area shape="rect" id="node7" href="$classtvm_1_1tir_1_1ExprMutator.html" title="ExprMutator that mutates expressions." alt="" coords="230,154,389,378"/>
+<area shape="rect" id="node8" href="$classtvm_1_1tir_1_1ExprFunctor.html" title=" " alt="" coords="203,5,432,97"/>
+<area shape="rect" id="node9" href="$classtvm_1_1runtime_1_1DataType.html" title="Runtime primitive data type." alt="" coords="336,864,523,1264"/>
+</map>

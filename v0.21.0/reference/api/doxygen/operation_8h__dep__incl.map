@@ -1,0 +1,34 @@
+<map id="include/tvm/te/operation.h" name="include/tvm/te/operation.h">
+<area shape="rect" id="node1" title="Operation node can generate one or multiple Tensors." alt="" coords="1606,5,1801,32"/>
+<area shape="rect" id="node2" href="$cublas_8h.html" title="External function interface to cuBLAS libraries." alt="" coords="5,169,183,211"/>
+<area shape="rect" id="node3" href="$rocblas_8h.html" title=" " alt="" coords="217,169,395,211"/>
+<area shape="rect" id="node4" href="$array__utils_8h.html" title="Utility functions for handling arrays." alt="" coords="365,80,535,121"/>
+<area shape="rect" id="node5" href="$detail_2broadcast_8h.html" title="Detail broadcast." alt="" coords="1131,169,1300,211"/>
+<area shape="rect" id="node8" href="$reduction_8h.html" title="Reduction op constructors." alt="" coords="1418,430,1623,457"/>
+<area shape="rect" id="node10" href="$rms__norm_8h.html" title="root mean square normalization op constructions" alt="" coords="1711,512,1859,553"/>
+<area shape="rect" id="node11" href="$softmax_8h.html" title="Softmax op constructions." alt="" coords="1951,512,2099,553"/>
+<area shape="rect" id="node12" href="$topi_2nn_8h.html" title="NN op constructions." alt="" coords="1382,519,1542,546"/>
+<area shape="rect" id="node13" href="$reorg_8h.html" title="Reorg op constructions." alt="" coords="882,512,1053,553"/>
+<area shape="rect" id="node14" href="$bias__add_8h.html" title="bias_add op constructions" alt="" coords="901,423,1049,464"/>
+<area shape="rect" id="node15" href="$topi_2transform_8h.html" title="Transform op constructors." alt="" coords="871,348,1079,375"/>
+<area shape="rect" id="node16" href="$constant__utils_8h.html" title="Utility functions for handling constants in TVM expressions." alt="" coords="1405,80,1575,121"/>
+<area shape="rect" id="node18" href="$einsum_8h.html" title="Einstein summation op." alt="" coords="914,177,1106,203"/>
+<area shape="rect" id="node19" href="$bnn_8h.html" title="Binary op constructions." alt="" coords="1629,169,1777,211"/>
+<area shape="rect" id="node20" href="$flatten_8h.html" title="Softmax op constructions." alt="" coords="1801,169,1949,211"/>
+<area shape="rect" id="node21" href="$extern_8h.html" title="Helpers for using external functions." alt="" coords="120,80,289,121"/>
+<area shape="rect" id="node22" href="$fuse_8h.html" title="Fuse operation." alt="" coords="2177,80,2347,121"/>
+<area shape="rect" id="node23" href="$pad__utils_8h.html" title="Padding helpers." alt="" coords="2127,259,2296,300"/>
+<area shape="rect" id="node24" href="$ravel__unravel_8h.html" title="Index ravel and unraval operations." alt="" coords="763,80,932,121"/>
+<area shape="rect" id="node25" href="$tensor__utils_8h.html" title="Utility functions for handling tensor." alt="" coords="956,80,1125,121"/>
+<area shape="rect" id="node26" href="$dense_8h.html" title="Dense op constructions." alt="" coords="2371,80,2519,121"/>
+<area shape="rect" id="node27" href="$dilate_8h.html" title="Dilate op constructions." alt="" coords="2543,80,2691,121"/>
+<area shape="rect" id="node28" href="$group__norm_8h.html" title="group normalization op constructions" alt="" coords="2715,80,2863,121"/>
+<area shape="rect" id="node29" href="$instance__norm_8h.html" title="instance normalization op constructions" alt="" coords="2887,80,3035,121"/>
+<area shape="rect" id="node30" href="$layer__norm_8h.html" title="layer normalization op constructions" alt="" coords="3059,80,3207,121"/>
+<area shape="rect" id="node31" href="$local__response__norm_8h.html" title="local response normalization op constructions" alt="" coords="3231,80,3407,121"/>
+<area shape="rect" id="node32" href="$mapping_8h.html" title="Mapping op constructions." alt="" coords="3432,80,3580,121"/>
+<area shape="rect" id="node6" href="$broadcast_8h.html" title="Broadcast op constructions." alt="" coords="1245,266,1453,293"/>
+<area shape="rect" id="node7" href="$elemwise_8h.html" title="Elementwise op constructions." alt="" coords="1195,348,1401,375"/>
+<area shape="rect" id="node9" href="$pooling_8h.html" title="Pooling op constructions." alt="" coords="1505,601,1653,643"/>
+<area shape="rect" id="node17" href="$strided__slice_8h.html" title="Utility functions for strided_slice op." alt="" coords="1051,259,1220,300"/>
+</map>

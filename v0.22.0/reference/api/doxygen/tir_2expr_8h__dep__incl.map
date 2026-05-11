@@ -1,0 +1,114 @@
+<map id="include/tvm/tir/expr.h" name="include/tvm/tir/expr.h">
+<area shape="rect" id="node1" title="TIR expressions." alt="" coords="1570,5,1731,32"/>
+<area shape="rect" id="node2" href="$bound_8h.html" title="Bound deducers." alt="" coords="1940,177,2129,203"/>
+<area shape="rect" id="node3" href="$te_2tensor_8h.html" title="Dataflow tensor object." alt="" coords="1949,266,2121,293"/>
+<area shape="rect" id="node7" href="$operation_8h.html" title="Operation node can generate one or multiple Tensors." alt="" coords="1756,355,1951,382"/>
+<area shape="rect" id="node13" href="$elemwise_8h.html" title="Elementwise op constructions." alt="" coords="262,713,469,739"/>
+<area shape="rect" id="node18" href="$topi_2nn_8h.html" title="NN op constructions." alt="" coords="1576,891,1736,918"/>
+<area shape="rect" id="node21" href="$topi_2transform_8h.html" title="Transform op constructors." alt="" coords="1467,713,1675,739"/>
+<area shape="rect" id="node22" href="$constant__utils_8h.html" title="Utility functions for handling constants in TVM expressions." alt="" coords="3283,437,3453,479"/>
+<area shape="rect" id="node23" href="$strided__slice_8h.html" title="Utility functions for strided_slice op." alt="" coords="1243,527,1413,568"/>
+<area shape="rect" id="node29" href="$pad__utils_8h.html" title="Padding helpers." alt="" coords="745,437,914,479"/>
+<area shape="rect" id="node39" href="$int__set_8h.html" title="Integer set." alt="" coords="1756,80,1911,121"/>
+<area shape="rect" id="node41" href="$int__solver_8h.html" title="integer constraints data structures and solvers" alt="" coords="1044,348,1199,389"/>
+<area shape="rect" id="node54" href="$pattern_8h.html" title="Expression pattern detectors." alt="" coords="1485,87,1681,114"/>
+<area shape="rect" id="node55" href="$relax_2expr_8h.html" title=" " alt="" coords="5881,266,6061,293"/>
+<area shape="rect" id="node77" href="$relax_2type_8h.html" title="Relax Types." alt="" coords="4652,177,4833,203"/>
+<area shape="rect" id="node78" href="$codegen_8h.html" title="Translates IRModule to runtime::Module." alt="" coords="1935,80,2078,121"/>
+<area shape="rect" id="node79" href="$tir_2analysis_8h.html" title="Analysis utilities and passes for TIR." alt="" coords="7773,266,7960,293"/>
+<area shape="rect" id="node80" href="$tir_2builtin_8h.html" title="TIR builtin intrinsics." alt="" coords="319,87,494,114"/>
+<area shape="rect" id="node81" href="$tir_2op_8h.html" title="Common operators defined for Expr." alt="" coords="1209,177,1359,203"/>
+<area shape="rect" id="node83" href="$data__layout_8h.html" title="Layout expression to describe the data organization of a tensor. And BijectiveLayout to mapping two d..." alt="" coords="694,259,845,300"/>
+<area shape="rect" id="node84" href="$tir_2expr__functor_8h.html" title="Functors for tir expressions." alt="" coords="8939,169,9090,211"/>
+<area shape="rect" id="node85" href="$stmt__functor_8h.html" title="Functors for tir stmts utility functions to call common functors." alt="" coords="9079,259,9230,300"/>
+<area shape="rect" id="node106" href="$tir_2function_8h.html" title="TIR Function." alt="" coords="8599,177,8785,203"/>
+<area shape="rect" id="node110" href="$tir_2transform_8h.html" title="TIR specific transformation passes." alt="" coords="9255,266,9452,293"/>
+<area shape="rect" id="node111" href="$stmt_8h.html" title="TIR statements." alt="" coords="7785,87,7948,114"/>
+<area shape="rect" id="node4" href="$relax_2op__attr__types_8h.html" title="Data structures that can appear in operator attributes." alt="" coords="4805,616,4961,657"/>
+<area shape="rect" id="node5" href="$relax_2analysis_8h.html" title="The set of Relax specific analysis on IR." alt="" coords="5781,713,5987,739"/>
+<area shape="rect" id="node6" href="$binding__rewrite_8h.html" title="An IR rewriter to easily add/remove/replace bindings (statements)." alt="" coords="7074,795,7262,836"/>
+<area shape="rect" id="node8" href="$cublas_8h.html" title="External function interface to cuBLAS libraries." alt="" coords="815,527,993,568"/>
+<area shape="rect" id="node9" href="$rocblas_8h.html" title=" " alt="" coords="569,527,746,568"/>
+<area shape="rect" id="node10" href="$array__utils_8h.html" title="Utility functions for handling arrays." alt="" coords="2381,437,2550,479"/>
+<area shape="rect" id="node11" href="$detail_2broadcast_8h.html" title="Detail broadcast." alt="" coords="1815,527,1985,568"/>
+<area shape="rect" id="node14" href="$reduction_8h.html" title="Reduction op constructors." alt="" coords="1708,802,1913,829"/>
+<area shape="rect" id="node16" href="$rms__norm_8h.html" title="root mean square normalization op constructions" alt="" coords="1241,884,1389,925"/>
+<area shape="rect" id="node17" href="$softmax_8h.html" title="Softmax op constructions." alt="" coords="3121,884,3269,925"/>
+<area shape="rect" id="node19" href="$reorg_8h.html" title="Reorg op constructions." alt="" coords="2607,884,2777,925"/>
+<area shape="rect" id="node20" href="$bias__add_8h.html" title="bias_add op constructions" alt="" coords="1434,795,1582,836"/>
+<area shape="rect" id="node24" href="$einsum_8h.html" title="Einstein summation op." alt="" coords="1488,534,1680,561"/>
+<area shape="rect" id="node25" href="$bnn_8h.html" title="Binary op constructions." alt="" coords="3579,527,3727,568"/>
+<area shape="rect" id="node26" href="$flatten_8h.html" title="Softmax op constructions." alt="" coords="2089,527,2237,568"/>
+<area shape="rect" id="node27" href="$extern_8h.html" title="Helpers for using external functions." alt="" coords="449,437,618,479"/>
+<area shape="rect" id="node28" href="$fuse_8h.html" title="Fuse operation." alt="" coords="2574,437,2743,479"/>
+<area shape="rect" id="node30" href="$ravel__unravel_8h.html" title="Index ravel and unraval operations." alt="" coords="1489,437,1658,479"/>
+<area shape="rect" id="node31" href="$tensor__utils_8h.html" title="Utility functions for handling tensor." alt="" coords="1243,437,1413,479"/>
+<area shape="rect" id="node32" href="$dense_8h.html" title="Dense op constructions." alt="" coords="2767,437,2915,479"/>
+<area shape="rect" id="node33" href="$dilate_8h.html" title="Dilate op constructions." alt="" coords="3630,437,3778,479"/>
+<area shape="rect" id="node34" href="$group__norm_8h.html" title="group normalization op constructions" alt="" coords="2939,437,3087,479"/>
+<area shape="rect" id="node35" href="$instance__norm_8h.html" title="instance normalization op constructions" alt="" coords="3111,437,3259,479"/>
+<area shape="rect" id="node36" href="$layer__norm_8h.html" title="layer normalization op constructions" alt="" coords="1835,437,1983,479"/>
+<area shape="rect" id="node37" href="$local__response__norm_8h.html" title="local response normalization op constructions" alt="" coords="2008,437,2184,479"/>
+<area shape="rect" id="node38" href="$mapping_8h.html" title="Mapping op constructions." alt="" coords="2209,437,2357,479"/>
+<area shape="rect" id="node12" href="$broadcast_8h.html" title="Broadcast op constructions." alt="" coords="1800,623,2008,650"/>
+<area shape="rect" id="node15" href="$pooling_8h.html" title="Pooling op constructions." alt="" coords="1659,973,1807,1015"/>
+<area shape="rect" id="node40" href="$analyzer_8h.html" title="Algebra expression simplifications." alt="" coords="3765,266,3969,293"/>
+<area shape="rect" id="node42" href="$iter__affine__map_8h.html" title="Iterator quasi&#45;affine mapping patterns." alt="" coords="4158,527,4317,568"/>
+<area shape="rect" id="node44" href="$block__builder_8h.html" title="The utility for constructing Relax binding blocks." alt="" coords="4163,437,4338,479"/>
+<area shape="rect" id="node53" href="$relax_2utils_8h.html" title="Utility classes and functions for working with the Relax IR." alt="" coords="4158,355,4338,382"/>
+<area shape="rect" id="node43" href="$axis__group__graph_8h.html" title=" " alt="" coords="6109,705,6320,747"/>
+<area shape="rect" id="node45" href="$relax_2expr__functor_8h.html" title="A more powerful visitor which enables defining arbitrary function signatures with type based dispatch..." alt="" coords="4506,795,4675,836"/>
+<area shape="rect" id="node46" href="$struct__info_8h.html" title=" " alt="" coords="4393,527,4570,568"/>
+<area shape="rect" id="node52" href="$relax_2frame_8h.html" title=" " alt="" coords="4645,527,4824,568"/>
+<area shape="rect" id="node47" href="$distributed_2struct__info_8h.html" title="Struct info for DTensor (Distributed Tensor)" alt="" coords="4519,616,4729,657"/>
+<area shape="rect" id="node49" href="$struct__info__functor_8h.html" title="Functors and visitors for struct info." alt="" coords="4502,705,4679,747"/>
+<area shape="rect" id="node50" href="$nested__msg_8h.html" title="Helper container to store nested message for robust tuple&#45;aware analysis." alt="" coords="5036,616,5220,657"/>
+<area shape="rect" id="node51" href="$relax_2ir_8h.html" title=" " alt="" coords="5245,616,5393,657"/>
+<area shape="rect" id="node48" href="$distributed_8h.html" title="Attributes for redistribute and annotate_sharding operators." alt="" coords="5111,705,5281,747"/>
+<area shape="rect" id="node56" href="$ccl_8h.html" title="Attributes for ccl operators." alt="" coords="5691,348,5861,389"/>
+<area shape="rect" id="node57" href="$create_8h.html" title="Attributes for tensor creation operators." alt="" coords="5885,348,6056,389"/>
+<area shape="rect" id="node58" href="$datatype_8h.html" title="Attributes for datatype operators." alt="" coords="6232,348,6403,389"/>
+<area shape="rect" id="node59" href="$image_8h.html" title="Attributes for image operators." alt="" coords="6427,348,6597,389"/>
+<area shape="rect" id="node60" href="$index_8h.html" title="Attributes for indexing operators." alt="" coords="6621,348,6792,389"/>
+<area shape="rect" id="node61" href="$linear__algebra_8h.html" title="Attributes for linear algebra operators." alt="" coords="6816,348,6987,389"/>
+<area shape="rect" id="node62" href="$manipulate_8h.html" title="Attributes for tensor manipulation operators." alt="" coords="7011,348,7181,389"/>
+<area shape="rect" id="node63" href="$relax_2attrs_2nn_8h.html" title="Attributes for neural network operators." alt="" coords="7205,355,7408,382"/>
+<area shape="rect" id="node64" href="$relax_2attrs_2op_8h.html" title="Attributes for relax specific operators." alt="" coords="7432,355,7635,382"/>
+<area shape="rect" id="node65" href="$qdq_8h.html" title="Attributes for quantize/dequantize operators." alt="" coords="7659,348,7829,389"/>
+<area shape="rect" id="node66" href="$sampling_8h.html" title="Attributes for sampling operators." alt="" coords="4565,348,4736,389"/>
+<area shape="rect" id="node67" href="$search_8h.html" title="Attributes for search operators." alt="" coords="4760,348,4931,389"/>
+<area shape="rect" id="node68" href="$sorting_8h.html" title="Attributes for sorting operators." alt="" coords="4955,348,5125,389"/>
+<area shape="rect" id="node69" href="$statistical_8h.html" title="Attributes for statistical operators." alt="" coords="5149,348,5320,389"/>
+<area shape="rect" id="node70" href="$vision_8h.html" title="Auxiliary attributes for vision operators." alt="" coords="5344,348,5515,389"/>
+<area shape="rect" id="node71" href="$dataflow__pattern_8h.html" title="A pattern language for matching dataflow properties." alt="" coords="8158,348,8354,389"/>
+<area shape="rect" id="node74" href="$relax_2distributed_2transform_8h.html" title="Relax distributed specific transformation passes." alt="" coords="7977,527,8188,568"/>
+<area shape="rect" id="node75" href="$relax_2transform_8h.html" title="Relax specific transformation passes." alt="" coords="7675,445,7891,471"/>
+<area shape="rect" id="node72" href="$dataflow__matcher_8h.html" title="A pattern matcher for matching dataflow properties." alt="" coords="8187,437,8383,479"/>
+<area shape="rect" id="node73" href="$dataflow__pattern__functor_8h.html" title="Functors and visitors for dataflow patterns." alt="" coords="7915,437,8111,479"/>
+<area shape="rect" id="node76" href="$backend_8h.html" title="Relax backend specific transformation passes." alt="" coords="7679,534,7886,561"/>
+<area shape="rect" id="node82" href="$tir_2ir_8h.html" title=" " alt="" coords="6848,259,6987,300"/>
+<area shape="rect" id="node86" href="$block__scope_8h.html" title="Definition of two pillar data structure for TensorIR scheduling: StmtSRef, BlockScope." alt="" coords="8746,348,8902,389"/>
+<area shape="rect" id="node105" href="$data__type__rewriter_8h.html" title="Rewrite the data type of expressions." alt="" coords="9282,348,9433,389"/>
+<area shape="rect" id="node87" href="$block__dependence__info_8h.html" title="Define BlockDependenceInfoNode that uses the BlockScope and StmtSRef objects to store the block level..." alt="" coords="8746,437,8902,479"/>
+<area shape="rect" id="node88" href="$state_8h.html" title="This file defines ScheduleState, the core data structure of TensorIR scheduling." alt="" coords="8977,437,9156,479"/>
+<area shape="rect" id="node104" href="$tir_2utils_8h.html" title=" " alt="" coords="8561,445,8722,471"/>
+<area shape="rect" id="node89" href="$schedule_8h.html" title=" " alt="" coords="9411,527,9589,568"/>
+<area shape="rect" id="node90" href="$cost__model_8h.html" title=" " alt="" coords="10180,705,10383,747"/>
+<area shape="rect" id="node91" href="$search__strategy_8h.html" title=" " alt="" coords="10212,795,10415,836"/>
+<area shape="rect" id="node95" href="$database_8h.html" title=" " alt="" coords="10041,616,10244,657"/>
+<area shape="rect" id="node96" href="$measure__candidate_8h.html" title=" " alt="" coords="9815,616,10017,657"/>
+<area shape="rect" id="node98" href="$mutator_8h.html" title=" " alt="" coords="8560,616,8763,657"/>
+<area shape="rect" id="node99" href="$space__generator_8h.html" title=" " alt="" coords="9399,705,9601,747"/>
+<area shape="rect" id="node100" href="$postproc_8h.html" title=" " alt="" coords="9537,616,9740,657"/>
+<area shape="rect" id="node101" href="$thread__bind_8h.html" title=" " alt="" coords="8787,616,8999,657"/>
+<area shape="rect" id="node102" href="$winograd_8h.html" title=" " alt="" coords="9251,616,9463,657"/>
+<area shape="rect" id="node103" href="$schedule__rule_8h.html" title=" " alt="" coords="9024,616,9227,657"/>
+<area shape="rect" id="node93" href="$task__scheduler_8h.html" title=" " alt="" coords="10468,1063,10671,1104"/>
+<area shape="rect" id="node92" href="$measure__callback_8h.html" title=" " alt="" coords="10367,973,10569,1015"/>
+<area shape="rect" id="node94" href="$tune__context_8h.html" title=" " alt="" coords="10228,884,10431,925"/>
+<area shape="rect" id="node97" href="$feature__extractor_8h.html" title=" " alt="" coords="9801,705,10004,747"/>
+<area shape="rect" id="node107" href="$arg__info_8h.html" title=" " alt="" coords="10136,527,10339,568"/>
+<area shape="rect" id="node109" href="$tir__pattern_8h.html" title="Data Structure of TIR Pattern used for matching." alt="" coords="8632,259,8787,300"/>
+<area shape="rect" id="node108" href="$runner_8h.html" title=" " alt="" coords="10457,616,10660,657"/>
+<area shape="rect" id="node112" href="$tir_2frame_8h.html" title=" " alt="" coords="7253,169,7413,211"/>
+</map>

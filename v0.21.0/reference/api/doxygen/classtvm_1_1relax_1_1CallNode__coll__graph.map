@@ -1,0 +1,11 @@
+<map id="tvm::relax::CallNode" name="tvm::relax::CallNode">
+<area shape="rect" id="node1" title="Call corresponds to callable invocation. Corresponds to operation in computational graph terminology." alt="" coords="312,899,547,1064"/>
+<area shape="rect" id="node2" href="$classtvm_1_1RelaxExprNode.html" title="Base node of all non&#45;primitive expressions." alt="" coords="133,713,363,849"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseExprNode.html" title="Base type of all the expressions." alt="" coords="82,393,313,573"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,154,69,231"/>
+<area shape="rect" id="node5" href="$classtvm_1_1Span.html" title=" " alt="" coords="93,132,301,253"/>
+<area shape="rect" id="node6" title=" " alt="" coords="386,5,473,83"/>
+<area shape="rect" id="node8" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode." alt="" coords="325,147,533,239"/>
+<area shape="rect" id="node9" href="$classtvm_1_1Attrs.html" title="Managed reference to BaseAttrsNode." alt="" coords="464,277,672,369"/>
+<area shape="rect" id="node7" href="$classtvm_1_1RelaxExpr.html" title="Managed reference to RelaxExprNode." alt="" coords="325,597,533,689"/>
+</map>

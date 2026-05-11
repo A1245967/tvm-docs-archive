@@ -1,0 +1,9 @@
+<map id="tvm::relay::RelayNode" name="tvm::relay::RelayNode">
+<area shape="rect" id="node1" title="This is the base node container of all relay structures." alt="" coords="411,585,642,692"/>
+<area shape="rect" id="node3" href="$classtvm_1_1relay_1_1PatternNode.html" title="Base type for declaring relay pattern." alt="" coords="411,740,642,891"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="404,5,649,537"/>
+<area shape="rect" id="node4" href="$classtvm_1_1relay_1_1PatternConstructorNode.html" title="PatternVar container node." alt="" coords="5,939,256,1104"/>
+<area shape="rect" id="node5" href="$classtvm_1_1relay_1_1PatternTupleNode.html" title="PatternVar container node." alt="" coords="280,946,515,1097"/>
+<area shape="rect" id="node6" href="$classtvm_1_1relay_1_1PatternVarNode.html" title="PatternVar container node." alt="" coords="539,946,773,1097"/>
+<area shape="rect" id="node7" href="$classtvm_1_1relay_1_1PatternWildcardNode.html" title="PatternWildcard container node." alt="" coords="797,953,1032,1089"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="include/tvm/topi/generic/injective.h" name="include/tvm/topi/generic/injective.h">
+<area shape="rect" id="node1" title="Generic schedule for injective operations." alt="" coords="55,5,235,47"/>
+<area shape="rect" id="node2" href="$generic_2extern_8h.html" title="Schedule for extern followed by injective ops." alt="" coords="55,95,235,136"/>
+<area shape="rect" id="node3" href="$cuda_2dense_8h.html" title="CUDA schedule for dense operation." alt="" coords="5,184,168,225"/>
+<area shape="rect" id="node4" href="$rocm_2dense_8h.html" title="rocm schedule for dense operation" alt="" coords="63,273,228,315"/>
+</map>

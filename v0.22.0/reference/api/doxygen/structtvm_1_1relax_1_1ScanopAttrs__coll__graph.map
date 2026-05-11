@@ -1,0 +1,12 @@
+<map id="tvm::relax::ScanopAttrs" name="tvm::relax::ScanopAttrs">
+<area shape="rect" id="node1" title="Attributes used in scan operators like cumsum, cumprod." alt="" coords="248,1121,464,1228"/>
+<area shape="rect" id="node2" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="15,813,212,905"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseAttrsNode.html" title="Base class of all attribute class." alt="" coords="5,473,221,609"/>
+<area shape="rect" id="node4" title=" " alt="" coords="81,310,145,387"/>
+<area shape="rect" id="node5" href="$classtvm_1_1Bool.html" title="Boolean constant." alt="" coords="236,791,476,927"/>
+<area shape="rect" id="node6" href="$classtvm_1_1IntImm.html" title="Managed reference class to IntImmNode." alt="" coords="250,473,462,609"/>
+<area shape="rect" id="node7" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode." alt="" coords="250,273,462,424"/>
+<area shape="rect" id="node8" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode." alt="" coords="250,132,462,224"/>
+<area shape="rect" id="node9" title=" " alt="" coords="313,5,399,83"/>
+<area shape="rect" id="node10" href="$classtvm_1_1runtime_1_1DataType.html" title="Runtime primitive data type." alt="" coords="500,659,687,1059"/>
+</map>

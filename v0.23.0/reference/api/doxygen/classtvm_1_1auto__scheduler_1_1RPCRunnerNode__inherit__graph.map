@@ -1,0 +1,5 @@
+<map id="tvm::auto_scheduler::RPCRunnerNode" name="tvm::auto_scheduler::RPCRunnerNode">
+<area shape="rect" id="node1" title="RPCRunner that uses RPC call to measures the time cost of programs on remote devices...." alt="" coords="11,857,245,1052"/>
+<area shape="rect" id="node2" href="$classtvm_1_1auto__scheduler_1_1ProgramRunnerNode.html" title="ProgramRunner that runs the built programs and measure the time cost." alt="" coords="13,585,243,809"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="5,5,251,537"/>
+</map>

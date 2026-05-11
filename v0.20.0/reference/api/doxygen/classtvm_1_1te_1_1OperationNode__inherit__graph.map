@@ -1,0 +1,9 @@
+<map id="tvm::te::OperationNode" name="tvm::te::OperationNode">
+<area shape="rect" id="node1" title="Base class of all operation nodes." alt="" coords="393,585,623,795"/>
+<area shape="rect" id="node3" href="$classtvm_1_1te_1_1BaseComputeOpNode.html" title="A Compute op that compute a tensor on certain domain. This is the base class for ComputeOp (operating..." alt="" coords="7,909,238,1045"/>
+<area shape="rect" id="node5" href="$classtvm_1_1te_1_1ExternOpNode.html" title="External computation that cannot be splitted." alt="" coords="263,857,497,1096"/>
+<area shape="rect" id="node6" href="$classtvm_1_1te_1_1PlaceholderOpNode.html" title="A placeholder op represents an input placeholder." alt="" coords="522,879,753,1074"/>
+<area shape="rect" id="node7" href="$classtvm_1_1te_1_1ScanOpNode.html" title="Symbolic scan." alt="" coords="777,843,1012,1111"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="385,5,631,537"/>
+<area shape="rect" id="node4" href="$classtvm_1_1te_1_1ComputeOpNode.html" title="A Compute op that compute a tensor on certain domain." alt="" coords="5,1159,240,1339"/>
+</map>

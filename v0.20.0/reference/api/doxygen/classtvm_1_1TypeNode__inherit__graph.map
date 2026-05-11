@@ -1,0 +1,12 @@
+<map id="tvm::TypeNode" name="tvm::TypeNode">
+<area shape="rect" id="node1" title="Type is the base type of all types." alt="" coords="913,585,1143,765"/>
+<area shape="rect" id="node3" href="$classtvm_1_1FuncTypeNode.html" title="Function type." alt="" coords="5,828,240,993"/>
+<area shape="rect" id="node4" href="$classtvm_1_1PointerTypeNode.html" title="Low&#45;level raw pointer type." alt="" coords="264,828,499,993"/>
+<area shape="rect" id="node5" href="$classtvm_1_1PrimTypeNode.html" title="Primitive data types used in the low&#45;level IR." alt="" coords="523,835,757,986"/>
+<area shape="rect" id="node6" href="$classtvm_1_1TupleTypeNode.html" title="The type of tuple values." alt="" coords="781,828,1016,993"/>
+<area shape="rect" id="node7" href="$classtvm_1_1relax_1_1ObjectTypeNode.html" title=" " alt="" coords="1040,843,1275,979"/>
+<area shape="rect" id="node8" href="$classtvm_1_1relax_1_1PackedFuncTypeNode.html" title=" " alt="" coords="1298,843,1534,979"/>
+<area shape="rect" id="node9" href="$classtvm_1_1relax_1_1ShapeTypeNode.html" title=" " alt="" coords="1557,835,1792,986"/>
+<area shape="rect" id="node10" href="$classtvm_1_1relax_1_1TensorTypeNode.html" title="Dynamic version of TensorType." alt="" coords="1816,813,2051,1008"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="905,5,1151,537"/>
+</map>

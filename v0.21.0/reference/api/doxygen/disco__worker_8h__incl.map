@@ -1,0 +1,32 @@
+<map id="include/tvm/runtime/disco/disco_worker.h" name="include/tvm/runtime/disco/disco_worker.h">
+<area shape="rect" id="node1" title="This file defines a worker in Disco. A worker can be launched in a separate thread or process as long..." alt="" coords="661,5,821,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,169,140,196"/>
+<area shape="rect" id="node3" href="$session_8h.html" title="This file serves as the entry point of Disco and defines key data structures and interfaces." alt="" coords="637,95,844,121"/>
+<area shape="rect" id="node29" title=" " alt="" coords="1856,251,1919,278"/>
+<area shape="rect" id="node4" href="$int__tuple_8h.html" title="Defines tuple of integers." alt="" coords="1365,169,1541,196"/>
+<area shape="rect" id="node6" href="$ndarray_8h.html" title="A device&#45;independent managed NDArray abstraction." alt="" coords="865,169,1032,196"/>
+<area shape="rect" id="node16" title=" " alt="" coords="839,333,898,360"/>
+<area shape="rect" id="node20" href="$object_8h.html" title="A managed object in the TVM runtime." alt="" coords="267,251,425,278"/>
+<area shape="rect" id="node23" title=" " alt="" coords="17,333,77,360"/>
+<area shape="rect" id="node30" title=" " alt="" coords="779,169,841,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="1725,333,1911,360"/>
+<area shape="rect" id="node7" title=" " alt="" coords="1183,251,1378,278"/>
+<area shape="rect" id="node8" title=" " alt="" coords="379,333,513,360"/>
+<area shape="rect" id="node9" title=" " alt="" coords="1611,251,1729,278"/>
+<area shape="rect" id="node10" href="$runtime_2base_8h.html" title=" " alt="" coords="537,333,688,360"/>
+<area shape="rect" id="node12" href="$data__type_8h.html" title=" " alt="" coords="1402,251,1586,278"/>
+<area shape="rect" id="node18" href="$device__api_8h.html" title="Abstract device memory management API." alt="" coords="552,244,703,285"/>
+<area shape="rect" id="node24" href="$serializer_8h.html" title="Serializer extension to support TVM data types Include this file to enable serialization of DLDataTyp..." alt="" coords="778,251,957,278"/>
+<area shape="rect" id="node27" title=" " alt="" coords="981,251,1047,278"/>
+<area shape="rect" id="node28" title=" " alt="" coords="1072,251,1159,278"/>
+<area shape="rect" id="node11" title=" " alt="" coords="555,408,670,435"/>
+<area shape="rect" id="node13" title=" " alt="" coords="1491,333,1609,360"/>
+<area shape="rect" id="node14" title=" " alt="" coords="923,333,1089,360"/>
+<area shape="rect" id="node15" title=" " alt="" coords="1634,333,1701,360"/>
+<area shape="rect" id="node17" title=" " alt="" coords="1375,333,1467,360"/>
+<area shape="rect" id="node19" title=" " alt="" coords="712,333,815,360"/>
+<area shape="rect" id="node21" title=" " alt="" coords="101,333,209,360"/>
+<area shape="rect" id="node22" title=" " alt="" coords="233,333,355,360"/>
+<area shape="rect" id="node25" title=" " alt="" coords="1267,333,1350,360"/>
+<area shape="rect" id="node26" title=" " alt="" coords="1113,333,1243,360"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="tvm::script::ir_builder::relax::RelaxFrameNode" name="tvm::script::ir_builder::relax::RelaxFrameNode">
+<area shape="rect" id="node1" title="The base ir_builder frame for the relax dialect." alt="" coords="266,373,497,495"/>
+<area shape="rect" id="node4" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1BlockFrameNode.html" title="The ir_builder frame for relax binding blocks." alt="" coords="5,550,240,759"/>
+<area shape="rect" id="node5" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1IfFrameNode.html" title="A frame that represents if statement." alt="" coords="264,543,499,767"/>
+<area shape="rect" id="node6" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1SeqExprFrameNode.html" title="The base ir_builder frame for frames with SeqExpr i.e. Functions, If branches." alt="" coords="523,565,754,745"/>
+<area shape="rect" id="node2" href="$classtvm_1_1script_1_1ir__builder_1_1IRBuilderFrameNode.html" title=" " alt="" coords="266,131,497,325"/>
+<area shape="rect" id="node3" title=" " alt="" coords="349,5,413,83"/>
+<area shape="rect" id="node7" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1ElseFrameNode.html" title="A frame that represents else." alt="" coords="263,866,497,1017"/>
+<area shape="rect" id="node8" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1FunctionFrameNode.html" title="The ir_builder frame for the relax function." alt="" coords="521,815,756,1068"/>
+<area shape="rect" id="node9" href="$classtvm_1_1script_1_1ir__builder_1_1relax_1_1ThenFrameNode.html" title="A frame that represents then." alt="" coords="780,866,1015,1017"/>
+</map>

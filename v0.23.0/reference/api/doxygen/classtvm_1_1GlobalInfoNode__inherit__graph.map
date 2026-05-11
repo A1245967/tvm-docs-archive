@@ -1,0 +1,7 @@
+<map id="tvm::GlobalInfoNode" name="tvm::GlobalInfoNode">
+<area shape="rect" id="node1" title="GlobalInfo are globally static object that are referred by the IR itself. Base node for all global in..." alt="" coords="245,131,461,223"/>
+<area shape="rect" id="node3" href="$classtvm_1_1DummyGlobalInfoNode.html" title="A dummy global info sub&#45;class for testing purpose." alt="" coords="5,293,221,399"/>
+<area shape="rect" id="node4" href="$classtvm_1_1VDeviceNode.html" title="A global info subclass for virtual devices." alt="" coords="245,278,461,414"/>
+<area shape="rect" id="node5" href="$classtvm_1_1relax_1_1distributed_1_1DeviceMeshNode.html" title=" " alt="" coords="485,271,701,421"/>
+<area shape="rect" id="node2" title=" " alt="" coords="321,5,385,83"/>
+</map>

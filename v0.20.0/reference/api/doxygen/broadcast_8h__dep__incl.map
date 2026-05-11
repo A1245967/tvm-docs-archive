@@ -1,0 +1,12 @@
+<map id="include/tvm/topi/broadcast.h" name="include/tvm/topi/broadcast.h">
+<area shape="rect" id="node1" title="Broadcast op constructions." alt="" coords="375,5,583,32"/>
+<area shape="rect" id="node2" href="$elemwise_8h.html" title="Elementwise op constructions." alt="" coords="260,80,467,107"/>
+<area shape="rect" id="node3" href="$reduction_8h.html" title="Reduction op constructors." alt="" coords="261,162,466,189"/>
+<area shape="rect" id="node9" href="$bias__add_8h.html" title="bias_add op constructions" alt="" coords="655,155,803,196"/>
+<area shape="rect" id="node10" href="$topi_2transform_8h.html" title="Transform op constructors." alt="" coords="491,80,699,107"/>
+<area shape="rect" id="node4" href="$pooling_8h.html" title="Pooling op constructions." alt="" coords="348,333,496,375"/>
+<area shape="rect" id="node5" href="$rms__norm_8h.html" title="root mean square normalization op constructions" alt="" coords="177,244,325,285"/>
+<area shape="rect" id="node6" href="$softmax_8h.html" title="Softmax op constructions." alt="" coords="5,244,153,285"/>
+<area shape="rect" id="node7" href="$topi_2nn_8h.html" title="NN op constructions." alt="" coords="401,251,561,278"/>
+<area shape="rect" id="node8" href="$reorg_8h.html" title="Reorg op constructions." alt="" coords="585,244,755,285"/>
+</map>

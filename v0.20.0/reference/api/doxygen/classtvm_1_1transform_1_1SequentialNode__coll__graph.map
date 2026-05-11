@@ -1,0 +1,9 @@
+<map id="tvm::transform::SequentialNode" name="tvm::transform::SequentialNode">
+<area shape="rect" id="node1" title="The SequentialNode contains a set of passes that transform Relax programs from one AST to another sem..." alt="" coords="255,1277,489,1428"/>
+<area shape="rect" id="node2" href="$classtvm_1_1transform_1_1PassNode.html" title="PassNode is the base type of differnt types of optimization passes. It is designed as a pure class an..." alt="" coords="13,961,243,1127"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="5,307,251,824"/>
+<area shape="rect" id="node4" href="$classtvm_1_1transform_1_1PassInfo.html" title="Managed reference class for PassInfoNode." alt="" coords="268,991,476,1097"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="436,409,615,721"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1Array.html" title=" " alt="" coords="500,873,687,1215"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="432,5,619,244"/>
+</map>

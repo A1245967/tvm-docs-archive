@@ -1,0 +1,13 @@
+<map id="tvm::relax::distributed::DTensorStructInfoNode" name="tvm::relax::distributed::DTensorStructInfoNode">
+<area shape="rect" id="node1" title="StructInfo of DTensor (Distributed Tensor)." alt="" coords="703,1597,937,1748"/>
+<area shape="rect" id="node2" href="$classtvm_1_1relax_1_1StructInfoNode.html" title="Base type of all structure information." alt="" coords="345,1369,575,1535"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="5,668,251,1185"/>
+<area shape="rect" id="node4" href="$classtvm_1_1Span.html" title=" " alt="" coords="368,866,576,987"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="715,307,893,619"/>
+<area shape="rect" id="node8" href="$classtvm_1_1GlobalInfo.html" title="Managed reference to GlobalInfoNode." alt="" coords="600,881,808,973"/>
+<area shape="rect" id="node10" href="$classtvm_1_1relax_1_1StructInfo.html" title="Managed reference to StructInfoNode." alt="" coords="832,881,1040,973"/>
+<area shape="rect" id="node11" href="$classtvm_1_1relax_1_1distributed_1_1Placement.html" title="Managed reference to a Placement." alt="" coords="981,1209,1189,1345"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="711,5,897,244"/>
+<area shape="rect" id="node7" href="$classtvm_1_1relax_1_1distributed_1_1DeviceMesh.html" title="Managed reference to a DeviceMesh." alt="" coords="600,1384,808,1520"/>
+<area shape="rect" id="node9" href="$classtvm_1_1relax_1_1TensorStructInfo.html" title="Managed reference to TensorStructInfoNode." alt="" coords="832,1391,1040,1513"/>
+</map>

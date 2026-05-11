@@ -1,0 +1,26 @@
+<map id="include/tvm/ir/transform.h" name="include/tvm/ir/transform.h">
+<area shape="rect" id="node1" title=" " alt="" coords="476,5,668,32"/>
+<area shape="rect" id="node2" href="$relax_2distributed_2transform_8h.html" title="Relax distributed specific transformation passes." alt="" coords="5,169,216,211"/>
+<area shape="rect" id="node3" href="$relax_2transform_8h.html" title="Relax specific transformation passes." alt="" coords="148,87,364,114"/>
+<area shape="rect" id="node5" href="$tuning__api_8h.html" title="Relax Tuning Pass APIs." alt="" coords="388,80,569,121"/>
+<area shape="rect" id="node6" href="$virtual__device_8h.html" title="A compile time representation for where data is to be stored at runtime, and how to compile code to c..." alt="" coords="594,80,737,121"/>
+<area shape="rect" id="node7" href="$tir_2analysis_8h.html" title="Analysis utilities and passes for TIR." alt="" coords="761,87,948,114"/>
+<area shape="rect" id="node24" href="$tir_2transform_8h.html" title="TIR specific transformation passes." alt="" coords="972,87,1169,114"/>
+<area shape="rect" id="node4" href="$backend_8h.html" title="Relax backend specific transformation passes." alt="" coords="241,177,447,203"/>
+<area shape="rect" id="node8" href="$constant__utils_8h.html" title="Utility functions for handling constants in TVM expressions." alt="" coords="770,169,939,211"/>
+<area shape="rect" id="node9" href="$broadcast_8h.html" title="Broadcast op constructions." alt="" coords="344,355,552,382"/>
+<area shape="rect" id="node11" href="$reduction_8h.html" title="Reduction op constructors." alt="" coords="325,519,531,546"/>
+<area shape="rect" id="node15" href="$topi_2nn_8h.html" title="NN op constructions." alt="" coords="661,609,821,635"/>
+<area shape="rect" id="node16" href="$reorg_8h.html" title="Reorg op constructions." alt="" coords="845,601,1016,643"/>
+<area shape="rect" id="node18" href="$topi_2transform_8h.html" title="Transform op constructors." alt="" coords="633,437,841,464"/>
+<area shape="rect" id="node19" href="$detail_2broadcast_8h.html" title="Detail broadcast." alt="" coords="459,259,629,300"/>
+<area shape="rect" id="node20" href="$strided__slice_8h.html" title="Utility functions for strided_slice op." alt="" coords="678,348,847,389"/>
+<area shape="rect" id="node21" href="$einsum_8h.html" title="Einstein summation op." alt="" coords="973,266,1165,293"/>
+<area shape="rect" id="node22" href="$bnn_8h.html" title="Binary op constructions." alt="" coords="1190,259,1338,300"/>
+<area shape="rect" id="node23" href="$flatten_8h.html" title="Softmax op constructions." alt="" coords="1362,259,1510,300"/>
+<area shape="rect" id="node10" href="$elemwise_8h.html" title="Elementwise op constructions." alt="" coords="351,437,558,464"/>
+<area shape="rect" id="node17" href="$bias__add_8h.html" title="bias_add op constructions" alt="" coords="555,512,703,553"/>
+<area shape="rect" id="node12" href="$pooling_8h.html" title="Pooling op constructions." alt="" coords="435,691,583,732"/>
+<area shape="rect" id="node13" href="$rms__norm_8h.html" title="root mean square normalization op constructions" alt="" coords="489,601,637,643"/>
+<area shape="rect" id="node14" href="$softmax_8h.html" title="Softmax op constructions." alt="" coords="317,601,465,643"/>
+</map>

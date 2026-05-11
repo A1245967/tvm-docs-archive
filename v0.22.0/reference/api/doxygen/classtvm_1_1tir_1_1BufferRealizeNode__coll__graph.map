@@ -1,0 +1,11 @@
+<map id="tvm::tir::BufferRealizeNode" name="tvm::tir::BufferRealizeNode">
+<area shape="rect" id="node1" title="Annotate the region where the buffer need to be read and write in the body. We only need to allocate ..." alt="" coords="431,797,647,933"/>
+<area shape="rect" id="node2" href="$classtvm_1_1tir_1_1StmtNode.html" title="Base node of all statements." alt="" coords="72,555,304,735"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,154,69,231"/>
+<area shape="rect" id="node4" href="$classtvm_1_1Span.html" title=" " alt="" coords="93,132,305,253"/>
+<area shape="rect" id="node5" title=" " alt="" coords="498,5,585,83"/>
+<area shape="rect" id="node7" href="$classtvm_1_1BaseExpr.html" title="Managed reference to BaseExprNode." alt="" coords="329,147,541,239"/>
+<area shape="rect" id="node8" href="$classtvm_1_1tir_1_1Buffer.html" title="Buffer is a symbolic n&#45;darray structure. It is a composition of primitive symbolic types,..." alt="" coords="462,277,674,531"/>
+<area shape="rect" id="node9" href="$classtvm_1_1tir_1_1Stmt.html" title="Container of all statements." alt="" coords="681,358,893,450"/>
+<area shape="rect" id="node6" href="$classtvm_1_1PrimExpr.html" title="Reference to PrimExprNode." alt="" coords="329,569,541,720"/>
+</map>

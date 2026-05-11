@@ -1,0 +1,7 @@
+<map id="tvm::runtime::ThreadLocalDiscoWorker" name="tvm::runtime::ThreadLocalDiscoWorker">
+<area shape="rect" id="node1" title="A threadlocal wrapper of DiscoWorker." alt="" coords="256,461,451,553"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1DiscoWorker.html" title="A worker in Disco. It takes a channel to communication with the controler. The worker can be run in a..." alt="" coords="255,204,451,399"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1WorkerZeroData.html" title="A special communication channel between controler and worker&#45;0, assuming they are always collocated i..." alt="" coords="5,27,227,119"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1DiscoChannel.html" title="A bi&#45;directional channel for controler&#45;worker communication. This channel is primarily used to transf..." alt="" coords="251,5,455,141"/>
+<area shape="rect" id="node5" title=" " alt="" coords="479,35,539,112"/>
+</map>

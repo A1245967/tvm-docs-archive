@@ -1,0 +1,8 @@
+<map id="tvm::runtime::DiscoWorker" name="tvm::runtime::DiscoWorker">
+<area shape="rect" id="node1" title="A worker in Disco. It takes a channel to communication with the controler. The worker can be run in a..." alt="" coords="255,984,451,1179"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1WorkerZeroData.html" title="A special communication channel between controler and worker&#45;0, assuming they are always collocated i..." alt="" coords="5,749,227,841"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1DiscoChannel.html" title="A bi&#45;directional channel for controler&#45;worker communication. This channel is primarily used to transf..." alt="" coords="251,727,455,863"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1String.html" title="Reference to string objects." alt="" coords="479,668,638,921"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1ObjectRef.html" title="Base class of all object reference." alt="" coords="469,307,648,619"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1ObjectPtr.html" title=" " alt="" coords="465,5,652,244"/>
+</map>

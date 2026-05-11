@@ -1,0 +1,12 @@
+<map id="include/tvm/auto_scheduler/transform_step.h" name="include/tvm/auto_scheduler/transform_step.h">
+<area shape="rect" id="node1" title="Transformation steps. These steps are used to manipulate LoopState. They are similar to the schedule ..." alt="" coords="184,5,387,47"/>
+<area shape="rect" id="node2" href="$loop__state_8h.html" title="The definition of the &quot;state&quot; in the search." alt="" coords="184,95,387,136"/>
+<area shape="rect" id="node3" href="$compute__dag_8h.html" title="The auto&#45;scheduler&#39;s computational graph and related program analyses." alt="" coords="279,184,481,225"/>
+<area shape="rect" id="node7" href="$measure_8h.html" title="Distributed measurement infrastructure to measure the runtime costs of tensor programs...." alt="" coords="304,363,507,404"/>
+<area shape="rect" id="node4" href="$auto__scheduler_2cost__model_8h.html" title="Cost models that estimate the performance of programs." alt="" coords="5,452,208,493"/>
+<area shape="rect" id="node5" href="$auto__scheduler_2feature_8h.html" title="Feature extraction for the cost model. We extract one feature vector per BufferStoreNode statement in..." alt="" coords="736,452,939,493"/>
+<area shape="rect" id="node6" href="$search__task_8h.html" title="Meta information and hardware parameters for a search task." alt="" coords="304,273,507,315"/>
+<area shape="rect" id="node10" href="$search__policy_8h.html" title="The base class of search policies, including the abstract definition of search policy and other suppo..." alt="" coords="509,452,712,493"/>
+<area shape="rect" id="node8" href="$auto__schedule_8h.html" title="The user interface of the auto scheduler." alt="" coords="327,541,529,583"/>
+<area shape="rect" id="node9" href="$measure__record_8h.html" title="Json serialization format for dumping and loading measurement records." alt="" coords="283,452,485,493"/>
+</map>

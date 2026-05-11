@@ -1,0 +1,394 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,8446,69,8473"/>
+<area shape="rect" id="node2" href="$classtvm_1_1AttrFieldInfoNode.html" title="Information about attribute fields in string representations." alt="" coords="167,2379,337,2406"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseAttrsNode.html" title="Base class of all attribute class." alt="" coords="175,2430,329,2457"/>
+<area shape="rect" id="node148" href="$classtvm_1_1BaseExprNode.html" title="Base type of all the expressions." alt="" coords="177,6737,327,6763"/>
+<area shape="rect" id="node223" href="$classtvm_1_1DiagnosticContextNode.html" title=" " alt="" coords="147,6831,357,6858"/>
+<area shape="rect" id="node224" href="$classtvm_1_1DiagnosticNode.html" title="A compiler diagnostic message." alt="" coords="173,6882,331,6909"/>
+<area shape="rect" id="node225" href="$classtvm_1_1DiagnosticRendererNode.html" title="Display diagnostics in a given display format." alt="" coords="143,6933,361,6959"/>
+<area shape="rect" id="node226" href="$classtvm_1_1EnvFuncNode.html" title="A serializable function backed by TVM&#39;s global environment." alt="" coords="180,6983,324,7010"/>
+<area shape="rect" id="node227" href="$classtvm_1_1GlobalInfoNode.html" title="GlobalInfo are globally static object that are referred by the IR itself. Base node for all global in..." alt="" coords="173,7034,331,7061"/>
+<area shape="rect" id="node231" href="$classtvm_1_1GlobalVarSupplyNode.html" title="GlobalVarSupply can be used to generate unique GlobalVars." alt="" coords="153,7085,351,7111"/>
+<area shape="rect" id="node232" href="$classtvm_1_1IRModuleNode.html" title="IRModule that holds functions and type definitions." alt="" coords="177,7135,327,7162"/>
+<area shape="rect" id="node233" href="$classtvm_1_1MemoryInfoNode.html" title="Memory information of special memory region. Use MemoryInfo as its container type." alt="" coords="167,7186,337,7213"/>
+<area shape="rect" id="node234" href="$classtvm_1_1NameSupplyNode.html" title="NameSupply can be used to generate unique names." alt="" coords="165,7237,339,7263"/>
+<area shape="rect" id="node235" href="$classtvm_1_1ObjectPathNode.html" title="Path to an object from some root object." alt="" coords="172,7287,332,7314"/>
+<area shape="rect" id="node243" href="$classtvm_1_1ObjectPathPairNode.html" title="Pair of ObjectPaths, one for each object being tested for structural equality." alt="" coords="160,7341,344,7367"/>
+<area shape="rect" id="node244" href="$classtvm_1_1PrimExprConvertibleNode.html" title="Base class for other IR constructs that can be converted to PrimExpr. This is useful for the FFI to c..." alt="" coords="140,7391,364,7418"/>
+<area shape="rect" id="node249" href="$classtvm_1_1PrinterConfigNode.html" title=" " alt="" coords="165,7442,339,7469"/>
+<area shape="rect" id="node250" href="$classtvm_1_1RangeNode.html" title="range over one dimension" alt="" coords="187,7493,317,7519"/>
+<area shape="rect" id="node251" href="$classtvm_1_1SourceMapObj.html" title="Stores locations in frontend source that generated a node." alt="" coords="177,7543,327,7570"/>
+<area shape="rect" id="node252" href="$classtvm_1_1SourceNameNode.html" title="The name of a source fragment." alt="" coords="165,7594,339,7621"/>
+<area shape="rect" id="node253" href="$classtvm_1_1SourceNode.html" title=" " alt="" coords="185,7645,319,7671"/>
+<area shape="rect" id="node254" href="$classtvm_1_1SpanNode.html" title="Stores locations in frontend source that generated a node." alt="" coords="191,7695,313,7722"/>
+<area shape="rect" id="node256" href="$classtvm_1_1TargetKindNode.html" title="Target kind, specifies the kind of the target." alt="" coords="173,7746,331,7773"/>
+<area shape="rect" id="node257" href="$classtvm_1_1TargetNode.html" title="Compilation target." alt="" coords="187,7797,317,7823"/>
+<area shape="rect" id="node258" href="$classtvm_1_1TargetTagNode.html" title="A target tag." alt="" coords="176,7847,328,7874"/>
+<area shape="rect" id="node259" href="$classtvm_1_1TypeNode.html" title="Type is the base type of all types." alt="" coords="192,7898,312,7925"/>
+<area shape="rect" id="node269" href="$classtvm_1_1arith_1_1ConstIntBoundNode.html" title="Constant integer up and lower bound(inclusive). Useful for value bound analysis." alt="" coords="141,7949,363,7975"/>
+<area shape="rect" id="node270" href="$classtvm_1_1arith_1_1IntConstraintsNode.html" title="Represent integer constrains including (integer) variables, their ranges and the relations between th..." alt="" coords="143,7999,361,8026"/>
+<area shape="rect" id="node271" href="$classtvm_1_1arith_1_1IntConstraintsTransformNode.html" title="We can have different set of variables to represent the same constraints. For example,..." alt="" coords="159,8051,345,8092"/>
+<area shape="rect" id="node272" href="$classtvm_1_1arith_1_1IntGroupBoundsNode.html" title="Represent integer grouped bounds which are classified into lower bounds (inclusive),..." alt="" coords="136,8117,368,8143"/>
+<area shape="rect" id="node273" href="$classtvm_1_1arith_1_1IntSetNode.html" title="Base class of all Integer set containers. represent a set of integers in one dimension." alt="" coords="169,8167,335,8194"/>
+<area shape="rect" id="node274" href="$classtvm_1_1arith_1_1IterMapResultNode.html" title="Result of DetectIterMap." alt="" coords="143,8218,361,8245"/>
+<area shape="rect" id="node275" href="$classtvm_1_1arith_1_1IterMarkNode.html" title="Mark the source as an iterator in [0, extent)." alt="" coords="161,8269,343,8295"/>
+<area shape="rect" id="node276" href="$classtvm_1_1arith_1_1ModularSetNode.html" title="Range of a linear integer function. Use to do specify the possible index values." alt="" coords="151,8319,353,8346"/>
+<area shape="rect" id="node277" href="$classtvm_1_1instrument_1_1PassInstrumentNode.html" title="PassInstrumentNode forms an instrument implementation. It provides API for users to register callback..." alt="" coords="117,8370,387,8397"/>
+<area shape="rect" id="node278" href="$classtvm_1_1relax_1_1BindingBlockNode.html" title=" " alt="" coords="144,8421,360,8447"/>
+<area shape="rect" id="node280" href="$classtvm_1_1relax_1_1BindingNode.html" title="The base class of a variable binding in Relax." alt="" coords="162,8471,342,8498"/>
+<area shape="rect" id="node283" href="$classtvm_1_1relax_1_1BlockBuilderNode.html" title="A builder to build Relax binding blocks." alt="" coords="145,8522,359,8549"/>
+<area shape="rect" id="node284" href="$classtvm_1_1relax_1_1DFConstraintNode.html" title="Additional constraints on the graph." alt="" coords="144,8573,360,8599"/>
+<area shape="rect" id="node286" href="$classtvm_1_1relax_1_1DFPatternNode.html" title="Base type of all dataflow patterns." alt="" coords="155,8623,349,8650"/>
+<area shape="rect" id="node307" href="$classtvm_1_1relax_1_1DataflowBlockRewriteNode.html" title="Statement rewriter for relax.DataflowBlock." alt="" coords="157,8675,347,8716"/>
+<area shape="rect" id="node308" href="$classtvm_1_1relax_1_1ExecBuilderNode.html" title="A builder provides api to build VM executable with instructions." alt="" coords="149,8741,355,8767"/>
+<area shape="rect" id="node309" href="$classtvm_1_1relax_1_1IdNode.html" title="The unique identifier of variables." alt="" coords="181,8791,323,8818"/>
+<area shape="rect" id="node310" href="$classtvm_1_1relax_1_1MatchResultNode.html" title=" " alt="" coords="146,8842,358,8869"/>
+<area shape="rect" id="node311" href="$classtvm_1_1relax_1_1PatternContextNode.html" title="A context to manage the graph&#45;level pattern matching." alt="" coords="138,8893,366,8919"/>
+<area shape="rect" id="node312" href="$classtvm_1_1relax_1_1PatternSeqNode.html" title="A sequence of DFPatterns that the previous DFPattern is connected to the next one." alt="" coords="151,8943,353,8970"/>
+<area shape="rect" id="node313" href="$classtvm_1_1relax_1_1StructInfoNode.html" title="Base type of all structure information." alt="" coords="155,8994,349,9021"/>
+<area shape="rect" id="node321" href="$classtvm_1_1relax_1_1distributed_1_1PlacementNode.html" title="Describes how data is distributed in each dimension of the device mesh." alt="" coords="169,9045,335,9087"/>
+<area shape="rect" id="node322" href="$classtvm_1_1relax_1_1distributed_1_1PlacementSpecNode.html" title="Describes how data is distributed in one dimension of the device mesh." alt="" coords="169,9111,335,9152"/>
+<area shape="rect" id="node324" href="$classtvm_1_1relax_1_1transform_1_1FusionPatternNode.html" title="The pattern object used as the input of FuseOpsByPattern. For bindings to be fused,..." alt="" coords="171,9176,333,9217"/>
+<area shape="rect" id="node325" href="$classtvm_1_1relax_1_1transform_1_1PatternCheckContextNode.html" title="The input of FusionPattern::check." alt="" coords="151,9241,353,9283"/>
+<area shape="rect" id="node326" href="$classtvm_1_1script_1_1printer_1_1DocNode.html" title="The base class of all Doc." alt="" coords="181,9307,323,9348"/>
+<area shape="rect" id="node353" href="$classtvm_1_1script_1_1printer_1_1FrameNode.html" title=" " alt="" coords="181,9372,323,9413"/>
+<area shape="rect" id="node354" href="$classtvm_1_1script_1_1printer_1_1IRDocsifierNode.html" title="IRDocsifier is the top&#45;level interface in the IR&#45;&gt;Doc process." alt="" coords="181,9437,323,9479"/>
+<area shape="rect" id="node355" href="$classtvm_1_1te_1_1OperationNode.html" title="Base class of all operation nodes." alt="" coords="165,9503,339,9530"/>
+<area shape="rect" id="node361" href="$classtvm_1_1tir_1_1BijectiveLayoutNode.html" title=" " alt="" coords="145,9554,359,9581"/>
+<area shape="rect" id="node362" href="$classtvm_1_1tir_1_1BlockDependenceInfoNode.html" title="An object that helps build and query block level dependences using the 2 core objects BlockScope and ..." alt="" coords="155,9605,349,9647"/>
+<area shape="rect" id="node363" href="$classtvm_1_1tir_1_1BlockScopeNode.html" title="An object with 1&#45;to&#45;1 correspondence with each block reference in the sref tree. This data structure ..." alt="" coords="159,9671,345,9698"/>
+<area shape="rect" id="node364" href="$classtvm_1_1tir_1_1BufferNode.html" title="Node to represent a buffer." alt="" coords="177,9722,327,9749"/>
+<area shape="rect" id="node365" href="$classtvm_1_1tir_1_1CommReducerNode.html" title="A commutative reducer node to represent a commutative binary operator with identity element." alt="" coords="148,9773,356,9799"/>
+<area shape="rect" id="node366" href="$classtvm_1_1tir_1_1DependencyNode.html" title="A tuple (src, dst, kind) representing certain types of dependency. For example, (A,..." alt="" coords="155,9823,349,9850"/>
+<area shape="rect" id="node367" href="$classtvm_1_1tir_1_1IndexMapNode.html" title="Defines a mapping between two representations of indices into a buffer." alt="" coords="164,9874,340,9901"/>
+<area shape="rect" id="node368" href="$classtvm_1_1tir_1_1LayoutNode.html" title="Layout is to describe how data is organized within an N&#45;dimention tensor. It is composed of upper cas..." alt="" coords="174,9925,330,9951"/>
+<area shape="rect" id="node369" href="$classtvm_1_1tir_1_1MatchBufferRegionNode.html" title="Match introduces a constraint that the source buffer region can be remapped to the data layout specif..." alt="" coords="134,9975,370,10002"/>
+<area shape="rect" id="node370" href="$classtvm_1_1tir_1_1ScheduleStateNode.html" title="The state of scheduling, which exposes a Replace method as the primary interface for all the scheduli..." alt="" coords="149,10026,355,10053"/>
+<area shape="rect" id="node371" href="$classtvm_1_1tir_1_1StmtNode.html" title="Base node of all statements." alt="" coords="181,10307,323,10334"/>
+<area shape="rect" id="node387" href="$classtvm_1_1tir_1_1StmtSRefNode.html" title="An object that refers to schedulable elements (block/for&#45;loop) in TensorIR, aka &quot;sref&quot;." alt="" coords="165,10358,339,10385"/>
+<area shape="rect" id="node388" href="$classtvm_1_1tir_1_1TensorIntrinNode.html" title="Tensor intrinsics for tensorization." alt="" coords="158,10409,346,10435"/>
+<area shape="rect" id="node389" href="$classtvm_1_1transform_1_1PassContextNode.html" title="PassContextNode contains the information that a pass can rely on, such as analysis results." alt="" coords="131,10459,373,10486"/>
+<area shape="rect" id="node390" href="$classtvm_1_1transform_1_1PassInfoNode.html" title="Meta data that will be used to help optimization and analysis." alt="" coords="144,10510,360,10537"/>
+<area shape="rect" id="node391" href="$classtvm_1_1transform_1_1PassNode.html" title="PassNode is the base type of differnt types of optimization passes. It is designed as a pure class an..." alt="" coords="157,10687,347,10714"/>
+<area shape="rect" id="node4" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,5,671,47"/>
+<area shape="rect" id="node6" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,71,671,112"/>
+<area shape="rect" id="node8" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,136,671,177"/>
+<area shape="rect" id="node10" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,201,671,243"/>
+<area shape="rect" id="node12" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,267,671,308"/>
+<area shape="rect" id="node14" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,332,671,373"/>
+<area shape="rect" id="node16" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,397,671,439"/>
+<area shape="rect" id="node18" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,463,671,504"/>
+<area shape="rect" id="node20" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,528,671,569"/>
+<area shape="rect" id="node22" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="472,593,672,635"/>
+<area shape="rect" id="node24" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,659,671,700"/>
+<area shape="rect" id="node26" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,724,671,765"/>
+<area shape="rect" id="node28" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,789,671,831"/>
+<area shape="rect" id="node30" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,855,671,896"/>
+<area shape="rect" id="node32" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,920,671,961"/>
+<area shape="rect" id="node34" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,985,671,1027"/>
+<area shape="rect" id="node36" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1051,671,1092"/>
+<area shape="rect" id="node38" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1116,671,1157"/>
+<area shape="rect" id="node40" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1181,671,1223"/>
+<area shape="rect" id="node42" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1247,671,1288"/>
+<area shape="rect" id="node44" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1312,671,1353"/>
+<area shape="rect" id="node46" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1377,671,1419"/>
+<area shape="rect" id="node48" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1443,671,1484"/>
+<area shape="rect" id="node50" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1508,671,1549"/>
+<area shape="rect" id="node52" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1573,671,1615"/>
+<area shape="rect" id="node54" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1639,671,1680"/>
+<area shape="rect" id="node56" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1704,671,1745"/>
+<area shape="rect" id="node58" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1769,671,1811"/>
+<area shape="rect" id="node60" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1835,671,1876"/>
+<area shape="rect" id="node62" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1900,671,1941"/>
+<area shape="rect" id="node64" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,1965,671,2007"/>
+<area shape="rect" id="node66" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2031,671,2072"/>
+<area shape="rect" id="node68" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2096,671,2137"/>
+<area shape="rect" id="node70" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2161,671,2203"/>
+<area shape="rect" id="node72" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2227,671,2268"/>
+<area shape="rect" id="node74" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2292,671,2333"/>
+<area shape="rect" id="node76" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2357,671,2399"/>
+<area shape="rect" id="node78" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2423,671,2464"/>
+<area shape="rect" id="node80" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2488,671,2529"/>
+<area shape="rect" id="node82" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2553,671,2595"/>
+<area shape="rect" id="node84" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2619,671,2660"/>
+<area shape="rect" id="node86" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2684,671,2725"/>
+<area shape="rect" id="node88" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2749,671,2791"/>
+<area shape="rect" id="node90" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2815,671,2856"/>
+<area shape="rect" id="node92" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2880,671,2921"/>
+<area shape="rect" id="node94" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,2945,671,2987"/>
+<area shape="rect" id="node96" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3011,671,3052"/>
+<area shape="rect" id="node98" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3076,671,3117"/>
+<area shape="rect" id="node100" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3141,671,3183"/>
+<area shape="rect" id="node102" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="449,3207,695,3248"/>
+<area shape="rect" id="node104" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3272,671,3313"/>
+<area shape="rect" id="node106" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3337,671,3379"/>
+<area shape="rect" id="node108" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3403,671,3444"/>
+<area shape="rect" id="node110" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3468,671,3509"/>
+<area shape="rect" id="node112" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3533,671,3575"/>
+<area shape="rect" id="node114" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3599,671,3640"/>
+<area shape="rect" id="node116" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3664,671,3705"/>
+<area shape="rect" id="node118" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3729,671,3771"/>
+<area shape="rect" id="node120" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3795,671,3836"/>
+<area shape="rect" id="node122" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3860,671,3901"/>
+<area shape="rect" id="node124" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3925,671,3967"/>
+<area shape="rect" id="node126" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,3991,671,4032"/>
+<area shape="rect" id="node128" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,4056,671,4097"/>
+<area shape="rect" id="node130" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,4121,671,4163"/>
+<area shape="rect" id="node132" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,4187,671,4228"/>
+<area shape="rect" id="node134" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,4252,671,4293"/>
+<area shape="rect" id="node136" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,4317,671,4359"/>
+<area shape="rect" id="node138" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,4383,671,4424"/>
+<area shape="rect" id="node140" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,4448,671,4489"/>
+<area shape="rect" id="node142" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,4513,671,4555"/>
+<area shape="rect" id="node144" href="$classtvm_1_1AttrsNodeReflAdapter.html" title=" " alt="" coords="473,4579,671,4620"/>
+<area shape="rect" id="node146" href="$classtvm_1_1AttrsNodeReflAdapter.html" title="Adapter for AttrsNode with the new reflection API." alt="" coords="473,4644,671,4685"/>
+<area shape="rect" id="node147" href="$classtvm_1_1DictAttrsNode.html" title="Specialized attribute type that is backed by a map. The DictAttrsNode implements the Attrs behavior,..." alt="" coords="499,4710,645,4737"/>
+<area shape="rect" id="node5" href="$structtvm_1_1relax_1_1SliceScatterAttrs.html" title="Attributes used in slice_scatter operator." alt="" coords="798,5,973,47"/>
+<area shape="rect" id="node7" href="$structtvm_1_1relax_1_1ScatterCollectiveAttrs.html" title="Attributes used in scatter operators." alt="" coords="781,71,989,112"/>
+<area shape="rect" id="node9" href="$structtvm_1_1relax_1_1HintOnDeviceAttrs.html" title="Attributes used in hint_on_device." alt="" coords="792,136,979,177"/>
+<area shape="rect" id="node11" href="$structtvm_1_1relax_1_1TakeAttrs.html" title="Attributes used in take operator." alt="" coords="807,209,964,235"/>
+<area shape="rect" id="node13" href="$structtvm_1_1relax_1_1ScatterElementsAttrs.html" title="Attributes used in scatter_elements operators." alt="" coords="783,267,987,308"/>
+<area shape="rect" id="node15" href="$structtvm_1_1relax_1_1MeshgridAttrs.html" title="Attribute used in meshgrid operator." alt="" coords="791,339,979,366"/>
+<area shape="rect" id="node17" href="$structtvm_1_1relax_1_1GatherElementsAttrs.html" title="Attributes used in gather_elements operators." alt="" coords="784,397,987,439"/>
+<area shape="rect" id="node19" href="$structtvm_1_1relax_1_1EinsumAttrs.html" title="Attributes used in einsum operator." alt="" coords="797,470,973,497"/>
+<area shape="rect" id="node21" href="$structtvm_1_1relax_1_1DistributionAttrs.html" title="Attributes for redistribute and annotate_sharding operator." alt="" coords="799,528,972,569"/>
+<area shape="rect" id="node23" href="$structtvm_1_1relax_1_1CallInplacePackedAttrs.html" title="Attributes used in call_inplace_packed." alt="" coords="778,593,993,635"/>
+<area shape="rect" id="node25" href="$structtvm_1_1relax_1_1AttentionAttrs.html" title="Attributes used in Attention operator." alt="" coords="791,666,979,693"/>
+<area shape="rect" id="node27" href="$structtvm_1_1relax_1_1AllReduceAttrs.html" title="Attributes used in allreduce operators." alt="" coords="789,731,982,758"/>
+<area shape="rect" id="node29" href="$structtvm_1_1relax_1_1AdaptivePool2DAttrs.html" title="Attributes for 2d adaptive pool operator." alt="" coords="790,789,981,831"/>
+<area shape="rect" id="node31" href="$structtvm_1_1relax_1_1ScatterNDAttrs.html" title="Attributes used in scatter_nd operators." alt="" coords="788,862,983,889"/>
+<area shape="rect" id="node33" href="$structtvm_1_1relax_1_1InitAttrs.html" title="Attributes used in full/full_like, ones/ones_like, and zeros/zeros_like operators." alt="" coords="811,927,960,954"/>
+<area shape="rect" id="node35" href="$structtvm_1_1relax_1_1FlipAttrs.html" title="Attributes used in flip operators." alt="" coords="809,993,961,1019"/>
+<area shape="rect" id="node37" href="$structtvm_1_1relax_1_1AllGatherAttrs.html" title="Attributes used in allgather operators." alt="" coords="791,1058,980,1085"/>
+<area shape="rect" id="node39" href="$structtvm_1_1relax_1_1AdaptivePool3DAttrs.html" title="Attributes for 3d adaptive pool operator." alt="" coords="790,1116,981,1157"/>
+<area shape="rect" id="node41" href="$structtvm_1_1relax_1_1ToVDeviceAttrs.html" title="Attributes used in to_vdevice." alt="" coords="787,1189,983,1215"/>
+<area shape="rect" id="node43" href="$structtvm_1_1relax_1_1IndexPutAttrs.html" title="Attributes used in index_put operator." alt="" coords="793,1254,978,1281"/>
+<area shape="rect" id="node45" href="$structtvm_1_1relax_1_1ExpandDimsAttrs.html" title="Attributes used in expand_dims operators." alt="" coords="780,1319,991,1346"/>
+<area shape="rect" id="node47" href="$structtvm_1_1relax_1_1ConcatAttrs.html" title="Attributes used in concat operators." alt="" coords="799,1385,972,1411"/>
+<area shape="rect" id="node49" href="$structtvm_1_1relax_1_1TriluAttrs.html" title="Attributes used in tril and triu operator." alt="" coords="808,1450,963,1477"/>
+<area shape="rect" id="node51" href="$structtvm_1_1relax_1_1SoftmaxAttrs.html" title="Attributes used in softmax operators." alt="" coords="794,1515,977,1542"/>
+<area shape="rect" id="node53" href="$structtvm_1_1relax_1_1AdaptivePool1DAttrs.html" title="Attributes for 1d adaptive pool operator." alt="" coords="790,1573,981,1615"/>
+<area shape="rect" id="node55" href="$structtvm_1_1relax_1_1SoftplusAttrs.html" title="Attributes used in softplus operators." alt="" coords="795,1646,975,1673"/>
+<area shape="rect" id="node57" href="$structtvm_1_1relax_1_1MatmulAttrs.html" title="Attributes for matmul operator." alt="" coords="796,1711,975,1738"/>
+<area shape="rect" id="node59" href="$structtvm_1_1relax_1_1ArgmaxArgminAttrs.html" title="Attributes for search operators." alt="" coords="788,1769,983,1811"/>
+<area shape="rect" id="node61" href="$structtvm_1_1relax_1_1Resize2DAttrs.html" title="Attributes used in image resize2d operator." alt="" coords="791,1842,980,1869"/>
+<area shape="rect" id="node63" href="$structtvm_1_1relax_1_1Pool3DAttrs.html" title="Attributes used in max_pool3d and avg_pool3d operator." alt="" coords="798,1907,973,1934"/>
+<area shape="rect" id="node65" href="$structtvm_1_1relax_1_1LayerNormAttrs.html" title="Attributes used in layer_norm operator." alt="" coords="785,1973,985,1999"/>
+<area shape="rect" id="node67" href="$structtvm_1_1relax_1_1SqueezeAttrs.html" title="Attributes used in squeeze operators." alt="" coords="794,2038,977,2065"/>
+<area shape="rect" id="node69" href="$structtvm_1_1relax_1_1Pool2DAttrs.html" title="Attributes used in max_pool2d and avg_pool2d operator." alt="" coords="798,2103,973,2130"/>
+<area shape="rect" id="node71" href="$structtvm_1_1relax_1_1OneHotAttrs.html" title="Attributes used in one_hot operator." alt="" coords="797,2169,974,2195"/>
+<area shape="rect" id="node73" href="$structtvm_1_1relax_1_1NLLLossAttrs.html" title="Attributes used in nll_loss operator." alt="" coords="795,2234,976,2261"/>
+<area shape="rect" id="node75" href="$structtvm_1_1relax_1_1BatchNormAttrs.html" title="Attributes used in batch_norm operator." alt="" coords="785,2299,986,2326"/>
+<area shape="rect" id="node77" href="$structtvm_1_1relax_1_1RepeatAttrs.html" title="Attributes used in repeat operators." alt="" coords="798,2365,973,2391"/>
+<area shape="rect" id="node79" href="$structtvm_1_1relax_1_1Pool1DAttrs.html" title="Attributes used in max_pool1d and avg_pool1d operator." alt="" coords="798,2430,973,2457"/>
+<area shape="rect" id="node81" href="$structtvm_1_1relax_1_1StackAttrs.html" title="Attributes used in stack operators." alt="" coords="803,2495,967,2522"/>
+<area shape="rect" id="node83" href="$structtvm_1_1relax_1_1ScanopAttrs.html" title="Attributes used in scan operators like cumsum, cumprod." alt="" coords="798,2561,973,2587"/>
+<area shape="rect" id="node85" href="$structtvm_1_1relax_1_1LeakyReluAttrs.html" title="Attributes used in softmax operators." alt="" coords="788,2626,983,2653"/>
+<area shape="rect" id="node87" href="$structtvm_1_1relax_1_1CallTIRWithGradAttrs.html" title="Attributes used in call_tir_with_grad." alt="" coords="783,2684,987,2725"/>
+<area shape="rect" id="node89" href="$structtvm_1_1relax_1_1CallTIRInplaceAttrs.html" title="Attributes used in call_tir_inplace." alt="" coords="790,2749,981,2791"/>
+<area shape="rect" id="node91" href="$structtvm_1_1relax_1_1AstypeAttrs.html" title="Attributes used in astype operator." alt="" coords="799,2822,972,2849"/>
+<area shape="rect" id="node93" href="$structtvm_1_1relax_1_1PixelShuffleAttrs.html" title="Attributes used for the pixel shuffle operator." alt="" coords="799,2880,972,2921"/>
+<area shape="rect" id="node95" href="$structtvm_1_1relax_1_1PadAttrs.html" title="Attributes used for the padding operator." alt="" coords="810,2953,961,2979"/>
+<area shape="rect" id="node97" href="$structtvm_1_1relax_1_1InstanceNormAttrs.html" title="Attributes used in instance_norm operator." alt="" coords="791,3011,979,3052"/>
+<area shape="rect" id="node99" href="$structtvm_1_1relax_1_1DropoutAttrs.html" title="Attributes used in dropout operator." alt="" coords="795,3083,975,3110"/>
+<area shape="rect" id="node101" href="$structtvm_1_1relax_1_1TopKAttrs.html" title="Attributes used in topk operator." alt="" coords="806,3149,965,3175"/>
+<area shape="rect" id="node103" href="$structtvm_1_1relax_1_1MultinomialFromUniformAttrs.html" title="Attributes used in multinomial_from_uniform operator." alt="" coords="781,3207,989,3248"/>
+<area shape="rect" id="node105" href="$structtvm_1_1relax_1_1Conv3DAttrs.html" title="Attributes used in Conv3d operator." alt="" coords="796,3279,975,3306"/>
+<area shape="rect" id="node107" href="$classtvm_1_1VirtualDeviceNode.html" title="Describes at compile time the constraints on where data is to be stored at runtime down to the (virtu..." alt="" coords="796,3345,975,3371"/>
+<area shape="rect" id="node109" href="$structtvm_1_1relax_1_1WrapParamAttrs.html" title="Attributes used in wrap_param operator." alt="" coords="784,3410,987,3437"/>
+<area shape="rect" id="node111" href="$structtvm_1_1relax_1_1TileAttrs.html" title="Attributes used in tile operators." alt="" coords="809,3475,961,3502"/>
+<area shape="rect" id="node113" href="$structtvm_1_1relax_1_1StridedSliceAttrs.html" title="Attributes used in strided_slice operator." alt="" coords="798,3533,973,3575"/>
+<area shape="rect" id="node115" href="$structtvm_1_1relax_1_1SplitAttrs.html" title="Attributes used in split operator." alt="" coords="807,3606,964,3633"/>
+<area shape="rect" id="node117" href="$structtvm_1_1relax_1_1RMSNormAttrs.html" title="Attributes used in rms_norm operator." alt="" coords="789,3671,982,3698"/>
+<area shape="rect" id="node119" href="$structtvm_1_1relax_1_1QuantizeAttrs.html" title="Attributes for relax.quantize/relax.dequantize operator." alt="" coords="792,3737,979,3763"/>
+<area shape="rect" id="node121" href="$structtvm_1_1relax_1_1PReluAttrs.html" title="Attributes used in PReLU operator." alt="" coords="803,3802,968,3829"/>
+<area shape="rect" id="node123" href="$structtvm_1_1relax_1_1Conv2DAttrs.html" title="Attributes used in Conv2d operator." alt="" coords="796,3867,975,3894"/>
+<area shape="rect" id="node125" href="$structtvm_1_1relax_1_1SortAttrs.html" title="Attributes used in sort operator." alt="" coords="808,3933,963,3959"/>
+<area shape="rect" id="node127" href="$structtvm_1_1relax_1_1Conv1DAttrs.html" title="Attributes used in Conv1d operator." alt="" coords="796,3998,975,4025"/>
+<area shape="rect" id="node129" href="$structtvm_1_1relax_1_1BucketizeAttrs.html" title="Attributes for bucketize operator." alt="" coords="790,4063,981,4090"/>
+<area shape="rect" id="node131" href="$structtvm_1_1relax_1_1ArgsortAttrs.html" title="Attributes used in argsort operator." alt="" coords="798,4129,973,4155"/>
+<area shape="rect" id="node133" href="$structtvm_1_1relax_1_1StatisticalAttrs.html" title="Attributes for statistical operators." alt="" coords="789,4194,982,4221"/>
+<area shape="rect" id="node135" href="$structtvm_1_1relax_1_1LayoutTransformAttrs.html" title="Attributes used in layout_transform operator." alt="" coords="782,4252,989,4293"/>
+<area shape="rect" id="node137" href="$structtvm_1_1relax_1_1Conv1DTransposeAttrs.html" title="Attributes used in Conv1DTranspose operator." alt="" coords="779,4317,992,4359"/>
+<area shape="rect" id="node139" href="$structtvm_1_1relax_1_1Conv2DTransposeAttrs.html" title="Attributes used in Conv2d operator." alt="" coords="779,4383,992,4424"/>
+<area shape="rect" id="node141" href="$structtvm_1_1relax_1_1PermuteDimsAttrs.html" title="Attributes used in permute_dims operator." alt="" coords="777,4455,994,4482"/>
+<area shape="rect" id="node143" href="$structtvm_1_1relax_1_1GroupNormAttrs.html" title="Attributes used in group_norm operator." alt="" coords="784,4514,987,4541"/>
+<area shape="rect" id="node145" href="$structtvm_1_1relax_1_1GatherNDAttrs.html" title="Attributes used in gather_nd operators." alt="" coords="789,4565,981,4591"/>
+<area shape="rect" id="node149" href="$classtvm_1_1PrimExprNode.html" title="Base node of all primitive expressions." alt="" coords="497,5723,647,5750"/>
+<area shape="rect" id="node203" href="$classtvm_1_1RelaxExprNode.html" title="Base node of all non&#45;primitive expressions." alt="" coords="494,6737,650,6763"/>
+<area shape="rect" id="node150" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="799,4616,971,4657"/>
+<area shape="rect" id="node152" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="799,4681,971,4723"/>
+<area shape="rect" id="node154" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="799,4747,971,4788"/>
+<area shape="rect" id="node156" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="799,4812,971,4853"/>
+<area shape="rect" id="node158" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="799,4877,971,4919"/>
+<area shape="rect" id="node160" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="799,4943,971,4984"/>
+<area shape="rect" id="node162" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="799,5008,971,5049"/>
+<area shape="rect" id="node164" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="799,5073,971,5115"/>
+<area shape="rect" id="node166" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title=" " alt="" coords="799,5139,971,5180"/>
+<area shape="rect" id="node168" href="$classtvm_1_1tir_1_1CmpOpNode.html" title=" " alt="" coords="805,5204,965,5245"/>
+<area shape="rect" id="node170" href="$classtvm_1_1tir_1_1CmpOpNode.html" title=" " alt="" coords="805,5269,965,5311"/>
+<area shape="rect" id="node172" href="$classtvm_1_1tir_1_1CmpOpNode.html" title=" " alt="" coords="805,5335,965,5376"/>
+<area shape="rect" id="node174" href="$classtvm_1_1tir_1_1CmpOpNode.html" title=" " alt="" coords="805,5400,965,5441"/>
+<area shape="rect" id="node176" href="$classtvm_1_1tir_1_1CmpOpNode.html" title=" " alt="" coords="805,5465,965,5507"/>
+<area shape="rect" id="node178" href="$classtvm_1_1tir_1_1CmpOpNode.html" title=" " alt="" coords="805,5531,965,5572"/>
+<area shape="rect" id="node180" href="$classtvm_1_1FloatImmNode.html" title="Constant floating point literals in the program." alt="" coords="809,5597,962,5623"/>
+<area shape="rect" id="node181" href="$classtvm_1_1IntImmNode.html" title="Constant integer literals in the program." alt="" coords="817,5647,954,5674"/>
+<area shape="rect" id="node182" href="$classtvm_1_1arith_1_1IterMapExprNode.html" title="Base class of all iter map expressions." alt="" coords="782,5698,989,5725"/>
+<area shape="rect" id="node185" href="$classtvm_1_1tir_1_1AndNode.html" title="a &amp;&amp; b" alt="" coords="817,5749,954,5775"/>
+<area shape="rect" id="node186" href="$classtvm_1_1tir_1_1BinaryOpNode.html" title="Base template to implement binary ops." alt="" coords="780,5799,991,5826"/>
+<area shape="rect" id="node187" href="$classtvm_1_1tir_1_1BroadcastNode.html" title="Create a vector where all the elements are value." alt="" coords="797,5850,974,5877"/>
+<area shape="rect" id="node188" href="$classtvm_1_1tir_1_1BufferLoadNode.html" title="Load value from the high dimension buffer." alt="" coords="794,5901,977,5927"/>
+<area shape="rect" id="node189" href="$classtvm_1_1tir_1_1CallNode.html" title="Call node." alt="" coords="817,5951,954,5978"/>
+<area shape="rect" id="node190" href="$classtvm_1_1tir_1_1CastNode.html" title="Cast value from one data type to another." alt="" coords="815,6002,956,6029"/>
+<area shape="rect" id="node191" href="$classtvm_1_1tir_1_1CmpOpNode.html" title="Base template to implement comparison ops." alt="" coords="786,6053,985,6079"/>
+<area shape="rect" id="node192" href="$classtvm_1_1tir_1_1LetNode.html" title="Let binding. Bind var to value then evaluate body." alt="" coords="819,6103,951,6130"/>
+<area shape="rect" id="node193" href="$classtvm_1_1tir_1_1NotNode.html" title="!a" alt="" coords="818,6154,953,6181"/>
+<area shape="rect" id="node194" href="$classtvm_1_1tir_1_1OrNode.html" title="a || b" alt="" coords="822,6205,949,6231"/>
+<area shape="rect" id="node195" href="$classtvm_1_1tir_1_1ProducerLoadNode.html" title="Load value from the result produced by the producer." alt="" coords="785,6255,985,6282"/>
+<area shape="rect" id="node196" href="$classtvm_1_1tir_1_1RampNode.html" title="Construct a vector with lanes elements where its i&#45;th element equals base + i * stride...." alt="" coords="810,6306,961,6333"/>
+<area shape="rect" id="node197" href="$classtvm_1_1tir_1_1ReduceNode.html" title="Reduction operator." alt="" coords="805,6357,965,6383"/>
+<area shape="rect" id="node198" href="$classtvm_1_1tir_1_1SelectNode.html" title="return true_value if condition is true, otherwise return false_value." alt="" coords="809,6407,961,6434"/>
+<area shape="rect" id="node199" href="$classtvm_1_1tir_1_1ShuffleNode.html" title="Shuffle instruction. vec = concat(vectors) result = (vec[indices[0]], vec[indices[1]] ...." alt="" coords="807,6458,964,6485"/>
+<area shape="rect" id="node200" href="$classtvm_1_1tir_1_1StringImmNode.html" title="String constants, only used in asserts." alt="" coords="795,6509,975,6535"/>
+<area shape="rect" id="node201" href="$classtvm_1_1tir_1_1VarNode.html" title="A variable node in the IR." alt="" coords="819,6559,952,6586"/>
+<area shape="rect" id="node151" href="$classtvm_1_1tir_1_1AddNode.html" title="a + b" alt="" coords="1104,4623,1241,4650"/>
+<area shape="rect" id="node153" href="$classtvm_1_1tir_1_1MinNode.html" title="min(a, b)" alt="" coords="1105,4689,1241,4715"/>
+<area shape="rect" id="node155" href="$classtvm_1_1tir_1_1DivNode.html" title="a / b in the C semnatics." alt="" coords="1105,4754,1240,4781"/>
+<area shape="rect" id="node157" href="$classtvm_1_1tir_1_1FloorModNode.html" title="The remainder of the floordiv." alt="" coords="1086,4819,1259,4846"/>
+<area shape="rect" id="node159" href="$classtvm_1_1tir_1_1MulNode.html" title="a * b" alt="" coords="1105,4885,1241,4911"/>
+<area shape="rect" id="node161" href="$classtvm_1_1tir_1_1ModNode.html" title="a % b in the C semnatics." alt="" coords="1103,4950,1243,4977"/>
+<area shape="rect" id="node163" href="$classtvm_1_1tir_1_1MaxNode.html" title="max(a, b)" alt="" coords="1103,5015,1243,5042"/>
+<area shape="rect" id="node165" href="$classtvm_1_1tir_1_1FloorDivNode.html" title="Floor division, floor(a/b)" alt="" coords="1089,5081,1256,5107"/>
+<area shape="rect" id="node167" href="$classtvm_1_1tir_1_1SubNode.html" title="a &#45; b" alt="" coords="1105,5146,1241,5173"/>
+<area shape="rect" id="node169" href="$classtvm_1_1tir_1_1LTNode.html" title="a &lt; b" alt="" coords="1109,5211,1236,5238"/>
+<area shape="rect" id="node171" href="$structtvm_1_1tir_1_1LENode.html" title="a &lt;= b" alt="" coords="1109,5277,1236,5303"/>
+<area shape="rect" id="node173" href="$classtvm_1_1tir_1_1NENode.html" title="a != b" alt="" coords="1107,5342,1238,5369"/>
+<area shape="rect" id="node175" href="$classtvm_1_1tir_1_1GTNode.html" title="a &gt; b" alt="" coords="1107,5407,1238,5434"/>
+<area shape="rect" id="node177" href="$classtvm_1_1tir_1_1EQNode.html" title="a == b" alt="" coords="1107,5473,1238,5499"/>
+<area shape="rect" id="node179" href="$classtvm_1_1tir_1_1GENode.html" title="a &gt;= b" alt="" coords="1107,5538,1238,5565"/>
+<area shape="rect" id="node183" href="$classtvm_1_1arith_1_1IterSplitExprNode.html" title="Split of an iterator." alt="" coords="1069,5673,1277,5699"/>
+<area shape="rect" id="node184" href="$classtvm_1_1arith_1_1IterSumExprNode.html" title="Fuse multiple iterators by summing them with scaling." alt="" coords="1069,5723,1277,5750"/>
+<area shape="rect" id="node202" href="$classtvm_1_1tir_1_1SizeVarNode.html" title="A variable node represent a tensor index size, whose value must be non&#45;negative." alt="" coords="1093,6522,1253,6549"/>
+<area shape="rect" id="node204" href="$classtvm_1_1BaseFuncNode.html" title="Base node of all functions." alt="" coords="809,6610,961,6637"/>
+<area shape="rect" id="node208" href="$classtvm_1_1GlobalVarNode.html" title="Global variable that lives in the top&#45;level module." alt="" coords="809,6661,962,6687"/>
+<area shape="rect" id="node209" href="$classtvm_1_1OpNode.html" title="Primitive Op(builtin intrinsics)" alt="" coords="831,6711,939,6738"/>
+<area shape="rect" id="node210" href="$classtvm_1_1relax_1_1CallNode.html" title="Call corresponds to callable invocation. Corresponds to operation in computational graph terminology." alt="" coords="807,6762,963,6789"/>
+<area shape="rect" id="node211" href="$classtvm_1_1relax_1_1IfNode.html" title="Condition expression." alt="" coords="815,6813,955,6839"/>
+<area shape="rect" id="node212" href="$classtvm_1_1relax_1_1LeafExprNode.html" title="Base type of all (non&#45;function) leaf Exprs." alt="" coords="791,6863,979,6890"/>
+<area shape="rect" id="node220" href="$classtvm_1_1relax_1_1SeqExprNode.html" title="A sequence of blocks followed by an expression." alt="" coords="793,6914,977,6941"/>
+<area shape="rect" id="node221" href="$classtvm_1_1relax_1_1TupleGetItemNode.html" title="Get index&#45;th field out of a tuple." alt="" coords="776,6965,995,6991"/>
+<area shape="rect" id="node222" href="$classtvm_1_1relax_1_1TupleNode.html" title="Tuple container." alt="" coords="803,7015,968,7042"/>
+<area shape="rect" id="node205" href="$classtvm_1_1relax_1_1ExternFuncNode.html" title="The extern function, which can represent packed function." alt="" coords="1071,6573,1274,6599"/>
+<area shape="rect" id="node206" href="$classtvm_1_1relax_1_1FunctionNode.html" title="A Relax function." alt="" coords="1079,6623,1266,6650"/>
+<area shape="rect" id="node207" href="$classtvm_1_1tir_1_1PrimFuncNode.html" title="Primitive functions that contains TIR statements." alt="" coords="1087,6674,1259,6701"/>
+<area shape="rect" id="node213" href="$classtvm_1_1relax_1_1ConstantNode.html" title="Constant tensor." alt="" coords="1078,6750,1267,6777"/>
+<area shape="rect" id="node214" href="$classtvm_1_1relax_1_1DataTypeImmNode.html" title="Represent a data type constant." alt="" coords="1061,6801,1284,6827"/>
+<area shape="rect" id="node215" href="$classtvm_1_1relax_1_1PrimValueNode.html" title="PrimValue." alt="" coords="1074,6851,1271,6878"/>
+<area shape="rect" id="node216" href="$classtvm_1_1relax_1_1ShapeExprNode.html" title="A shape expression which allows users to construct a shape containing PrimExpr." alt="" coords="1073,6902,1273,6929"/>
+<area shape="rect" id="node217" href="$classtvm_1_1relax_1_1StringImmNode.html" title="Represent a string literal constant." alt="" coords="1073,6953,1272,6979"/>
+<area shape="rect" id="node218" href="$classtvm_1_1relax_1_1VarNode.html" title="The variable class for all Relax bindings." alt="" coords="1097,7003,1249,7030"/>
+<area shape="rect" id="node219" href="$classtvm_1_1relax_1_1DataflowVarNode.html" title="A sub&#45;type of the variable node used to mark dataflow variables from normal visible &quot;function local&quot; ..." alt="" coords="1332,7003,1543,7030"/>
+<area shape="rect" id="node228" href="$classtvm_1_1DummyGlobalInfoNode.html" title="A dummy global info sub&#45;class for testing purpose." alt="" coords="467,6787,677,6814"/>
+<area shape="rect" id="node229" href="$classtvm_1_1VDeviceNode.html" title="A global info subclass for virtual devices." alt="" coords="500,6838,644,6865"/>
+<area shape="rect" id="node230" href="$classtvm_1_1relax_1_1distributed_1_1DeviceMeshNode.html" title=" " alt="" coords="489,6889,655,6931"/>
+<area shape="rect" id="node236" href="$classtvm_1_1ArrayIndexPathNode.html" title=" " alt="" coords="477,6955,667,6982"/>
+<area shape="rect" id="node237" href="$classtvm_1_1AttributeAccessPathNode.html" title=" " alt="" coords="462,7006,682,7033"/>
+<area shape="rect" id="node238" href="$classtvm_1_1MapValuePathNode.html" title=" " alt="" coords="481,7057,663,7083"/>
+<area shape="rect" id="node239" href="$classtvm_1_1MissingArrayElementPathNode.html" title=" " alt="" coords="475,7108,669,7149"/>
+<area shape="rect" id="node240" href="$classtvm_1_1MissingMapEntryPathNode.html" title=" " alt="" coords="457,7174,687,7201"/>
+<area shape="rect" id="node241" href="$classtvm_1_1RootPathNode.html" title=" " alt="" coords="498,7225,646,7251"/>
+<area shape="rect" id="node242" href="$classtvm_1_1UnknownAttributeAccessPathNode.html" title=" " alt="" coords="463,7276,681,7317"/>
+<area shape="rect" id="node245" href="$classtvm_1_1tir_1_1BufferRegionNode.html" title="Representing the region of multi&#45;dimensional buffer access." alt="" coords="474,7342,670,7369"/>
+<area shape="rect" id="node246" href="$classtvm_1_1tir_1_1DataProducerNode.html" title="Base node for data producers." alt="" coords="472,7393,672,7419"/>
+<area shape="rect" id="node248" href="$classtvm_1_1tir_1_1IterVarNode.html" title="An iteration variable representing an iteration over a one dimensional interval." alt="" coords="495,7443,649,7470"/>
+<area shape="rect" id="node247" href="$classtvm_1_1te_1_1TensorNode.html" title="Node to represent a tensor." alt="" coords="809,7393,962,7419"/>
+<area shape="rect" id="node255" href="$classtvm_1_1SequentialSpanNode.html" title="Store a list of spans for an expr generated from mulitple source exprs." alt="" coords="477,7494,667,7521"/>
+<area shape="rect" id="node260" href="$classtvm_1_1FuncTypeNode.html" title="Function type." alt="" coords="497,7545,647,7571"/>
+<area shape="rect" id="node261" href="$classtvm_1_1PointerTypeNode.html" title="Low&#45;level raw pointer type." alt="" coords="489,7595,655,7622"/>
+<area shape="rect" id="node262" href="$classtvm_1_1PrimTypeNode.html" title="Primitive data types used in the low&#45;level IR." alt="" coords="497,7646,647,7673"/>
+<area shape="rect" id="node263" href="$classtvm_1_1TensorMapTypeNode.html" title="The type of tensor map." alt="" coords="477,7697,667,7723"/>
+<area shape="rect" id="node264" href="$classtvm_1_1TupleTypeNode.html" title="The type of tuple values." alt="" coords="495,7747,649,7774"/>
+<area shape="rect" id="node265" href="$classtvm_1_1relax_1_1ObjectTypeNode.html" title=" " alt="" coords="471,7798,673,7825"/>
+<area shape="rect" id="node266" href="$classtvm_1_1relax_1_1PackedFuncTypeNode.html" title=" " alt="" coords="454,7849,690,7875"/>
+<area shape="rect" id="node267" href="$classtvm_1_1relax_1_1ShapeTypeNode.html" title=" " alt="" coords="471,7899,673,7926"/>
+<area shape="rect" id="node268" href="$classtvm_1_1relax_1_1TensorTypeNode.html" title="Dynamic version of TensorType." alt="" coords="471,7950,673,7977"/>
+<area shape="rect" id="node279" href="$classtvm_1_1relax_1_1DataflowBlockNode.html" title=" " alt="" coords="459,8001,685,8027"/>
+<area shape="rect" id="node281" href="$classtvm_1_1relax_1_1MatchCastNode.html" title="Runtime&#45;match the value to the struct info." alt="" coords="472,8051,672,8078"/>
+<area shape="rect" id="node282" href="$classtvm_1_1relax_1_1VarBindingNode.html" title=" " alt="" coords="471,8102,673,8129"/>
+<area shape="rect" id="node285" href="$classtvm_1_1relax_1_1SameShapeConstraintNode.html" title="A pattern that asserting multiple root patterns have the same shape." alt="" coords="435,8153,709,8179"/>
+<area shape="rect" id="node287" href="$classtvm_1_1relax_1_1AndPatternNode.html" title="Match a conjunction of other patterns." alt="" coords="471,8203,673,8230"/>
+<area shape="rect" id="node288" href="$classtvm_1_1relax_1_1AttrPatternNode.html" title="A pattern that asserting a root pattern has certain attributes." alt="" coords="471,8254,673,8281"/>
+<area shape="rect" id="node289" href="$classtvm_1_1relax_1_1CallPatternNode.html" title="A pattern to match a callable node in Relax." alt="" coords="471,8305,673,8331"/>
+<area shape="rect" id="node290" href="$classtvm_1_1relax_1_1ConstantPatternNode.html" title="A Pattern to Match a Relax Constant." alt="" coords="455,8355,689,8382"/>
+<area shape="rect" id="node291" href="$classtvm_1_1relax_1_1DataTypePatternNode.html" title="A pattern that asserting a root pattern has a certain data type." alt="" coords="453,8406,691,8433"/>
+<area shape="rect" id="node292" href="$classtvm_1_1relax_1_1ExprPatternNode.html" title="Pattern for Relax Expression." alt="" coords="469,8457,675,8483"/>
+<area shape="rect" id="node293" href="$classtvm_1_1relax_1_1ExternFuncPatternNode.html" title="A pattern of external function." alt="" coords="447,8507,697,8534"/>
+<area shape="rect" id="node294" href="$classtvm_1_1relax_1_1FunctionPatternNode.html" title="A pattern to match a Relax Function." alt="" coords="456,8558,688,8585"/>
+<area shape="rect" id="node295" href="$classtvm_1_1relax_1_1NotPatternNode.html" title="Pattern for rejecting a certain pattern." alt="" coords="472,8609,672,8635"/>
+<area shape="rect" id="node296" href="$classtvm_1_1relax_1_1OrPatternNode.html" title="Match a disjunction of other patterns." alt="" coords="476,8659,668,8686"/>
+<area shape="rect" id="node297" href="$classtvm_1_1relax_1_1PrimArrPatternNode.html" title="A pattern to match an array of PrimExpr." alt="" coords="459,8710,685,8737"/>
+<area shape="rect" id="node298" href="$classtvm_1_1relax_1_1ShapePatternNode.html" title="A pattern that asserting a root pattern has a certain shape." alt="" coords="463,8761,681,8787"/>
+<area shape="rect" id="node299" href="$classtvm_1_1relax_1_1StructInfoPatternNode.html" title="Pattern for matching a certain struct info." alt="" coords="452,8811,692,8838"/>
+<area shape="rect" id="node300" href="$classtvm_1_1relax_1_1TupleGetItemPatternNode.html" title="A pattern to match n&#39;th indexing to a tuple." alt="" coords="480,8863,664,8904"/>
+<area shape="rect" id="node301" href="$classtvm_1_1relax_1_1TuplePatternNode.html" title="Pattern to match a tuple of ordered expressions." alt="" coords="467,8929,677,8955"/>
+<area shape="rect" id="node302" href="$classtvm_1_1relax_1_1UnorderedTuplePatternNode.html" title="A pattern to match multiple expressions unorderedly." alt="" coords="473,8980,671,9021"/>
+<area shape="rect" id="node303" href="$classtvm_1_1relax_1_1VarPatternNode.html" title="A Pattern to Match a Relax Variable." alt="" coords="473,9046,671,9073"/>
+<area shape="rect" id="node306" href="$classtvm_1_1relax_1_1WildcardPatternNode.html" title="Wildcard Pattern is a pattern that can match anything." alt="" coords="455,9097,689,9123"/>
+<area shape="rect" id="node304" href="$classtvm_1_1relax_1_1DataflowVarPatternNode.html" title="A Pattern to Match a Relax Dataflow Variable." alt="" coords="757,8990,1013,9017"/>
+<area shape="rect" id="node305" href="$classtvm_1_1relax_1_1GlobalVarPatternNode.html" title="A Pattern to Match a Relax Global Variable." alt="" coords="765,9041,1005,9067"/>
+<area shape="rect" id="node314" href="$classtvm_1_1relax_1_1FuncStructInfoNode.html" title="Structure information about function." alt="" coords="460,9147,684,9174"/>
+<area shape="rect" id="node315" href="$classtvm_1_1relax_1_1ObjectStructInfoNode.html" title="Opaque object." alt="" coords="483,9199,661,9240"/>
+<area shape="rect" id="node316" href="$classtvm_1_1relax_1_1PrimStructInfoNode.html" title="Primitive value." alt="" coords="460,9265,684,9291"/>
+<area shape="rect" id="node317" href="$classtvm_1_1relax_1_1ShapeStructInfoNode.html" title="StructInfo of shape value." alt="" coords="455,9315,689,9342"/>
+<area shape="rect" id="node318" href="$classtvm_1_1relax_1_1TensorStructInfoNode.html" title="StructInfo of Tensor." alt="" coords="483,9367,661,9408"/>
+<area shape="rect" id="node319" href="$classtvm_1_1relax_1_1TupleStructInfoNode.html" title="StructInfo of Tuple." alt="" coords="458,9433,686,9459"/>
+<area shape="rect" id="node320" href="$classtvm_1_1relax_1_1distributed_1_1DTensorStructInfoNode.html" title="StructInfo of DTensor (Distributed Tensor)." alt="" coords="483,9484,661,9525"/>
+<area shape="rect" id="node323" href="$classtvm_1_1relax_1_1distributed_1_1ShardingNode.html" title=" " alt="" coords="489,9549,655,9591"/>
+<area shape="rect" id="node327" href="$classtvm_1_1script_1_1printer_1_1ExprDocNode.html" title="The base class of expression doc." alt="" coords="501,9615,643,9656"/>
+<area shape="rect" id="node338" href="$classtvm_1_1script_1_1printer_1_1SliceDocNode.html" title="Doc that represents slice in Index expression." alt="" coords="501,9680,643,9721"/>
+<area shape="rect" id="node339" href="$classtvm_1_1script_1_1printer_1_1StmtBlockDocNode.html" title="The container doc that holds a list of StmtDoc." alt="" coords="494,9745,650,9787"/>
+<area shape="rect" id="node340" href="$classtvm_1_1script_1_1printer_1_1StmtDocNode.html" title="The base class of statement doc." alt="" coords="501,9811,643,9852"/>
+<area shape="rect" id="node328" href="$classtvm_1_1script_1_1printer_1_1AttrAccessDocNode.html" title="Doc that represents attribute access on another expression." alt="" coords="806,9092,965,9133"/>
+<area shape="rect" id="node329" href="$classtvm_1_1script_1_1printer_1_1CallDocNode.html" title="Doc that represents function call." alt="" coords="814,9157,957,9199"/>
+<area shape="rect" id="node330" href="$classtvm_1_1script_1_1printer_1_1DictDocNode.html" title="Doc that represents dictionary literal." alt="" coords="814,9223,957,9264"/>
+<area shape="rect" id="node331" href="$classtvm_1_1script_1_1printer_1_1IdDocNode.html" title="Doc that represents identifier." alt="" coords="814,9288,957,9329"/>
+<area shape="rect" id="node332" href="$classtvm_1_1script_1_1printer_1_1IndexDocNode.html" title="Doc that represents index access on another expression." alt="" coords="814,9353,957,9395"/>
+<area shape="rect" id="node333" href="$classtvm_1_1script_1_1printer_1_1LambdaDocNode.html" title="Doc that represents anonymous function." alt="" coords="814,9419,957,9460"/>
+<area shape="rect" id="node334" href="$classtvm_1_1script_1_1printer_1_1ListDocNode.html" title="Doc that represents list literal." alt="" coords="814,9484,957,9525"/>
+<area shape="rect" id="node335" href="$classtvm_1_1script_1_1printer_1_1LiteralDocNode.html" title="Doc that represents literal value." alt="" coords="814,9549,957,9591"/>
+<area shape="rect" id="node336" href="$classtvm_1_1script_1_1printer_1_1OperationDocNode.html" title="Doc that represents operation." alt="" coords="809,9615,962,9656"/>
+<area shape="rect" id="node337" href="$classtvm_1_1script_1_1printer_1_1TupleDocNode.html" title="Doc that represents tuple literal." alt="" coords="814,9680,957,9721"/>
+<area shape="rect" id="node341" href="$classtvm_1_1script_1_1printer_1_1AssertDocNode.html" title="Doc that represents assert statement." alt="" coords="814,9745,957,9787"/>
+<area shape="rect" id="node342" href="$classtvm_1_1script_1_1printer_1_1AssignDocNode.html" title="Doc that represents assign statement." alt="" coords="814,9811,957,9852"/>
+<area shape="rect" id="node343" href="$classtvm_1_1script_1_1printer_1_1ClassDocNode.html" title="Doc that represents class definition." alt="" coords="814,9876,957,9917"/>
+<area shape="rect" id="node344" href="$classtvm_1_1script_1_1printer_1_1CommentDocNode.html" title="Doc that represents comment." alt="" coords="809,9941,962,9983"/>
+<area shape="rect" id="node345" href="$classtvm_1_1script_1_1printer_1_1DocStringDocNode.html" title="Doc that represents docstring." alt="" coords="809,10007,961,10048"/>
+<area shape="rect" id="node346" href="$classtvm_1_1script_1_1printer_1_1ExprStmtDocNode.html" title="Doc that represents an expression as statement." alt="" coords="811,10072,960,10113"/>
+<area shape="rect" id="node347" href="$classtvm_1_1script_1_1printer_1_1ForDocNode.html" title="Doc that represents for statement." alt="" coords="814,10137,957,10179"/>
+<area shape="rect" id="node348" href="$classtvm_1_1script_1_1printer_1_1FunctionDocNode.html" title="Doc that represents function definition." alt="" coords="813,10203,957,10244"/>
+<area shape="rect" id="node349" href="$classtvm_1_1script_1_1printer_1_1IfDocNode.html" title="Doc that represent if&#45;then&#45;else statement." alt="" coords="814,10268,957,10309"/>
+<area shape="rect" id="node350" href="$classtvm_1_1script_1_1printer_1_1ReturnDocNode.html" title="Doc that represents return statement." alt="" coords="814,10333,957,10375"/>
+<area shape="rect" id="node351" href="$classtvm_1_1script_1_1printer_1_1ScopeDocNode.html" title="Doc that represents special scopes." alt="" coords="814,10399,957,10440"/>
+<area shape="rect" id="node352" href="$classtvm_1_1script_1_1printer_1_1WhileDocNode.html" title="Doc that represents while statement." alt="" coords="814,10464,957,10505"/>
+<area shape="rect" id="node356" href="$classtvm_1_1te_1_1BaseComputeOpNode.html" title="A Compute op that compute a tensor on certain domain. This is the base class for ComputeOp (operating..." alt="" coords="462,9877,682,9903"/>
+<area shape="rect" id="node358" href="$classtvm_1_1te_1_1ExternOpNode.html" title="External computation that cannot be splitted." alt="" coords="487,9927,657,9954"/>
+<area shape="rect" id="node359" href="$classtvm_1_1te_1_1PlaceholderOpNode.html" title="A placeholder op represents an input placeholder." alt="" coords="469,9978,675,10005"/>
+<area shape="rect" id="node360" href="$classtvm_1_1te_1_1ScanOpNode.html" title="Symbolic scan." alt="" coords="492,10029,652,10055"/>
+<area shape="rect" id="node357" href="$classtvm_1_1te_1_1ComputeOpNode.html" title="A Compute op that compute a tensor on certain domain." alt="" coords="791,10530,979,10557"/>
+<area shape="rect" id="node372" href="$classtvm_1_1tir_1_1AllocateConstNode.html" title="Allocate a buffer that can be used in body." alt="" coords="471,10079,673,10106"/>
+<area shape="rect" id="node373" href="$classtvm_1_1tir_1_1AllocateNode.html" title="Allocate a buffer that can be used in body." alt="" coords="489,10130,655,10157"/>
+<area shape="rect" id="node374" href="$classtvm_1_1tir_1_1AssertStmtNode.html" title="Assert condition, if an error occurs, return the error message." alt="" coords="480,10181,664,10207"/>
+<area shape="rect" id="node375" href="$classtvm_1_1tir_1_1AttrStmtNode.html" title="Define certain auxiliary attribute for the body to be a symbolic value. This provide auxiliary inform..." alt="" coords="489,10231,655,10258"/>
+<area shape="rect" id="node376" href="$classtvm_1_1tir_1_1BlockNode.html" title="A block is a basic schedule unit in TIR." alt="" coords="498,10282,646,10309"/>
+<area shape="rect" id="node377" href="$classtvm_1_1tir_1_1BlockRealizeNode.html" title="A block realization node represents execution of the block at the binding values." alt="" coords="474,10333,670,10359"/>
+<area shape="rect" id="node378" href="$classtvm_1_1tir_1_1BufferRealizeNode.html" title="Annotate the region where the buffer need to be read and write in the body. We only need to allocate ..." alt="" coords="473,10383,671,10410"/>
+<area shape="rect" id="node379" href="$classtvm_1_1tir_1_1BufferStoreNode.html" title="Store value to the high dimension buffer." alt="" coords="479,10434,665,10461"/>
+<area shape="rect" id="node380" href="$classtvm_1_1tir_1_1DeclBufferNode.html" title="Declare a buffer that can be used in the body." alt="" coords="482,10485,662,10511"/>
+<area shape="rect" id="node381" href="$classtvm_1_1tir_1_1EvaluateNode.html" title="Evaluates an expression. This is mostly used for putting a Call node into Stmt." alt="" coords="487,10535,657,10562"/>
+<area shape="rect" id="node382" href="$classtvm_1_1tir_1_1ForNode.html" title="A for loop, with possible type annotations." alt="" coords="506,10586,638,10613"/>
+<area shape="rect" id="node383" href="$classtvm_1_1tir_1_1IfThenElseNode.html" title="IfThenElse statement." alt="" coords="482,10637,662,10663"/>
+<area shape="rect" id="node384" href="$classtvm_1_1tir_1_1LetStmtNode.html" title="Let binding, bind var to value, then run body." alt="" coords="491,10687,653,10714"/>
+<area shape="rect" id="node385" href="$classtvm_1_1tir_1_1SeqStmtNode.html" title="The container of seq statement. Represent a sequence of statements." alt="" coords="489,10738,655,10765"/>
+<area shape="rect" id="node386" href="$classtvm_1_1tir_1_1WhileNode.html" title="A While loop." alt="" coords="497,10789,647,10815"/>
+<area shape="rect" id="node392" href="$classtvm_1_1transform_1_1SequentialNode.html" title="The SequentialNode contains a set of passes that transform Relax programs from one AST to another sem..." alt="" coords="457,10839,687,10866"/>
+</map>

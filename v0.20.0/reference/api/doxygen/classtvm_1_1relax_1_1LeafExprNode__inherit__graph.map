@@ -1,0 +1,13 @@
+<map id="tvm::relax::LeafExprNode" name="tvm::relax::LeafExprNode">
+<area shape="rect" id="node1" title="Base type of all (non&#45;function) leaf Exprs." alt="" coords="654,1027,885,1133"/>
+<area shape="rect" id="node5" href="$classtvm_1_1relax_1_1ConstantNode.html" title="Constant tensor." alt="" coords="5,1211,240,1391"/>
+<area shape="rect" id="node6" href="$classtvm_1_1relax_1_1DataTypeImmNode.html" title="Represent a data type constant." alt="" coords="264,1225,499,1376"/>
+<area shape="rect" id="node7" href="$classtvm_1_1relax_1_1PrimValueNode.html" title="PrimValue." alt="" coords="523,1225,757,1376"/>
+<area shape="rect" id="node8" href="$classtvm_1_1relax_1_1ShapeExprNode.html" title="A shape expression which allows users to construct a shape containing PrimExpr." alt="" coords="781,1196,1016,1405"/>
+<area shape="rect" id="node9" href="$classtvm_1_1relax_1_1StringImmNode.html" title="Represent a string literal constant." alt="" coords="1040,1225,1275,1376"/>
+<area shape="rect" id="node10" href="$classtvm_1_1relax_1_1VarNode.html" title="The variable class for all Relax bindings." alt="" coords="1299,1181,1530,1420"/>
+<area shape="rect" id="node2" href="$classtvm_1_1RelaxExprNode.html" title="Base node of all non&#45;primitive expressions." alt="" coords="654,813,885,979"/>
+<area shape="rect" id="node3" href="$classtvm_1_1BaseExprNode.html" title="Base type of all the expressions." alt="" coords="654,585,885,765"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1Object.html" title="base class of all object containers." alt="" coords="647,5,892,537"/>
+<area shape="rect" id="node11" href="$classtvm_1_1relax_1_1DataflowVarNode.html" title="A sub&#45;type of the variable node used to mark dataflow variables from normal visible &quot;function local&quot; ..." alt="" coords="1297,1468,1532,1663"/>
+</map>

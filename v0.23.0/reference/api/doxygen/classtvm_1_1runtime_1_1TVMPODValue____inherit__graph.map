@@ -1,0 +1,10 @@
+<map id="tvm::runtime::TVMPODValue_" name="tvm::runtime::TVMPODValue_">
+<area shape="rect" id="node1" title="Internal base class to handle conversion to POD values." alt="" coords="392,5,607,273"/>
+<area shape="rect" id="node2" href="$classtvm_1_1runtime_1_1TVMPODValue__CRTP__.html" title=" " alt="" coords="5,321,255,531"/>
+<area shape="rect" id="node4" href="$classtvm_1_1runtime_1_1TVMPODValue__CRTP__.html" title=" " alt="" coords="279,321,487,531"/>
+<area shape="rect" id="node6" href="$classtvm_1_1runtime_1_1TVMPODValue__CRTP__.html" title=" " alt="" coords="511,321,719,531"/>
+<area shape="rect" id="node8" href="$classtvm_1_1runtime_1_1TVMPODValue__CRTP__.html" title="A utility class that adds methods useful for each POD type." alt="" coords="743,321,951,531"/>
+<area shape="rect" id="node3" href="$classtvm_1_1runtime_1_1TVMMovableArgValue__.html" title="Internal auxiliary struct for TypedPackedFunc to indicate a movable argument." alt="" coords="25,615,235,795"/>
+<area shape="rect" id="node5" href="$classtvm_1_1runtime_1_1TVMRetValue.html" title="Return Value container, Unlike TVMArgValue, which only holds reference and do not delete the underlyi..." alt="" coords="277,579,487,832"/>
+<area shape="rect" id="node7" href="$classtvm_1_1runtime_1_1TVMArgValue.html" title="A single argument value to PackedFunc. Containing both type_code and TVMValue." alt="" coords="511,601,720,810"/>
+</map>

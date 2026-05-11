@@ -1,0 +1,28 @@
+<map id="include/tvm/ir/instrument.h" name="include/tvm/ir/instrument.h">
+<area shape="rect" id="node1" title=" " alt="" coords="543,5,742,32"/>
+<area shape="rect" id="node2" href="$ir_2transform_8h.html" title=" " alt="" coords="547,80,739,107"/>
+<area shape="rect" id="node3" href="$relax_2distributed_2transform_8h.html" title="Relax distributed specific transformation passes." alt="" coords="5,244,216,285"/>
+<area shape="rect" id="node4" href="$relax_2transform_8h.html" title="Relax specific transformation passes." alt="" coords="236,162,452,189"/>
+<area shape="rect" id="node7" href="$virtual__device_8h.html" title="A compile time representation for where data is to be stored at runtime, and how to compile code to c..." alt="" coords="477,155,619,196"/>
+<area shape="rect" id="node8" href="$tir_2analysis_8h.html" title="Analysis utilities and passes for TIR." alt="" coords="644,162,831,189"/>
+<area shape="rect" id="node25" href="$tir_2backend_2adreno_2transform_8h.html" title="TIR specific Adreno GPU transformation passes." alt="" coords="901,244,1075,285"/>
+<area shape="rect" id="node26" href="$tir_2transform_8h.html" title="TIR specific transformation passes." alt="" coords="905,162,1103,189"/>
+<area shape="rect" id="node5" href="$relax_2backend_2adreno_2transform_8h.html" title="Adreno GPU specific transformation passes." alt="" coords="472,244,667,285"/>
+<area shape="rect" id="node6" href="$backend_8h.html" title="Relax backend specific transformation passes." alt="" coords="241,251,447,278"/>
+<area shape="rect" id="node9" href="$constant__utils_8h.html" title="Utility functions for handling constants in TVM expressions." alt="" coords="691,244,861,285"/>
+<area shape="rect" id="node10" href="$broadcast_8h.html" title="Broadcast op constructions." alt="" coords="265,430,473,457"/>
+<area shape="rect" id="node12" href="$reduction_8h.html" title="Reduction op constructors." alt="" coords="247,594,452,621"/>
+<area shape="rect" id="node16" href="$topi_2nn_8h.html" title="NN op constructions." alt="" coords="583,683,743,710"/>
+<area shape="rect" id="node17" href="$reorg_8h.html" title="Reorg op constructions." alt="" coords="767,676,937,717"/>
+<area shape="rect" id="node19" href="$topi_2transform_8h.html" title="Transform op constructors." alt="" coords="555,512,763,539"/>
+<area shape="rect" id="node20" href="$detail_2broadcast_8h.html" title="Detail broadcast." alt="" coords="381,333,550,375"/>
+<area shape="rect" id="node21" href="$strided__slice_8h.html" title="Utility functions for strided_slice op." alt="" coords="599,423,769,464"/>
+<area shape="rect" id="node22" href="$einsum_8h.html" title="Einstein summation op." alt="" coords="895,341,1087,367"/>
+<area shape="rect" id="node23" href="$bnn_8h.html" title="Binary op constructions." alt="" coords="1111,333,1259,375"/>
+<area shape="rect" id="node24" href="$flatten_8h.html" title="Softmax op constructions." alt="" coords="1283,333,1431,375"/>
+<area shape="rect" id="node11" href="$elemwise_8h.html" title="Elementwise op constructions." alt="" coords="273,512,479,539"/>
+<area shape="rect" id="node18" href="$bias__add_8h.html" title="bias_add op constructions" alt="" coords="477,587,625,628"/>
+<area shape="rect" id="node13" href="$pooling_8h.html" title="Pooling op constructions." alt="" coords="357,765,505,807"/>
+<area shape="rect" id="node14" href="$rms__norm_8h.html" title="root mean square normalization op constructions" alt="" coords="410,676,558,717"/>
+<area shape="rect" id="node15" href="$softmax_8h.html" title="Softmax op constructions." alt="" coords="238,676,386,717"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="tvm::tir::MatchBufferRegionNode" name="tvm::tir::MatchBufferRegionNode">
+<area shape="rect" id="node1" title="Match introduces a constraint that the source buffer region can be remapped to the data layout specif..." alt="" coords="5,753,241,948"/>
+<area shape="rect" id="node2" title=" " alt="" coords="11,569,75,647"/>
+<area shape="rect" id="node3" href="$classtvm_1_1tir_1_1Buffer.html" title="Buffer is a symbolic n&#45;darray structure. It is a composition of primitive symbolic types,..." alt="" coords="39,248,247,501"/>
+<area shape="rect" id="node4" title=" " alt="" coords="125,5,212,83"/>
+<area shape="rect" id="node6" href="$classtvm_1_1PrimExprConvertible.html" title="Managed reference to PrimExprConvertibleNode." alt="" coords="195,132,403,224"/>
+<area shape="rect" id="node5" href="$classtvm_1_1tir_1_1BufferRegion.html" title="Managed reference to BufferRegionNode." alt="" coords="201,525,409,691"/>
+</map>
