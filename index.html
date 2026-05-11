@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Apache TVM Documentation</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+        nav { background: #333; padding: 10px 20px; position: sticky; top: 0; }
+        nav label { color: white; margin-right: 10px; font-weight: bold; }
+        nav select { padding: 5px 10px; font-size: 14px; }
+        iframe { width: 100%; height: calc(100vh - 50px); border: none; display: block; }
+    </style>
+</head>
+<body>
+    <nav>
+        <label for="version-select">Documentation Version:</label>
+        <select id="version-select" onchange="loadVersion(this.value)">
+            <option value="./v0.23.0/index.html">v0.23.0 (latest)</option>
+            <option value="./v0.22.0/index.html">v0.22.0</option>
+            <option value="./v0.21.0/index.html">v0.21.0</option>
+            <option value="./v0.20.0/index.html">v0.20.0</option>
+            <option value="./v0.19.0/index.html">v0.19.0</option>
+            <option value="./v0.18.0/index.html">v0.18.0</option>
+            <option value="./v0.17.0/index.html">v0.17.0</option>
+            <option value="./v0.16.0/index.html">v0.16.0</option>
+            <option value="./v0.15.0/index.html">v0.15.0</option>
+            <option value="./v0.14.0/index.html">v0.14.0</option>
+            <option value="./v0.13.0/index.html">v0.13.0</option>
+            <option value="./v0.12.0/index.html">v0.12.0</option>
+            <option value="./v0.11.0/index.html">v0.11.0</option>
+            <option value="./v0.10.0/index.html">v0.10.0</option>
+            <option value="./v0.9.0/index.html">v0.9.0</option>
+            <option value="./v0.8.0/index.html">v0.8.0</option>
+            <option value="./v0.7.0/index.html">v0.7.0</option>
+        </select>
+    </nav>
+    <iframe id="doc-frame" src="./v0.23.0/index.html"></iframe>
+    <script>
+        function loadVersion(url) {
+            document.getElementById('doc-frame').src = url;
+        }
+    </script>
+</body>
+</html>
